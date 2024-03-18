@@ -1,0 +1,671 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+8. Does the article evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation? What specific examples, data, and insights are provided?
+
+9. Does the article investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance? What specific examples and relationships are revealed?
+
+10. Does the article propose mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts? What specific reaction steps, intermediates, active sites are described?
+
+11. Does the article explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation? What specific examples and insights into activity and selectivity modulation are provided?
+
+12. Does the article evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation? What specific data, characterizations and insights are provided?
+
+13. Does the article investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts? What specific examples and structure-function relationships are revealed?
+
+14. Does the article propose mechanistic reaction pathways for propane dehydrogenation over the studied supported metal catalysts? What specific steps, intermediates, and active sites are described?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any metal oxide catalysts for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有评估丙烷脱氢用的任何金属氧化物催化剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not investigate tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides for propane dehydrogenation.
+</English version answer>  
+
+<Chinese version answer>
+答:这篇文章没有研究调节金属氧化物的氧化态、氧迁移性和酸碱性质以用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: The article does not propose mechanistic scenarios for propane dehydrogenation over metal oxide catalysts.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有提出金属氧化物催化剂上丙烷脱氢的反应机理。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>  
+答:这篇文章没有探讨金属氧化物催化剂中用于丙烷脱氢的金属-支撑相互作用。
+</Chinese version answer>
+
+<quotes>
+[1] "The catalytic performances of Pt/Al2O3 and PtSn/Al2O3 catalysts for the dehydrogenation of propane through consecutive reactionregeneration cycles have been studied under realistic reaction conditions."
+
+[2] "Pt-based catalysts have been widely used for alkane dehydrogenation reactions due to their excellent activity."
+
+[3] "This combination of powerful spectroscopic techniques revealed unique information regarding the activity behavior and deactivation mechanism of Pt- and PtSn-based propane dehydrogenation catalysts, enabling us to identify important structure-electronic-performance relationships as well as fundamental insight into the dynamics of PtSn alloy formation processes in Pt nanoparticles at elevated temperatures."
+
+[4] "The work makes use of two separate in situ reactor setups: one that utilizes a powder-containing, plug-flow reactor setup that combines on-line activity measurements with the simultaneous recording of in situ UVVis and Raman spectroscopy data and a second setup consisting of a flow-through cell using a pressed pellet sample that has been developed so that it is possible to perform catalytic reactions with on-line product monitoring at the outlet (mass spectrometer) while performing in situ high-energy resolution fluorescence detected (HERFD) X-ray absorption spectroscopy (XAS) measurements."
+
+</quotes>
+
+<English version answer>
+Answer: Yes, the article evaluates supported Pt and PtSn catalysts for propane dehydrogenation. It studies the catalytic performance and deactivation mechanisms of Pt/Al2O3 and PtSn/Al2O3 under consecutive reaction-regeneration cycles. The article uses in situ spectroscopy techniques like UVVis, Raman, HERFD XAS to reveal structure-function relationships and insights into PtSn alloy formation dynamics.
+</English version answer>
+
+<Chinese version answer>  
+答:是的,这篇文章评估了负载Pt和PtSn催化剂用于丙烷脱氢。它研究了Pt/Al2O3 和 PtSn/Al2O3催化剂在连续反应-再生循环下的催化性能和失活机理。文章使用原位光谱技术,如UVVis、拉曼、HERFD XAS来揭示结构-功能关系,以及对PtSn合金形成动力学的见解。
+</Chinese version answer>
+
+<quotes>
+[1] "Sn is often added to alter the product distribution for hydrocarbon conversion through the inhibition of hydrogenolysis, isomerisation, cracking and coke formation, thereby enhancing the catalyst selectivity and stability." 
+
+[2] "In contrast, the PtSn/Al2O3 catalyst material possesses both a higher propane conversion and propene selectivity, which is maintained throughout the duration of the first dehydrogenation step."
+
+[3] "The results indicate that the presence of Sn not only modifies the electronic properties of the Pt nanoparticles and therefore the activation of propane but also produces a drain-off effect. This drain-off effect keeps the Pt sites clean by removing the coke precursors from the vicinity of active sites to the support."
+
+[4] "The Pt L3 Δμ XANES data revealed that the interaction of propene with the Pt surface appears stronger for the Pt/Al2O3 catalyst than for the PtSn/Al2O3 catalyst leading to a partial blocking of the active site and therefore a lower propane conversion."
+
+</quotes>
+
+<English version answer>
+Answer: Yes, the article investigates how properties like Sn promotion, particle size, and electronic properties affect the performance of Pt catalysts. It shows Sn enhances selectivity and stability by inhibiting side reactions and removing coke precursors. The weaker Pt-propene interaction in PtSn prevents site blocking, enabling higher propane conversion. 
+</English version answer>
+
+<Chinese version answer>
+答:是的,文章研究了诸如Sn掺杂、粒径和电子性质等特性如何影响Pt催化剂的性能。它表明Sn通过抑制副反应和去除炭素前体提高了选择性和稳定性。 PtSn中的较弱Pt-丙烯互作用可防止位阻塞,使丙烷转化率更高。
+</Chinese version answer>
+
+<quotes>
+[1] "The results indicate that the presence of Sn not only modifies the electronic properties of the Pt nanoparticles and therefore the activation of propane but also produces a drain-off effect." 
+
+[2] "The Pt L3 Δμ XANES data revealed that the interaction of propene with the Pt surface appears stronger for the Pt/Al2O3 catalyst than for the PtSn/Al2O3 catalyst leading to a partial blocking of the active site and therefore a lower propane conversion."
+
+[3] "Accordingly, we can assume that Sn addition leads to both electronic and structural modifications of the properties of the Pt nanoparticles, which have the following implications: (i) selective CH bond activation is favored over CC and CC bond rupture, leading to high selectivity to propene and (ii) coke precursors, such as (partly) dehydrogenated hydrocarbons, can easily move on the surface of PtSn particles and thus they migrate from the active sites to the support before being converted by coke."
+
+</quotes>
+
+<English version answer> 
+Answer: Yes, the article proposes that Sn modifies the electronic properties of Pt, favoring selective C-H bond activation over C-C bonds for propene formation. It also enables coke precursor mobility, draining them from active sites to the support.
+</English version answer>
+
+<Chinese version answer>
+答:是的,文章提出Sn改变了Pt的电子性质,有利于选择性C-H键激活而不是C-C键,生成丙烯。它还可以促进焦炭前体的迁移,将其从活性位点排出到支撑体上。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not explore metal-support interfacial effects in the studied catalysts.
+</English version answer>
+
+<Chinese version answer>
+答:文章没有探讨所研究催化剂中的金属-支撑物界面效应。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:不,本文没有评估Cr2O3、Pt-Sn、Ga2O3等有前途的金属氧化物催化剂用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: No, the article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance.
+</English version answer>
+
+<Chinese version answer>
+答:不,本文没有研究调节金属氧化物的氧化态、氧迁移性和酸碱性如何影响丙烷脱氢性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not propose mechanistic scenarios for propane dehydrogenation over metal oxide catalysts.
+</English version answer>
+
+<Chinese version answer>  
+答:不,本文没有提出金属氧化物催化剂上丙烷脱氢的机理场景。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation.
+</English version answer> 
+
+<Chinese version answer>
+答:不,本文没有探索金属氧化物催化剂中金属-支持体界面效应对丙烷脱氢的影响。
+</Chinese version answer>
+
+<quotes>
+[1] "Pt-based catalysts have been widely used for alkane dehydrogenation reactions due to their excellent activity [5]."
+
+[2] "The catalytic performances of Al2O3-supported Pt and PtSn catalysts has been investigated and compared for the selective dehydrogenation of propane to propene under industrially relevant conditions."
+
+[3] "In this work, the catalytic performance of Al2O3-supported Pt and PtSn catalysts has been investigated and compared for the selective dehydrogenation of propane to propene under industrially relevant conditions."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article evaluates Al2O3-supported Pt and PtSn catalysts for propane dehydrogenation. It provides data on propane conversion, propene selectivity, and stability over multiple reaction-regeneration cycles. The PtSn/Al2O3 catalyst showed higher and more stable propene selectivity compared to Pt/Al2O3.
+</English version answer>
+
+<Chinese version answer>  
+答:是的,本文评估了Al2O3支持的Pt和PtSn催化剂用于丙烷脱氢。它提供了丙烷转换率、丙烯选择性和多循环反应-再生过程中的稳定性数据。与Pt/Al2O3相比,PtSn/Al2O3催化剂表现出更高更稳定的丙烯选择性。
+</Chinese version answer>
+
+<quotes>
+[1] "However, this catalyst system suffers from fast deactivation due to coke formation." 
+
+[2] "Sn is often added to alter the product distribution for hydrocarbon conversion through the inhibition of hydrogenolysis, isomerisation, cracking and coke formation, thereby enhancing the catalyst selectivity and stability [7], [8]."
+
+[3] "In contrast, the PtSn/Al2O3 catalyst material possesses both a higher propane conversion and propene selectivity, which is maintained throughout the duration of the first dehydrogenation step."
+
+[4] "The PtSn/Al2O3 catalyst, the presence of Sn not only reduces the amount of coke formed during a propane dehydrogenation run but also modifies its rate of formation."
+
+[5] "This drain-off effect keeps the Pt sites clean by removing the coke precursors from the vicinity of active sites to the support."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article investigates how properties like metal particle size, promoter addition, and metal-support interactions affect the performance of Pt-based catalysts. It shows Sn addition enhances selectivity and stability by inhibiting coke formation through a "drain-off" effect that removes coke precursors. Smaller Pt particle size with Sn decoration also modifies the Pt electronic properties and propane activation.
+</English version answer>
+
+<Chinese version answer>
+答:是的,本文研究了金属粒子大小、晶种添加和金属-支撑体相互作用等性质如何影响Pt基催化剂的性能。它显示Sn的添加通过“排泄”效应抑制焦炭生成从而提高选择性和稳定性,该效应可以去除焦炭前体。添加了Sn修饰的较小Pt粒子也改变了Pt的电子性质和丙烷的激活。
+</Chinese version answer>
+
+<quotes>
+[1] "The dehydrogenation reaction: After reduction, a gas stream of pure propane (9 ml min1) humidified with 9 v/v% of steam was introduced in the reactor. The reaction proceeded for 6 h at 590 C, and after this treatment, the system was purged with He for 5 min."
+
+[2] "Accordingly, we can assume that Sn addition leads to both electronic and structural modifications of the properties of the Pt nanoparticles, which have the following implications: (i) selective CH bond activation is favored over CC and CC bond rupture, leading to high selectivity to propene and (ii) coke precursors, such as (partly) dehydrogenated hydrocarbons, can easily move on the surface of PtSn particles and thus they migrate from the active sites to the support before being converted by coke [20], [21]."
+</quotes>
+
+<English version answer>  
+Answer: Yes, the article proposes a mechanistic pathway where propane dehydrogenation proceeds through CH bond activation over Pt and PtSn active sites to form propene selectively. Coke precursors can migrate from PtSn active sites to the support before further conversion to coke, improving stability.
+</English version answer>
+
+<Chinese version answer>
+答:是的,本文提出了一个机理路径,丙烷在Pt和PtSn活性位点上通过CH键激活脱氢生成丙烯。焦炭前体可以从PtSn活性位点迁移到支撑体上,在进一步转化成焦炭之前,从而提高了稳定性。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:该文没有评估任何像Cr2O3、Pt-Sn、Ga2O3等有前景的金属氧化物催化剂用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: The article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance.
+</English version answer>
+
+<Chinese version answer>
+答:该文没有研究调节金属氧化物的氧化态、氧的迁移性以及酸碱性如何影响丙烷脱氢性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not propose mechanistic scenarios for propane dehydrogenation over metal oxide catalysts.
+</English version answer>
+
+<Chinese version answer>
+答:该文没有针对金属氧化物催化剂提出丙烷脱氢的机理场景。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:该文没有探讨金属氧化物催化剂中金属-支持体界面效应对丙烷脱氢的影响。
+</Chinese version answer>
+
+<quotes>
+1. "A series of Al2O3-supported Pt and PtSn (Pt: 0.5 wt.% and Sn: 1.5 wt.%) catalysts have been prepared."
+2. "Pt-based catalysts have been widely used for alkane dehydrogenation reactions due to their excellent activity [5]."
+</quotes>
+
+<English version answer>
+Answer: The article evaluates supported Pt and PtSn catalysts for propane dehydrogenation. It mentions that Pt-based catalysts have excellent activity for alkane dehydrogenation.
+</English version answer>  
+
+<Chinese version answer>  
+答:该文评估了Pt和PtSn支持催化剂用于丙烷脱氢。它提到Pt基催化剂对碳烷脱氢有优异的活性。
+</Chinese version answer>
+
+<quotes>
+1. "As a promoter, Sn has a great influence on the starting Pt phase. It reduces the average size of the Pt particles and forms an alloy with Pt. This interaction modifies the Pt electronic properties leading to more electron-poor, active particles exhibiting a higher propene turnover and improved catalytic stability"
+2. "In the case of the Pt/Al2O3 catalyst, the above described features are similar to those observed previously by van Bokhoven and co-workers in several XAS studies after the adsorption of CO or ethene on Pt [27], [30]. In these works, they explained the increase in the white-line intensity and the shift of the edge position to higher energies as being due to the withdrawal of electron density from small platinum clusters to the adsorbed CO or ethene by means of 2π*d back-bond."
+3. "The L3 Δμ spectra for the PtSn/Al2O3 catalyst upon exposure to propane are shown in Fig. 7B. The change in the spectra is clearly different from those of the Pt/Al2O3 catalyst as a shift in the edge position of the spectra to lower energies is observed."
+</quotes>
+
+<English version answer>
+Answer: The article investigates how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts. Specifically, it finds that Sn reduces Pt particle size and forms an alloy, modifying the electronic properties and leading to more active particles. It also finds differences in Pt-hydrocarbon interactions for Pt vs PtSn, with weaker bonding for PtSn.
+</English version answer>
+
+<Chinese version answer>  
+答:该文研究了金属粒子大小、形状和支持体相互作用等特性如何影响受支持金属催化剂的性能。具体来说,它发现Sn减小了Pt粒子的大小,形成了合金,改变了电子特性,导致了更活跃的粒子。它还发现Pt和PtSn与碳氢化合物的相互作用有差异,PtSn的相互作用更弱。
+</Chinese version answer>
+
+<quotes>
+1. "The differences between pure Pt itself and the PtSn alloy, manifested in the shape of the XANES spectra, suggest a difference in the types of interaction of the hydrocarbon on the Pt surfaces [28], [29]." 
+2. "Accordingly, we can assume that Sn addition leads to both electronic and structural modifications of the properties of the Pt nanoparticles, which have the following implications: (i) selective CH bond activation is favored over CC and CC bond rupture, leading to high selectivity to propene" 
+</quotes>
+
+<English version answer>
+Answer: The article proposes that Sn addition leads to electronic and structural changes in Pt nanoparticles that favor selective C-H bond activation over C-C bond rupture, leading to high propene selectivity.
+</English version answer>
+
+<Chinese version answer>  
+答:该文提出Sn的添加导致Pt纳米粒子的电子和结构变化,这促进了选择性C-H键断裂而不是C-C键断裂,从而导致高丙烯选择性。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: The article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation. No specific examples, data, or insights are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章没有评估任何像Cr2O3,Pt-Sn,Ga2O3这样有前途的金属氧化物催化剂用于丙烷脱氢。没有提供具体的例子、数据或见解。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>  
+
+Answer: The article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance. No specific examples or relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章没有研究调节金属氧化物的氧化态、氧迁移性和酸碱性如何影响丙烷脱氢性能。没有提供具体的例子或关系。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: The article does not propose mechanistic scenarios for propane dehydrogenation over any studied metal oxide catalysts. No specific reaction steps, intermediates, or active sites are described.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章没有为任何研究的金属氧化物催化剂提出丙烷脱氢的机理情景。没有描述具体的反应步骤、中间体或活性位点。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: The article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation. No specific examples or insights into activity and selectivity modulation are provided.
+
+</English version answer> 
+
+<Chinese version answer>
+
+答:这篇文章没有探讨金属氧化物催化剂中金属-支持体界面效应对丙烷脱氢的影响。没有提供关于活性和选择性调控的具体例子或见解。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The catalytic performances of Pt/Al2O3 and PtSn/Al2O3 catalysts for the dehydrogenation of propane through consecutive reactionregeneration cycles have been studied under realistic reaction conditions."
+
+[2] "Pt-based catalysts have been widely used for alkane dehydrogenation reactions due to their excellent activity [5]."
+
+</quotes>
+
+<English version answer>
+
+Answer: The article evaluates supported mono-metallic Pt and PtSn catalysts for propane dehydrogenation. It studies the catalytic performance of Pt/Al2O3 and PtSn/Al2O3 through consecutive reaction-regeneration cycles under realistic conditions. It notes that Pt-based catalysts are widely used for alkane dehydrogenation due to their excellent activity.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章评估了受支持的单金属Pt和PtSn催化剂用于丙烷脱氢。它通过连续的反应-再生循环研究了Pt/Al2O3和PtSn/Al2O3在真实条件下的催化性能。它指出Pt基催化剂由于其优异的活性而被广泛用于烷烃脱氢。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Sn not only modifies the electronic properties of Pt and therefore the activation of propane, but also produces a drain-off effect." 
+
+[2] "the Pt L3 Δμ XANES data revealed that the interaction of propene with the Pt surface appears stronger for the Pt/Al2O3 catalyst than for the PtSn/Al2O3 catalyst leading to a partial blocking of the active site and therefore a lower propane conversion."
+
+[3] "Sn segregates from the PtSn alloy during coke burning, and this phenomenon could have a positive effect by stabilizing the supported Pt nanoparticles against sintering;"
+
+</quotes>
+
+<English version answer>
+
+Answer: The article investigates how Sn modification affects the properties and performance of supported Pt catalysts. It finds Sn changes the electronic properties of Pt, activates propane differently, and produces a drain-off effect to keep sites clean. The Pt-propene interaction is weaker for PtSn than Pt, leading to less site blocking and higher conversion. Sn segregation during regeneration may help stabilize Pt against sintering.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章研究了Sn修饰如何影响受支持的Pt催化剂的性质和性能。它发现Sn改变了Pt的电子性质,以不同的方式激活丙烷,并产生排水效应以保持场地干净。PtSn与Pt相比,Pt与丙烯的相互作用较弱,导致场地阻塞较少,转化率更高。Sn在再生期间的离聚可能有助于稳定Pt,防止烧结。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The differences between pure Pt itself and the PtSn alloy, manifested in the shape of the XANES spectra, suggest a difference in the types of interaction of the hydrocarbon on the Pt surfaces [28], [29]." 
+
+[2] "we can assume that Sn addition leads to both electronic and structural modifications of the properties of the Pt nanoparticles, which have the following implications: (i) selective CH bond activation is favored over CC and CC bond rupture, leading to high selectivity to propene and (ii) coke precursors, such as (partly) dehydrogenated hydrocarbons, can easily move on the surface of PtSn particles and thus they migrate from the active sites to the support before being converted by coke [20], [21]."
+
+</quotes>
+
+<English version answer>
+
+Answer: The article proposes mechanistic pathways where Sn modification causes electronic and structural changes to Pt that favor selective C-H bond activation over C-C bond rupture, leading to high propene selectivity. It also enables coke precursors to migrate from active sites to the support before coke formation.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章提出了机理途径,其中Sn修饰导致Pt的电子和结构变化,有利于选择性C-H键激活而不是C-C键断裂,从而导致丙烯选择性很高。它还使焦炭前体能够从活性位点迁移到支持体,然后再进行焦化。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: The article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation. No specific examples, data, or insights are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章没有评估任何像Cr2O3,Pt-Sn,Ga2O3这样有前途的金属氧化物催化剂用于丙烷脱氢。没有提供具体的例子、数据或见解。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes> 
+
+<English version answer>
+
+Answer: The article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance. No specific examples or relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章没有研究调节金属氧化物的氧化态、氧迁移性和酸碱性如何影响丙烷脱氢性能。没有提供具体的例子或关系。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: The article does not propose mechanistic scenarios for propane dehydrogenation over any studied metal oxide catalysts. No specific reaction steps, intermediates, or active sites are described.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章没有为任何研究的金属氧化物催化剂提出丙烷脱氢的机理情景。没有描述具体的反应步骤、中间体或活性位点。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>  
+
+Answer: The article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation. No specific examples or insights into activity and selectivity modulation are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:这篇文章没有探讨金属氧化物催化剂中金属-支持体界面效应对丙烷脱氢的影响。没有提供关于活性和选择性调控的具体例子或见解。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:文中没有评估Cr2O3、Pt-Sn、Ga2O3等有前途的金属氧化物催化剂用于丙烷脱氢反应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance.
+</English version answer>
+
+<Chinese version answer>
+答:文中没有研究调控金属氧化物的氧化态、氧迁移性和酸碱性如何影响丙烷脱氢反应性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not propose mechanistic scenarios for propane dehydrogenation over any studied metal oxide catalysts.
+</English version answer>
+
+<Chinese version answer> 
+答:文中没有为所研究的任何金属氧化物催化剂提出丙烷脱氢反应的反应机理。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:文中没有探讨金属氧化物催化剂中金属-支持体界面效应对丙烷脱氢反应的影响。
+</Chinese version answer>
+
+<quotes>
+[1] "The catalytic performances of Pt/Al2O3 and PtSn/Al2O3 catalysts for the dehydrogenation of propane through consecutive reactionregeneration cycles have been studied under realistic reaction conditions."
+
+[2] "Pt-based catalysts have been widely used for alkane dehydrogenation reactions due to their excellent activity [5]."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article evaluates supported mono-metallic catalysts Pt/Al2O3 and PtSn/Al2O3 for propane dehydrogenation, providing data on their catalytic performance over consecutive reaction-regeneration cycles under industrial conditions. It states that Pt-based catalysts are widely used for alkane dehydrogenation due to their high activity.
+</English version answer>
+
+<Chinese version answer>
+答:是的,文中评估了负载单金属催化剂Pt/Al2O3和PtSn/Al2O3用于丙烷脱氢反应,提供了它们在连续反应-再生环节下的工业条件催化性能数据。文中指出,由于Pt基催化剂具有高活性,广泛用于烷烃脱氢反应。
+</Chinese version answer>
+
+<quotes>
+[1] "Sn is often added to alter the product distribution for hydrocarbon conversion through the inhibition of hydrogenolysis, isomerisation, cracking and coke formation, thereby enhancing the catalyst selectivity and stability [7], [8]." 
+
+[2] "In this work, the catalytic performance of Al2O3-supported Pt and PtSn catalysts has been investigated and compared for the selective dehydrogenation of propane to propene under industrially relevant conditions."
+
+[3] "The PtSn/Al2O3 catalyst material possesses both a higher propane conversion and propene selectivity, which is maintained throughout the duration of the first dehydrogenation step."
+
+[4] "The presence of Sn not only modifies the electronic properties of Pt and therefore the activation of propane, but also produces a drain-off effect."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article investigates how properties like Sn promotion affect the performance of supported Pt catalysts. It shows that adding Sn alters product distribution by inhibiting undesired reactions like hydrogenolysis, isomerization, cracking and coke formation, thereby improving catalyst selectivity and stability. The PtSn/Al2O3 catalyst exhibits higher propane conversion and propene selectivity compared to Pt/Al2O3. Sn modifies Pt's electronic properties, affecting propane activation, and produces a drain-off effect that improves stability.
+</English version answer>
+
+<Chinese version answer>
+答:是的,文中研究了Sn促进等因素如何影响负载Pt催化剂的性能。结果显示,添加Sn改变了产物分布,抑制了氢解、异构化、裂化和焦炭生成等不良反应,从而提高了催化剂的选择性和稳定性。与Pt/Al2O3相比,PtSn/Al2O3催化剂具有更高的丙烷转化率和丙烯选择性。Sn改变了Pt的电子性质,影响丙烷的活化,并产生排挤效应,改善了稳定性。
+</Chinese version answer>
+
+<quotes>
+[1] "From the above observation, it can be suggested that a reaction mechanism involving common surface intermediates, which form activated/partly dehydrogenated propane, can either desorb as C3H6 or further undergo cracking to C1, C2 and even to surface carbon deposits."
+
+[2] "The PtSn/Al2O3 catalyst, the presence of Sn not only reduces the amount of coke formed during a propane dehydrogenation run but also modifies its rate of formation." 
+
+[3] "The results indicate that the presence of Sn not only modifies the electronic properties of the Pt nanoparticles and therefore the activation of propane but also produces a drain-off effect."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article proposes a mechanistic reaction pathway where propane gets activated on the catalyst surface to form common intermediates that can either desorb as propene or undergo further cracking and coke formation. It shows Sn modifies Pt's electronic properties affecting propane activation and produces a drain-off effect that reduces coke formation rate.
+</English version answer>
+
+<Chinese version answer>  
+答:是的,文中提出了一个机理反应途径,丙烷在催化剂表面被活化形成共同的中间体,这些中间体要么脱附生成丙烯,要么继续裂化和焦炭生成。结果显示,Sn改变Pt的电子性质影响丙烷的活化,并产生排挤效应减缓焦炭生成速率。
+</Chinese version answer>
+
+</Answer>
+

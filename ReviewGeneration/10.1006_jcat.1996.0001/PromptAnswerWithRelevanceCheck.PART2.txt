@@ -1,0 +1,542 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts or provide examples or explanations of selectivity modulation.
+</English version answer>
+
+<Chinese version answer>
+答:该文没有比较金属和氧化受体金属催化剂的选择性谱,也没有提供选择性调节的例子或解释。
+</Chinese version answer>
+
+<quotes>
+[1] "Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied"
+
+[2] "On γ-Al2O3tin interacts with the support and is stabilized in an oxidation state >0. The result is an increase in Pt dispersion and an improved stability of the catalytic activity without any change in the initial specific activity in dehydrogenation."
+
+[3] "On SiO2the Sn is more readily reduced, and alloy formation is possible. This leads to a similar increase in Pt dispersion and improved catalytic stability, but also to a strong reduction in the specific activity."
+</quotes>
+
+<English version answer>
+
+Answer: Yes, the article evaluates PtSn bimetallic catalysts for propane dehydrogenation. It shows that on gamma-Al2O3 support, adding Sn increases Pt dispersion and improves stability without changing initial activity. On SiO2 support, Sn forms an alloy with Pt, increasing dispersion and stability but reducing initial specific activity.
+</English version answer>
+
+<Chinese version answer>
+答:是的,该文评估了PtSn双金属催化剂用于丙烷脱氢。它表明,在gamma-Al2O3担体上,添加Sn可以增加Pt分散度并提高稳定性,而不改变初始活性。在SiO2担体上,Sn与Pt形成合金,增加分散度和稳定性,但降低了初始特定活性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts or provide specific examples and structure-function insights.
+</English version answer>
+
+<Chinese version answer>
+答:不,该文没有研究双金属和合金催化剂中次要金属的电子和几何效应,也没有提供具体的例子和结构-功能关系的见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity, and provides no specific examples or data.
+</English version answer>
+
+<Chinese version answer>
+答:不,该文没有探索在双金属和合金催化剂中使用Re或Mn等次表面促进剂来调节选择性,也没有提供具体的例子或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts attributed to ensemble and/or ligand effects, and provides no specific examples or explanations.
+</English version answer>
+
+<Chinese version answer>
+答:不,该文没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应可归因于集合体和/或配体效应,也没有提供具体的例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts or provide specific examples, data, or insights. 
+</English version answer>
+
+<Chinese version answer> 
+答:不,该文没有评估MFI、FER或BEA等任何分子筛类担体用于丙烷脱氢催化剂,也没有提供具体的例子、数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance, and provides no specific examples or structure-function relationships.
+</English version answer>
+
+<Chinese version answer>
+答:不,该文没有研究调节分子筛Si/Al比或引入介孔对丙烷脱氢催化剂性能的影响,也没有提供具体的例子或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 这篇文章没有比较金属与氧化的负载金属催化剂的选择性特征。没有提供具体的例子或选择性调制的解释。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied
+
+[2] On γ-Al2O3tin interacts with the support and is stabilized in an oxidation state >0. 
+
+[3] On SiO2the Sn is more readily reduced, and alloy formation is possible.
+
+</quotes>
+
+<English version answer>
+
+2. Yes, the article evaluates PtSn alloy catalysts supported on SiO2 and γ-Al2O3. It provides data on how the addition of Sn affects the catalyst dispersion, stability, and initial specific activity. On γ-Al2O3, Sn interacts with the support and is stabilized in an oxidized state, increasing dispersion and stability but not initial activity. On SiO2, Sn can form an alloy with Pt, increasing dispersion and stability but decreasing initial specific activity.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 是的,这篇文章评估了负载在SiO2和γ-Al2O3上的PtSn合金催化剂。它提供了Sn的添加如何影响催化剂分散度、稳定性和初始特定活性的数据。在γ-Al2O3上,Sn与载体发生作用,稳定在氧化态,增加分散度和稳定性,但不增加初始活性。在SiO2上,Sn可以与Pt形成合金,增加分散度和稳定性,但降低初始特定活性。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. No specific examples or structure-function insights are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 这篇文章没有调查双金属催化剂和合金催化剂中第二金属的电子和几何效应。没有提供具体的示例或结构功能的见解。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No specific examples or data are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 这篇文章没有探索在双金属和合金催化剂中使用重和锰等亚表面促进剂来调节选择性。没有提供具体的例子或数据。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 这篇文章没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应被归因于集团和/或配体效应。没有提供具体的例子或解释。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 这篇文章没有评估任何MFI、FER或BEA结构的分子筛载体用于丙烷脱氢催化剂。没有提供具体的例子、数据或见解。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 这篇文章没有研究调节分子筛Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。没有提供具体的例子或结构-功能关系的揭示。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No examples or explanations of selectivity modulation are provided.
+
+</English version answer>
+
+<Chinese version answer>
+1. 文章没有比较金属和氧化支持金属催化剂的选择性谱。没有提供选择性调制的例子或解释。
+
+</Chinese version answer>
+
+<quotes>
+[1] Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied
+[2] On γ-Al2O3tin interacts with the support and is stabilized in an oxidation state >0. 
+[3] On SiO2the Sn is more readily reduced, and alloy formation is possible.
+</quotes>
+
+<English version answer>
+2. Yes, the article evaluates Pt-Sn bimetallic catalysts supported on SiO2 and γ-Al2O3. It provides data on how adding Sn affects the catalyst dispersion, stability, and activity. On γ-Al2O3, Sn interacts with the support and stays oxidized, increasing dispersion and stability but not initial activity. On SiO2, Sn is reduced and forms an alloy with Pt, increasing dispersion and stability but decreasing initial specific activity.
+
+</English version answer>
+
+<Chinese version answer>
+2. 是的,文章评估了载于SiO2和γ-Al2O3上的Pt-Sn双金属催化剂。它提供了添加Sn如何影响催化剂分散度、稳定性和活性的数据。在γ-Al2O3上,Sn与载体发生作用,保持氧化态,增加分散度和稳定性,但不增加初始活性。在SiO2上,Sn被还原并与Pt形成合金,增加分散度和稳定性,但降低了初始特定活性。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not investigate electronic and geometric effects of the secondary metal in detail. No specific examples or structure-function insights are provided.
+
+</English version answer>
+
+<Chinese version answer>
+3. 不,文章没有详细研究二次金属的电子和几何效应。没有提供具体的例子或结构-功能见解。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts. No specific examples or data are provided.
+
+</English version answer>
+
+<Chinese version answer>
+4. 不,文章没有探讨在双金属和合金催化剂中使用Re或Mn等下层助剂。没有提供具体的例子或数据。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+
+</English version answer>
+
+<Chinese version answer>  
+5. 不,文章没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于集合体和/或配体效应。没有提供具体的例子或解释。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.
+
+</English version answer>
+
+<Chinese version answer>
+6. 不,文章没有评估任何MFI、FER或BEA结构等沸石载体用于丙烷脱氢催化剂。没有提供具体的例子、数据或见解。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.  
+
+</English version answer>
+
+<Chinese version answer>
+7. 不,文章没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。没有揭示具体的例子或结构-功能关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No examples or explanations of selectivity modulation are provided.
+</English version answer>
+
+<Chinese version answer>
+答:本文没有比较金属和氧化支持金属催化剂的选择性配置文件。也没有提供选择性调制的示例或解释。
+</Chinese version answer>
+
+<quotes>
+[1] Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied
+[2] On γ-Al2O3tin interacts with the support and is stabilized in an oxidation state >0. 
+[3] On SiO2the Sn is more readily reduced, and alloy formation is possible.
+</quotes>
+
+<English version answer>
+Answer: Yes, the article evaluates PtSn bimetallic catalysts supported on SiO2 and γ-Al2O3. Data shows that on γ-Al2O3, tin interacts with the support and stabilizes in an oxidized state, leading to increased Pt dispersion and improved catalytic stability without changing initial specific activity. On SiO2, Sn is reduced and forms an alloy with Pt, also increasing dispersion and stability, but reducing specific activity.  
+</English version answer>
+
+<Chinese version answer>
+答:是的,本文评估了负载在SiO2和γ-Al2O3上的PtSn双金属催化剂。数据显示,在γ-Al2O3上,锡与载体发生作用,稳定在氧化态,这导致Pt分散度增加,催化稳定性改善,而不改变最初的特定活性。在SiO2上,Sn被还原并与Pt形成合金,也提高了分散和稳定性,但降低了特定活性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate electronic and geometric effects of the secondary metal in the bimetallic catalysts. No specific examples or structure-function insights are provided.
+</English version answer>
+
+<Chinese version answer>
+答:不,本文没有研究双金属催化剂中辅助金属的电子和几何效应。也没有提供特定的示例或结构-功能洞见。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts. No specific examples or data are provided.
+</English version answer>
+
+<Chinese version answer>
+答:不,本文没有探索在双金属和合金催化剂中使用Re或Mn等亚表面促进剂。没有提供特定的示例或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+</English version answer>
+
+<Chinese version answer>
+答:不,本文没有描述双金属或合金催化剂中的金属之间存在任何基于配体和/或配体效应的协同效应。没有提供特定的示例或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.
+</English version answer>
+
+<Chinese version answer>
+答:不,本文没有评估用于丙烷脱氢催化剂的任何 MFI、FER 或 BEA 结构的沸石载体。没有提供特定的示例、数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+答:不,本文没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。没有揭示特定的示例或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No examples or explanations of selectivity modulation are provided.
+</English version answer>
+
+<Chinese version answer>
+答:没有,这篇文章没有比较金属和氧化支持金属催化剂的选择性概况。也没有提供选择性调节的例子或解释。
+</Chinese version answer>
+
+<quotes>
+[1] Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied
+[2] On γ-Al2O3tin interacts with the support and is stabilized in an oxidation state >0. 
+[3] On SiO2the Sn is more readily reduced, and alloy formation is possible.
+</quotes>
+
+<English version answer>
+Answer: Yes, the article evaluates PtSn bimetallic catalysts supported on SiO2 and γ-Al2O3. It provides data on how the Sn promoter interacts differently with each support, affecting Pt dispersion and catalyst stability and activity. No insights into electronic or geometric effects are provided.
+</English version answer>
+
+<Chinese version answer>
+答:是的,这篇文章评估了载于SiO2和γ-Al2O3上的PtSn双金属催化剂。它提供�Sn推动剂与每个载体之间的不同相互作用的数据,这种相互作用会影响Pt的分散和催化剂的稳定性与活性。没有提供关于电子或几何效应的信息。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate electronic and geometric effects of the secondary metal in the bimetallic catalysts. No specific examples or structure-function insights are provided.
+</English version answer>
+
+<Chinese version answer>
+答:没有,这篇文章没有调查双金属催化剂中辅助金属的电子和几何效应。没有提供具体的例子或结构-功能关系的信息。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts. No specific examples or data are provided.
+</English version answer>
+
+<Chinese version answer>
+答:没有,这篇文章没有探索在双金属和合金催化剂中使用Re或Mn等浅层推动剂。没有提供具体的例子或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not describe any synergistic effects between metals in the bimetallic catalysts attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+</English version answer>
+
+<Chinese version answer>
+答:没有,这篇文章没有描述双金属催化剂中金属之间由于配体和/或配体效应而产生的任何协同效应。没有提供具体的例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures. No examples, data, or insights are provided.
+</English version answer>
+
+<Chinese version answer>
+答:没有,这篇文章没有评估任何MFI、FER或BEA结构等分子筛支持体。没有提供例子、数据或信息。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity. No examples or structure-function relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+答:没有,这篇文章没有研究调节分子筛Si/Al比或引入介孔性的效应。没有揭示例子或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+

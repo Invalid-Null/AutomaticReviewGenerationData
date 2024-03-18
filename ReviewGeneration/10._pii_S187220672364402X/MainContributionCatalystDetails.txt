@@ -1,0 +1,38 @@
+ Based on the details in the document, this is clearly relevant to propane dehydrogenation. The main catalyst contribution is:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<MainContribution>
+			<Catalyst>
+				<Name>Sn1Pt single-atom alloy</Name>
+				<Type>Single Atom Alloy</Type>  
+				<CompositionElements>
+					<Element>Sn</Element>
+					<Element>Pt</Element>
+				</CompositionElements>
+				<ActiveSpeciesElements>
+					<Element>Sn</Element>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>43%</ConversionRate>
+				<Selectivity>90%</Selectivity>
+				<Stability>Stable after initial drop</Stability>
+				<DeactivationRates>
+					<Rate>0.11 h^-1 (initial)</Rate>  
+					<Rate>0.013 h^-1 (after 3 h)</Rate>
+					<Rate>0.0026 h^-1 (after 10 h)</Rate>
+				</DeactivationRates>
+				<PropaneProductionRate>47.6 molC3H6 gPt-1 h-1</PropaneProductionRate>
+				<PropyleneYield>27.2 molC3H6 gPt-1 h-1</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:He = 14:14:72 (vol%)</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600 Â°C</ReactionTemperature>
+				<InletFlowRate>30 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>100 mg</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

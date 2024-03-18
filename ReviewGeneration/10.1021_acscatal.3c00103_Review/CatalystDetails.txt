@@ -1,0 +1,191 @@
+ Yes, the document is related to propane dehydrogenation. Here is the extracted information in XML format:
+
+<output>
+	<Relevance>Yes</Relevance> 
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>CrOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Pt-based</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Sn</Element>
+					<Element>Ga</Element>
+					<Element>In</Element>
+					<Element>Zn</Element>
+					<Element>Cu</Element>
+					<Element>Fe</Element>
+					<Element>Co</Element>
+					<Element>Pb</Element>
+					<Element>Ca</Element>
+					<Element>La</Element>
+				</PromoterElements>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>ZnOx/S-1</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Zn</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Mg</Element>
+				</PromoterElements>
+				<SupportMaterial>Zeolite</SupportMaterial>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Pt-GaOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>			
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Pt</Element>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>42%</ConversionRate>
+				<Selectivity>97%</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CrZrOx/SiO2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+					<Element>Zr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Stability>No obvious deactivation after 50 cycles</Stability>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Pt-Sn/Al2O3</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Sn</Element>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>43%</ConversionRate>
+				<Selectivity>99%</Selectivity>
+				<DeactivationRates>
+					<Rate>0.0028 h^-1</Rate>
+				</DeactivationRates>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Co/SiBeta</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Co</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Zeolite</SupportMaterial>
+				<ConversionRate>57%</ConversionRate>
+				<Selectivity>96%</Selectivity>
+				<DeactivationRates>
+					<Rate>0.0986 h^-1</Rate>
+				</DeactivationRates>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Pt-Sn/K-MFI</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Sn</Element>
+				</PromoterElements>
+				<SupportMaterial>Zeolite</SupportMaterial>
+				<ConversionRate>20%</ConversionRate>
+				<Selectivity>97%</Selectivity>
+				<DeactivationRates>
+					<Rate>0.0029 h^-1</Rate>
+				</DeactivationRates>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Zn@S-1</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Zn</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Zeolite</SupportMaterial>
+				<ConversionRate>27%</ConversionRate>
+				<Selectivity>98%</Selectivity>
+				<DeactivationRates>
+					<Rate>0.0227 h^-1</Rate>
+				</DeactivationRates>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Si@Pt-Sn/Al2O3</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Sn</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>22%</ConversionRate>
+				<Selectivity>91%</Selectivity>
+				<DeactivationRates>
+					<Rate>0.007 h^-1</Rate>
+				</DeactivationRates>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Al2O3@Pt/Al2O3</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>16%</ConversionRate>
+				<Selectivity>91%</Selectivity>
+				<DeactivationRates>
+					<Rate>0.0121 h^-1</Rate>
+				</DeactivationRates>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>Pt-Sn/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Sn</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>Thermodynamically limited</ConversionRate>
+				<Selectivity>99%</Selectivity>
+				<Stability>No obvious deactivation after 30 hours</Stability>
+				<DeactivationRates>
+					<Rate>0.003 h^-1</Rate> 
+				</DeactivationRates>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>
+
+The key contribution of this manuscript is the Pt-Sn/SiO2 catalyst. It achieves thermodynamically limited conversion of propane with 99% selectivity to propylene and excellent stability with minimal deactivation over 30 hours. This is attributed to the uniform atomic mixing of Pt and Sn enabled by the novel synthesis approach, which tunes the electronic properties of Pt and minimizes the ensemble sites that lead to coking and deactivation. The extremely low deactivation rate of 0.003 h^-1 highlights the pivotal advancement of this catalyst system.

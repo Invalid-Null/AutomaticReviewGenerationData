@@ -1,0 +1,81 @@
+I'm going to give you a scientific literature. Then I'm going to ask you some questions about it. I'd like you to first write down exact quotes of parts of the document word by word that would help answer the question, and then I'd like you to answer the question using facts from the quoted content. Do not omit any relevant information from the text, and avoid introducing any falsehoods or assumptions that aren't directly supported by the literature. Here is the literature, in <literature></literature> XML tags:
+
+<literature>
+
+
+Regular Article
+Structure and Properties of Oxidative Dehydrogenation Catalysts Based on MoO3/Al2O3
+Abstract
+The effects of MoOx structure on propane oxidative dehydrogenation (ODH) rates and selectivity were examined on Al2O3-supported molybdenum oxide catalysts with a wide range of Mo surface density (0.412 Mo/nm2). X-ray diffraction and Raman, UV-visible, and X-ray absorption spectroscopies showed that the structure of dispersed molybdena depends strongly on the Mo surface density. Two-dimensional MoOx oligomers formed preferentially for Mo surface densities below 4 Mo/nm2. At higher surface densities, these MoOx oligomers coexist on Al2O3 surfaces with three-dimensional MoO3. UV-visible edge energies decrease with increasing Mo surface density, consistent with the growth of MoOx structures. The evolution of near-edge spectral features in the X-ray absorption spectra and the gradual appearance of a MoMo scattering peak in the radial structure function confirmed the growth of MoOx domains with increasing surface density. ODH rates per Mo atom increased with increasing Mo surface density and reached a maximum value for samples with 4.5 Mo/nm2; this behavior reflects an increase in the reactivity of surface Mo species, because all MoOx species are exposed at domain surfaces in this surface density range. As also shown for VOx-based catalysts, turnover rates are higher on two-dimensional domains than on isolated monomers and they increase as the MoOx domain size increases. The rates of reduction of MoOx species in H2 or C3H8 were probed using kinetic and X-ray absorption methods; these reduction rates increased in parallel with ODH rates as the MoOx surface density increased, apparently as a result of the ability of larger domains to delocalize the higher electron density that accompanies the reduction process. As the surface density increased above 4.5 Mo/nm2, ODH rates (per Mo atom) decrease, as a result of the loss of accessibility caused by the formation of MoO3 crystallites. For these latter samples, the ODH rate per BET surface area approached a constant value as the surface density increased, because all exposed surfaces in these samples reside within two- or three-dimensional MoOx structures with similar reactivity. The ratio of rate constants for propane ODH and propane combustion reactions increased with increasing surface density and then remained constant for values above 5 Mo/nm2. These effects appear to reflect the tendency of AlOMo species to adsorb alkoxide intermediates and favor their sequential oxidation to COx. Propene combustion rate constants also decreased relative to those for propane ODH as two-dimensional structures form with increasing Mo surface density.
+element not found
+
+
+</literature>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+
+</questions>
+
+First, you need to sequentially extract any quotes in the literature that are most relevant to each question, and print them in numbered order, separated by newlines. Quotes should be relatively brief. Do not attempt to summarize or answer questions at this stage, but simply repeat exactly what the corresponding part of the literature says.
+
+Please enclose the full list of quotes in <quotes></quotes> XML tags. If there are no relevant quotes, write "No relevant quotes" instead.
+
+Then, answer the question, starting with "Answer:".  Do not include or reference quoted content verbatim in the answer. Don't say "According to Quote [1]" when answering. Do not write reference number of quotes after answer. Put your answer to the user inside <answer></answer> XML tags. Output formatted text, with line breaks for each question.Separate quotes and answers with a blank line. Provide the answers to all questions in English. After completing the English answers, translate all those answers into Chinese and provide the Chinese version.
+
+Thus, the format of your overall response should look like what's shown between the <example></example> tags.  Make sure to follow the formatting and spacing exactly.
+
+<example>
+
+<quotes>
+
+[1] "Company X reported revenue of $12 million in 2021."
+
+</quotes>
+
+<English version answer>
+
+1.Company X earned $12 million in 2021.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.X公司在2021年赚了1200万美元。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Almost 90% of revenue came from widget sales, with gadget sales making up the remaining 10%."
+
+</quotes>
+
+<English version answer>
+
+2.Almost 90% of it came from widget sales.
+
+</English version answer>
+
+<Chinese version answer>
+
+2.几乎90%的收入来自小部件销售。
+
+</Chinese version answer>
+
+</example>
+
+
+If the question cannot be answered by the document, say so.If deemed necessary, the answer to the question can be extended entirely from the content of the document.
+
+Answer all of the questions immediately without preamble. 

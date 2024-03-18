@@ -1,0 +1,457 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. The article does not directly compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses more on strategies to enhance the stability and selectivity of different catalyst systems like Pt-based metals, metal oxides, and zeolite supports. No specific examples or explanations of selectivity modulation between metallic and oxidized catalysts are provided.
+</English version answer>
+
+<Chinese version answer>
+1. 该文并没有直接比较金属和氧化金属负载型催化剂的选择性配置文件。它更多地关注于提高不同催化剂体系(如Pt基金属、金属氧化物和沸石载体)的稳定性和选择性的策略。没有提供金属和氧化金属催化剂选择性调控的具体例子或解释。
+</Chinese version answer>
+
+<English version answer> 
+2. Yes, the article evaluates several Pt alloy catalysts including Pt-Sn, Pt-Ga, Pt-Zn, Pt-In for propane dehydrogenation. It provides data on their initial activity, propylene selectivity, and deactivation rate constants. The article explains how these secondary metals can modulate the geometric and electronic properties of Pt to enhance dispersion, inhibit coking and improve stability. For example, Sn can donate electrons to Pt and reduce the d-band center, making Pt sites more resistant to coking.
+</English version answer>
+
+<Chinese version answer>
+2. 是的,该文评估了几种Pt合金催化剂,包括Pt-Sn、Pt-Ga、Pt-Zn和Pt-In,用于丙烷脱氢。它提供了这些催化剂的初始活性、丙烯选择性和失活率常数的数据。该文解释了这些辅助金属如何改变Pt的几何和电子特性,提高 Pt 的分散性,抑制炭化并提高稳定性。例如,Sn可以向Pt提供电子,降低d能带中心,使Pt活性位点更抗炭化。
+</Chinese version answer>
+
+<English version answer>
+3. Yes, the article investigates the electronic and geometric effects of secondary metals in bimetallic and alloy catalysts. For example, it explains how Sn can donate electrons to Pt, changing the d-band structure and making Pt sites more resistant to coking. The geometric effect of Sn helps improve Pt dispersion and prevent sintering. Similar electronic and geometric modulation effects are described for metals like Ga, Zn, In in Pt alloys.
+</English version answer> 
+
+<Chinese version answer>  
+3. 是的,该文研究了双金属和合金催化剂中的辅助金属的电子和几何效应。例如,它解释了Sn如何向Pt提供电子,改变d能带结构,使Pt活性位点更抗炭化。 Sn的几何效应有助于提高Pt的分散性,防止烧结。文中也描述了Ga、Zn、In等金属在Pt合金中的类似电子和几何调控效应。
+</Chinese version answer>
+
+<English version answer>
+4. No, the article does not specifically explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts for propane dehydrogenation. No examples or data on subsurface promoters are provided. The focus is more on evaluating metal promoters that form alloys or intermetallic compounds with Pt.
+</English version answer>
+
+<Chinese version answer>  
+4. 否,该文没有具体研究如Re或Mn等亚表面促进剂在双金属和合金催化剂上的应用。没有提供有关亚表面促进剂的示例或数据。文中的重点更多地在评估与Pt形成合金或互化物的金属促进剂。
+</Chinese version answer>
+
+<English version answer>
+5. Yes, the article describes synergistic ensemble and ligand effects between metals in some bimetallic catalysts. For example, Zn can selectively tune the valence orbitals and surface electronic structure of Pt, leading to higher selectivity and stability. The ensemble effect of metals like Sn, Ga, and Zn helps break up large Pt ensembles and prevent deep dehydrogenation. The ligand effect refers to electron donation between metals, modulating Pt's properties.
+</English version answer>
+
+<Chinese version answer>
+5. 是的,该文描述了一些双金属催化剂中的金属间存在协同配位和配体效应。例如,Zn可以选择性调节Pt的价轨道和表面电子结构,提高选择性��稳定性。Sn、Ga和Zn等金属的配位效应有助于打破大的Pt配位体,防止深度脱氢。配体效应是指金属间的电子传递,调节Pt的性质。
+</Chinese version answer>
+
+<English version answer>
+6. Yes, the article evaluates zeolite supports like MFI, FER, and BEA for propane dehydrogenation catalysts. It provides examples of using these zeolite structures to support metals like Pt, Zn, Co, Cr, V. The zeolite framework helps stabilize isolated metal sites. Strategies like dealumination are used to tune zeolite properties for PDH. For example, dealuminated BEA creates hydroxyl nests to anchor PtZn and boost stability.
+</English version answer>
+
+<Chinese version answer>  
+6. 是的,该文评估了MFI、FER和BEA等沸石载体用于丙烷脱氢催化剂。它提供了在这些沸石结构上负载Pt、Zn、Co、Cr、V等金属的例子。沸石框架有助于稳定隔离的金属活性位点。利用酸处理等策略调节沸石性质用于丙烷脱氢反应。例如,脱铝BEA生成羟基巢穴以锚定PtZn并提高稳定性。
+</Chinese version answer>
+
+<English version answer>
+7. Yes, the article investigates the effects of tuning zeolite Si/Al ratio and incorporating mesoporosity on propane dehydrogenation catalysts. Dealumination is used to reduce zeolite acidity by removing Al and generate silanol nests for metal anchoring. Introducing mesoporosity through desilication increases mass transfer and diffusion in zeolites. The article provides examples of using hierarchical zeolites like desilicated ZSM-5 and BEA to support PtSn and PtZn with improved stability and catalytic performance. 
+</English version answer>
+
+<Chinese version answer>
+7. 是的,该文研究了调节沸石Si/Al比和引入介孔对丙烷脱氢催化剂的影响。酸处理可通过去除Al来降低沸石的酸度,并生成硅醇巢穴以锚定金属。通过脱硅引入介孔可以增加沸石中的物质转运和扩散。该文提供了使用分层ZSM-5和BEA等分层沸石负载PtSn和PtZn来改善稳定性和催化性能的例子。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+1. "Sn is a widely utilized promoter for Pt catalysts. Alloying Pt with Sn can significantly alter the electronic and geometric structure of Pt sites. [30,72-74] The electronic effects are reflected in the reduction in the d band of Pt sites and the adjustment of reaction barriers, effectively reducing the coke formation." 
+
+2. "The PtGa catalyst system has also been implemented in production plants (FCDh technique). Recently, Payard et al. investigated the structure-activity relationship over silica-supported PtGa nanoparticles at a molecular level. [82] It was found that the presence of Ga could reduce the sintering of Pt sites by enhancing the interaction between the support and nanoparticles, increasing the dispersion of Pt, and accelerating the mobility of surface atoms."
+
+3. "In has also been developed as a promising promoter of Pt-based catalysts. Zha et al. reported that the bimetallic alloy (Pt3In) exhibited a high activity comparable to those of pure Pt and PtSn alloys and a considerable improvement in the propylene selectivity and stability compared to pure Pt." 
+
+4. No relevant quotes.
+
+5. No relevant quotes.
+
+6. "Zeolites are ideal supports for the PDH reaction with plenty of marvelous traits, including but not limited to their large surface area, ordered channels, and adjustable framework."
+
+7. No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+1. The article evaluates Pt-Sn catalysts for propane dehydrogenation. It states that alloying Pt with Sn can alter the electronic and geometric structure of Pt sites by reducing the Pt d-band and adjusting reaction barriers, which reduces coke formation.  
+
+2. The article investigates Pt-Ga catalysts. It states that the presence of Ga in Pt-Ga nanoparticles can reduce Pt sintering by enhancing metal-support interactions, increasing Pt dispersion, and increasing surface atom mobility.
+
+3. The article explores Pt-In catalysts. It states that Pt3In alloys exhibit high activity comparable to Pt and PtSn, with improved propylene selectivity and stability versus pure Pt.
+
+4. The article does not specifically investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts.
+
+5. The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts attributed to ensemble and/or ligand effects. 
+
+6. The article evaluates zeolite supports like MFI for propane dehydrogenation catalysts. It states that zeolites have traits like large surface area, ordered channels, and adjustable frameworks that make them ideal PDH supports.
+
+7. The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文评价了Pt-Sn催化剂用于丙烷脱氢。它指出,Pt与Sn合金化可以通过降低Pt d带和调整反应垒壁来改变Pt位点的电子和几何结构,从而减少焦炭形成。
+
+2. 该文研究了Pt-Ga催化剂。它指出,Pt-Ga纳米颗粒中的Ga存在可以通过增强金属与载体间的相互作用、增加Pt分散度和增加表面原子迁移性来减少Pt烧结。
+
+3. 该文探索了Pt-In催化剂。它指出,Pt3In合金表现出高活性,可与Pt和PtSn催化剂相媲美,并且相比纯Pt具有改善的丙烯选择性和稳定性。
+
+4. 该文没有具体研究双金属和合金催化剂中第二金属的电子和几何效应。
+
+5. 该文没有描述双金属或合金催化剂中金属间存在任何因配体效应和/或团簇效应而产生的协同效应。
+
+6. 该文评价了MFI等分子筛作为丙烷脱氢催化剂的载体。它指出,分子筛具有大表面积、有序通道和可调框架等特质,这使其成为理想的PDH载体。 
+
+7. 该文没有研究调节分子筛Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not directly compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses more on evaluating specific metal oxide catalysts like CrOx, VOx, ZnOx, GaOx rather than making broad comparisons between metallic and oxidized catalysts.
+
+</English version answer>  
+
+<Chinese version answer>  
+
+1. 这篇文章没有直接比较金属和氧化支持金属催化剂的选择性配置文件。它更多地评估了特定的金属氧化物催化剂,如CrOx、VOx、ZnOx和GaOx,而不是广泛比较金属和氧化催化剂之间的区别。
+
+</Chinese version answer>
+
+<English version answer>
+
+2. Yes, the article evaluates Pt alloy catalysts including Pt-Sn, Pt-Ga, Pt-Zn, Pt-In for propane dehydrogenation. It provides data on their initial activity, propylene selectivity, and deactivation rates. The article explains how these secondary metals can tune the geometric and electronic properties of Pt to enhance dispersion, improve selectivity, and increase stability.
+
+</English version answer>
+
+<Chinese version answer>  
+
+2. 是的,这篇文章评估了Pt合金催化剂,包括Pt-Sn、Pt-Ga、Pt-Zn和Pt-In,用于丙烷脱氢。它提供了这些催化剂的初始活性、丙烯选择性和失活速率的数据。文章解释了这些辅助金属如何调节Pt的几何和电子特性,以提高分散性,改进选择性,并增加稳定性。
+
+</Chinese version answer>
+
+<English version answer>
+
+3. Yes, the article investigates the electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. For example, it explains that Sn can donate electrons to Pt, narrow the Pt d-band, and increase the energy barrier for catalytic reactions like dehydrogenation. Geometrically, Sn helps maintain high Pt dispersion. The article provides data showing improved selectivity and stability for PtSn compared to Pt alone.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 是的,这篇文章研究了双金属和合金催化剂中辅助金属的电子和几何效应。例如,它解释了Sn可以向Pt提供电子,缩窄Pt的d带,并增加脱氢等催化反应的能垒。在几何上,Sn有助于维持高的Pt分散度。文章提供的数据显示,PtSn相比仅Pt催化剂有更好的选择性和稳定性。
+
+</Chinese version answer>
+
+<English version answer>  
+
+4. No, the article does not specifically explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts for propane dehydrogenation. It focuses more on promoters that form alloys with Pt like Sn, Ga, Zn.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 不,这篇文章没有具体探讨在双金属和合金催化剂中使用Re或Mn等次表面促进剂用于丙烷脱氢。它更多地关注能与Pt形成合金的促进剂,如Sn、Ga和Zn。
+
+</Chinese version answer>
+
+<English version answer>
+
+5. Yes, the article describes synergistic effects between metals in some bimetallic catalysts. For example, it explains that PtZn exhibits ligand effects where Zn modulates the electronic structure of Pt to increase selectivity. The combination of Pt and Sn shows ensemble effects where Sn disrupts large Pt ensembles to reduce undesirable hydrogenolysis and cracking reactions.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 是的,文章描述了一些双金属催化剂中的金属之间的协同效应。例如,它解释说PtZn表现出配体效应,Zn调节Pt的电子结构以提高选择性。Pt和Sn的��合显示出集合效应,Sn破坏了大的Pt集合体,以减少不需要的加氢裂解和裂解反应。
+
+</Chinese version answer>
+
+<English version answer>
+
+6. Yes, the article evaluates zeolite supports like MFI, FER, and BEA for propane dehydrogenation catalysts. For example, it discusses encapsulating active metal sites like Pt, Zn, Co in the MFI framework and using dealuminated BEA (SiBEA) to support VOx and CoOx species. The article provides data showing improved stability and selectivity compared to non-zeolite supports. 
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 是的,这篇文章评估了MFI、FER和BEA等沸石支持用于丙烷脱氢催化剂。例如,它讨论了在MFI框架中囊装Pt、Zn和Co等活性金属位点,并使用除铝BEA (SiBEA) 支持VOx 和CoOx物种。文章提供的数据显示,与非沸石支持相比,选择性和稳定性有所改善。
+
+</Chinese version answer>
+
+<English version answer>
+
+7. Yes, the article investigates the effects of tuning zeolite Si/Al ratio and incorporating mesoporosity on catalyst performance. For example, it explains dealumination generates hydroxyl nests to anchor active species and reduces undesired acid sites. Incorporating mesoporosity into zeolites like ZSM-5 improves mass transfer limitations. The article provides data showing improved stability and selectivity with these modifications.
+
+</English version answer>
+
+<Chinese version answer> 
+
+7. 是的,这篇文章研究了调节沸石Si/Al比和引入介孔性对催化剂性能的影响。例如,它解释除铝可以产生羟基巢穴以锚定活性物种,并减少不需要的酸性位点。在ZSM-5等沸石中引入介孔可以改善质量传递的限制。文章提供的数据显示,这些改进可以提高稳定性和选择性。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes from the literature and my answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. The article does not directly compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses mainly on strategies to enhance catalytic stability for propane dehydrogenation. 
+</English version answer>
+
+<Chinese version answer>
+1. 这篇文章没有直接比较金属与氧化支持金属催化剂的选择性概况。它主要关注丙烷脱氢增强催化稳定性的策略。
+</Chinese version answer>
+
+<quotes>
+[1] Sn is a widely utilized promoter for Pt catalysts. Alloying Pt with Sn can significantly alter the electronic and geometric structure of Pt sites. 
+
+[2] The PtGa catalyst system has also been implemented in production plants (FCDh technique). Recently, Payard et al. investigated the structure-activity relationship over silica-supported PtGa nanoparticles at a molecular level.  
+
+[3] In has also been developed as a promising promoter of Pt-based catalysts. Zha et al. reported that the bimetallic alloy (Pt3In) exhibited a high activity comparable to those of pure Pt and PtSn alloys and a considerable improvement in the propylene selectivity and stability compared to pure Pt.
+
+[4] Zn is another analogous but economical promoter for Pt-based catalysts. Cybulskis et al. investigated the explicit influence of introducing Zn to the Pt species. The Zn selectively tuned the valence orbitals and the surface electronic structure of Pt, resulting in increased product selectivity and stable catalytic performance.
+</quotes>
+
+<English version answer>
+2. Yes, the article evaluates Pt alloy catalysts like Pt-Sn, Pt-Ga, and Pt-Zn for propane dehydrogenation. It provides data showing how these promoters can modulate the electronic structure, geometric structure, and ensemble effects of Pt to improve catalytic performance and stability. Specific examples include Pt-Sn helping inhibit coke formation, Pt-Ga improving dispersion and stability, and Pt-Zn tuning the valence orbitals of Pt to increase selectivity.
+</English version answer> 
+
+<Chinese version answer>
+2. 是的,这篇文章评估了Pt合金催化剂,如Pt-Sn、Pt-Ga和Pt-Zn,用于丙烷脱氢。它提供了数据,展示了这些助剂如何调控Pt的电子结构、几何结构和集合效应,以改善催化性能和稳定性。具体例子包括Pt-Sn有助于抑制焦炭形成,Pt-Ga改善扩散和稳定性,Pt-Zn调谐价轨道以增加选择性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes> 
+
+<English version answer>  
+3. The article does not provide specific insights into electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It mentions these effects in general terms but does not go into details.
+</English version answer>
+
+<Chinese version answer>
+3. 这篇文章没有提供双金属和合金催化剂中第二金属的电子和几何效应的具体见解。它以一般术语提到了这些效应,但没有深入细节。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. The article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>  
+4. 这篇文章没有探讨在双金属和合金催化剂中使用Re或Mn等次表面助剂来调节丙烷脱氢的选择性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts attributed to ensemble and/or ligand effects for propane dehydrogenation. It does not provide specific examples or explanations of such effects.
+</English version answer>
+
+<Chinese version answer>
+5. 这篇文章没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于团簇和/或配体效应用于丙烷脱氢。它没有提供这种效应的具体例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. The article does not evaluate any specific zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. It mentions zeolites in general terms but does not provide data or insights into the use of specific zeolite structures.
+</English version answer>  
+
+<Chinese version answer>  
+6. 这篇文章没有评估任何特定的沸石支持,如MFI、FER或BEA结构,用于丙烷脱氢催化剂。它以一般术语提到了沸石,但没有提供数据或见解到使用特定沸石结构。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. It does not provide specific examples or structure-function relationships related to zeolite properties.
+</English version answer>
+
+<Chinese version answer>
+7. 这篇文章没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。它没有提供与沸石性质相关的具体例子或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes.
+</quotes>
+
+<English version answer>
+1. The article does not directly compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation between these two types of catalysts are provided.
+
+</English version answer> 
+
+<Chinese version answer>
+1. 文章没有直接比较金属型和氧化物型负载型金属催化剂的选择性曲线。也没有提供这两类催化剂选择性调控的具体例子或解释。
+</Chinese version answer>
+
+<quotes>
+[1] "Sn is a widely utilized promoter for Pt catalysts. Alloying Pt with Sn can significantly alter the electronic and geometric structure of Pt sites." 
+[2] "The PtGa catalyst system has also been implemented in production plants (FCDh technique)."
+[3] "In has also been developed as a promising promoter of Pt-based catalysts."
+[4] "Zn is another analogous but economical promoter for Pt-based catalysts."
+</quotes>
+
+<English version answer>
+2. Yes, the article evaluates several Pt alloy catalysts including Pt-Sn, Pt-Ga, Pt-Zn, and Pt-In for propane dehydrogenation. It provides data on their performance such as initial activity, selectivity, and deactivation rate. The article discusses how adding these secondary metals modulates the electronic properties and dispersion of Pt to improve stability and selectivity.
+</English version answer>
+
+<Chinese version answer>
+2. 是的,文中评估了几种用于丙烷脱氢的铂合金催化剂,包括Pt-Sn、Pt-Ga、Pt-Zn和Pt-In。提供了它们的性能数据,如初始活性、选择性和失活率。文章讨论了添加这些次要金属如何调控铂的电子性质和分散度,以提高稳定性和选择性。
+</Chinese version answer>
+
+<quotes>
+[1] "Alloying Pt with Sn can significantly alter the electronic and geometric structure of Pt sites."
+[2] "The electronic effects are reflected in the reduction in the d band of Pt sites and the adjustment of reaction barriers, effectively reducing the coke formation."
+[3] "In has also been developed as a promising promoter of Pt-based catalysts. The role of In was to promote electron transfer from In to Pt, which impacted the adsorption energy of propylene." 
+[4] "The Zn selectively tuned the valence orbitals and the surface electronic structure of Pt, resulting in increased product selectivity and stable catalytic performance."
+</quotes>
+
+<English version answer>
+3. Yes, the article investigates electronic and geometric effects of the secondary metals in Pt alloy catalysts. It provides examples like Sn reducing the Pt d-band center and transferring electrons to Pt, altering reaction barriers. In and Zn also modulate the electronic properties of Pt through electron transfer, impacting product adsorption energies and selectivity. The secondary metals also help disperse Pt sites.
+</English version answer>
+
+<Chinese version answer>
+3. 是的,文中研究了Pt合金催化剂中次要金属的电子效应和几何效应。举了例子如Sn降低了Pt的d带中心位置,向Pt传递电子,改变了反应势垒。In和Zn也通过电子传递调控了Pt的电子性质,影响了产物的吸附能和选择性。次要金属还有助于Pt位点的分散。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes.
+</quotes>
+
+<English version answer>
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No specific examples or data are provided.
+</English version answer>
+
+<Chinese version answer>
+4. 不,文章没有探究在双金属和合金催化剂中使用Re或Mn等次表面推动剂来调节选择性。没有提供具体的例子或数据。
+</Chinese version answer>
+
+<quotes>
+[1] "Alloying Pt with Sn can significantly alter the electronic and geometric structure of Pt sites."
+[2] "The Zn selectively tuned the valence orbitals and the surface electronic structure of Pt."
+</quotes>
+
+<English version answer>
+5. Yes, the article briefly describes some synergistic effects between metals in bimetallic catalysts. For example, it states that Sn alloying with Pt impacts both the electronic structure and geometric dispersion of Pt sites. Zn tuning the electronic structure of Pt is also mentioned as an example of synergistic metal interactions. However, no in-depth explanations of ensemble or ligand effects are provided.
+</English version answer>
+
+<Chinese version answer> 
+5. 是的,文章简要描述了双金属催化剂中的金属间的协同效应。例如,提到Sn与Pt合金化影响了Pt位点的电子结构和几何分散度。Zn调节Pt的电子结构也被提及为金属间协同作用的一个例子。但是没有提供有关配位组效应或配体效应的深入解释。
+</Chinese version answer>
+
+<quotes>
+[1] "Zeolites are ideal supports for the PDH reaction with plenty of marvelous traits, including but not limited to their large surface area, ordered channels, and adjustable framework."
+[2] "The hydroxyl nests on the dealuminated zeolite can be utilized for anchoring bimetallic PtM alloys."
+</quotes>
+
+<English version answer>
+6. Yes, the article briefly evaluates some zeolite supports like MFI and BEA for propane dehydrogenation catalysts. It states zeolites are ideal supports due to properties like large surface area, ordered channels, and tunable framework composition. Specific examples like using dealuminated zeolites to anchor PtM alloys are mentioned, but extensive data or insights are not provided.
+</English version answer>
+
+<Chinese version answer> 
+6. 是的,文章简要评估了一些像MFI和BEA的分子筛支持体用于丙烷脱氢催化剂。提到分子筛由于大表面积、有序通道和可调框架成分等性质是理想的支持体。有提到具体例子如使用去铝的分子筛固定PtM合金,但没有提供广泛的数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes.
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+7. 不,文章没有研究调节分子筛的Si/Al比或引入介孔对丙烷脱氢催化剂性能的影响。没有提供具体的例子或结构-功能关系的揭示。
+</Chinese version answer>
+
+</Answer>
+

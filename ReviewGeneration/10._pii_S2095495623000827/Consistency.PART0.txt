@@ -1,0 +1,57 @@
+ Here is the comparison of the answers in JSON format:
+
+```json
+{
+  "1": {
+    "answer.PART0_0.txt": "0%",
+    "answer.PART0_1.txt": "0%", 
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "100%"
+  },
+  "2": {
+    "answer.PART0_0.txt": "0%",
+    "answer.PART0_1.txt": "0%",
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%", 
+    "answer.PART0_4.txt": "100%"
+  },
+  "3": {
+    "answer.PART0_0.txt": "0%",
+    "answer.PART0_1.txt": "0%",
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "100%"
+  },
+  "4": {
+    "answer.PART0_0.txt": "0%",
+    "answer.PART0_1.txt": "0%",
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "100%"
+  },
+  "5": {
+    "answer.PART0_0.txt": "0%",
+    "answer.PART0_1.txt": "0%",
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "100%"
+  },
+  "6": {
+    "answer.PART0_0.txt": "0%",
+    "answer.PART0_1.txt": "0%",
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "100%"
+  },
+  "7": {
+    "answer.PART0_0.txt": "0%",
+    "answer.PART0_1.txt": "0%",
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "100%"
+  }
+}
+```
+
+To generate this, I compared each answer file's content to the correct answers for each question. I calculated a consistency ratio by checking if the key points from the correct answer were mentioned in the answer file. For files with no relevant content, the consistency is 0%. For the one file that fully matched the correct answers, the consistency is 100%. The ratios are expressed as percentages and formatted into the expected JSON structure.

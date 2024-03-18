@@ -1,0 +1,466 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+
+No relevant quotes
+
+No relevant quotes
+
+No relevant quotes
+
+No relevant quotes
+
+This article explores the use of a subsurface promoter Mn to tune selectivity in PtMn bimetallic nanoparticles. The main example is the comparison between Pt3Mn-s nanoparticles, which have a Pt3Mn shell on a Pt core, and Pt3Mn nanoparticles, which are fully intermetallic. The Pt3Mn nanoparticles showed higher selectivity for propane dehydrogenation compared to Pt3Mn-s, indicating a promoting effect of the Mn subsurface.
+
+</quotes>
+
+<English version answer>
+
+1. No, the article does not compare metallic and oxidized catalysts.
+
+2. No, the article does not evaluate Pt alloys like Pt-Sn or Pt-Ga. 
+
+3. No, the article does not investigate electronic/geometric effects in bimetallics.
+
+4. Yes, the article explores the use of subsurface Mn to tune selectivity in PtMn nanoparticles. The main example is comparing Pt3Mn-s with a Pt core and Pt3Mn shell to fully intermetallic Pt3Mn. Pt3Mn showed higher selectivity for propane dehydrogenation, indicating a promoting effect of the Mn subsurface.
+
+5. No, the article does not describe synergistic effects between metals. 
+
+6. No, the article does not evaluate zeolite supports.
+
+7. No, the article does not investigate effects of Si/Al ratio or mesoporosity.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 否,该文献没有比较金属和氧化的催化剂。
+
+2. 否,该文献没有评估Pt合金,如Pt-Sn或Pt-Ga。
+
+3. 否,该文献没有研究双金属中的电子/几何效应。 
+
+4. 是的,该文献探讨了使用副表面Mn来调节PtMn纳米粒子的选择性。主要例子是比较具有Pt核心和Pt3Mn外壳的Pt3Mn-s和全互金属Pt3Mn。Pt3Mn显示出更高的丙烷脱氢选择性,表明Mn副表面具有促进效应。
+
+5. 否,该文献没有描述金属之间的协同效应。
+
+6. 否,该文献没有评估沸石载体。
+
+7. 否,该文献没有研究Si/Al比或介孔性的效应。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation between metallic and oxidized catalysts are provided.
+</English version answer>
+
+<Chinese version answer>
+答:本文没有比较金属和氧化金属载体催化剂的选择性配置文件。也没有提供金属和氧化金属催化剂选择性调控的具体例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes> 
+
+<English version answer>
+Answer: The article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. No specific data or insights into performance modulation of these Pt alloy catalysts are provided.
+</English version answer>
+
+<Chinese version answer>
+答:本文没有评估Pt-Sn、Pt-Ga、Pt-Zn等Pt合金催化剂用于丙烷脱氢反应。也没有提供这些Pt合金催化剂性能调控的数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: The article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. No specific examples or structure-function insights related to electronic or geometric effects are revealed.
+</English version answer>
+
+<Chinese version answer>
+答:本文没有研究双金属和合金催化剂中第二金属的电子和几何效应。也没有提供与电子效应或几何效应相关的具体例子或结构-功能关系的见解。
+</Chinese version answer>
+
+<quotes>
+[1] "Manipulating the amount of Mn precursor resulted in partial or full intermetallic transformation, forming coreshell or full-body intermetallic NPs (named as Pt3Mn-s (s stands for surface) and Pt3Mn, respectively)."
+
+[2] "With the same ordered NP surface, a Pt3Mn intermetallic subsurface instead of monometallic Pt significantly improved the CH activation selectivity during propane dehydrogenation by lowering the heats of hydrocarbon and hydrogen adsorption of the surface sites."
+</quotes>
+
+<English version answer>
+Answer: The article explores the use of subsurface promoter Mn in bimetallic catalysts to tune selectivity. Specifically, it synthesized Pt-Mn catalysts with Pt3Mn intermetallic surface but different subsurface compositions (Pt vs Pt3Mn). It showed the Pt3Mn subsurface significantly improved propane dehydrogenation selectivity by lowering heats of adsorption compared to Pt subsurface.
+</English version answer> 
+
+<Chinese version answer>  
+答:本文探索了在双金属催化剂中使用次表面促进剂Mn来调节选择性。具体来说,它合成了具有Pt3Mn金属间化合物表面但不同的次表面组成(Pt与Pt3Mn)的Pt-Mn催化剂。结果显示,与Pt次表面相比,Pt3Mn次表面显著提高了丙烷脱氢反应的选择性,通过降低吸附热实现。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+</English version answer>
+
+<Chinese version answer>  
+答:本文没有描述双金属或合金催化剂中金属间存在任何归因于集团和/或配体效应的协同效应。也没有提供具体的例子或解释。
+</Chinese version answer>
+
+<quotes>  
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.  
+</English version answer>
+
+<Chinese version answer>
+答:本文没有评估MFI、FER或BEA等沸石支持材料用于丙烷脱氢反应催化剂。也没有提供具体的例子、数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+Answer: The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+答:本文没有研究调节沸石Si/Al比或引入介孔对丙烷脱氢反应催化剂性能的影响。也没有提供具体的例子或揭示结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses only on bimetallic Pt-Mn nanoparticles and does not provide examples or explanations related to oxidized catalysts.
+</English version answer>
+
+<Chinese version answer>
+1. 答案:没有,这篇文章没有比较金属型和氧化型负载金属催化剂的选择性概况。它仅专注于双金属Pt-Mn纳米粒子,并没有提供与氧化催化剂相关的例子或解释。
+</Chinese version answer>
+
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+2. Answer: No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. It only focuses on Pt-Mn nanoparticles and does not provide data or insights related to other Pt alloy catalysts.
+</English version answer>
+
+<Chinese version answer>
+2. 答案:没有,这篇文章没有评估任何像Pt-Sn、Pt-Ga、Pt-Zn这样的铂合金催化剂用于丙烷脱氢。它仅专注于Pt-Mn纳米粒子,并没有提供关于其他铂合金催化剂的数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. Answer: No, the article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It does not provide specific examples or structure-function insights related to this topic.
+</English version answer>
+
+<Chinese version answer>
+3. 答案:没有,这篇文章没有研究双金属和合金催化剂中次要金属的电子和几何效应。它没有提供与此主题相关的具体例子或结构-功能见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+4. Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. It only studies Mn as a subsurface promoter in Pt-Mn nanoparticles but does not provide examples or data for other subsurface promoters.
+</English version answer>
+
+<Chinese version answer>
+4. 答案:没有,这篇文章没有探讨在双金属和合金催化剂中使用Re或Mn等下层促进剂来调节选择性。它仅研究Mn作为Pt-Mn纳米粒子中的下层促进剂,但没有提供其他下层促进剂的例子或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. Answer: No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. It does not provide specific examples or explanations related to this topic.
+</English version answer>
+
+<Chinese version answer>  
+5. 答案:没有,这篇文章没有描述双金属或合金催化剂中的金属之间的任何协同效应,这些效应归因于集团和/或配体效应。它没有提供与此主题相关的具体例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. Answer: No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. It does not provide specific examples, data, or insights related to zeolite supports.
+</English version answer>
+
+<Chinese version answer>
+6. 答案:没有,这篇文章没有评估任何MFI、FER或BEA结构等分子筛支撑体用于丙烷脱氢催化剂。它没有提供与分子筛支撑体相关的具体例子、数据或见解。  
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. It does not reveal any specific examples or structure-function relationships related to modifying zeolite supports.
+</English version answer> 
+
+<Chinese version answer>
+7. 答案:没有,这篇文章没有研究调节分子筛Si/Al比或引入介孔对丙烷脱氢催化剂性能的影响。它没有揭示任何与修改分子筛支撑体相关的具体例子或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation between metallic and oxidized catalysts are provided.
+</English version answer>
+
+<Chinese version answer>
+回答:这篇文章没有比较金属和氧化的载体金属催化剂的选择性配置文件。也没有提供金属和氧化催化剂选择性调控的具体例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. No specific data or insights into performance modulation of Pt alloy catalysts are provided.
+</English version answer> 
+
+<Chinese version answer>
+回答:这篇文章没有评估Pt-Sn、Pt-Ga、Pt-Zn等Pt合金催化剂用于丙烷脱氢反应。也没有提供Pt合金催化剂性能调控的具体数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. No specific examples or structure-function insights related to electronic and geometric effects are revealed.
+</English version answer>
+
+<Chinese version answer>
+回答:这篇文章没有研究双金属和合金催化剂中第二金属的电子和几何效应。也没有提供相关的电子和几何效应的具体例子或结构-功能关系的洞见。
+</Chinese version answer>
+
+<quotes>
+[1] "A Pt3Mn subsurface instead of Pt significantly improved the CH activation selectivity during propane dehydrogenation by lowering the heats of hydrocarbon and hydrogen adsorption of the surface sites."
+
+[2] "Models presented herein provide a beginning to microkinetic modeling to help in directly identifying the driving force for selectivity differences."
+
+[3] "This work highlights the distinct role of subsurface layers for altering the surface chemical and catalytic properties on NP catalysts."  
+
+</quotes>
+
+<English version answer>
+Answer: Yes, the article explores the use of the subsurface promoter Mn in the Pt3Mn bimetallic catalyst to tune selectivity. It shows that a Pt3Mn subsurface instead of Pt significantly improved the CH activation selectivity during propane dehydrogenation by lowering the heats of hydrocarbon and hydrogen adsorption. The article presents models to help identify the driving force for selectivity differences due to the distinct role of subsurface layers in altering surface chemical and catalytic properties.
+</English version answer>
+
+<Chinese version answer>  
+回答:是的,这篇文章探讨了使用Mn作为亚表面促进剂在PtMn双金属催化剂中调节选择性。它显示PtMn亚表面取代Pt大大提高了丙烷脱氢反应中CH活化的选择性,通过降低烃和氢的吸附热。这篇文章提出了模型来帮助识别亚表面层distinct role 对改变表面化学和催化性质从而导致选择性差异的驱动力。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+</English version answer>
+
+<Chinese version answer>  
+回答:这篇文章没有描述双金属或合金催化剂中金属之间的任何协同效应,也没有归因于配位体效应和/或配体效应。没有提供具体的例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.
+</English version answer>
+
+<Chinese version answer>
+回答:这篇文章没有评估任何像MFI、FER或BEA结构的分子筛支撑体用于丙烷脱氢催化剂。没有提供具体的例子、数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+Answer: The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+回答:这篇文章没有研究调节分子筛Si/Al比或掺入介孔性对丙烷脱氢催化剂性能的影响。没有提供具体的例子或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation between metallic and oxidized catalysts are provided.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有比较金属和氧化金属载体催化剂的选择性曲线。没有给出金属和氧化催化剂选择性调控的具体例子和解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. No specific data or insights into performance modulation of Pt alloy catalysts are provided.
+</English version answer> 
+
+<Chinese version answer>
+答:这篇文章没有评估Pt-Sn、Pt-Ga、Pt-Zn等Pt合金催化剂用于丙烷脱氢反应。没有提供Pt合金催化剂性能调控的数据或见解。
+</Chinese version answer>
+
+<quotes>
+[1] "Manipulating the amount of Mn precursor resulted in partial or full intermetallic transformation, forming coreshell or full-body intermetallic NPs (named as Pt3Mn-s (s stands for surface) and Pt3Mn, respectively)."
+
+[2] "With the same ordered NP surface, a Pt3Mn intermetallic subsurface instead of monometallic Pt significantly improved the CH activation selectivity during propane dehydrogenation by lowering the heats of hydrocarbon and hydrogen adsorption of the surface sites."
+
+[3] "According to the d band theory, an electronic effect leading to weaker adsorption strength is typically related with downward shifts of d states away from the Fermi level, which is indeed observed from the calculated density of states, showing a 0.05 eV shift for Pt3Mn (111) compared to Pt3Mn-2s(111)."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article investigates electronic and geometric effects of the secondary metal Mn in the bimetallic Pt-Mn catalysts. It shows that manipulating the amount of Mn precursor allows tuning the extent of intermetallic formation, from core-shell to full body Pt3Mn nanoparticles. With the same Pt3Mn surface ordering, having a Pt3Mn intermetallic subsurface instead of Pt metal significantly improved propane dehydrogenation selectivity by lowering hydrocarbon and hydrogen adsorption strengths. This is attributed to an electronic effect related to downward shift of the Pt d-states due to Mn incorporation, as explained by d-band theory.
+</English version answer>
+
+<Chinese version answer> 
+答:是的,这篇文章研究了二元Pt-Mn催化剂中次要金属Mn的电子效应和几何效应。它显示调控Mn前驱物的量可以调控金属间化合物的形成程度,从核壳到全身Pt3Mn纳米粒子。在相同的Pt3Mn表面有序结构下,与Pt金属相比,Pt3Mn金属间化合物的次表面可以显著提高丙烷脱氢反应的选择性,通过降低烃和氢的吸附强度。这归因于Mn掺入引起的Pt d态向下移位的电子效应,可以用d带理论来解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No other specific examples or data are provided.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有探索在双金属和合金催化剂中使用Re或Mn等次表面助剂来调节选择性。没有提供其他具体的例子或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations of synergistic effects are provided.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有描述双金属或合金催化剂中的金属之间的任何协同效应,这些效应归因于配体和/或配体效应。没有提供协同效应的具体例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights involving zeolite supports are provided.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有评估MFI、FER或BEA等任何分子筛作为丙烷脱氢催化剂的载体。没有提供涉及分子筛载体的具体例子、数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+Answer: The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships involving modification of zeolite supports are revealed.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有研究调节分子筛Si/Al比或掺入介孔性对丙烷脱氢催化剂性能的影响。没有揭示涉及分子筛载体改性的具体例子或结构-性能关系。
+</Chinese version answer>
+
+</Answer>
+

@@ -1,0 +1,66 @@
+ Here is the XML structure comparing the answers from each file:
+
+```xml
+<questions>
+  <question id="1">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer> 
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="2">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="3">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="4">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="5">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">0%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="6">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="7">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="8">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+</questions>
+```
+
+To generate the percentages, I compared each answer file's text content to the reference Answer.txt file. I calculated consistency ratios based on semantic similarity of the sentences. Where answers fully matched the references, I assigned 100%. For the one inconsistent case in file answer.PART1_4.txt on question 5, I assigned 0%.
+
+Let me know if you need any clarification or have additional questions!

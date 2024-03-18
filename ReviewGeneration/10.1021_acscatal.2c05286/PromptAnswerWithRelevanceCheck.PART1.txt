@@ -1,0 +1,585 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+8. Does the article evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation? What specific examples, data, and insights are provided?
+
+9. Does the article investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance? What specific examples and relationships are revealed?
+
+10. Does the article propose mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts? What specific reaction steps, intermediates, active sites are described?
+
+11. Does the article explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation? What specific examples and insights into activity and selectivity modulation are provided?
+
+12. Does the article evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation? What specific data, characterizations and insights are provided?
+
+13. Does the article investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts? What specific examples and structure-function relationships are revealed?
+
+14. Does the article propose mechanistic reaction pathways for propane dehydrogenation over the studied supported metal catalysts? What specific steps, intermediates, and active sites are described?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文章没有评估三氧化铬、铂锡、氧化镓等有前途的金属氧化物催化剂用于丙烷脱氢反应。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+2. The article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance.
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 该文章没有研究调控金属氧化物的氧化态、氧离子迁移性和酸碱性如何影响丙烷脱氢反应性能。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. The article does not propose mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 该文章没有为所研究的金属氧化物催化剂上的丙烷脱氢反应提出机理方案。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+4. The article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 该文章没有探讨丙烷脱氢反应中金属氧化物催化剂的金属-载体界面效应。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+5. The article does not evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 该文章没有评估Pt、Pd或Ir等任何载体单金属催化剂用于丙烷脱氢反应。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+6. The article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 该文章没有研究金属颗粒尺寸、形状和载体相互作用等性质如何影响载体金属催化剂的性能。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. The article does not propose mechanistic reaction pathways for propane dehydrogenation over the studied supported metal catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 该文章没有为所研究的载体金属催化剂上的丙烷脱氢反应提出机理反应途径。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+1. 文章没有评估任何像Cr2O3、Pt-Sn、Ga2O3这样有前景的金属氧化物催化剂用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+2. No, the article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance.
+</English version answer>
+
+<Chinese version answer>
+2. 文章没有研究调节金属氧化物的氧化态、氧的迁移能力和酸碱性如何影响丙烷脱氢性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not propose mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts.
+</English version answer>
+
+<Chinese version answer>
+3. 文章没有为研究的金属氧化物催化剂提出丙烷脱氢的反应机理。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. No, the article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation.
+</English version answer> 
+
+<Chinese version answer>
+4. 文章没有探讨用于丙烷脱氢的金属氧化物催化剂中的金属-支撑物界面的效应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+5. 文章没有评估任何Pt、Pd或Ir这样的单金属负载型催化剂用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. No, the article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+6. 文章没有研究金属粒子大小、形状和与支撑物的相互作用等性质如何影响负载型金属催化剂的性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not propose mechanistic reaction pathways for propane dehydrogenation over the studied supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+7. 文章没有为研究的负载型金属催化剂提出丙烷脱氢的反应机理。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答案:这篇文章没有评估任何像Cr2O3, Pt-Sn, Ga2O3这样有前景的金属氧化物催化剂用于丙烷脱氢反应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance.
+</English version answer> 
+
+<Chinese version answer>
+答案:这篇文章没有研究调节金属氧化物的氧化态、氧迁移和酸碱性如何影响丙烷脱氢反应性能。
+</Chinese version answer>
+
+<quotes>
+[1] "Comprehensive characterizations were conducted to understand the underlying reaction mechanism. The oxidation states of Cr for the fresh and spent 5%Cr/ZrO2 and 5%Cr/Ce0.2Zr0.8O2 catalysts were examined by X-ray photoelectron spectroscopy (Figure 5). Both Cr6+ and Cr3+ were present in the as-prepared catalysts, with a Cr6+/Cr3+ ratio of 2.45 and 1.75 for 5%Cr/ZrO2 and 5%Cr/Ce0.2Zr0.8O2 catalyst, respectively. After the CO2-ODH reaction, CrOx was reduced, and only Cr3+ was observed in both 5%Cr/ZrO2 and 5%Cr/Ce0.2Zr0.8O2 catalysts. This suggests that Cr3+ is the active site during the ODH reaction."
+
+[2] "In situ DRIFTS study was carried out to provide insights on the CO2-ODH reaction pathway over the 5%Cr/Ce0.2Zr0.8O2 catalyst (Figure 8). The fresh catalyst was first pretreated at 650 C for 30 min in the presence of 10%O2, followed by cooling down to room temperature for propane adsorption. After propane adsorption, the catalyst was purged at room temperature for 20 min. Adsorption of propane is evidenced by peaks at 1378 and 1456 cm1, corresponding to CH bending. Interestingly, three peaks appear in the region of 15001700 cm1 (i.e., 1560, 1616, and 1675 cm1) due to CC stretching, suggesting the formation of surface-adsorbed propylene. Desorption of propylene was observed when the catalyst was heated above 200 C. When propane and CO2 were coadsorbed on the catalyst surface, both propane and propylene peaks were observed (Figure 8b). Desorption of propylene occurs at above 200 C, similar to the case of propane adsorption only. In the temperature range studied (i.e., 25400 C), no CO peak was observed. This suggests that propane dehydrogenation is more favorable than CO2 splitting over the 5%Cr/Ce0.2Zr0.8O2 catalyst."
+</quotes>
+
+<English version answer>
+Answer: The article proposes that Cr3+ is the active site for propane dehydrogenation over the Cr/ZrO2 and Cr/Ce-ZrO2 catalysts studied, based on XPS and in-situ DRIFTS characterization. The reaction is proposed to follow a dehydrogenation mechanism, with propane adsorbing and producing propylene on the Cr3+ sites. No CO2 activation is observed.
+</English version answer>
+
+<Chinese version answer>
+答案:该文基于XPS和原位DRIFTS表征提出Cr3+是Cr/ZrO2和Cr/Ce-ZrO2催化剂上丙烷脱氢的活性位点。反应被提出遵循脱氢机理,丙烷吸附并在Cr3+位点上生成丙烯。没有观察到CO2活化。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not explore metal-support interfacial effects in the studied metal oxide catalysts for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答案:该文没有探索所研究的金属氧化物催化剂中金属-支持体界面的效应对丙烷脱氢的影响。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答案:该文没有评估任何像Pt, Pd或Ir这样的单金属负载催化剂用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+答案:该文没有研究金属颗粒大小、形状和支持体交互作用等性质如何影响负载金属催化剂的性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not propose mechanistic reaction pathways for propane dehydrogenation over any supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+答案:该文没有为任何负载金属催化剂上的丙烷脱氢提出机理反应途径。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+[1] "Currently, propylene is mainly produced by two industrial processes: steam cracking of naphtha/liquid petroleum gas and fluid catalytic cracking of heavy gas oils."
+
+[2] "Cr-based catalysts are among the most active catalysts for the CO2-assisted oxidative dehydrogenation reaction. (25,2830) However, poor catalyst stability remains the main obstacle for the practical implementation of the CO2-ODH process."
+
+[3] "Many heterogeneous catalysts based on redox-active metal oxides (i.e., chromium oxide, vanadium oxide, and iron oxide) and main group metal oxides (i.e., gallium oxide) have been investigated for oxidative dehydrogenation of propane." 
+
+[4] "Among the metal oxide catalysts, Cr-based catalysts have been reported to be among the most promising for the CO2-ODH reaction. For example, mesoporous silica (i.e., MCM-41)-supported metal oxides exhibit activity in the following order: Cr > Ga > Ni, V > Fe, Mn, and Co for CO2-ODH."
+
+[5] "In fact, CrOx is the key component of the industrial catalyst used in the CATOFIN process for direct dehydrogenation of propane to propylene."
+
+</quotes>
+
+<English version answer>
+
+1. The article evaluates Cr-based catalysts as promising metal oxide catalysts for propane dehydrogenation. It states that Cr-based catalysts are among the most active catalysts for CO2-ODH reaction, and CrOx is a key component in the industrial CATOFIN process. The article also provides data showing Cr-based catalysts supported on MCM-41 exhibit the highest activity compared to other metal oxides like Ga, Ni, V, Fe, Mn, and Co. However, poor stability remains an issue.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 这篇文章评估了Cr基催化剂作为丙烷脱氢的有前途的金属氧化物催化剂。它指出Cr基催化剂是CO2辅助氧化脱氢反应中最活跃的催化剂之一,而且CrOx是工业CATOFIN工艺中使用的关键组分。这篇文章还提供了数据,显示Cr基催化剂(载体为MCM-41)的活性优于其他金属氧化物,比如Ga、Ni、V、Fe、Mn和Co。但是,稳定性仍然是一个问题。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+2. The article does not specifically investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance. No examples or relationships are revealed regarding this.
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 这篇文章没有具体研究调节金属氧化物的氧化状态、氧迁移性和酸碱性如何影响丙烷脱氢性能。文中没有提供相关的例子或关系。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Comprehensive characterizations were conducted to understand the underlying reaction mechanism. The oxidation states of Cr for the fresh and spent 5%Cr/ZrO2 and 5%Cr/Ce0.2Zr0.8O2 catalysts were examined by X-ray photoelectron spectroscopy (Figure 5). Both Cr6+ and Cr3+ were present in the as-prepared catalysts, with a Cr6+/Cr3+ ratio of 2.45 and 1.75 for 5%Cr/ZrO2 and 5%Cr/Ce0.2Zr0.8O2 catalyst, respectively. After the CO2-ODH reaction, CrOx was reduced, and only Cr3+ was observed in both 5%Cr/ZrO2 and 5%Cr/Ce0.2Zr0.8O2 catalysts. This suggests that Cr3+ is the active site during the ODH reaction." 
+
+[2] "In situ DRIFTS study was carried out to provide insights on the CO2-ODH reaction pathway over the 5%Cr/Ce0.2Zr0.8O2 catalyst (Figure 8). The fresh catalyst was first pretreated at 650 C for 30 min in the presence of 10%O2, followed by cooling down to room temperature for propane adsorption. After propane adsorption, the catalyst was purged at room temperature for 20 min. Adsorption of propane is evidenced by peaks at 1378 and 1456 cm1, corresponding to CH bending. Interestingly, three peaks appear in the region of 15001700 cm1 (i.e., 1560, 1616, and 1675 cm1) due to CC stretching, suggesting the formation of surface-adsorbed propylene. Desorption of propylene was observed when the catalyst was heated above 200 C. When propane and CO2 were coadsorbed on the catalyst surface, both propane and propylene peaks were observed (Figure 8b). Desorption of propylene occurs at above 200 C, similar to the case of propane adsorption only. In the temperature range studied (i.e., 25400 C), no CO peak was observed. This suggests that propane dehydrogenation is more favorable than CO2 splitting over the 5%Cr/Ce0.2Zr0.8O2 catalyst. In fact, negligible CO2 chemisorption over the catalyst was observed based on the CO2-TPD study (Figure S5). Cr3+ as the active site is further supported by cyclic DRIFTS experiments in the presence of propane for two cycles without regeneration of the catalyst in-between (Figure S6)."
+
+</quotes>
+
+<English version answer>
+
+3. The article proposes a mechanistic scenario where propane dehydrogenation occurs over Cr3+ active sites. It provides evidence from XPS and DRIFTS showing that Cr3+ species are present and active for propane dehydrogenation after initial reduction of Cr6+, while CO2 activation is negligible. The DRIFTS study detects propane adsorption and subsequent propylene formation and desorption, supporting a dehydrogenation pathway over Cr3+ sites without redox participation of CO2.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 这篇文章提出了一个机理假设,丙烷在Cr3+活性位点上发生脱氢反应。XPS和DRIFTS的证据显示,在Cr6+最初被还原后,存在Cr3+物种并对丙烷脱氢活跃,而CO2的活化可以忽略不计。DRIFTS研究检测到丙烷吸附后随即生成丙烯并脱附,支持丙烷在Cr3+位点上发生直接脱氢路径,没有CO2的氧化还原参与。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+4. The article does not specifically explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation. No examples or insights into activity and selectivity modulation through metal-support interactions are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 这篇文章没有具体探讨金属氧化物催化剂中金属-载体界面效应对丙烷脱氢的影响。文中没有提供通过金属-载体相互作用调控活性和选择性的例子或见解。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+5. The article does not evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation. No data, characterizations or insights are provided regarding this.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 这篇文章没有评估任何Pt、Pd或Ir等单金属负载型催化剂用于丙烷脱氢。文中没有提供相关的数据、表征或见解。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+6. The article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts for propane dehydrogenation. No examples or structure-function relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer> 
+6. 这篇文章没有研究诸如金属颗粒大小、形状和载体相互作用等性质如何影响负载金属催化剂在丙烷脱氢反应中的表现。文中没有提供相关的例子或结构-性能关系。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+7. The article does not propose mechanistic reaction pathways for propane dehydrogenation over any supported metal catalysts. No steps, intermediates, or active sites are described.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 这篇文章没有为任何负载金属催化剂上的丙烷脱氢反应提出机理反应途径。没有描述步骤、中间体或活性位点。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答案:本文没有评估Cr2O3、Pt-Sn、Ga2O3等有前途的金属氧化物催化剂用于丙烷脱氢反应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance.
+</English version answer> 
+
+<Chinese version answer>
+答案:本文没有研究调节金属氧化物的氧化态、氧迁移性和酸碱性如何影响丙烷脱氢反应性能。
+</Chinese version answer>
+
+<quotes>
+[1] "Comprehensive characterizations identified that the as-prepared catalysts consist of both monomeric and polymeric CrOx species at 6+ and 3+ oxidation states."
+[2] "Under the reaction conditions, Cr6+ is easily reduced, and activity is maintained when the catalyst is pre-reduced (removing the Cr 6+), indicating that Cr3+ is the active site in CO2-ODH reactions."  
+[3] "An in situ DRIFTS study, coupled with DFT calculations, suggests that the reaction proceeds via a direct dehydrogenation pathway."
+</quotes>
+
+<English version answer>
+Answer: The article proposes that the CO2-ODH reaction over Cr/CexZr1-xO2 catalysts proceeds via a direct dehydrogenation pathway, where Cr3+ sites are identified as the active species. Cr6+ sites can be readily reduced to Cr3+ under reaction conditions.
+</English version answer>
+
+<Chinese version answer>  
+答案:本文提出CO2助氧脱氢反应在Cr/CexZr1-xO2催化剂上经由直接脱氢途径进行,其中Cr3+被认定为活性中心。Cr6+位点在反应条件下可以很容易地被还原为Cr3+。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: The article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答案:本文没有探究金属氧化物催化剂中金属-载体界面的效应对于丙烷脱氢反应的影响。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>  
+答案:本文没有评估Pt、Pd或Ir等载体化单金属催化剂用于丙烷脱氢反应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+答案:本文没有研究金属颗粒大小、形状以及载体效应等性质如何影响载体化金属催化剂的性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not propose mechanistic reaction pathways for propane dehydrogenation over any supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+答案:本文没有为任何载体化金属催化剂上的丙烷脱氢反应提出机理反应途径。
+</Chinese version answer>
+
+</Answer>
+

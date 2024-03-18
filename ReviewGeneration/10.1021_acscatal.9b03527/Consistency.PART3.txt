@@ -1,0 +1,23 @@
+ Here is the structured comparison of the answer files with the correct answers:
+
+```json
+{
+  "1": {"answer.PART3_2.txt": "100%", "answer.PART3_1.txt": "0%", "answer.PART3_3.txt": "100%", "answer.PART3_4.txt": "100%", "answer.PART3_0.txt": "0%"},
+  "2": {"answer.PART3_2.txt": "0%", "answer.PART3_1.txt": "100%", "answer.PART3_3.txt": "0%", "answer.PART3_4.txt": "0%", "answer.PART3_0.txt": "100%"},
+  "3": {"answer.PART3_2.txt": "100%", "answer.PART3_1.txt": "0%", "answer.PART3_3.txt": "100%", "answer.PART3_4.txt": "100%", "answer.PART3_0.txt": "100%"},
+  "4": {"answer.PART3_2.txt": "100%", "answer.PART3_1.txt": "100%", "answer.PART3_3.txt": "0%", "answer.PART3_4.txt": "100%", "answer.PART3_0.txt": "0%"},
+  "5": {"answer.PART3_2.txt": "100%", "answer.PART3_1.txt": "0%", "answer.PART3_3.txt": "100%", "answer.PART3_4.txt": "100%", "answer.PART3_0.txt": "100%"},
+  "6": {"answer.PART3_2.txt": "100%", "answer.PART3_1.txt": "0%", "answer.PART3_3.txt": "0%", "answer.PART3_4.txt": "100%", "answer.PART3_0.txt": "0%"},
+  "7": {"answer.PART3_2.txt": "100%", "answer.PART3_1.txt": "100%", "answer.PART3_3.txt": "100%", "answer.PART3_4.txt": "100%", "answer.PART3_0.txt": "100%"}
+}
+```
+
+To generate this, I first extracted the question number, English answer, and Chinese answer from each answer file. 
+
+I then compared the English and Chinese answers in each file to the corresponding correct English and Chinese answers from the provided Answer.txt file. 
+
+For each question, I calculated the consistency ratio by determining if the answers matched the correct answers. Matches were scored 100% and mismatches 0%.
+
+The consistency ratios were then structured into the JSON format with the question numbers as keys and the answer file names and ratios as values.
+
+Let me know if you have any other questions!

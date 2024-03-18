@@ -1,0 +1,190 @@
+I'm going to give you a scientific literature. Then I'm going to ask you some questions about it. I'd like you to first write down exact quotes of parts of the document word by word that would help answer the question, and then I'd like you to answer the question using facts from the quoted content. Do not omit any relevant information from the text, and avoid introducing any falsehoods or assumptions that aren't directly supported by the literature. Here is the literature, in <literature></literature> XML tags:
+
+<literature>
+
+
+Structure-Based Investigation on the Interaction of Perfluorinated Compounds with Human Liver Fatty Acid Binding Protein
+Abstract
+Perfluorinated compounds (PFCs) are known to accumulate in liver and induce hepatotoxicity on experimental animals. Liver fatty acid binding protein (L-FABP) is expressed highly in hepatocytes and binds fatty acids. PFCs may bind with FABP and change their ADME and toxicity profile. In the present study, the binding interaction of 17 structurally diverse PFCs with human L-FABP was investigated to assess their potential disruption effect on fatty acid binding. The binding affinity of twelve perfluorinated carboxylic acids (PFCAs), as determined by fluorescence displacement assay, increased significantly with their carbon number from 4 to 11, and decreased slightly when the number was over 11. The three perfluorinated sulfonic acids (PFSAs) displayed comparable affinity, but no binding was detected for the two fluorotelomer alcohols. Circular dichroism results showed that PFC binding induced distinctive structural changes of the protein. Molecular docking revealed that the driving forces for the binding of PFCs with FABP were predominantly hydrophobic and hydrogen-bonding interactions, and the binding geometry was dependent on both the size and rigidity of the PFCs. Based on the binding constant obtained in this work, the possibility of in vivo competitive displacement of fatty acids from FABP by PFCs was estimated.
+This publication is licensed under the terms of your institutional subscription. Request reuse permissions.
+Introduction
+ARTICLE SECTIONSJump To
+Perfluorinated compounds (PFCs) are a family of fluorine-containing chemicals with unique properties which render them many industrial and commercial applications. PFCs can be divided into five groups, namely perfluorinated sulfonic acids (PFSAs), perfluorinated carboxylic acids (PFCAs), fluorotelomer alcohols (FTOHs), high molecular weight fluoropolymers, and low molecular weight perfluoroalkanamides. Their widespread utilization combined with chemical stability has led to inevitable accumulation in the environment. PFCs have been found globally, in air, water, soil, and house dusts. (1) PFCs have also been found in the liver, fat, and serum of wildlife animals as well as in human serum, breast milk, and semen. (2-4) In May 2009, perfluorooctane sulfonate (PFOS) was added to the list of persistent organic pollutants of the Stockholm Convention. Due to their environmental persistence, bioaccumulation and biomagnification through the food web, (5) the risks of PFCs to human health are of great concern.
+The toxicity and human health effect of PFCs have been investigated in the past decade or so. Some epidemiological studies showed a positive association of perfluorooctanoic acid (PFOA) and PFOS exposure with elevated cholesterol and other lipids in both occupational workers and general populations. (6) Other epidemiological studies also revealed a positive relationship between PFOA and PFOS exposure and the concentrations of some liver enzymes. (7-9) Exposure of PFCs in the rat and nonhuman primate were found to reduce body weight and survival, increase liver weight, and induce adenomas of the liver. PFCs were found to induce hepatomegaly as well. (10, 11) Several studies also found depression of thyroid hormone levels in PFOS-exposed rats. (12, 13) Due to their structure similarity to fatty acids, early toxicological studies focused on the mechanisms involving ligand-dependent activation of the hepatic peroxisome proliferator receptor α (PPARα), which induces enzymes responsible for β-oxidation, fatty acid ω-oxidation, and cholesterol homeostasis. (14, 15) More recently, attention has been paid to the role of estrogenic activity of PFCs in their hepatocarcinogenesis due to the observation of increased liver cancer incidence by PFCs in PPARα knockout mice. Some PFCs were found to bind to estrogen receptors (ERs) and recruit coactivator peptides in vitro and induce ER-mediated transcriptions in cells. (16-19)
+The structural resemblance of PFCs to natural fatty acids has also raised concerns that PFCs may disrupt fatty acid binding with some important transport proteins in plasma. Studies assessing PFCs-protein interactions may also shed light on tissue distribution patterns, bioaccumulation, and in vivo bioavailability of these chemicals. Jones et al. reported that PFOS had a weak affinity for carp serum steroid binding proteins but bound strongly to bovine serum albumin. (20) Han et al. found that PFOA bound primarily to serum albumin in plasma. (21) Using site-specific fluorescence probes and equilibrium dialysis, the binding affinity of perfluoroalkyl acids with human serum albumin was found to be dependent on both the chemical structure and the binding site of the protein. (22, 23) In addition, the interaction of PFOS with thyroid hormone transport proteins was also observed. (24)
+Previous studies have shown that liver is the main target tissue of PFCs. (14) Liver fatty acid binding protein (L-FABP) is a lipid binding protein expressed highly in hepatocytes and coexpressed with other FABP-types in small intestines. (25) L-FABP binds to saturated, unsaturated, and branched long chain fatty acids as well as some nonfatty acid ligands. (26) Like serum albumins, this protein might also be the target of PFC binding in vivo. The binding interaction would have some impact on the ADME and toxicity profile of PFCs. However, to date there is only one report which demonstrated the interactions of PFOS and PFOA with rat L-FABP. (27) In the present work, we investigated the binding property of 17 PFCs with human L-FABP, as some studies showed that the biological processes and toxicity profile of PFCs in humans were very different from those in rats. (28) The selected PFCs are structurally diverse, with different carbon chain lengths (418 carbons) and functional groups (carboxylic acid, sulfonic acid, and alcohol), which would allow us to investigate the relationship between PFC structure and their FABP binding activity.
+Experimental Section
+ARTICLE SECTIONSJump To
+Chemicals
+Nitrobenzoxadiazole labeled lauric acid (NBD-lauric acid) was purchased from Molecular Probes (Eugene, OR, USA). Oleic acid (OA,  99%), palmitic acid (PLA,  99%), perfluorobutyric acid (PFBA, 98%), perfluoropentanoic acid (PFPA, 97%), perfluorohexanoic acid (PFHxA,  97%), perfluoroheptanoic acid (PFHpA, 99%), perfluorooctanoic acid (PFOA, 96%), perfluorononanoic acid (PFNA, 97%), perfluorodecanoic acid (PFDA, 98%), perfluoroundecanoic acid (PFUnA, 95%), perfluorododecanoic acid (PFDoA, 96%), perfluorotetradecanoic acid (PFTeDA, 97%), perfluorobutane sulfonate (PFBS, 97%), perfluorohexane sulfonate (PFHxS,  98.0%), perfluorooctane sulfonate (PFOS,  98.0%), and 6:2 and 8:2 FTOHs were purchased from Sigma-Aldrich (St. Louis, MO, USA). Perfluorohexadecanoic acid (PFHxDA, 95%) and perfluorooctadecanoic acid (PFOcDA, 97%) were purchased from Alfa Aesar (Ward Hill, MA, USA). All other chemicals were of analytical grade. The structures of the 17 PFCs are shown in Figure S1 of the Supporting Information.
+Protein Synthesis and Characterization
+hL-FABP was expressed as N-terminal His-tagged protein using a pET-28a vector (Novagen, Madison, WI, USA). The hL-FABP gene (NM_017399.4) was cloned between the NdeI and XhoI site. The recombinant protein was expressed in the BL21 (DE3) strain of E. coli and purified by Ni-NTA agarose resin matrix according to P. Cronet et al. (29) The purified protein was applied to a Sephadex G-75 column and eluted with Tris-HCl buffer (pH 8.0). The delipidation of hL-FABP was done as previously described. (30) The identity of the purified recombinant protein was confirmed by immunoblot analyses with a specific antibody. Protein concentration was determined by the BCA method.
+Direct Ligand Binding Assay
+Measurement of direct binding of the fluorescence probe NBD-lauric acid with hL-FABP was performed as described previously. (31) Briefly, increasing concentrations of NBD-lauric acid (02000 nM) were added from a concentrated stock solution into 100 nM hL-FABP in 400 μL of Tris-HCl buffer (pH 8.0). Fluorescence emission spectra were obtained using Horiba Fluoromax-4 spectrofluorimeter (Edison, NJ, USA) at room temperature with 466 nm excitation wavelength. Maximal emission intensity was measured after background correction with a NBD-lauric acid only sample. The dissociation constant (Kd) and the number of binding sites (n) were obtained from a reciprocal plot of 1/(1F/Fmax) and CL/F/Fmax, (31) where F represents fluorescence intensity at a given ligand concentration, Fmax is the maximal fluorescence obtained, and CL is the ligand concentration. The slope of the fitted line (b) is equal to 1/Kd, and the number of linear lines is equal to the number of binding sites (n). The binding curve was fitted to the Hill plot according to eq 1 to confirm the number of binding sites obtained above
+(1)
+where f and c correspond to the fluorescence and the ligand concentration at each point, Bmax is the maximal number of binding site, and n is the number of binding site.
+Ligand Displacement Assay
+These assays were carried out to investigate the binding interactions of PFCs with hL-FABP, using NBD-lauric acid as the fluorescence probe. In the experiment, stock solutions of PFCs were prepared in DMSO and stored in glass vials. Then, 1 μL of PFC of different concentrations was added into a mixture of 100 μL of hL-FABP (800 nM) and 100 μL of NBD-lauric acid (100 nM) in Tris-HCl buffer (pH 8.0) and incubated for 10 min at room temperature in a quartz cuvette before the fluorescence intensity at 525 nm was measured. The displacement of protein-bound probe was calculated from the decrease in fluorescence intensity with increasing concentrations of a PFC. The competition curves were fitted with a sigmoidal model (OriginLab, Northampton, MA, USA) to derive an IC50 value. The Kd value for each PFC was calculated according to eq 2
+(2)
+where Kd probe is the measured Kd for NBD-lauric acid obtained above in the direct binding assay, and [Probe]total is the total concentration of NBD-lauric acid.
+Circular Dichroism Spectroscopic Measurement
+Circular dichroism (CD) spectra of hL-FABP (1.0 μM in PBS) were taken in the absence and presence of a PFC on a JASCO J-815 spectropolarimeter (Tokyo, Japan) with a 10 mm path length quartz cuvette. Spectra were recorded from 195 to 260 nm with 1 nm bandwidth, 10 millidegree sensitivity, 50 nm/min scan rate, and 1 s time constant. Three scans were averaged for protein secondary structure analysis, which was performed with the JWSSE-513 program installed on the CD instrument. In the experiments where PFC in acetonitrile was titrated into a protein solution, the final content of the organic solvent was kept below 1% to minimize potential interference.
+Molecular Docking Analysis
+The 3D crystal structure of hL-FABP complexed with PLA was obtained from the Protein Data Bank (PBD ID: 3STM). (32) PLA and PFCs were docked to hL-FABP using the Lamarckian genetic algorithm provided by AutoDock 4.2 software (Scripps Research Institute, La Jolla, CA, USA). Grid boxes were centered at the core of 40 × 40 × 40 points. A spacing of 0.375 between the grid points was used. The empirical free energy function and Lamarckian genetic algorithm were used for docking with the following settings: a medium number of 2,500,000 energy evaluations, an initial population of 150 randomly placed individuals, a maximum number of 27,000 generations, a mutation rate of 0.02, a crossover rate of 0.8, and an elitism value (number of top individuals that automatically survive) of 1. For the local search, the so-called Solis and Wets algorithm was applied with a maximum of 300 iterations per search. Ten independent docking runs were carried out for each ligand.
+Results and Discussion
+ARTICLE SECTIONSJump To
+Protein Characterization
+hL-FABP was synthesized and purified as described in the Experimental Section. Homogeneity of the purified protein was confirmed by SDS-PAGE showing a dominant band with a molecular weight of approximately 16 kDa, and the purity was 98% estimated from the SDS-PAGE image (Figure S2a). Western blotting with rabbit anti-hL-FABP monoclonal antibody followed by goat antirabbit IgG-alkaline phosphatase conjugate was also performed, and a single band at 16 kDa was observed (Figure S2b). Both SDS-PAGE and Western blotting results confirmed the successful synthesis of high-purity hL-FABP.
+Binding of Fluorescence Probe with hL-FABP
+NBD-lauric acid, a fluorescent fatty acid analog with the NBD attached to the terminal (omega) carbon atom, provides a useful tool for studying the molecular interactions with proteins because its fluorescence is very sensitive to the hydrophobicity of its environment. (33) It has been employed to probe the ligand binding site of fatty acid and sterol carrier proteins such as rat L-FABP and sterol carrier protein-2 (SCP-2). (34) As can be seen in Figure 1a, NBD-lauric acid displayed a very weak fluorescence emission peak at 550 nm. After addition of hL-FABP, the peak wavelength blue-shifted to 525 nm, and its intensity increased significantly, indicating that the fluorescence probe bound to the hydrophobic pocket of the protein. To obtain binding parameters, a fixed amount of hL-FABP was titrated with increasing NBD-lauric acid concentrations. The fluorescence intensity at 525 nm, corrected for background (ligand only), was plotted as a function of the total ligand concentration, which demonstrated a saturable binding curve (Figure 1b). The linear reciprocal plot in Figure 1b inset yielded a Kd of 280  20 nM and suggested a single binding site (R2 > 0.95). This was confirmed by a Hill plot, which also yielded one NBD-lauric acid binding site (n = 1.12  0.04) for hL-FABP. A previous study has showed that NBD-lauric acid binds to rat L-FABP also at one binding site. (34) In addition, hL-FABP has a higher binding affinity for NBD-lauric acid compared with rat L-FABP, which has a Kd of 1.1 μM for NBD-lauric acid. (34) Higher binding affinity of hL-FABP for fatty acids (i.e., OA) than rat L-FABP has been reported. (35)
+Figure 1
+Figure 1. (a) Fluorescence emission spectra of 100 nM NBD-lauric acid titrated with increasing concentration of hL-FABP. Arrow indicates increasing hL-FABP concentrations (0, 50, 100, 200, 400, 800, 1200, 2000 nM). (b) Plot of maximal fluorescence emission (measured at 525 nm) for NBD-lauric acid in the presence of 100 nM of hL-FABP as a function of NBD-lauric acid concentration. Values represent the mean  S.E., n = 3. Inset is the linear plot of the binding curve for NBD-lauric acid.
+Assessment of PFCs Binding Affinity with hL-FABP
+After the dissociation constant of NBD-lauric acid with hL-FABP was obtained, it was used as a fluorescence probe in the ligand displacement assays to measure the binding affinity of PFCs with the protein. In the assay, the probe and protein were mixed at 1:8 molar ratio, and a PFC with a range of concentrations was then added. If the PFC competes with the probe for the protein binding site, it would displace the probe from the protein, leading to fluorescence reduction. From the resulting competition curve, an IC50 value is obtained, and Kd between the PFC and protein is calculated using eq 2.
+Both OA and PLA are the endogenous ligands of FABP and were used as positive control to validate the assay method. Figure 2a shows the fluorescence emission spectra change of NBD-lauric acid/hL-FABP mixture as OA was added. As OA concentration increased, more protein-bound fluorescence probe was displaced, leading to fluorescence signal reduction. The relative fluorescence intensity after adding different concentrations of OA was shown in Figure 2b. The IC50 of OA and PLA were 0.12  0.02 μM and 0.88  0.03 μM, respectively, and the calculated Kd for OA and PLA were 0.67  0.11 μM and 4.93  0.17 μM, respectively. L-FABP is capable of binding two long chain fatty acid molecules simultaneously and appears to undergo significant conformational change upon binding. (32, 36) The crystal structure of hL-FABP complexed with PLA indicates that the two fatty acid binding sites are not interconnected. The primary binding site is completely internalized and shows 20-fold higher affinity for fatty acids than the second one. (37) Previous studies found that OA bound to the primary binding site of hL-FABP with a Kd of 0.89  0.03 μM based on the radio-labeled competitive assay (35, 38) and 0.15  0.04 μM based on the fluorescent displacement assay using 1-anilino-8-naphthalenesulfonic acid (ANS) as the probe. (39) PLA was found to bind to the primary binding site with a Kd value of 4.02  0.11 μM using the radio-labeled competitive assay. (35, 38) The close agreement between our results and the reported Kd values suggest that the fluorescence probe NBD-lauric acid binds to the primary binding site of the protein and can be displaced by OA and PLA.
+Figure 2
+Figure 2. (a) Fluorescence emission spectra of 50 nM NBD-lauric acid in 400 nM hL-FABP with addition of OA. Arrow indicates increasing OA concentrations (2.7, 8.2, 24.7, 74, 222, 667, 2000, and 6000 nM). (b) Relative fluorescence intensity of 50 nM NBD-lauric acid in 400 nM hL-FABP as a function of added OA concentrations.
+After the fluorescence displacement method was established and validated, the binding interaction of 17 PFCs with hL-FABP was investigated. The tested chemicals include twelve perfluorinated carboxylic acids (PFCAs) with carbon numbers ranging from 4 to 18, three perfluorinated sulfonic acids (PFSAs) with carbon numbers of 48, and two FTOHs (8 and 10 carbons). The displacement curves for all the PFCs are shown in Figure S3 of the Supporting Information. The IC50 and Kd values of the PFCs were obtained as described above and are listed in Table 1. The structural variation of the PFCs allowed for the investigation on the relationship between PFC binding affinity and its structural characteristics. As can be seen from Table 1 and Figure S4, the binding affinity of PFCAs increased significantly with the carbon number from 4 to 11. PFUnA has the highest binding affinity with hL-FABP with a Kd of 10.6  1.2 μM, which is about twice the value for PLA. A similar trend was also observed for the three short chain PFSAs (PFBS, PFHxS, and PFOS). This suggests that the hydrophobic interactions between the carbon chains of PFCs and amino acid residues in the binding pocket of FABP contribute significantly to the stabilization of PFC/protein complex. The two fluorotelomer alcohols, 8:2 FTOH and 6:2 FTOH, had no measurable affinity for FABP. Comparing the three types of PFCs with similar chain length, i.e. PFOS, PFNA, and 6:2 FTOH, we find that PFOS and PFNA displayed significantly higher binding affinity than FTOH, suggesting important roles of hydrogen bonding and ionic interactions in PFC binding to FABP. When the carbon number of PFCAs exceeded 11, the binding affinity decreased. The reason for this change will be explored below.
+Table 1. IC50 Value and Dissociation Constant (Kd) of OA, PLA, and 17 PFCs with hL-FABP Obtained from the Fluorescence Displacement Measurement
+chemicalsmolecular formulaIC50 (μM)Kd (μM)
+OACH3(CH2)7CHCH(CH2)7COOH0.88  0.034.93  0.17
+PLACH3(CH2)14COOH0.12  0.020.67  0.11
+PFBACF3(CF2)2COOHNDaNDa
+PFPACF3(CF2)3COOHNDaNDa
+PFHxACF3(CF2)4COOHNDaNDa
+PFHpACF3(CF2)5COOH60.0  7.2336.0  40.3
+PFOACF3(CF2)6COOH9.0  0.750.4  4.0
+PFNACF3(CF2)7COOH2.9  0.116.2  0.6
+PFDACF3(CF2)8COOH2.3  0.112.9  0.6
+PFUnACF3(CF2)9COOH1.9  0.210.6  1.2
+PFDoACF3(CF2)10COOH2.2  0.112.3  0.7
+PFTeDACF3(CF2)12COOH10.8  1.260.5  6.7
+PFHxDACF3(CF2)14COOH20.6  1.4115.4  7.8
+PFOcDACF3(CF2)16COOH11.1  0.962.2  5.2
+PFBSCF3(CF2)3 SO3H185  201034  110
+PFHxSCF3(CF2)5SO3H15.3  2.185.7  11.8
+PFOSCF3(CF2)7SO3H3.3  0.118.5  0.6
+6:2 FTOHCF3(CF2)5CH2CH2OHNDaNDa
+8:2 FTOHCF3(CF2)7CH2CH2OHNDaNDa
+aND: not detected.
+CD Spectroscopic Study on PFC Binding with FABP
+Previous spectroscopic studies revealed that the secondary structure of hL-FABP was changed when the protein was bound to fatty acids. (32, 36) To further investigate the binding interactions of PFCs with FABP, the secondary structure of the protein before and after addition of PFCs was examined. The CD spectrum of FABP itself exhibited a minimum at 220 nm and a maximum at 196 nm (Figure 3), consistent with the presence of α-helical and β-sheet components. The secondary structure was analyzed using Yangs method, (40) and the analysis revealed that hL-FABP was composed of 4.2% α-helices, 63.8% β-sheets, 15.4% β-turns, and 16.6% random coils. With addition of PFCs, CD spectral change was different depending on the type of the chemical. For PFBA, no measurable change in CD spectrum was observed. For PFOA, the signal at 196 nm decreased slightly, while no substantial change at 220 nm. For PFOS, both minimum and maximum CD became lower after PFOS addition, and the wavelength of the minimum shifted to 215 nm. The most dramatic change was observed for PFDA, in which the wavelength of the minimum shifted to 210 nm. The degree of CD spectral change is in the order of PFDA > PFOS > PFOA > PFBA, which is the same as their binding affinity with hL-FABP. The CD spectra of FABP with other PFCs are illustrated in Figure S5, and the secondary structure components are listed in Table S1 of the Supporting Information. Based on Table S1, the percentages of α-helices and random coils initially increased with PFCA chain length up to 11 carbons and then decreased slightly. No such trend was observed for the β-sheets and β-turns. In addition, while the secondary structure composition is very similar with PFNA and PFOS binding, that of 6:2 FTOH is noticeably different. The CD results indicate that many PFCs interact with hL-FABP and result in changes in the protein secondary structure to various degrees depending on their chain length and head groups.
+Figure 3
+Figure 3. CD spectra of 1 μM hL-FABP with addition of (a) PFBA, (b) PFOA, (c) PFOS, and (d) PFDA. Arrow indicates increasing PFC concentrations (0, 100, 200, 400 μM).
+Molecular Docking Analysis
+In order to further understand and characterize the interaction of PFCs with hL-FABP, the ligand/protein complexes were modeled by molecular docking. PLA was first docked to hL-FABP using Autodock software. The result revealed that PLA is bound in a U shaped conformation in the ligand binding cavity of the protein. Its acyl chain is accommodated in a hydrophobic channel formed by Phe 50, Ile 52, Ile 59, Phe 63, Leu 71, and Phe 95 (Figure 4a). Hydrogen bonding interactions were present between the PLA headgroup and the side chains of Ser 39 and Arg 122. These modeling results are in good agreement with the crystallographic structure, (32) although calculations of electrostatic interactions are not performed by the docking software.
+Figure 4
+Figure 4. Graphs for the docked complexes between hL-FABP and (a) PLA, (b) PFOA, (c) PFOS, and (d) PFOcDA. The ligands are colored by atom type (carbon in gray, oxygen in red, sulfur in yellow, and fluorine in green), and the relevant amino acid residues of hL-FABP are colored in blue. Hydrogen bonds are represented by dotted green lines between the donor and protein.
+Using the same docking parameters, the 17 PFCs were docked with hL-FABP. For each compound, ten independent docking runs were carried out, and the one with the lowest binding energy was selected for analysis. All the PFCs were found to bind to FABP at the fatty acid binding cavity in a geometry very similar to PLA, i.e., the charged headgroup of a PFC interacting with the Arg and Ser residues and the hydrophobic tail contacting the nonpolar residues of the cavity. For the short-chain PFCs, the tail is fully extended inside the cavity, making maximum hydrophobic contact with the surrounding amino acid residues. This explains why their binding affinity with FABP increases with carbon number within a certain range. Comparison among PFSAs, PFCAs, and FTOHs revealed that three hydrogen bonds were formed between the sulfonate group and Arg 122, Ser 39, and Ser 124, two hydrogen bonds between the carboxyl group and Arg 122 and Ser 39, and no hydrogen bonds for FTOHs. The number of hydrogen bonds may account for the difference in protein binding affinity among the three types of PFCs with similar chain length.
+Based on the crystal structure of rat L-FABP, the ligand binding cavity is essentially a flattened rectangular box with dimensions of approximately 13 × 9 × 4 Å (volume 430 Å3). (30) There are no reported dimensions for hL-FABP, but we assume they are similar to rat L-FABP. As can be seen in Table 2, the cavity volume is large enough to accommodate every PFC. The molecular length of PFCs with carbon number 11 is no more than the length of the binding cavity in FABP. Therefore, they can fit into the binding cavity in a fully stretched state. However, when the carbon number exceeds 11, the length of PFCs is over 13 Å, so the fluorocarbon tails would have to bend over to fit the cavity. As shown in Figure 4d, to stay inside the binding cavity and form one hydrogen bond with Ser 39, PFOcDA must bend to a U-shape conformation. However, the van der Waals radius of fluorine is larger than that of hydrogen. (41) In addition, fluorine is much more electronegative than hydrogen. These factors make the fluorocarbon chain substantially more rigid than the hydrocarbon chain. As a result, unlike fatty acids such as OA and PLA which can easily form a U shape, the rigid fluorocarbon tail needs more energy to bend. This may explain why the binding affinity to hL-FABP decreased when the PFC carbon number is more than 11.
+Table 2. Molecular Length, Connolly Solvent-Excluded Volume (CSEV), Connolly Molecular Area (CMA), and Docking Interactions of the Selected Ligands with hL-FABPa
+chemicalslength (Å)CSEV (Å3)CMA (Å2)H-bonding interaction
+PLA18.73292.9337.6Arg 122, Ser 39
+PFBA6.02102.7124.0Arg 122, Ser 39
+PFHxA7.94151.1162.6Arg 122, Ser 39
+PFHpA8.96175.0184.2Arg 122, Ser 39
+PFOA9.64198.9201.4Arg 122, Ser 39
+PFNA11.77222.7220.6Arg 122, Ser 39
+PFDA12.66246.2248.6Arg 122, Ser 39
+PFUnA13.07270.8265.9Arg 122, Ser 39
+PFDoA14.08294.6281.3Ser 39
+PFTeDA17.15342.2317.9Ser 39
+PFHxDA19.87389.7362.2Ser 39
+PFOcDA20.98399.8360.9Ser 39
+PFBS7.15142.2155.6Arg 122, Ser 39, Arg 124
+PFHxS10.11189.6197.4Arg 122, Ser 39, Arg 124
+PFOS11.98237.7233.2Arg 122, Ser 39, Arg 124
+6:2 FTOH12.27195.1202.1 
+8:2 FTOH13.37242.9241.0 
+aThe CSEV and CMA were calculated using ChemBioOffice 2010, and the molecular length was measured using Autodock 4.2.
+Biological and Toxicological Implications
+FABP is a high-abundance protein in liver, accounting for 2%5% of cytosolic proteins and reaching 0.10.4 mM concentrations. One of the most important functions of L-FABP is to uptake and transport fatty acids. (42) With the Kd values of the 17 PFCs obtained in this study, we are now in a position to evaluate, quantitatively, the competitive displacement of fatty acids by PFCs from the protein. Using a simplified approach we can estimate the concentration of PFCs bound to hL-FABP, based on the following equations
+(3)
+(4)
+(5)
+In the equations, [PFC-P] is the concentration of protein-bound PFC, [PFC] is the concentration of unbound PFC, [PFC]t is the total concentration of PFC, [P] is the concentration of free protein, [P]t is the total concentration of protein, and Kb the equilibrium association constant (1/Kd) of PFC with the protein.
+Total fatty acid concentration in human liver is about 510 μM; (43) therefore, total PLA and OA is about 139 μM (27.2% of total fatty acids) and 136 μM (about 26.6% of total fatty acids), respectively. (44) The two most commonly present PFCs are PFOS and PFOA, the concentration of which is in the range of 4.557.0 ng/g (9114 nM) and 3.1 ng/g (7.5 nM) in the human liver of general population, respectively. (45, 46) Serum PFOS and PFOA levels in occupationally exposed workers ranged from 0.06 to 10.1 μg/mL and from 0.04 to 12.7 μg/mL, respectively. (47) According to the liver to blood ratio given in the literature, (46) the liver concentrations of PFOS and PFOA are then calculated to be in the range of 0.3354.3 μM and 0.1031.7 μM. Using these values and eqs 35, the concentrations of protein-bound PLA, OA, PFOS, and PFOA are calculated and listed in Table 3. The calculation shows that, for the general population, protein-bound concentration is between 8.2 and 104.3 nM for PFOS and 6.0 nM for PFOA. These concentrations are at least 3 orders of magnitude lower than that of PLA and OA. Therefore, the competitive displacement of fatty acids by PFCs would be insignificant. However, for occupationally exposed workers, protein-bound PFOS and PFOA would reach a range of 0.348.4 μM and 0.124.6 μM, respectively. This suggests as much as about 38% and 20% fatty acids would be displaced by PFOS and PFOA, respectively. Nevertheless, it has been reported that PFCs in liver tissues may bind to phospholipid membranes or other intracellular proteins, (48) thus reducing the amount of PFCs for FABP binding. Therefore, the fraction of PFCs bound to FABP in our calculation could be overestimated.
+Table 3. Calculated Concentrations of OA, PLA, PFOA, and PFOS Bound to hL-FABPa
+chemicaltotal concnprotein-bound concn
+PLA138.7 μM130.0 μM
+OA135.7 μM134.5 μM
+PFOSb9114 nM8.2104.3 nM
+PFOSc0.3354.3 μM0.348.4 μM
+PFOAb7.5 nM6.0 nM
+PFOAc0.131.7 μM0.124.6 μM
+aAll the data are evaluated from the primary binding site.
+bGeneral population.
+cOccupationally exposed workers.
+The implications of such competitive displacement are at least two-fold. Since FABP is a transport protein, displacement would impair the uptake and transport of fatty acids while at the same time change the bioavailability and biotransformation of PFCs in vivo. It has been shown that L-FABP interacts with PPARα and PPARγ, (49, 50) suggesting that the protein may deliver ligands directly to the receptors. PPARs are crucial nuclear receptors modulating the transcription of a variety of genes involved in fatty acid oxidation and cell differentiation. (51) Abnormal PPAR activation contributes to lipotoxicity associated with obesity, insulin resistance, Type 2 diabetes, and hyperlipidemia. (52) Both PPARα and PPARγ are activated by endogenous unsaturated long-chain fatty acids, and PPARγ can also be activated by saturated medium- and long-chain fatty acids. (30, 53) Experimental evidence showed that PFOS and PFOA also activated PPARα. Thus, L-FABP may act as a carrier to deliver PFCs to PPARs, and the displacement of endogenous fatty acids from the protein would result in the disruption of PPAR pathways. Admittedly, these calculations are based on our in vitro experimental data and, therefore, cannot be directly extrapolated to in vivo conditions.
+To conclude, the binding interaction of 17 PFCs with hL-FABP was investigated by fluorescence displacement assay, CD spectroscopy, and molecular docking analysis. The dissociation constant with the protein was obtained for the first time, with PFUnA possessing the highest affinity. The binding strength was found to be dependent on the length of the PFC fluorocarbon tail and the polar headgroup. This dependence can be rationalized by the binding mode of the PFCs inside the proteins ligand-binding cavity, as revealed by molecular docking analysis. Based on our calculation, the potential disruption on the uptake and transport of fatty acids cannot be ignored.
+
+
+</literature>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+
+</questions>
+
+First, you need to sequentially extract any quotes in the literature that are most relevant to each question, and print them in numbered order, separated by newlines. Quotes should be relatively brief. Do not attempt to summarize or answer questions at this stage, but simply repeat exactly what the corresponding part of the literature says.
+
+Please enclose the full list of quotes in <quotes></quotes> XML tags. If there are no relevant quotes, write "No relevant quotes" instead.
+
+Then, answer the question, starting with "Answer:".  Do not include or reference quoted content verbatim in the answer. Don't say "According to Quote [1]" when answering. Do not write reference number of quotes after answer. Put your answer to the user inside <answer></answer> XML tags. Output formatted text, with line breaks for each question.Separate quotes and answers with a blank line. Provide the answers to all questions in English. After completing the English answers, translate all those answers into Chinese and provide the Chinese version.
+
+Thus, the format of your overall response should look like what's shown between the <example></example> tags.  Make sure to follow the formatting and spacing exactly.
+
+<example>
+
+<quotes>
+
+[1] "Company X reported revenue of $12 million in 2021."
+
+</quotes>
+
+<English version answer>
+
+1.Company X earned $12 million in 2021.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.X公司在2021年赚了1200万美元。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Almost 90% of revenue came from widget sales, with gadget sales making up the remaining 10%."
+
+</quotes>
+
+<English version answer>
+
+2.Almost 90% of it came from widget sales.
+
+</English version answer>
+
+<Chinese version answer>
+
+2.几乎90%的收入来自小部件销售。
+
+</Chinese version answer>
+
+</example>
+
+
+If the question cannot be answered by the document, say so.If deemed necessary, the answer to the question can be extended entirely from the content of the document.
+
+Answer all of the questions immediately without preamble. 

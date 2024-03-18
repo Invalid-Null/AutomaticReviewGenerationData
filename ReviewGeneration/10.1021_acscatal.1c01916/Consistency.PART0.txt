@@ -1,0 +1,57 @@
+ Here is the comparison of the answer files to the correct answers:
+
+```json
+{
+  "1": {
+    "answer.PART0_0.txt": "100%", 
+    "answer.PART0_1.txt": "100%",
+    "answer.PART0_2.txt": "100%",
+    "answer.PART0_3.txt": "100%", 
+    "answer.PART0_4.txt": "100%"
+  },
+  "2": {
+    "answer.PART0_0.txt": "100%",
+    "answer.PART0_1.txt": "0%", 
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "0%"
+  },
+  "3": {
+    "answer.PART0_0.txt": "0%",
+    "answer.PART0_1.txt": "100%",
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "0%"
+  },  
+  "4": {
+    "answer.PART0_0.txt": "100%",
+    "answer.PART0_1.txt": "0%",
+    "answer.PART0_2.txt": "0%", 
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "0%"
+  },
+  "5": {
+    "answer.PART0_0.txt": "100%",
+    "answer.PART0_1.txt": "0%",
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%", 
+    "answer.PART0_4.txt": "50%" 
+  },
+  "6": {
+    "answer.PART0_0.txt": "100%",
+    "answer.PART0_1.txt": "0%",
+    "answer.PART0_2.txt": "0%",
+    "answer.PART0_3.txt": "0%",
+    "answer.PART0_4.txt": "0%"
+  },
+  "7": {
+    "answer.PART0_0.txt": "100%",
+    "answer.PART0_1.txt": "100%",
+    "answer.PART0_2.txt": "100%",
+    "answer.PART0_3.txt": "100%",
+    "answer.PART0_4.txt": "100%"
+  }
+}
+```
+
+To generate this, I compared each answer file's English response for each question to the correct English answer provided. I calculated a consistency percentage based on the content overlapping between the two answers. 100% indicates the answers contained the same relevant information, while 0% indicates completely inconsistent or missing information. For question 5, answer.PART0_4.txt had some but not all of the key details from the correct answer, so I assigned it 50% consistency.

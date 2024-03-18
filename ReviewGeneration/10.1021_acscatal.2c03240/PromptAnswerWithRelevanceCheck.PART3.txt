@@ -1,0 +1,627 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+22. Does the article describe techniques for synthesizing isolated single sites in zeolitic supports? What specific methods and examples are discussed?
+
+23. Does the article evaluate metal encapsulation in zeolite supports for enhancing propane dehydrogenation catalyst stability? What specific examples, data, and insights are provided?
+
+24. Does the article investigate catalyst preparation methods aimed at optimizing active phase dispersion? What specific techniques and examples are discussed?
+
+25. Does the article utilize any in-situ characterization techniques to study working propane dehydrogenation catalysts? What specific examples, data, and insights are revealed?
+
+26. Does the article employ advanced microscopy techniques to characterize metal-support interfaces in propane dehydrogenation catalysts? What specific examples and insights are provided?
+
+27. Does the article use X-ray based techniques to probe oxidation state changes during propane dehydrogenation catalysis? What specific examples, data, and insights are revealed?
+
+28. Does the article evaluate different reactor types like fixed beds, fluidized beds, or membrane reactors for propane dehydrogenation? What specific examples, data, and insights are provided?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. The article does not describe techniques for synthesizing isolated single sites in zeolitic supports. It focuses solely on alumina supports.
+</English version answer>
+
+<Chinese version answer>
+1. 该文章没有描述在分子筛支持体上合成隔离的单点位的技术。它仅关注氧化铝支持体。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+2. The article does not evaluate metal encapsulation in zeolite supports for enhancing propane dehydrogenation catalyst stability. It only studies alumina supports.
+</English version answer>
+
+<Chinese version answer>
+2. 该文章没有评估在分子筛支持体中金属封装以提高丙烷脱氢催化剂稳定性。它仅研究氧化铝支持体。
+</Chinese version answer>
+
+<quotes>
+[1] "Nickel nitrate hexahydrate (99.5%), sodium hydroxide (98%), and ammonium hydroxide (25 wt % NH3) were purchased from Shanghai Aladdin Biochemical Technology Co., Ltd. Boehmite was purchased from Qingdao Haiyang Chemical Co., Ltd. and calcined at 650 C for 4 h to make Al2O3 support."
+
+[2] "The XRD patterns of the alumina support and alumina-supported nickel catalysts prepared from different methods are illustrated in Figure 1A." 
+
+[3] "Comparing the spectrum of alumina support with those of Ni-based catalysts, we can find that the loading of nickel does not change the overall structure of the alumina."
+
+</quotes>
+
+<English version answer>
+3. Yes, the article investigates catalyst preparation methods aimed at optimizing active phase dispersion. It compares two methods for loading nickel onto alumina supports - deposition precipitation (DP) and incipient wetness impregnation (IWI). The IWI method using ammonium hydroxide is shown to yield isolated Ni(II) single sites, while DP produces Ni nanoparticles. 
+</English version answer>
+
+<Chinese version answer>
+3. 是的,该文探讨了旨在优化活性相分散的催化剂制备方法。它比较了两种在氧化铝载体上负载镍的方法——沉淀法(DP)和起始湿法浸渍(IWI)。使用氨水的IWI方法得到了隔离的Ni(II)单点位,而DP产生了镍纳米粒子。
+</Chinese version answer>
+
+<quotes>
+[1] "The Ni K-edge XAS spectra were collected in transmission mode using three ion chambers which allowed simultaneous measurement of the samples and a Ni foil reference."
+
+[2] "Scans were also collected for the Ni1/Al2O3 catalyst after treatments in 3% C3H8/He at 580 C for 1 h and 20% O2/He at 600 C for 1 h."
+
+[3] "The Ni1/Al2O3 catalyst after 1 h treatment in 3% H2 at 600 C, 1 h treatment in 3% C3H8 at 580 C, and 1 h treatment in 20% O2 at 600 C is qualitatively identical irrespective of gas treatment as illustrated by the R space and k-space EXAFS spectra (Figures 6A and S14)."
+</quotes>
+
+<English version answer>  
+4. Yes, the article utilizes in-situ X-ray absorption spectroscopy (XAS) to study the propane dehydrogenation catalysts under reaction and regeneration conditions. It collects XAS data on the Ni1/Al2O3 catalyst after treatments in H2, C3H8, and O2 environments at elevated temperatures. This reveals that the isolated Ni(II) sites retain their local structure and oxidation state throughout the reaction-regeneration cycle.
+</English version answer>
+
+<Chinese version answer>
+4. 是的,该文利用在原位X射线吸收光谱(XAS)技术研究反应和再生条件下的丙烷脱氢催化剂。它在提高的温度下,在H2、C3H8和O2环境中对Ni1/Al2O3催化剂收集XAS数据。这揭示了隔离的Ni(II)位点在整个反应-再生循环中保持其局部结构和氧化态。
+</Chinese version answer>
+
+<quotes>
+[1] "The size of nickel particles and elemental distribution of Ni were analyzed using JEOL-2100F TEM at an acceleration voltage of 200 keV." 
+
+[2] "The high-angle angular dark-field scanning transmission electron microscopy (HAADF-STEM) images of Ni atoms were obtained using Titan Cubed Themis G2300."
+
+[3] "By increasing the magnification, exclusively isolated Ni atoms uniformly dispersed on the alumina surface as bright dots are observed in HAADF-STEM image, as shown in Figure 1C6."
+</quotes>
+
+<English version answer>
+5. Yes, the article employs high-angle angular dark field scanning transmission electron microscopy (HAADF-STEM) to characterize the metal-support interface. It reveals isolated Ni atoms uniformly dispersed on the alumina surface in the Ni1/Al2O3 sample prepared by incipient wetness impregnation. 
+</English version answer>
+
+<Chinese version answer>
+5. 是的,该文采用了高角暗场扫描穿透电子显微镜(HAADF-STEM)来表征金属-支撑体界面。它揭示了在用起始湿法浸渍制备的Ni1/Al2O3样品中,均匀分散在氧化铝表面的隔离Ni原子。
+</Chinese version answer>
+
+<quotes>
+[1] "XAS characterization was employed to reveal the chemical environment of different nickel species. Figure 2 shows the X-ray absorption near edge structure (XANES) and the X-ray absorption fine structure (EXAFS) spectra for the two alumina-supported nickel catalysts as well as Ni foil (Ni0) and NiO (Ni2+) references."
+
+[2] "The XANES spectrum of Nin/Al2O3 shows a similar edge energy (8332.6 eV) to a Ni foil (Table 1), but the white line intensity is higher due to a small proportion of the Ni remaining oxidized." 
+
+[3] "The XANES of the Ni1/Al2O3 sample is similar to that of the NiO (Ni2+) reference, including the pre-edge feature near 8333 eV, as highlighted in the inset of Figure 2A."
+</quotes>
+
+<English version answer>
+6. Yes, the article uses X-ray absorption spectroscopy (XAS) to probe the oxidation state changes of nickel species during propane dehydrogenation. The XANES spectra reveal that the Ni1/Al2O3 sample prepared by incipient wetness impregnation retains an oxidation state of +2 before and after reaction, while the Ni/Al2O3 sample prepared by deposition precipitation contains metallic Ni nanoparticles.
+</English version answer>
+
+<Chinese version answer> 
+6. 是的,该文使用X射线吸收光谱(XAS)技术探测丙烷脱氢过程中镍物种的氧化态变化。XANES谱揭示,用起始湿法浸渍制备的Ni1/Al2O3样品在反应前后保持+2氧化态,而用沉淀法制备的Ni/Al2O3包含了金属镍纳米粒子。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. The article does not evaluate different reactor types like fixed beds, fluidized beds, or membrane reactors for propane dehydrogenation. It only studies catalyst performance in a fixed bed reactor.
+</English version answer>
+
+<Chinese version answer>
+7. 该文没有评估固定床、流化床或膜反应器等不同反应�类型用于丙烷脱氢。它仅研究了固定床反应器中的催化剂性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+8. The article does not describe techniques for synthesizing isolated single sites in zeolitic supports. It focuses solely on alumina supports.
+</English version answer>
+
+<Chinese version answer>
+8. 该文章没有描述在分子筛支持体上合成隔离的单点位的技术。它仅关注氧化铝支持体。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not describe techniques for synthesizing isolated single sites in zeolitic supports. It focuses on alumina supports.
+</English version answer>
+
+<Chinese version answer>
+答:不,本文没有描述在分子筛载体上合成隔离单点位的技术。文中主要关注氧化铝载体。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+Answer: No, the article does not evaluate metal encapsulation in zeolite supports for enhancing propane dehydrogenation catalyst stability. It focuses only on alumina supports.
+</English version answer>
+
+<Chinese version answer>
+答:不,本文没有评估在分子筛载体中的金属包覆以提高丙烷脱氢催化剂稳定性。文中仅关注氧化铝载体。
+</Chinese version answer>
+
+<quotes>
+[1] "In this work, γ-Al2O3 supported nickel catalysts, Nin/Al2O3 and Ni1/Al2O3, were prepared using DP and incipient wetness impregnation (IWI) methods, respectively."
+
+[2] "The absence of diffraction signals of Ni species on both catalysts suggests high dispersion of nickel on the γ-Al2O3 support."
+
+[3] "Comparing the spectrum of alumina support with those of Ni-based catalysts, we can find that the loading of nickel does not change the overall structure of the alumina."
+
+[4] "The Ni1/Al2O3 catalyst exhibits entirely different catalyst performance." 
+
+[5] "This study on Ni-based catalysts provides insights into the nature of robust Ni sites for propane dehydrogenation and demonstrates that unsaturated Ni(II) single site catalysts can serve as a promising substitute of noble Pt catalysts for PDH."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article investigates catalyst preparation methods aimed at optimizing active phase dispersion. It prepares Ni/Al2O3 catalysts using different methods like deposition precipitation (DP) and incipient wetness impregnation (IWI) to achieve high nickel dispersion on the alumina support. The Ni1/Al2O3 single atom catalyst prepared by IWI shows high performance and stability for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:是的,本文研究了旨在优化活性相分散的催化剂制备方法。它使用不同的方法比如沉淀沉积和原位湿浸来实现镍在氧化铝载体上的高分散。通过原位湿浸制备的Ni1/Al2O3单原子催化剂在丙烷脱氢反应中表现出高性能和稳定性。
+</Chinese version answer>
+
+<quotes>
+[1] "In situ XAS experiments of the Ni1/Al2O3 catalyst during the reaction-regeneration process were conducted to reveal the specific changes of the Ni1/Al2O3 catalyst."
+
+[2] "The first-shell EXAFS fitting results are given in Table 1, showing a NiO coordination number of either 4.3 or 4.4 at a bond distance of 2.00 or 2.01 Å for all of the treatments." 
+
+[3] "Regardless of gas treatment, the nature of the Ni sites remains constant for the Ni1/Al2O3 sample. This suggests that the atomically dispersed Ni2+ sites retain their local structure and no reduction or aggregation occurs over reaction-regeneration cycles, explaining the high stability of the Ni1/Al2O3 catalyst for PDH."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article utilizes in-situ X-ray absorption spectroscopy (XAS) to study working propane dehydrogenation catalysts. It conducts in-situ XAS experiments on the Ni1/Al2O3 catalyst during reaction and regeneration cycles. The results reveal that the local structure and oxidation state of the atomically dispersed Ni2+ sites remain constant over cycles, explaining the high stability of this single atom catalyst.
+</English version answer>
+
+<Chinese version answer>
+答:是的,本文利用了原位X射线吸收光谱技术来研究工作状态下的丙烷脱氢催化剂。在Ni1/Al2O3催化剂的反应和再生循环过程中进行了原位XAS实验。结果揭示了原子态Ni2+位点的局部结构和氧化态在循环过程中保持不变,这解释了该单原子催化剂的高稳定性。
+</Chinese version answer>
+
+<quotes>
+[1] "The atomic-scale structure of the Ni species was further characterized by STEM analysis (Figure 1C). For the Nin/Al2O3 catalyst, the formation of Ni NPs with a clear crystalline structure is observed, and the average size of the Ni NPs is 4.5 nm (Figure 1C1C3)." 
+
+[2] "On the contrary, no obvious Ni aggregation on the Ni1/Al2O3 catalyst was detected in both the STEM image and the corresponding energy-dispersive X-ray spectroscopy (EDX) maps (C4 and C5)."
+
+[3] "By increasing the magnification, exclusively isolated Ni atoms uniformly dispersed on the alumina surface as bright dots are observed in HAADF-STEM image, as shown in Figure 1C6."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article employs advanced microscopy techniques like STEM and HAADF-STEM to characterize metal-support interfaces in propane dehydrogenation catalysts. It uses these techniques to reveal Ni nanoparticle formation vs isolated Ni atoms uniformly dispersed on the alumina surface for the different Ni/Al2O3 catalysts.
+</English version answer> 
+
+<Chinese version answer>
+答:是的,本文采用了STEM和HAADF-STEM等先进的显微技术来表征丙烷脱氢催化剂中的金属-载体界面。这些技术揭示了不同Ni/Al2O3催化剂上Ni纳米颗粒的形成与均匀分散在氧化铝表面的隔离Ni原子之间的区别。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate different reactor types like fixed beds, fluidized beds, or membrane reactors for propane dehydrogenation. It only evaluates the catalyst performance in a fixed bed reactor.
+</English version answer>
+
+<Chinese version answer> 
+答:不,本文没有评估固定床、流化床或膜反应器等不同反应器用于丙烷脱氢反应。文中仅在固定床反应器中评估了催化剂性能。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+1. No, the article does not describe techniques for synthesizing isolated single sites in zeolitic supports. It focuses on alumina supports.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 这篇文章没有描述在分子筛支撑体上合成隔离的单点位的技术。它聚焦在氧化铝支撑体上。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer> 
+
+2. No, the article does not evaluate metal encapsulation in zeolite supports for enhancing propane dehydrogenation catalyst stability. It focuses on alumina supports.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 这篇文章没有评估在分子筛支撑体上的金属包覆以增强丙烷脱氢催化剂稳定性。它聚焦在氧化铝支撑体上。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Nickel nitrate hexahydrate (99.5%), sodium hydroxide (98%), and ammonium hydroxide (25 wt % NH3) were purchased from Shanghai Aladdin Biochemical Technology Co., Ltd. Boehmite was purchased from Qingdao Haiyang Chemical Co., Ltd. and calcined at 650 C for 4 h to make Al2O3 support."
+
+[2] "The Al2O3 supported Ni NPs catalyst (1 wt %), denoted as Nin/Al2O3, was prepared using the deposition precipitation method (DP) with NaOH as the precipitator." 
+
+[3] "To prepare alumina-supported Ni(II) single-site catalyst (Ni1/Al2O3), 0.51 g of nickel nitrate was dissolved in 2.0 mL of deionized water. Then, the pH value of solution was adjusted to 11 by adding ammonium hydroxide, and the volume of impregnated solution was adjusted to 6.5 mL by adding deionized water."
+
+</quotes>
+
+<English version answer>
+
+3. Yes, the article investigates catalyst preparation methods aimed at optimizing active phase dispersion. It discusses using deposition-precipitation to make Ni nanoparticles on alumina, and using incipient wetness impregnation at controlled pH to make isolated Ni(II) single sites on alumina. 
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 是的,这篇文章研究了针对优化活性相分散的催化剂制备方法。它讨论了使用沉淀沉积法在氧化铝上制备Ni纳米粒子,以及使用受控pH的原位湿法浸渍制备氧化铝上隔离的Ni(II)单点位。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The X-ray absorption spectroscopy (XAS) experiments of alumina-supported nickel samples were carried out at the 10-BM-B beamline at the Advanced Photo Source (APS) at Argonne National Laboratory."
+
+[2] "Scans were also collected for the Ni1/Al2O3 catalyst after treatments in 3% C3H8/He at 580 C for 1 h and 20% O2/He at 600 C for 1 h."
+
+[3] "Regardless of gas treatment, the nature of the Ni sites remains constant for the Ni1/Al2O3 sample. This suggests that the atomically dispersed Ni2+ sites retain their local structure and no reduction or aggregation occurs over reaction-regeneration cycles, explaining the high stability of the Ni1/Al2O3 catalyst for PDH."
+
+</quotes>
+
+<English version answer>
+
+4. Yes, the article utilizes in-situ X-ray absorption spectroscopy characterization to study working propane dehydrogenation catalysts. It examines the Ni1/Al2O3 catalyst under propane reaction and oxygen regeneration conditions, showing the Ni(II) single sites retain their structure through multiple cycles.
+
+</English version answer> 
+
+<Chinese version answer>
+
+4. 是的,这篇文章利用了原位X射线吸收光谱表征来研究工作中的丙烷脱氢催化剂。它在丙烷反应和氧气再生条件下检测了Ni1/Al2O3催化剂,显示Ni(II)单点位在多个循环中保持了它们的结构。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The atomic-scale structure of the Ni species was further characterized by STEM analysis (Figure 1C). For the Nin/Al2O3 catalyst, the formation of Ni NPs with a clear crystalline structure is observed, and the average size of the Ni NPs is 4.5 nm (Figure 1C1C3)." 
+
+[2] "On the contrary, no obvious Ni aggregation on the Ni1/Al2O3 catalyst was in both the STEM image and the corresponding energy-dispersive X-ray spectroscopy (EDX) maps (C4 and C5). By increasing the magnification, exclusively isolated Ni atoms uniformly dispersed on the alumina surface as bright dots are observed in HAADF-STEM image, as shown in Figure 1C6."
+
+</quotes>
+
+<English version answer>
+
+5. Yes, the article employs scanning transmission electron microscopy to characterize metal-support interfaces and dispersion in the propane dehydrogenation catalysts. It shows isolated Ni atoms on the Ni1/Al2O3 catalyst and Ni nanoparticles on the Nin/Al2O3 catalyst.
+
+</English version answer>
+
+<Chinese version answer> 
+
+5. 是的,这篇文章采用了扫描透射电子微镜来表征丙烷脱氢催化剂中的金属-支撑体界面和分散状态。它显示了Ni1/Al2O3催化剂上的隔离Ni原子和Nin/Al2O3催化剂上的Ni纳米粒子。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The XANES of the Ni1/Al2O3 sample is similar to that of the NiO (Ni2+) reference, including the pre-edge feature near 8333 eV, as highlighted in the inset of Figure 2A. The pre-edge peak is assigned to the dipole-forbidden but quadrupole-allowed transition (1s → 3d)."
+
+[2] "It can be seen from Figure 2A and Table 1 that the edge energy of Ni1/Al2O3 is centered at a higher energy than that of NiO reference, suggesting that the energy required for an electron transition from 1s to 4p is higher for Ni species supported on γ-Al2O3." 
+
+[3] "Based on the collective evidence, the Ni in Ni1/Al2O3 is present as isolated Ni(II) single sites, which are anchored on the surface of γ-Al2O3 through bonding to oxygen atoms, while the Ni atoms in Nin/Al2O3 are mostly incorporated into metallic Ni NPs."
+
+</quotes>
+
+<English version answer>
+
+6. Yes, the article uses X-ray absorption spectroscopy to probe oxidation state changes during propane dehydrogenation catalysis. It shows the Ni1/Al2O3 catalyst retains Ni(II) oxidation state after pretreatment and reaction, while the Nin/Al2O3 catalyst contains metallic Ni.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 是的,这篇文章使用了X射线吸收光谱来探究丙烷脱氢催化过程中的氧化态变化。它显示Ni1/Al2O3催化剂在预处理和反应后保持了Ni(II)氧化态,而Nin/Al2O3催化剂含有金属Ni。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+7. No, the article does not evaluate different reactor types like fixed beds, fluidized beds, or membrane reactors for propane dehydrogenation. It only examines a fixed bed reactor.
+
+</English version answer>
+
+<Chinese version answer> 
+
+7. 不,这篇文章没有评估固定床、流化床或膜反应器等不同反应器类型用于丙烷脱氢。它仅检查了固定床反应器。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. No, the article does not describe techniques for synthesizing isolated single sites in zeolitic supports. It focuses on alumina supports.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 本文没有描述在分子筛支撑物上合成隔离的单点位的技术。文中聚焦在氧化铝支撑物上。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+
+2. No, the article does not evaluate metal encapsulation in zeolite supports for enhancing propane dehydrogenation catalyst stability. It focuses on alumina supports.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 本文没有评估在分子筛支撑物中封装金属以提高丙烷脱氢催化剂稳定性的方法。文中聚焦在氧化铝支撑物上。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. Yes, the article investigates catalyst preparation methods aimed at optimizing active phase dispersion. It discusses depositing nickel species onto alumina supports using impregnation and precipitation techniques to achieve high nickel dispersion. 
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 是的,本文研究了旨在优化活性相分散的催化剂制备方法。文中讨论了使用浸渍和沉淀技术将镍种植到氧化铝支撑物上以达到高镍分散度。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "In situ X-ray absorption spectroscopy (XAS) experiments of the Ni1/Al2O3 catalyst during the reaction-regeneration process were conducted to reveal the specific changes of the Ni1/Al2O3 catalyst."
+
+[2] "The Ni K-edge XAS spectra were collected in transmission mode using three ion chambers which allowed simultaneous measurement of the samples and a Ni foil reference." 
+
+[3] "Scans were also collected for the Ni1/Al2O3 catalyst after treatments in 3% C3H8/He at 580 °C for 1 h and 20% O2/He at 600 °C for 1 h."
+
+</quotes>
+
+<English version answer>
+
+4. Yes, the article utilizes in-situ X-ray absorption spectroscopy to study working propane dehydrogenation catalysts. It collects XAS data on the Ni1/Al2O3 catalyst under propane reaction and oxygen regeneration conditions to reveal changes in the nickel species.
+
+</English version answer> 
+
+<Chinese version answer>
+
+4. 是的,本文利用了原位X射线吸收光谱技术来研究正在工作的丙烷脱氢催化剂。在丙烷反应和氧气再生条件下,文中收集了Ni1/Al2O3 催化剂的XAS数据,以揭示镍物种的变化。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The size of nickel particles and elemental distribution of Ni were analyzed using JEOL-2100F TEM at an acceleration voltage of 200 keV." 
+
+[2] "The high-angle angular dark-field scanning transmission electron microscopy (HAADF-STEM) images of Ni atoms were obtained using Titan Cubed Themis G2300."
+
+[3] "By increasing the magnification, exclusively isolated Ni atoms uniformly dispersed on the alumina surface as bright dots are observed in HAADF-STEM image, as shown in Figure 1C6."
+
+</quotes>
+
+<English version answer>
+
+5. Yes, the article employs advanced microscopy techniques like STEM and HAADF-STEM to characterize metal-support interfaces in propane dehydrogenation catalysts. It uses these techniques to reveal isolated nickel atoms dispersed on the alumina support.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 是的,本文采用了STEM和HAADF-STEM等先进的显微技术来表征丙烷脱氢催化剂中的金属-支撑物界面。文中使用这些技术揭示了分散在氧化铝支撑物上的隔离态镍原子。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The XANES spectrum of Nin/Al2O3 shows a similar edge energy (8332.6 eV) to a Ni foil (Table 1), but the white line intensity is higher due to a small proportion of the Ni remaining oxidized."
+
+[2] "The XANES of the Ni1/Al2O3 sample is similar to that of the NiO (Ni2+) reference, including the pre-edge feature near 8333 eV, as highlighted in the inset of Figure 2A." 
+
+[3] "Based on the collective evidence, the Ni in Ni1/Al2O3 is present as isolated Ni(II) single sites, which are anchored on the surface of γ-Al2O3 through bonding to oxygen atoms, while the Ni atoms in Nin/Al2O3 are mostly incorporated into metallic Ni NPs."
+
+</quotes>
+
+<English version answer> 
+
+6. Yes, the article uses X-ray absorption spectroscopy to probe oxidation state changes during propane dehydrogenation catalysis. It shows the Ni species in Nin/Al2O3 are mostly metallic, while those in Ni1/Al2O3 remain as isolated Ni(II) sites before, during, and after reaction.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 是的,本文使用X射线吸收光谱技术探测了丙烷脱氢催化过程中的氧化态变化。结果显示Nin/Al2O3中的镍物种大部分是金属态,而Ni1/Al2O3中的镍物种在反应前后保持为隔离的Ni(II)位点。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. No, the article does not evaluate different reactor types for propane dehydrogenation. It focuses on a fixed bed reactor setup.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 本文没有评估不同的丙烷脱氢反应器类型。文中仅聚焦在固定床反应器。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not describe techniques for synthesizing isolated single sites in zeolitic supports. It focuses on alumina supports.
+</English version answer>
+
+<Chinese version answer>
+回答:本文没有描述在分子筛载体上合成隔离的单点位的技术。文章集中在氧化铝载体上。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate metal encapsulation in zeolite supports for enhancing propane dehydrogenation catalyst stability. It focuses only on alumina supports.
+</English version answer>  
+
+<Chinese version answer>
+回答:本文没有评估在分子筛载体中金属包覆以提高丙烷脱氢催化剂稳定性。文章仅集中在氧化铝载体上。
+</Chinese version answer>
+
+<quotes>
+[1] "In summary, all characterizations discussed above demonstrate that the atomically dispersed Ni2+ cations are successfully incorporated into the crystalline structure of γ-Al2O3 using a facile impregnation method."
+
+[2] "This study on alumina-supported nickel catalysts affords insights into the nature of selective and stable nickel sites involved in the PDH reaction."
+</quotes>
+
+<English version answer>  
+Answer: Yes, the article investigates catalyst preparation methods aimed at optimizing active phase dispersion. Specifically, it discusses using a facile impregnation method to successfully incorporate atomically dispersed Ni2+ cations into the crystalline structure of gamma-Al2O3. The study provides insights into selective and stable nickel sites for propane dehydrogenation when supported on alumina.
+</English version answer>
+
+<Chinese version answer>
+回答:是的,本文探讨了旨在优化活性相分散的催化剂制备方法。具体来说,它讨论了使用简易的浸渍方法成功地将原子分散的Ni2+阳离子掺入γ-Al2O3的结晶结构中。该研究对丙烷脱氢反应中氧化铝载体上的选择性和稳定的镍位点提供了见解。
+</Chinese version answer>
+
+<quotes>
+[1] "In situ XAS experiments of the Ni1/Al2O3 catalyst during the reaction-regeneration process were conducted to reveal the specific changes of the Ni1/Al2O3 catalyst."
+
+[2] "The Ni1/Al2O3 catalyst after 1 h treatment in 3% H2 at 600 C, 1 h treatment in 3% C3H8 at 580 C, and 1 h treatment in 20% O2 at 600 C is qualitatively identical irrespective of gas treatment as illustrated by the R space and k-space EXAFS spectra."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article utilizes in-situ X-ray absorption spectroscopy (XAS) to study working propane dehydrogenation catalysts. Specifically, it conducted in-situ XAS experiments on the Ni1/Al2O3 catalyst during reaction and regeneration cycles to reveal changes in the catalyst. The XAS spectra were identical after various gas treatments, indicating the atomically dispersed Ni2+ sites retained their local structure during reaction conditions.
+</English version answer>
+
+<Chinese version answer>  
+回答:是的,本文利用了原位X射线吸收谱技术来研究正在工作的丙烷脱氢催化剂。具体来说,它在反应和再生周期中对Ni1/Al2O3催化剂进行了原位XAS实验,以揭示催化剂的变化。各种气体处理后的XAS光谱相同,表明原子分散的Ni2+位点在反应条件下保持其局部结构。
+</Chinese version answer>
+
+<quotes>
+[1] "The atomic-scale structure of the Ni species was further characterized by STEM analysis (Figure 1C). For the Nin/Al2O3 catalyst, the formation of Ni NPs with a clear crystalline structure is observed, and the average size of the Ni NPs is 4.5 nm (Figure 1C1C3)." 
+
+[2] "On the contrary, no obvious Ni aggregation on the Ni1/Al2O3 catalyst was detected in both the STEM image and the corresponding energy-dispersive X-ray spectroscopy (EDX) maps (C4 and C5)."
+
+[3] "By increasing the magnification, exclusively isolated Ni atoms uniformly dispersed on the alumina surface as bright dots are observed in HAADF-STEM image, as shown in Figure 1C6."
+</quotes>
+
+<English version answer> 
+Answer: Yes, the article employs advanced microscopy techniques including STEM and HAADF-STEM to characterize metal-support interfaces in propane dehydrogenation catalysts. It shows Ni nanoparticles formed on Nin/Al2O3 while atomically dispersed Ni was observed on Ni1/Al2O3 with no obvious Ni aggregation.
+</English version answer>
+
+<Chinese version answer>
+回答:是的,本文采用包括STEM和HAADF-STEM在内的先进显微技术来表征丙烷脱氢催化剂的金属-载体界面。它显示Nin/Al2O3上形成了Ni纳米粒子,而Ni1/Al2O3上观察到原子分散的Ni,没有明显的Ni聚集。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate different reactor types like fixed beds, fluidized beds, or membrane reactors for propane dehydrogenation. It only uses a fixed bed reactor.
+</English version answer>
+
+<Chinese version answer>  
+回答:本文没有评估固定床、流化床或膜反应器等不同反应器用于丙烷脱氢。它仅使用固定床反应器。
+</Chinese version answer>
+
+</Answer>
+

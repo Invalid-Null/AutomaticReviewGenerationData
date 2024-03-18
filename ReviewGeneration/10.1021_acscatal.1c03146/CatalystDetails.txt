@@ -1,0 +1,141 @@
+ <output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>Pt/MgAl2O4</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>PtGa/MgAl2O4</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ga</Element>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>17% increase</ConversionRate>
+				<Selectivity>70-85%</Selectivity>
+				<PropyleneYield>Higher</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:Ar = 1:1:3</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>873 K</ReactionTemperature>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>10Al2O3/PtGa/MgAl2O4</Name>  
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ga</Element>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>Lower</ConversionRate>
+				<Selectivity>70-85%</Selectivity>
+				<PropyleneYield>Lower</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:Ar = 1:1:3</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>873 K</ReactionTemperature>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>40Al2O3/PtGa/MgAl2O4</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>  
+				<PromoterElements>
+					<Element>Ga</Element>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>Similar to Pt/MgAl2O4</ConversionRate>
+				<Selectivity>Slightly lower</Selectivity>
+				<PropyleneYield>Much lower</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:Ar = 1:1:3</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>873 K</ReactionTemperature>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Pt/MgGaAlO</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<Selectivity>&gt;95%</Selectivity>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:Ar = 1:1:3</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>873 K</ReactionTemperature>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>10Al2O3/Pt/MgGaAlO</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<Selectivity>&gt;95%</Selectivity>
+				<DeactivationRates>
+					<Rate>Slower</Rate>
+				</DeactivationRates>
+				<PropyleneYield>Higher</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:Ar = 1:1:3</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>873 K</ReactionTemperature>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>40Al2O3/Pt/MgGaAlO</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial> 
+				<ConversionRate>Lower</ConversionRate>
+				<Selectivity>Slightly lower</Selectivity>
+				<PropyleneYield>Lower</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:Ar = 1:1:3</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>873 K</ReactionTemperature>
+			</Catalyst>
+			
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>10Al2O3/Pt/MgGaAlO</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<Selectivity>&gt;95%</Selectivity>
+				<DeactivationRates>
+					<Rate>Slower</Rate>
+				</DeactivationRates>
+				<PropyleneYield>Higher</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:Ar = 1:1:3</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>873 K</ReactionTemperature>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

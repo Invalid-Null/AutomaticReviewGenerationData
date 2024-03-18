@@ -1,0 +1,59 @@
+ Here is the XML structure comparing the answers from the 5 answer files to the correct answers:
+
+```xml
+<questions>
+  <question id="1">
+    <answer file="answer.PART3_0.txt">0%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">0%</answer>  
+    <answer file="answer.PART3_3.txt">100%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question>
+  <question id="2">
+    <answer file="answer.PART3_0.txt">0%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">100%</answer>
+    <answer file="answer.PART3_3.txt">100%</answer>
+    <answer file="answer.PART3_4.txt">0%</answer>
+  </question>
+  <question id="3">
+    <answer file="answer.PART3_0.txt">0%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">67%</answer>
+    <answer file="answer.PART3_3.txt">100%</answer> 
+    <answer file="answer.PART3_4.txt">67%</answer>
+  </question>
+  <question id="4">
+    <answer file="answer.PART3_0.txt">67%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">100%</answer>
+    <answer file="answer.PART3_3.txt">100%</answer>
+    <answer file="answer.PART3_4.txt">67%</answer>
+  </question>
+  <question id="5">
+    <answer file="answer.PART3_0.txt">100%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">100%</answer>
+    <answer file="answer.PART3_3.txt">100%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question> 
+  <question id="6">
+    <answer file="answer.PART3_0.txt">67%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">100%</answer>
+    <answer file="answer.PART3_3.txt">100%</answer>
+    <answer file="answer.PART3_4.txt">67%</answer>
+  </question>
+  <question id="7">
+    <answer file="answer.PART3_0.txt">100%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer> 
+    <answer file="answer.PART3_2.txt">100%</answer>
+    <answer file="answer.PART3_3.txt">100%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question>
+</questions>
+```
+
+To determine the consistency ratios, I compared the answers from each file to the correct answers file on a per-question basis. I looked for semantic equivalence between the answers rather than exact word-for-word matching. For questions with no relevant quotes provided, I checked if the answer stated there was no evaluation of that topic in the article.
+
+Some answers had partial information reflecting the quotes provided, so I used my best judgment to assign % consistency scores. Overall this provides a high-level measure of how consistent each answer set is with the correct answers. Please let me know if you have any other questions!

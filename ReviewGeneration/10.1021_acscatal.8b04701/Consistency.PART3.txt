@@ -1,0 +1,57 @@
+ Here is the JSON structure with the consistency ratios for each question and answer file:
+
+```json
+{
+  "1": {
+    "answer.PART3_0.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_2.txt": "0%",
+    "answer.PART3_3.txt": "100%",  
+    "answer.PART3_4.txt": "100%"
+  },
+  "2": {
+    "answer.PART3_0.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_2.txt": "0%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%"
+  },
+  "3": {
+    "answer.PART3_0.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_2.txt": "0%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%"
+  },
+  "4": {
+    "answer.PART3_0.txt": "100%",
+    "answer.PART3_1.txt": "50%",
+    "answer.PART3_2.txt": "25%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "50%"
+  },
+  "5": {
+    "answer.PART3_0.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%"
+  },
+  "6": {
+    "answer.PART3_0.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%"
+  },
+  "7": {
+    "answer.PART3_0.txt": "100%", 
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%"
+  }
+}
+```
+
+To generate this, I compared each answer file's response for a given question to the correct answer provided. I calculated a consistency percentage based on how much of the key information from the correct answer was contained in the answer file's response. This was a manual assessment, but aimed to provide a quantitative measure of consistency.

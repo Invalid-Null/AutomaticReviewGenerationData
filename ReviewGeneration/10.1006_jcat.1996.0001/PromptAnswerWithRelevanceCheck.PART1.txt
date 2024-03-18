@@ -1,0 +1,612 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+8. Does the article evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation? What specific examples, data, and insights are provided?
+
+9. Does the article investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance? What specific examples and relationships are revealed?
+
+10. Does the article propose mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts? What specific reaction steps, intermediates, active sites are described?
+
+11. Does the article explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation? What specific examples and insights into activity and selectivity modulation are provided?
+
+12. Does the article evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation? What specific data, characterizations and insights are provided?
+
+13. Does the article investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts? What specific examples and structure-function relationships are revealed?
+
+14. Does the article propose mechanistic reaction pathways for propane dehydrogenation over the studied supported metal catalysts? What specific steps, intermediates, and active sites are described?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. No, the article does not evaluate any metal oxide catalysts for propane dehydrogenation. It focuses only on supported Pt and PtSn catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 这篇文章没有评估用于丙烷脱氢的任何金属氧化物催化剂。它只关注受支撑的Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+2. No, the article does not investigate tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides for propane dehydrogenation. It does not study metal oxide catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 不,文章没有研究调谐氧化态、氧的迁移性和金属氧化物的酸碱性质以进行丙烷脱氢。它没有研究金属氧化物催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+
+3. No, the article does not propose any mechanistic scenarios for propane dehydrogenation over metal oxide catalysts, as it only studies supported Pt and PtSn catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 不,文章没有提出金属氧化物催化剂上丙烷脱氢的任何机理情景,因为它只研究受支撑的Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+4. No, the article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation. It only studies supported Pt and PtSn catalysts on SiO2 and γ-Al2O3 supports.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 不,文章没有探讨用于丙烷脱氢的金属氧化物催化剂中的金属-支撑界面效应。它只研究受SiO2和γ-Al2O3支撑的Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied"
+
+[2] "Without the promoter Pt shows the same initial specific activity on both supports"
+
+</quotes>
+
+<English version answer>
+
+5. Yes, the article evaluates supported mono-metallic Pt catalysts for propane dehydrogenation. It studies Pt catalysts supported on SiO2 and γ-Al2O3 prepared by impregnation. Data shows Pt has the same initial specific activity on both supports, but deactivates rapidly due to coking without a promoter.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 是的,文章评估了受支撑的单金属Pt催化剂用于丙烷脱氢。它研究了受浸渍法制备的SiO2和γ-Al2O3所支撑的Pt催化剂。数据显示,在两种支撑物上,Pt具有相同的初始特定活性,但由于没有促进剂而快速失活。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+6. No, the article does not specifically investigate how properties like metal particle size, shape, and support interactions affect the performance of the supported Pt and PtSn catalysts. It focuses more on the effect of the Sn promoter and resulting changes in stability and activity.
+
+</English version answer>
+
+<Chinese version answer> 
+
+6. 不,文章没有具体研究金属颗粒大小、形状和支撑相互作用等性质如何影响受支撑的Pt和PtSn催化剂的性能。它更多地关注Sn促进剂的效果以及稳定性和活性的结果变化。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. No, the article does not propose any mechanistic reaction pathways for propane dehydrogenation over the supported Pt and PtSn catalysts. It focuses more on characterization and activity measurements.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 不,文章没有为受支撑的Pt和PtSn催化剂上的丙烷脱氢提出任何机理反应途径。它更多地关注表征和活性测量。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. No, the article does not evaluate any promising metal oxide catalysts for propane dehydrogenation. It focuses solely on supported Pt and PtSn catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 否,本文没有评估任何有前景的金属氧化物催化剂用于丙烷脱氢。它仅关注支持Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+2. No, the article does not investigate tuning oxidation states, oxygen mobility, or acid-base properties of metal oxides for propane dehydrogenation. It only studies supported Pt and PtSn catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+2. 否,本文没有研究调节金属氧化物的氧化态、氧运动性或酸碱性质用于丙烷脱氢。它仅研究支持的Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not propose any mechanistic scenarios for propane dehydrogenation over the studied catalysts. It focuses on characterization and activity measurements of supported Pt and PtSn catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+3. 否,本文没有为学习的催化剂提出任何丙烷脱氢的机理场景。它专注于支持的Pt和PtSn催化剂的表征和活性测量。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. No, the article does not explore metal-support interfacial effects for propane dehydrogenation. It studies the effect of Sn promotion on supported Pt catalysts on SiO2 and γ-Al2O3 supports.
+
+</English version answer>  
+
+
+<Chinese version answer>
+4. 否,本文没有探索用于丙烷脱氢的金属支持物界面效应。它研究了SiO2和γ-Al2O3支持物上支持的Pt催化剂的Sn促进效果。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied by temperature-programmed reduction (TPR), hydrogen chemisorption, temperature-programmed desorption (TPD), and catalytic dehydrogenation of propane."
+
+[2] "Without the promoter Pt shows the same initial specific activity on both supports, but deactivates rapidly due to coking."  
+
+</quotes>
+
+<English version answer>
+
+5. Yes, the article evaluates supported mono-metallic Pt catalysts for propane dehydrogenation. It finds that unsupported Pt shows the same initial specific activity on SiO2 and γ-Al2O3 supports, but deactivates rapidly.  
+
+</English version answer>
+
+<Chinese version answer>
+5. 是的,本文评估了用于丙烷脱氢的单金属支撑Pt催化剂。它发现无支持的Pt在SiO2和γ-Al2O3支撑上显示相同的初始特定活性,但由于结焦迅速失活。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. No, the article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported Pt catalysts. It focuses on the effect of Sn promotion.
+
+</English version answer>
+
+<Chinese version answer>  
+6. 否,本文没有研究金属颗粒大小、形状和支撑物相互作用等性质如何影响受支撑Pt催化剂的性能。它关注Sn促进的效果。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not propose any mechanistic pathways for propane dehydrogenation over the supported Pt and PtSn catalysts. It is focused on catalyst characterization and activity measurements.
+
+</English version answer>
+
+<Chinese version answer>
+7. 否,本文没有为支持的Pt和PtSn催化剂提出任何丙烷脱氢的机理途径。它关注催化剂表征和活性测量。  
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation. It focuses solely on supported Pt and PtSn catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 不,本文没有评估像Cr2O3, Pt-Sn, Ga2O3这样的金属氧化物催化剂用于丙烷脱氢。它仅关注支撑在SiO2和γ-Al2O3上的Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance. It does not study any metal oxide catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 不,本文没有研究调节金属氧化物的氧化态、氧迁移性和酸碱性如何影响丙烷脱氢性能。它没有研究任何金属氧化物催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not propose any mechanistic scenarios for propane dehydrogenation over metal oxide catalysts, as it does not study metal oxide catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 不,由于本文没有研究金属氧化物催化剂,所以也没有提出在金属氧化物催化剂上的丙烷脱氢的机理场景。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation, as it focuses solely on supported Pt and PtSn catalysts, not metal oxide catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 不,由于本文仅关注支撑在SiO2和γ-Al2O3上的Pt和PtSn催化剂,没有研究金属氧化物催化剂,所以也没有探讨金属氧化物催化剂中金属-载体间界面的效应。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied by temperature-programmed reduction (TPR), hydrogen chemisorption, temperature-programmed desorption (TPD), and catalytic dehydrogenation of propane."
+
+[2] "Without the promoter Pt shows the same initial specific activity on both supports, but deactivates rapidly due to coking."
+
+</quotes>
+
+<English version answer>
+
+Answer: Yes, the article evaluates supported mono-metallic Pt catalysts for propane dehydrogenation. It studies Pt catalysts supported on SiO2 and γ-Al2O3 prepared by impregnation. Data shows Pt has the same initial specific activity on both supports, but deactivates rapidly due to coking.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 是的,本文评价了单金属Pt催化剂(支撑在SiO2和γ-Al2O3上)用于丙烷脱氢。研究了浸渍法制备的这些Pt催化剂。数据显示Pt在两种载体上的初始比活性相同,但由于结焦快速失活。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The effect of Sn as a promoter depends on the support. On γ-Al2O3tin interacts with the support and is stabilized in an oxidation state >0. The result is an increase in Pt dispersion and an improved stability of the catalytic activity without any change in the initial specific activity in dehydrogenation." 
+
+[2] "On SiO2the Sn is more readily reduced, and alloy formation is possible. This leads to a similar increase in Pt dispersion and improved catalytic stability, but also to a strong reduction in the specific activity."
+
+</quotes>
+
+<English version answer>
+
+Answer: Yes, the article does investigate how properties like metal particle size, shape, and support interactions affect the performance of supported PtSn catalysts. It shows adding Sn increases Pt dispersion and improves stability on both SiO2 and γ-Al2O3 supports. But on SiO2, Sn reduction leads to alloy formation which reduces initial specific activity, while on γ-Al2O3 Sn interacts with support and does not reduce, avoiding activity loss.
+
+</English version answer>
+
+<Chinese version answer> 
+
+Answer: 是的,本文确实研究了如金属颗粒大小、形状以及载体间相互作用等性质如何影响支撑PtSn催化剂的性能。结果显示,在SiO2和γ-Al2O3载体上添加Sn可提高Pt的分散性并改善稳定性。但在SiO2上,Sn的还原导致合金形成,降低了初始比活性,而在γ-Al2O3上,Sn与载体相互作用没有被还原,避免了活性损失。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not propose specific mechanistic reaction pathways for propane dehydrogenation over the supported Pt and PtSn catalysts studied. It focuses on characterization and activity measurements rather than mechanistic details.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 不,本文没有提出在研究的支撑Pt和PtSn催化剂上的丙烷脱氢反应的具体机理途径。它更关注表征和活性测量而不是机理细节。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+[1] "Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied by temperature-programmed reduction (TPR), hydrogen chemisorption, temperature-programmed desorption (TPD), and catalytic dehydrogenation of propane."
+
+[2] "On γ-Al2O3tin interacts with the support and is stabilized in an oxidation state >0. The result is an increase in Pt dispersion and an improved stability of the catalytic activity without any change in the initial specific activity in dehydrogenation."
+
+[3] "On SiO2the Sn is more readily reduced, and alloy formation is possible. This leads to a similar increase in Pt dispersion and improved catalytic stability, but also to a strong reduction in the specific activity."
+
+[4] "The change in catalytic stability on both supports is paralleled by a dramatic change in the hydrogen adsorption properties, as seen from the TPD profiles after reduction."
+
+[5] "Without the promoter Pt shows the same initial specific activity on both supports, but deactivates rapidly due to coking."
+
+</quotes>
+
+<English version answer>
+
+8. No, the article does not evaluate any metal oxide catalysts for propane dehydrogenation. It focuses on supported Pt and PtSn catalysts.
+
+9. No, the article does not investigate tuning oxidation states or acid-base properties of metal oxides for propane dehydrogenation.
+
+10. No, the article does not propose mechanistic scenarios or reaction steps for propane dehydrogenation over metal oxide catalysts.
+
+11. No, the article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation.
+
+12. Yes, the article evaluates supported Pt catalysts for propane dehydrogenation. It provides data on catalytic activity, stability, and deactivation behavior over Pt/SiO2 and Pt/γ-Al2O3.
+
+13. Yes, the article investigates how the addition of Sn affects properties like Pt dispersion and metal-support interactions, which impacts the catalytic performance of supported PtSn catalysts. Specific examples and structure-function relationships are provided. 
+
+14. No, the article does not propose mechanistic pathways or describe specific reaction steps and intermediates for propane dehydrogenation over the supported metal catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+8. 不,文章没有评估任何金属氧化物催化剂如Cr2O3、Pt-Sn、Ga2O3用于丙烷脱氢。它侧重于支持的Pt和PtSn催化剂。
+
+9. 不,文章没有调查调谐金属氧化物的氧化态或酸碱性质以用于丙烷脱氢。  
+
+10. 不,文章没有为金属氧化物催化剂提出丙烷脱氢的机理场景或反应步骤。
+
+11. 不,文章没有探索金属氧化物催化剂中金属支持体界面效应用于丙烷脱氢。
+
+12. 是的,文章评估了支持Pt催化剂用于丙烷脱氢。它提供了Pt/SiO2和Pt/γ-Al2O3上的催化活性、稳定性和失活行为的数据。
+
+13. 是的,文章调查了Sn的添加如何影响Pt分散度和金属支持体相互作用等性质,这会影响支持PtSn催化剂的催化性能。提供了具体的例子和结构-功能关系。
+
+14. 不,文章没有提出支持金属催化剂丙烷脱氢的机理反应途径,也没有描述具体的反应步骤和中间体。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation. It focuses solely on supported Pt and PtSn catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 否,本文没有评估任何诸如Cr2O3,Pt-Sn,Ga2O3等有前途的金属氧化物催化剂用于丙烷脱氢。它仅关注受支持的Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties affects propane dehydrogenation performance. It only studies supported Pt and PtSn catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 否,本文没有研究调节氧化态、氧迁移性和酸碱性如何影响丙烷脱氢性能。它仅研究受支持的Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not propose any mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts, as it does not study any metal oxide catalysts. It focuses solely on supported Pt and PtSn catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 否,本文没有为所研究的金属氧化物催化剂提出任何丙烷脱氢的机理场景,因为它没有研究任何金属氧化物催化剂。它仅关注受支持的Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation. It only studies supported Pt and PtSn catalysts on SiO2 and γ-Al2O3 supports.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 否,本文没有探讨金属氧化物催化剂中用于丙烷脱氢的金属支持体界面效应。它仅研究SiO2和γ-Al2O3支持的Pt和PtSn催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Pt and PtSn catalysts supported on SiO2and γ-Al2O3and prepared by impregnation have been studied"
+
+[2] "Without the promoter Pt shows the same initial specific activity on both supports, but deactivates rapidly due to coking."  
+
+</quotes>
+
+<English version answer>
+
+Answer: Yes, the article evaluates supported mono-metallic Pt catalysts for propane dehydrogenation. It studies Pt catalysts supported on SiO2 and γ-Al2O3 prepared by impregnation. Data shows Pt has the same initial specific activity on both supports, but deactivates rapidly due to coking.  
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 是的,本文评估了单金属Pt受支持催化剂用于丙烷脱氢。它研究了湿浸法制备的SiO2和γ-Al2O3担载的Pt催化剂。数据显示,Pt在两种载体上的初始比活性相同,但由于结焦迅速失活。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not investigate how properties like metal particle size, shape and support interactions affect the performance of the supported Pt catalysts. It only provides data on the initial specific activity and deactivation behavior.
+
+</English version answer>
+
+<Chinese version answer> 
+
+Answer: 否,本文没有研究金属颗粒大小、形状和支持体相互作用等性质如何影响受支持Pt催化剂的性能。它仅提供了初始比活性和失活行为的数据。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+Answer: No, the article does not propose any mechanistic reaction pathways for propane dehydrogenation over the studied supported Pt catalysts. It only provides empirical data on activity and deactivation behavior.
+
+</English version answer>
+
+<Chinese version answer>
+
+Answer: 否,本文没有为所研究的受支持Pt催化剂提出任何丙烷脱氢的机理反应途径。它仅提供了活性和失活行为的实验数据。
+
+</Chinese version answer>
+
+</Answer>
+

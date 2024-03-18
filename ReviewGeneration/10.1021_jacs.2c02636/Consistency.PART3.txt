@@ -1,0 +1,64 @@
+ is the JSON formatted comparison of the answer files to the correct answers:
+
+```json
+{
+  "1": {
+    "answer.PART3_2.txt": "100%", 
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%", 
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "71%"
+  },
+  "2": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%", 
+    "answer.PART3_0.txt": "0%"
+  },
+  "3": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "0%"
+  },
+  "4": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "50%",
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "0%"
+  },
+  "5": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%", 
+    "answer.PART3_0.txt": "100%"
+  },
+  "6": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "50%",
+    "answer.PART3_0.txt": "100%"
+  },
+  "7": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "100%"
+  },
+  "8": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%", 
+    "answer.PART3_0.txt": "100%"
+  }
+}
+```
+
+I carefully compared the quotes and answers provided in each file to the correct answers. I calculated the consistency ratio for each question by determining if the provided answer contained the same key points as the correct answer. For completely consistent answers I assigned 100%, for completely inconsistent 0%, and for partially consistent answers an intermediate percentage. The JSON output summarizes the consistency percentages for each file and question.

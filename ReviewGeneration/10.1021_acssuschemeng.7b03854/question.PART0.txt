@@ -1,0 +1,353 @@
+I'm going to give you a scientific literature. Then I'm going to ask you some questions about it. I'd like you to first write down exact quotes of parts of the document word by word that would help answer the question, and then I'd like you to answer the question using facts from the quoted content. Do not omit any relevant information from the text, and avoid introducing any falsehoods or assumptions that aren't directly supported by the literature. Here is the literature, in <literature></literature> XML tags:
+
+<literature>
+
+
+Sustainable Process Design Approach for On-Purpose Propylene Production and Intensification
+Abstract
+The advent of shale gas and the increasing spread between the supply and demand curves for propylene present an opportunity for adopting alternative pathways to produce propylene. This study aims to investigate a sustainable process design approach to on-purpose propylene production. A hierarchical approach to sustainable process design is proposed and implemented in a case study with propane dehydrogenation as the process under consideration. A base case design was developed, and process integration and intensification techniques were applied to reduce dependence on external utilities and to lower the overall capital investment. Waste heat recovery and offgas recycle were additional options used to intensify the overall energy consumption of the process. Emissions from the process were calculated from the Environmental Protection Agencys guidelines. Economic and environmental metrics were then used to study the impact of integration and intensification techniques. Up to 70% reductions in CO2 emissions were achieved as a result of this approach to sustainable design. The Sustainability Weighted Return on Investment metric was evaluated for all cases. Multiobjective decision making for the optimum design was facilitated by the sustainability metrics augmented with the traditional economic criteria.
+This publication is licensed under the terms of your institutional subscription. Request reuse permissions.
+KEYWORDS:Sustainable design On-purpose propylene Propylene dehydrogenation Process integration Energy integration Process
+Show More
+Synopsis
+Methodology for analyzing sustainability of processes using a sustainability weighted return on investment metric with case study for on-purpose propylene production.
+Introduction
+ARTICLE SECTIONSJump To
+Fossil resources have seen an incredible shift in resource consumption, utilization, and treatment strategies in recent years as shale oil and gas have emerged as one of the most lucrative energy options for the United States. Shale based natural gas in the U.S. Gulf Coast has spurred recent increase in industrial activities, and is projected to continue growing in the near future. While it is important to continue the growth for the U.S. manufacturing jobs, it is also crucial that the sustainability of processes is taken into account while designing and operating these new processes. Annual production from shale gas has increased from 1,293 billion cubic feet (Bcf) in 2007, to 15,213 billion cubic feet in 2015, accounting for approximately 44% of the total United States natural gas production. (1) The Energy Information Administration projects that shale gas is going to make up roughly two-thirds of total U.S. Natural Gas production by 2040, thereby accounting for a quarter of the U.S. energy production. (2) It is estimated that over the next two decades, the U.S. will have cumulative production of 459 trillion cubic feet (Tcf) of shale gas that can be used to produce a wide variety of value-added chemicals and fuels (1, 3, 4) with major shifts in manufacturing routes, supply chains, and environmental impact. (5, 6)
+Shale gas typically has more Natural Gas Liquids (NGLs) and introduces new clean feedstock in the form of ethane, propane, butanes and higher hydrocarbons in the market. Such NGLs offer attractive pathways for the production of olefins. (7-10) In particular, the production of propylene will be highly impacted by the increasing supply of shale gas.
+Propylene has traditionally been produced as a byproduct of ethylene from steam cracking, or as a byproduct of gasoline in fluid catalytic cracking (FCC) in refineries. Together, these technologies accounted for 90% of the propylene market until 2012. (11) Recently, the availability of low cost ethane in the United States has shifted the steam cracker feed from naphtha to ethane primarily due to higher yields in ethylene obtained by using ethane. (11) The production of propylene from FCC depends on the gasoline prices. If prices are high, the propylene produced is used to make octane-boosting alkylate. On the other hand, if the demand is low, refiners cut operations and propylene output falls. This implies that the propylene supply was dictated more by the developments in the gasoline and ethylene markets, than the demand for propylene.
+The demand for propylene is expected to grow from 109 million tons in 2014, to about 165 million tons by 2030, roughly 1214% greater than the amount of propylene that can be produced by the conventional technologies. (12) This gap between demand and supply can be filled by the new on-purpose propylene technologies (OPP) which utilize feedstocks derived from shale gas. Examples include Propane Dehydrogenation (PDH), Methanol-to-Propylene/Olefins (MTP/MTO), and Olefin Metathesis. The choice of the optimal production route depends on various factors such as feedstock availability, market conditions, price volatility, technology maturity, sustainability, and safety. (13, 14)
+Process systems engineering tools offer an attractive framework for incorporating sustainability in the conceptual design and optimization of process technologies. Several reviews and textbooks cover the principles, techniques, and applications of systems approaches to the inclusion of sustainability in the creation and assessment of process flowsheets. Examples include the use of process integration, (15-20) green chemistry and engineering, (21, 22) sustainable design of processes, products, and supply chain, and sustainability metrics. Focus has also been given to the sustainable design aspects in engineering for the creation of products. (23, 24) Sikdar highlighted the need of sustainability evaluation of processes and systems through the use of sustainability metrics. (25) Material efficiency, water conservation, energy efficiency and greenhouse gas emissions are some of the metrics that have been used to compare various processes for sustainability. (26) A complete analysis of sustainability of processes is often not possible due to several conflicting goals, measurement and our inability to compare all options. (27) Recently, El-Halwagi has introduced the Sustainably Weighted Return on Investment (SWROI) metric (28) which augments sustainability criteria in the conventional calculation of financial return on investment. The use of aggregated metrics, such as the SWROI, can help the decision makers to easily determine and interpret the sustainability trade-offs of a process and in terms of traditional indicators such as ROI. It should be mentioned that sustainable process design is different from product sustainability where the entire life cycle of a product is taken into account and each life cycle stage is evaluated, which is not the focus of this paper.
+In this paper, several propylene-production pathways are studied, assessed, and screened based on multiple criteria. First, high-level screening is carried out to provide preliminary screening. The promising pathways are simulated with sufficient details to enable conceptual design and techno-economic analysis. Process integration is carried out to enhance the performance of each pathway. Economic and environmental metrics are used in the assessment. This case study for an on-purpose propylene production process is used to systematically develop a method to assess sustainability of the process.
+PROBLEM STATEMENT
+ARTICLE SECTIONSJump To
+In this paper, the problem of meeting the gap in propylene production in a sustainable manner is addressed. Specifically, it is desired to synthesize and simulate an on-purpose propylene production plant. For the purpose of this work, the United States Gulf Coast is chosen as the desired location because of the proximity to cheap feedstock sources. A techno-economic analysis is carried out to answer the following questions: (1) what is the most promising economic route for propylene production? (2) What does the process flowsheet look like for this route? (3) What are the key sustainability metrics associated with this process? (4) What process changes can be made to improve the sustainability performance of the process? (5) How do these changes affect the economics and overall sustainability of the process? (6) Which is the desired process flowsheet based on economic and sustainability criteria? (5) Do new metrics for sustainability in economic terms (SWROI) help in making better selection of processes?
+A base case design with a capacity of 600,000 t per annum (MTA) propylene production is designed. The available feedstocks considered are propane, ethane/ethylene, butylene, and methanol depending on the type of OPP technology used. It is assumed that the plant is built in a region (e.g., U.S. Gulf Coast) where access to these feedstocks is already available through pipeline, truck, or barge transport.
+METHODOLOGY
+ARTICLE SECTIONSJump To
+The proposed method for the assessment and screening of the various propylene-production pathways uses a hierarchical approach that starts with limited data and calculations to perform a preliminary screening, then, proceeds with more detailed analysis for the promising alternatives. Techno-economic assessment and sustainability analysis is carried out and integrated with the economic criteria. Figure 1 shows a summary of these steps.
+Figure 1
+Figure 1. Proposed hierarchical approach for process sustainability assessment methodology.
+Process Data Inventory is created in the first step by collecting information on the various process alternatives, their feedstocks, the chemical pathways to produce the desired product, and the feedstock and product market prices.
+Stoichiometric-Economic Targeting is performed to quickly eliminate certain process options based on overall profitability of a process. This uses the data from the process data inventory. The metric for inspecting sales and reactants MISR (18) is used as the indicator in this case as shown in eq 1. If the value of the MISR is less than one, the pathway is discarded. For pathways with MISR > 1, the process in considered to be potentially viable, which warrants a more detailed techno-economic analysis to assess the profitability criteria of the process. As a rule of thumb, higher values of MISR are typically more desirable.
+(1)
+Economically Viable process choice is guided by the value of MISR. Significantly higher MISR values will be more desirable to further analyze. However, if the MISR values are close for two or more processes, they should all be considered for further evaluation. Process alternatives having MISR less than 1 signifies that it costs more to purchase raw materials than earned by selling the finished products. Hence no process modification will be good enough to overcome this barrier, particularly if better MISR values are obtained from other process options.
+Simulation of Base Case Design of the process options having high MISR is developed as the next step. A base case design is used to identify the process flow from raw material to the final product. This is also the step when two or more processes having similar MISR need to be expanded in scope of analysis, such as comparing for technologies that give better productivity, yield, etc. The objective in the base case design step is to establish the potential unit operations to be utilized in the flow-scheme and construct a detailed process flowsheet. Traditional process synthesis steps ensure that the base case provides the individual and total mass and energy balances for the process and technology choice. Other important information that can be computed from the base case include equipment sizing, utilities and types, optimal operating conditions, and environmental waste streams.
+Process Integration step follows the base case design using the flow information for mass and energy streams. Mass and energy integration can be performed using tools like the thermal pinch analysis for heat integration, which deals with the optimal structure of heat exchange between process streams, as well as optimal use of utilities. (18) The analysis identifies targets for minimum hot and cold utility consumptions (referred to as Minimum Energy Requirements MER). Composite curves (CC) may be used to represent the counter-current heat flow among the streams that have been selected for heat transfer. The Grand Composite Curves (GCC) plots the excess heat of the hot and cold streams across temperature intervals which determines the selection and placement of utilities. Finally, a Heat Exchanger Network (HEN) can be synthesized and optimized for MER and maximum heat recovery by eliminating redundant elements and finding the trade-off between utility consumption, heat exchange area, and number of units.
+Integrated Flowsheet Process Simulation is created from the results of process integration. These flowsheets typically show reduced material and energy consumption, and the overall environmental footprint, however this may lead to increase or decrease in capital costs for the process. Rigorous techno-economic analysis and environmental analyses are carried out with characterization for available emission streams. Further, in the next step, a sustainability weighted assessment can be performed to enable multiobjective decision making and the final technology and flowsheet selection.
+CASE STUDY
+ARTICLE SECTIONSJump To
+On-Purpose Propylene Technologies
+The case study considers the following technologies: Propane Dehydrogenation (PDH), Metathesis, Methanol-to-Olefins and Methanol-to-Propylene (MTO/MTP) because they are the most established technology routes to directly produce propylene. (29) These are also the processes that have been commercially established through facilities around the world. In the PDH process, propane is converted to propylene over a bed of catalyst at high temperatures and low pressures. MTO/MTP process converts methanol into olefins, and it can be controlled to produce more propylene than ethylene. The MTO process converts methanol to olefins over a fluidized catalyst bed operating between 350 and 550 C. (30) In China, the abundance of coal has accelerated the widespread adoption of this route through coal gasification technologies. Olefin metathesis uses the ethylene (C2) and butylene (C4) to produce two C3 molecules. The key determinants in the feasibility of this technology are the spread in prices between ethylene and propylene, and the availability of butylenes.
+For a preliminary assessment of the candidate technologies, a stoichiometric-economic targeting is performed using the MISR metric from eq 1. The annual production rate of 600,000 t per annum was used in this calculation, using stoichiometric ratios of the reactants. The prices of feedstock and products are given in Table 1. The calculated values of the MISR are reported in Table 2. As can be seen from Table 2, PDH shows the highest potential for profitability. In the MTO process, it is considered that the propylene to ethylene ratio is 1.8 (36) to maximize propylene production. For the considered costs of raw materials and values of products, both metathesis and MTO have MISR values less than one and, therefore, will not be considered for further analysis. It is worth noting that these results are only valid for the considered prices of raw materials and products. For instance, if the methanol price decreases from $396/MT to $300/MT (37) (e.g., in China due to the relatively low cost of producing methanol from coal), the value of MISR increases to 1.29 rendering the process potentially viable. Similarly, olefin metathesis process has an MISR = 1 if the price of C4 raffinate drops from $1179/MT to $1100/MT. Based on this preliminary analysis, it was decided to choose PDH as the primary chemical production route of choice. Table 2 represents MISR values for different technologies based on 100% selectivity. It is worth noting that the selectivity of PDH is 90% (38) which gives the MISR of PDH as 1.86. This is still greater than 1 and more profitable when compared to the Olefin Metathesis and MTO technology options.
+Table 1. Feedstock and Product Prices for MISR Calculation
+Feedstock/Product Price
+Propane $0.48/kg (31)
+Propylene $0.95/kg (32)
+Ethylene $0.65/kg (33)
+Butylene $1.18/kg (34)
+Methanol $396/MT (35)
+Table 2. Metric for Inspecting Sales and Reactants (MISR) for Competing Propylene Production Processes
+On-Purpose Propylene Process MISR
+Propane dehydrogenation 2.07
+Olefin metathesis 0.95
+Methanol to olefins 0.98
+Base Case Model and Simulation
+Figure 2 is a schematic representation of the PDH flowsheet. In this process, propane is passed over a hot bed of catalyst where it reacts to produce propylene and hydrogen. Honeywell UOPs OLEFLEX and CB&I Lummus CATOFIN technologies dominate the market in this sector. (39) UOPs Oleflex process is used in 16 of the 23 operating PDH units in the world and UOP had been awarded 34 of the last 39 dehydrogenation units worldwide since 2011. (40) In this paper, the Oleflex process was chosen for simulation for its wider acceptability in the world.
+Figure 2
+Figure 2. Base Case process flow diagram.
+Nawaz (39) gave an overview of the process flow for the OLEFLEX process. Figure 2 extracts key features from the OLEFLEX technology but is not intended to replicate or claimed to represent the OLEFLEX process. Computer-aided simulation using Aspen HYSYS was carried out for a process producing 600,000 MTA (metric ton per annum) of propylene.
+The flowsheet can be broadly divided into the following sections: depropanizer column, reactor, reactor effluent cooling and compression, cold box, SHP reactor, de-ethanizer column, and the propylenepropane splitter column. Fresh propane feed is mixed with recycled propane and enters the depropanizer column. The depropanizer column is designed to separate C4+ material coming in the fresh feed and formed in the dehydrogenation reactors. The pressure of the column is kept high enough such that cooling water can be used as the condensing media. The propane rich steam from depropanizer overhead enters the cold box where its autorefrigeration property is utilized to cool the reactor effluent stream. The cold-box is modeled based on the patented (41) design that does not require any external refrigeration to reach the subzero temperatures. Coming out of the cold box, the propane feed stream is mixed with hydrogen stream and enters the fired-heater. The fired-heater takes the feed temperature to 580620 C (42) before it enters the reactor system.
+The reaction occurs over a fluidized catalyst bed in a radial flow reactor to minimize the pressure drop across the beds. (43) A continuous catalyst regenerator (CCR) is used to continuously regenerate the catalyst by burning off the coke formed. The overall reaction selectivity toward propylene is 90% (mole) and the once-through conversion is 40% (mole). (38) The remaining 10% of propane is converted in side reactions to produce light gases (methane, ethane, ethylene) (42) due to cracking, some diolefins (methyl-acetylene and propadiene), and some heavy key components (benzene, toluene, xylene). (44)
+The reaction is highly endothermic in nature (ΔH = 124.3 kJ/mol), leading to a considerable temperature drop in each reactor. Interstage heaters are placed to increase the temperature of each reactor effluent stream to the subsequent reactor inlet temperature. This makes the reactor section of the propane dehydrogenation process extremely energy intensive. The reactor effluent is a mix of propylene, unconverted propane, light gases such as methane, ethane and ethylene, diolefins, and some heavier hydrocarbon components formed in the reactor. The reactor effluent is cooled and then compressed in the multistage compressors and coolers. The compressed gas is then sent to the cold box where hydrogen is separated from the hydrocarbon stream. In order to liquefy the hydrocarbon material and separate out the hydrogen, the cold box uses a series of isentropic expansion, separation and subcooling. (41) The autorefrigeration across the expanders is a function of the pressure reduction across the expander. Hence, a high-pressure reactor effluent stream results in lower temperature across the expander, thereby making hydrogen separation easier. Hydrogen produced is partially sent to the dehydrogenation and Selective Hydrogenation Process (SHP) reactors and the net hydrogen is sent to the Pressure Swing Adsorption (PSA) unit for meeting pipeline quality specifications. Liquid from the cold box is sent to the SHP reactor to convert the diolefins formed in the side reactions to propylene. From SHP, the liquid is fed to the de-ethanizer column to get rid of the C2 components. The de-ethanizer bottoms are sent to the propylenepropane splitter, which produces the final propylene product. The propylenepropane splitter is a superfractionator due to the difficulty in the separation between the two components.
+The column bottoms from the PP Splitter contain the unconverted propane, which is recycled back to the depropanizer column. Table 2 provides summary of the stream data from the Base Case simulation. The stream numbers are shown in Figure 2.
+Energy Analysis
+The Aspen HYSYS simulation provided information on equipment involved, utility consumption, and the quality of energy required. The reactor section, compression and cooling section, and the product separation section are the big energy consumers in the process. The utilities used in the process include cooling water, low pressure (LP) steam, natural gas for firing in the heaters, and purchased electricity. The electricity could also be generated onsite, but not considered in this process analysis. A nominal 6.5 cents/kW-hr electricity rate has been assumed. A split of the energy consumption in terms of the duty required and their respective costs of the utilities consumed is shown in Table 3.
+Table 3. Base Case Utility Consumption
+Utility Type Unit Cost Duty (MW) Cost (MM$/yr) % of Total Utility Major Consumer in Process
+Cooling Water $0.023/m3 358 8.4 10.7% PP Splitter Condenser and Reactor Effluent Coolers (83%)
+LP Steam $10.7/kg 237.4 35.5 45% PP Splitter Reboiler (80%)
+Natural Gas $10.1/MW-hr 159.3 15.7 19.9% Fired Heaters (100%)
+Electricity $0.065/KW-hr 35.6 19.2 24.4% Reactor Effluent Compressors (95%)
+Total Utility   790.3 78.8 100%  
+From Table 3, LP Steam contributes 45% of the total annual utility costs. The reboiler for the PP Splitter consumes about 80% of the overall LP Steam. The separation between propane and propylene is extremely difficult due to the small difference between the relative volatility of the two components. This separation requires unusually large reflux and boil-up ratios leading to the massive reboiler and condenser energy requirements. The electricity consumption constitutes about 24% of the utility costs. The reactor effluent compressors are the major consumers of this electricity where the fluids exiting the reactor section are compressed from nearly 35 kPa to about 1500 kPa. The fired heaters are responsible for the entire natural gas firing requirement to get the feed to the reactor inlet temperatures. In the Base Case, the fired heater preceding Reactor 1 contributes to two-thirds of the fired heater duty as it heats the combined feed to from 29 to 600 C. The total fixed capital investment for the Base Case scenario is approximately $585 MM and given in Table 4. Exchangers and the distillation columns combined contribute to roughly two-thirds of this value.
+Table 4. Base Case Simulation Stream Data
+  Unit 101 102 103 104 105 106 107 108 109 110 111
+Vapor Fraction   0 0 0 0 1 1 1 1 1 1 1
+Temperature K 313.1 302.5 328.4 316.1 302.2 873.1 883.2 893.2 893.2 840.8 306.5
+Pressure kPa 6894.8 1514.8 1647.8 1772.0 475.7 379.2 296.5 215.8 137.9 124.1 96.5
+Molar Flow kg mol/h 1950 4827 6 4822 7291 7291 7736 8181 8615 9044 9044
+Mass Flow kg/h 85049 211822 274 211548 218391 218391 218390 218390 218390 218390 218394
+Mole Fractions                        
+Hydrogen   0.0000 0.0000 0.0000 0.0000 0.3219 0.3219 0.3555 0.3859 0.4129 0.4376 0.4375
+Methane   0.0027 0.0011 0.0000 0.0011 0.0161 0.0161 0.0208 0.0244 0.0272 0.0292 0.0292
+Ethylene   0.0001 0.0000 0.0000 0.0000 0.0007 0.0007 0.0035 0.0057 0.0075 0.0090 0.0090
+Ethane   0.0290 0.0117 0.0000 0.0117 0.0082 0.0082 0.0105 0.0123 0.0136 0.0146 0.0146
+Propene   0.0000 0.0133 0.0000 0.0133 0.0089 0.0089 0.0628 0.1107 0.1526 0.1901 0.1901
+Propane   0.9675 0.9735 0.9069 0.9737 0.6440 0.6440 0.5468 0.4607 0.3855 0.3187 0.3187
+Propadiene   0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0001 0.0002 0.0002 0.0002
+m-Acetylene   0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0001 0.0002 0.0002 0.0002
+i-Butane   0.0006 0.0003 0.0856 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001
+n-Butane   0.0000 0.0000 0.0047 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+Benzene   0.0000 0.0000 0.0024 0.0000 0.0000 0.0000 0.0000 0.0001 0.0002 0.0002 0.0002
+Toluene   0.0000 0.0000 0.0003 0.0000 0.0000 0.0000 0.0000 0.0000 0.0001 0.0001 0.0001
+  Unit 112 113 114 115 116 117 118 119 120 121 122
+Vapor Fraction   1 1 1 0 0 0 1 0.595 0 0 1
+Temperature K 403.9 395.4 306.5 310.0 333.0 334.0 220.0 293.8 284.3 296.1 308.4
+Pressure kPa 404.7 1404.4 1376.9 4238.2 4203.7 4100.3 446.1 928.7 894.2 1514.8 777.0
+Molar Flow kg mol/h 9044 9044 9044 4854 4871 4867 265 4606 1730 2878 1564
+Mass Flow kg/h 218394 218394 218394 206227 206262 206262 6663 199601 72828 126772 3152
+Mole Fractions                        
+Hydrogen   0.4375 0.4375 0.4375 0.0002 0.0039 0.0030 0.0546 0.0000 0.0000 0.0000 1.0000
+Methane   0.0292 0.0292 0.0292 0.0114 0.0113 0.0113 0.2079 0.0000 0.0000 0.0000 0.0000
+Ethylene   0.0090 0.0090 0.0090 0.0146 0.0145 0.0145 0.2669 0.0000 0.0000 0.0000 0.0000
+Ethane   0.0146 0.0146 0.0146 0.0257 0.0256 0.0256 0.4689 0.0001 0.0001 0.0000 0.0000
+Propene   0.1901 0.1901 0.1901 0.3534 0.3521 0.3533 0.0015 0.3854 0.9947 0.0223 0.0000
+Propane   0.3187 0.3187 0.3187 0.5930 0.5908 0.5914 0.0003 0.6141 0.0052 0.9776 0.0000
+Propadiene   0.0002 0.0002 0.0002 0.0005 0.0005 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+m-Acetylene   0.0002 0.0002 0.0002 0.0005 0.0005 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+i-Butane   0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0000 0.0001 0.0000 0.0001 0.0000
+n-Butane   0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+Benzene   0.0002 0.0002 0.0002 0.0005 0.0005 0.0005 0.0000 0.0002 0.0000 0.0000 0.0000
+Toluene   0.0001 0.0001 0.0001 0.0002 0.0002 0.0002 0.0000 0.0001 0.0000 0.0000 0.0000
+                          Process Integration
+A thermal pinch analysis was performed on the Base Case to estimate the possibility for recovering heat within the process streams. The composite curves are shown in Figure 3. The pinch temperature is found at 70.4 C, and it can be seen from the composite curve that there is a large potential for integration above and below the pinch. The minimum hot and cold utility requirements are 278.5 MW (950 MMBtu/h) and 230.7 MW (787 MMBtu/h) respectively, for a minimum temperature approach of 14 C (25 F). This minimum temperature approach is consistent with the rule of thumb values for petrochemical processes. (45) The hot utility values are due to the large heating requirements of the fired heater and the PP Splitters reboiler.
+Figure 3
+Figure 3. Pinch analysis (hot and cold composite curves) for the base case design.
+The large cold utility requirements are due to the reactor effluent cooler and the PP Splitter condenser. There is potential for heat exchange in the temperature range 40550 C, which is constituted by heating and cooling requirements of the reactor feed and effluent streams. The composite curves can be further analyzed to systematically derive the optimum heat exchanger network, which provides lowest energy consumption options from external utilities.
+Integrated Case
+Given the enormous costs of utilities in the Base Case, and results from the thermal pinch analysis indicating that heat exchanges are possible, an Integrated Case is developed to reduce the energy consumption from external sources by utilizing some of the process heat. Figure 4 shows the process flow diagram after heat integration was implemented. The red, blue, and green exchangers are the additions to the process that utilize the energy present in the reactor effluent streams to preheat the feed to the reactor, and partially provide energy to the depropanizer and de-ethanizer reboilers. The duty of the fired-heater preceding Reactor 1 comes down from 106 MW (362.6 MMBtu/h) to 19 MW (64.8 MMBtu/h). In order to achieve the processprocess heat exchange, four additional heat exchangers must be added. Although this will lead to significant capital investment, the reduction in the sizes of the fired-heater upstream of Reactor 1, and the coolers in the reactor effluent cooling and compression section, offsets this value. Additionally, the combined reactor effluent cooling duty reduces from 126 MW (432 MMBtu/h) to 15.5 MW (52.9 MMBtu/h) as the reactor effluent is cooled by the reactor feed. There is $11.5MM additional capital invested with a payback period of 8 months for the four exchangers, which results in utility reductions of almost $37MM/yr. when compared to the Base Case. Table 5 shows the summary of stream data for the Integrated Case simulation.
+Figure 4
+Figure 4. Integrated Case with addition of process stream heat exchangers.
+Table 5. Integrated Case Simulation Stream Data
+  Unit 101 102 103 104 105 106 107 108 109 110 114 115 116
+Vapor Fraction   0 0 0 0 1 1 1 1 1 1 1 1 1
+Temperature K 313.2 302.5 324.1 316.1 302.2 873.1 883.2 893.2 893.2 840.8 403.9 395.4 306.5
+Pressure kPa 6894.8 1514.8 1641.0 1772.0 475.7 379.2 296.5 215.8 137.9 124.1 404.7 1404.4 1376.9
+Molar Flow kg mol/h 1950 4827 6 4822 7291 7291 7736 8181 8615 9044 9044 9044 9044
+Mass Flow kg/h 85049 211822 274 211548 218391 218391 218390 218390 218390 218390 218394 218394 218394
+Mole Fractions                            
+Hydrogen   0.0000 0.0000 0.0000 0.0000 0.3219 0.3219 0.3555 0.3859 0.4129 0.4376 0.4375 0.4375 0.4375
+Methane   0.0027 0.0011 0.0000 0.0011 0.0161 0.0161 0.0208 0.0244 0.0272 0.0292 0.0292 0.0292 0.0292
+Ethylene   0.0001 0.0000 0.0000 0.0000 0.0007 0.0007 0.0035 0.0057 0.0075 0.0090 0.0090 0.0090 0.0090
+Ethane   0.0290 0.0117 0.0000 0.0117 0.0082 0.0082 0.0105 0.0123 0.0136 0.0146 0.0146 0.0146 0.0146
+Propene   0.0000 0.0133 0.0000 0.0133 0.0089 0.0089 0.0628 0.1107 0.1526 0.1901 0.1901 0.1901 0.1901
+Propane   0.9675 0.9735 0.9069 0.9737 0.6440 0.6440 0.5468 0.4607 0.3855 0.3187 0.3187 0.3187 0.3187
+Propadiene   0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0001 0.0002 0.0002 0.0002 0.0002 0.0002
+m-Acetylene   0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0001 0.0002 0.0002 0.0002 0.0002 0.0002
+i-Butane   0.0006 0.0003 0.0856 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001
+n-Butane   0.0000 0.0000 0.0047 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+Benzene   0.0000 0.0000 0.0024 0.0000 0.0000 0.0000 0.0000 0.0001 0.0002 0.0002 0.0002 0.0002 0.0002
+Toluene   0.0000 0.0000 0.0003 0.0000 0.0000 0.0000 0.0000 0.0000 0.0001 0.0001 0.0001 0.0001 0.0001
+  Unit 117 118 119 120 121 122 123 124 125 126 127 128 129
+Vapor Fraction   0 0 0 1 0.595 0 0 1 1 1 1 1 1
+Temperature K 310.0 333.0 334.0 220.0 293.8 284.3 296.1 398.3 324.8 398.3 324.8 395.4 353.6
+Pressure kPa 4238.2 4203.7 4100.3 446.1 928.7 894.2 1514.8 110.3 96.5 110.3 96.5 1404.4 1390.6
+Molar Flow kg mol/h 4854 4871 4867 265 4606 1730 2878 9044 9044 9044 9044 9044 9044
+Mass Flow kg/h 206227 206262 206262 6663 199601 72828 126772 218394 218394 218394 218394 218394 218394
+Mole Fractions                            
+Hydrogen   0.0002 0.0039 0.0030 0.0546 0.0000 0.0000 0.0000 0.4375 0.4375 0.4375 0.4375 0.4375 0.4375
+Methane   0.0114 0.0113 0.0113 0.2079 0.0000 0.0000 0.0000 0.0292 0.0292 0.0292 0.0292 0.0292 0.0292
+Ethylene   0.0146 0.0145 0.0145 0.2669 0.0000 0.0000 0.0000 0.0090 0.0090 0.0090 0.0090 0.0090 0.0090
+Ethane   0.0257 0.0256 0.0256 0.4689 0.0001 0.0001 0.0000 0.0146 0.0146 0.0146 0.0146 0.0146 0.0146
+Propene   0.3534 0.3521 0.3533 0.0015 0.3854 0.9947 0.0223 0.1901 0.1901 0.1901 0.1901 0.1901 0.1901
+Propane   0.5930 0.5908 0.5914 0.0003 0.6141 0.0052 0.9776 0.3187 0.3187 0.3187 0.3187 0.3187 0.3187
+Propadiene   0.0005 0.0005 0.0000 0.0000 0.0000 0.0000 0.0000 0.0002 0.0002 0.0002 0.0002 0.0002 0.0002
+m-Acetylene   0.0005 0.0005 0.0000 0.0000 0.0000 0.0000 0.0000 0.0002 0.0002 0.0002 0.0002 0.0002 0.0002
+i-Butane   0.0001 0.0001 0.0001 0.0000 0.0001 0.0000 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001
+n-Butane   0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
+Benzene   0.0005 0.0005 0.0005 0.0000 0.0002 0.0000 0.0000 0.0002 0.0002 0.0002 0.0002 0.0002 0.0002
+Toluene   0.0002 0.0002 0.0002 0.0000 0.0001 0.0000 0.0000 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001
+Integrated Case with Intensification
+After heat integration, the cost of LP Steam makes up for more than 50% of the total annualized utility costs (Table 4). If a reduction in the large steam consumption of the PP Splitter reboiler can be achieved, it would result in tremendous energy savings. This is confirmed by analyzing the Grand Composite Curves generated from the pinch analysis of the Base Case and Integrated and Intensified Case scenarios shown in Figure 5. Table 6 shows a comparison of utility costs in Base Case with the Integrated and Intensified Case.
+Figure 5
+Figure 5. Comparison of grand composite curve of Base Case and Integrated and Intensified Case.
+Table 6. Comparison of Utility Costs in Base Case with the Integrated and Intensified Case
+Utility Type Base Case Utility Cost (MM$/yr) Integrated Case Utility Cost (MM$/yr) Integrated and Intensified Case Utility Cost (MM$/yr)
+Cooling Water 8.4 3.6 1.2
+LP steam 35.5 31.9 4.0
+Natural Gas Firing 15.7 7.1 7.1
+Electricity 19.2 19.2 27.1
+Total Utility 78.8 61.8 39.4
+A large energy requirement can be observed around the 60 C mark on either side of the pinch. This loop on the GCC presents the opportunity of introducing a heat pump (46, 47)). There are many types of heat pumps used in the industry, such as electrically driven heat pumps and absorption driven heat pumps. However, in distillation, the most common type of heat pump utilized is the compression system (HPC). The overhead vapor is first compressed in the heat pump compressor and the discharge is used to reboil the column bottoms liquid. In the PP Splitter, the difference between the boiling points of propane and propylene is very small. This makes it an ideal candidate for HPC as the compression ratio required to attain adequate temperature approach in the reboiler-condenser would be small. This would limit the electricity consumption in the compressor and make the process more viable.
+Annakou and Mizsey (48) discuss various heat pump compression schemes that can be employed in the PP Splitter design. A double compressor scheme has been used in this study where the first stage discharge is used to reboil the column bottoms, while the second stage discharge is condensed in a water-cooled condenser to provide operational flexibility in the process in the event of any upsets. Figure 6 shows the simplified process flow diagram with the HPC installed along with the integrated scheme discussed previously.
+Figure 6
+Figure 6. Integrated and Intensified Case with addition of HPC system.
+The heat pump compressor has the additional benefit of operating the PP Splitter at a lower pressure. The conventional design would require a high pressure to utilize cooling water as its condensing media. However, with the HPC, the column can be operated at lower pressures enhancing the relative volatility between the components (propane and propylene) and making separation easier. The conventional design required 220 stages to achieve the same separation that the heat pump compressor design can achieve in 160 stages. This also reduces the size of the distillation column and significantly lowered the capital investment requirement. There is overwhelming literature evidence to corroborate the application of heat pump systems to PP Splitters in order to reduce capital and operating expenditure. Studies done by Quadri, (49) Supranto et al., (50) and Olujic et al. (51) discuss various configurations of the HPC for the PP Splitter, but come up with similar conclusions for capital and operational cost savings. Table 7 shows the capital costs of running the Integrated Case with the HPC system and compares it with the Base Case. Table 8 shows the summary of the stream data for the Integrated and Intensified Case simulation.
+Table 7. Comparison of Capital Costs in Base Case with the Integrated and Intensified Case
+Equipment Type Base Case Capital Cost ($MM, 2016) Integrated and Intensified Case Capital Cost ($MM, 2016)
+Columns 90 71
+Vessels 14 14
+Reactors 46 46
+Exchangers 100 54
+Pumps 1 0.5
+Compressors 34 54
+Fired Heaters 19 11
+Refrigeration Equipment 17 17
+Total Installed Capital Cost 321 268
+Outside Battery Limits(OSBL) 30% (as a percentage of Total Installed Cost) (52)
+Detailed Engineering and Construction 30% (as a percentage of Total Installed Cost + OSBL) (52)
+Contingency 10% (as a percentage of Total Installed Cost + OSBL) (52)
+Total Fixed Capital Investment 585 488
+Table 8. Integrated and Intensified Case Simulation Stream Data
+While there is an increase in the electricity consumption, due to the addition of the heat pump, the overall utility costs have gone down considerably due to the elimination of the LP steam and cooling water costs in the PP Splitters reboiler and condenser, respectively. The overall utility costs are reduced to $39.9 MM, which is almost 50% lower than the Base Case scenario. Additionally, the total fixed capital investment is reduced by 17% to $488MM due to the elimination of the large condenser/reboilers of the PP Splitter column, as well as the reduction in the size of the column due to lower pressure operation. It eliminates the requirement of steam in the overall process flowsheet and substantially reduces the cooling water requirement as well. A comparison of the capital and utility costs for all three scenarios for the design are shown in Figure 7 and Figure 8, respectively.
+Figure 7
+Figure 7. Comparison of capital costs for Base Case, Integrated Case, and Integrated and Intensified Case.
+Figure 8
+Figure 8. Comparison of utility costs for Base Case, Integrated Case, and Integrated and Intensified Case.
+The composite curves for the Integrated and Intensified Case implemented is shown in Figure 9. The updated pinch temperature is at 70 C with the minimum hot and cold utility requirements reduced to 92.2 and 48.4 MW, respectively. The overlap area between the hot composite and cold composite curves is less than 15 MW. It may not be economically feasible to recover this overlap between the hot and cold streams as it would require large number of heat exchangers. Most of the hot utility requirement is above 100 C, which is supplied by the fired heaters in the reactor section. Significant cold utility requirement is at subzero temperatures, for which refrigeration is required.
+Figure 9
+Figure 9. Composite curves for Integrated and Intensified Case.
+Water Analysis
+The water use in the process and subsequent economic cost for cooling water utility and LP Steam was minimized in the process by both integration and intensification options. This has been demonstrated in Table 4. The cost for a water recovery and reuse system can be considered outside the boundary limits of the current process considerations for further cost and resource use reduction. The PP Splitter condenser and reboiler in the Base Case, accounts for over 70% of the water consumption in the process in terms of cooling water and LP Steam requirements, respectively. Therefore, it can be safely assumed that due to the process intensification changes implemented, significant water reduction has already been achieved, as both the condenser and the reboiler have been replaced by a single processprocess exchanger. The remaining water requirement in the process is minimal. A rigorous water treatment and recovery system would be a viable addition if there are other high water consumers and discharges in the vicinity of the propylene plant to share the additional capital investment for the recovery system.
+Emissions Analysis
+It is critical to evaluate the environmental impact of the changes made in design for sustainability. One way to estimate that is to calculate the carbon footprint of these processes. Three major greenhouse gas emission sources have been identified in the PDH process:
+Natural gas combustion
+Electricity consumption
+Burning/flaring of waste streams
+The Environmental Protection Agency (EPA) first published the AP-42 report in 1972, with updated being made periodically since, to quantify air emissions based on factors for different sources of emissions. (53) Chapter 1.4 (54) of AP-42 provides the emissions due to natural gas combustion. Estimating the annual consumption of natural gas in the process for combustion purposes can be used in conjunction with AP-42 emission factors to calculate the amount of greenhouse gas emissions as given in Table 9. The emission factor ratings determine the reliability of the estimate with A denoting most reliable estimate, which has been developed based on many observations, and widely accepted test procedures. On the other hand, E denotes a factor based on a single observation of questionable quality, or one extrapolated from another factor for a similar process.
+Table 9. AP-42 Emission Factors for Natural Gas Combustion (Industrial Heaters) (56)
+Pollutant Emission Factor (lb/106scf) Emission Factor Rating
+CO2 120,000 A
+N2O (Low NOx Burner) 0.64 E
+SO2 0.6 A
+TOC 11 B
+Methane 2.3 B
+VOC 5.5 C
+The eGRID2014v2 Annual Output Emission Rates (55) lists the greenhouse gas emissions resulting from electricity consumption categorized based on subregional grids within the United States. Because the electricity requirement in the process is known, the emissions resulting from them can also be estimated. In this paper, it is assumed that all electricity is purchased, and the emission factors from the Texas Grid (ERCOT) are used as the basis for electricity generation emissions as given in Table 10. Finally, burning waste streams from the process will also result in greenhouse gas emissions. The offgas from de-ethanizer, flash gas from the cold box, and C4+ stream from depropanizer bottoms are the three waste streams identified in the process. In order to estimate the emissions from these streams, it is assumed that a complete combustion resulting in CO2 emissions for the carbon species will occur in the flare system.
+Table 10. Emission Factors for Electricity Generation (57)
+Electricity Source CO2 (lb/MW-hr) Methane (lb/GW-hr) N2O (lb/GW-hr)
+ERCOT (Texas) Grid 1142.8 81.8 11.6
+U.S. Avg. 1122.9 110.9 16.0
+SRMW (SERC Midwest) 1772.0 208.8 30.4
+Waste Heat Recovery (WHR)
+In addition to the conventional process integration and intensification techniques, low grade energy recovery in processes can be effectively utilized to increase the overall efficiency of the process. There are technologies and systems available to recover heat from industrial clean gases at high temperature (>650 C), medium temperature (230650 C), and low temperature (<230 C). About 60% of the unrecovered waste heat is of low quality (at temperatures <230 C). (58) In the current process under consideration, the reaction of propane to propylene is endothermic in nature. Due to this, we have four fired heaters which heat the process gas to roughly 600 C to maintain catalyst activity and increase conversion. The flue gas coming out of the radiation sections of these fired heaters is a good source of medium temperature heat. Ibrahim and Al-Qassimi (59) discuss the heat recovery calculation in the convection section and show that about 35% of the radiant section duty can be recovered in the convection section. For our calculations, a conservative value of 30% of the radiant section duty recovery is assumed without going into the details of fired heater design. A common application for utilizing this energy is steam generation. (58) This steam generated can then be used in heating up the reboilers for depropanizer, de-ethanizer, and PP Splitter (for the Base Case and Integrated Case scenarios).
+Off Gas Recovery (OGR)
+Another step that can be taken to minimize the carbon footprint is utilizing the potential waste streams. It is observed that the Low Heating Value (LHV) of the de-ethanizer offgas stream is 1207 MJ/kg mol (Std.), which is more than 30% higher than the heating value of Natural Gas (915 MJ/kg mol (Std.)). Therefore, this stream can be used as fuel gas and reduce the consumption of Natural Gas. Given that the flow rate of this stream is 265 kg mol/h, a maximum of 89 MW of duty can be extracted from this stream at 100% efficiency. Factoring in for the efficiency of burning fuel (85%), a significant portion of energy in the stream can be integrated with the process, which leads to reduction in overall natural gas requirement.
+The reduction in emissions resulting from waste heat recovery and offgas recycle options were analyzed, and the results are tabulated in Table 11. 70% reduction in total emissions compared to the Base Case is achieved by implementing WHR and OGR with process integration and intensification. If a carbon tax of $25/ton of CO2 is levied, this can translate to roughly $17.4 MM worth savings every year going from the Base Case to the Integrated and Intensified Case with waste heat recovery and offgas recovery implemented.
+Table 11. Comparison of Emissions with Waste Heat Recovery and Offgas Recovery for Various Scenarios
+  Base Case Integrated Case Integrated + Intensified Case
+Pollutant Base Case Base Case + WHRa Base Case + WHR + OGRb Integrated Case Integrated Case with WHR Integrated case + WHR + OGR Integrated + Intensified Case Integrated + Intensified Case with WHR Integrated + Intensified case with WHR+ OGR
+  tons/yr tons/yr tons/yr
+CO2 1,013,054 911,646 748,282 820,723 776,074 612,710 531,606 480,676 317,312
+Methane 21.94 20.00 20.00 18.25 17.40 17.40 15.99 15.01 15.01
+SO2 3.57 3.07 3.07 2.61 2.39 2.39 0.85 0.60 0.60
+TOC 65.50 56.20 56.20 47.87 43.77 43.77 15.63 10.96 10.96
+VOC 32.75 28.10 28.10 23.93 21.89 21.89 7.81 5.48 5.48
+N2O 4.98 4.44 4.44 3.95 3.72 3.72 2.71 2.44 2.44
+Total Emissions 1,013,182 911,758 748,394 820,819 776,164 612,800 531,649 480,711 317,347
+Cost of CO2 Emissions @$25/ton $MM/yr 25.33 22.79 18.71 20.52 19.40 15.32 13.29 12.02 7.93
+aWHR: Waste Heat Recovery.
+bOGR: Off Gas Recovery.
+Economic Analysis
+A Discounted Cash Flow Rate of Return (DCFROR) analysis (52) is done to develop more detailed economic indicators. The Return on Investment (ROI), Internal Rate of Return (IRR), and Net Present Value (NPV) are estimated over a 20-year period. The Modified Accelerated Cost Recovery System (MACRS) model over a 7-year recovery period is assumed for calculating depreciation and the tax rate is assumed to be 40%. Table 12 shows the economic indicators for all three cases.
+Table 12. Economic Analysis for the Base Case, Integrated Case, and Integrated and Intensified Case
+Economic Criteria Base Case Integrated Case Integrated and Intensified Case
+Simple Pay-back (yrs) 5.82 5.34 4.06
+Return on Investment (15yrs) 15% 17% 25%
+NPV (15 yrs) [$MM] 240.7 314.6 489.5
+IRR (15 yrs) 14% 16% 22%
+Sustainability Analysis
+El-Halwagi (18) introduced the Sustainability Weighted Return on Investment (SWROI) metric, which is an extension of the Return on Investment concept with the augmented sustainability metrics and process integration targeting approaches. Considering a set a process alternatives: p = 1, 2, 3..., Nprojects. For the pth project, a new term called the Annual Sustainability Profit (ASP) is given in eq 2.
+(2)
+where i is an index for the different sustainability indicators (other than net annual economic profit with i = 1, 2, 3..., Nindicators). AEPp is the Annual Economic Profit. The weighing factor wi is a ratio representing the relative importance of the ith sustainability indicator compared to the annual net economic profit. The term (Indicatorp,i) represents the value of the ith sustainability indicator associated with the pth project and the term (IndicatoriTarget) corresponds to the target of the ith sustainability indicator (obtained from process integration benchmarking or taken as the largest value from all project). The ratio then represents the fractional contribution of project p toward meeting the desired/targeted performance for the ith sustainability metric. The SWROI of a project p is then defined as given in eq 3.
+(3)
+Where TCPp is the Total Capital Investment for project p.
+Table 13 shows the detailed sustainability analysis of the options considered. The impact of WHR and OGR is evaluated on all three case studies listed above. The different sustainability criteria are listed. The results for these criteria are used in eqs 2 and 3 to evaluate the sustainability weighted return on investment. The targets for this analysis are set based on the maximum realizable potential for reduction of the individual metrics. This can be deduced from the process integration studies done above for all categories except CO2 emissions. For CO2, it is theoretically possible to reduce and eliminate completely if capital investment is available. The weights are assigned based on the relative contribution to the overall profit. Because water, electricity, and fuel savings have been accounted for in terms of lower operating cost, they have been allotted lower weights. CO2 emissions have not been accounted for in the profit equation in any step of our study, which gives it a higher weight factor. It is worth noting that the electrical energy savings for the Integrated and Intensified Case are negative because the addition of a compressor leads to an increase in the electricity consumption. It also marginally adds on to the water footprint as it is assumed that steam would be consumed to generate electricity that runs the compressor, but the overall result is a reduction in water footprint due to the elimination of large condensers and reboilers on the PP Splitter.
+Table 13. Sustainability Weighted Analysis for Different Scenarios Considered
+Description 10 yr. Avg. Taxable Income Total Capital Investment Water Reduction (Steam + CW) Electrical Energy Savings (Power) Fuel Savings (NG Firing in Fired Heaters) CO2 Emission Reductions VOC Reduction ROI (10 yrs) SWROI
+  MM$/yr MM$ 106 kg/h MW MW 103 tons/yr tons/yr    
+Weight Factors     0.1 0.1 0.07 0.25 0.05    
+Targets     45.08 36 159 1013 32.7    
+Base Case + WHR 67 643 0 0 0 101.4 4.6 10.38% 10.71%
+Base Case + WHR + OGR 67 643 0 0 0 264.8 4.6 10.38% 11.13%
+Integrated Case 79 645 25.6 0 87 192.3 8.8 12.29% 14.21%
+Integrated Case + WHR 79 645 25.6 0 87 237 10.9 12.29% 14.38%
+Integrated Case + WHR + OGR 79 645 25.6 0 87 400.3 10.9 12.29% 14.88%
+Integrated + Intensified Case 104 536 38.7 14.5 87 481.4 24.9 19.45% 24.12%
+Integrated + Intensified Case + WHR 104 536 38.7 14.5 87 532.4 27.3 19.45% 24.43%
+Integrated + Intensified Case + WHR + OGR 104 536 38.7 14.5 87 695.7 27.3 19.45% 25.21%
+It can be seen that the Integrated and Intensified Case with the waste heat recovery and offgas recycle has the highest SWROI value and is the most attractive overall design, both from an economic and sustainability point of view. From the described analysis, the trend is an increasing SWROI as the integration and intensification options are implemented. However, this may not always be the case, as often there could be a trade-off between the overall reductions achieved and the total capital invested.
+Conclusions
+ARTICLE SECTIONSJump To
+This paper provided a systematic way of developing a sustainable process design with illustration of on-purpose propylene production. Starting with two gross economic metrics, a quick economic profitability calculation provided information to select a competitive process option for on-purpose propylene production. Then, a base case design provides the economic, energy, and emissions profile for the selected PDH process. Following this, a thorough process analysis provided the energy hotspots. An initial thermal pinch analysis identified the potential heat exchanges, and where they should be implemented. The entire process flowsheet was changed from the Base Case to the Integrated Case to include four heat exchangers and associated changes for reduced external utility consumption. After this, the process still demonstrated significant energy consumption for the propanepropylene splitter because the boiling points are very close for the two components. A process intensification scheme using a heat pump compression system was utilized and subsequent changes in splitter configuration (number of trays, operating pressure, etc.) were implemented for an Integrated and Intensified Case. It was noticed at this stage that significant reduction in both capital and operating costs were achieved through implementing these design changes. The water consumption in the process was significantly reduced, leading to a lower water footprint. The next step was the emissions analysis whereby each source of emission was analyzed. Emission factors for electricity generation, boilers, and furnaces were considered from EPA AP-42 standards and other published sources to estimate the total emission for all the design cases. It was observed that a significant amount of heat was being wasted in the fired heaters, which could be further utilized to generate steam, thereby reducing the steam consumption in the process. Another source of energy through the offgas recovery system was also identified through the emissions analysis. These were included in the process analysis. It was observed that through the utilization of the waste heat and offgas recovery addition, the overall utility consumption in the process was reduced, thereby saving in purchased utility costs and resulting emissions. An economic study revealed the most profitable options. The impact of all these case studies on the sustainability metrics was determined by calculating the SWROI for all individual cases to select the most desirable flowsheet configuration.
+Author Information
+ARTICLE SECTIONSJump To
+Corresponding Author
+Debalina Sengupta - The Gas and Fuels Research Center, Texas A&M Engineering Experiment Station, 3122 TAMU, College Station, Texas 77843-3122, United States;  http://orcid.org/0000-0001-5076-6694;  Email: debalinasengupta@tamu.edu
+Authors
+Ashwin Agarwal - The Artie McFerrin Department of Chemical Engineering, Texas A&M University, 3122 TAMU, College Station, Texas 77843-3122, United States
+Mahmoud El-Halwagi - The Artie McFerrin Department of Chemical Engineering, Texas A&M University, 3122 TAMU, College Station, Texas 77843-3122, United States;  The Gas and Fuels Research Center, Texas A&M Engineering Experiment Station, 3122 TAMU, College Station, Texas 77843-3122, United States;  http://orcid.org/0000-0002-0020-2281
+Notes
+The authors declare no competing financial interest.
+
+
+</literature>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+
+</questions>
+
+First, you need to sequentially extract any quotes in the literature that are most relevant to each question, and print them in numbered order, separated by newlines. Quotes should be relatively brief. Do not attempt to summarize or answer questions at this stage, but simply repeat exactly what the corresponding part of the literature says.
+
+Please enclose the full list of quotes in <quotes></quotes> XML tags. If there are no relevant quotes, write "No relevant quotes" instead.
+
+Then, answer the question, starting with "Answer:".  Do not include or reference quoted content verbatim in the answer. Don't say "According to Quote [1]" when answering. Do not write reference number of quotes after answer. Put your answer to the user inside <answer></answer> XML tags. Output formatted text, with line breaks for each question.Separate quotes and answers with a blank line. Provide the answers to all questions in English. After completing the English answers, translate all those answers into Chinese and provide the Chinese version.
+
+Thus, the format of your overall response should look like what's shown between the <example></example> tags.  Make sure to follow the formatting and spacing exactly.
+
+<example>
+
+<quotes>
+
+[1] "Company X reported revenue of $12 million in 2021."
+
+</quotes>
+
+<English version answer>
+
+1.Company X earned $12 million in 2021.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.X公司在2021年赚了1200万美元。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Almost 90% of revenue came from widget sales, with gadget sales making up the remaining 10%."
+
+</quotes>
+
+<English version answer>
+
+2.Almost 90% of it came from widget sales.
+
+</English version answer>
+
+<Chinese version answer>
+
+2.几乎90%的收入来自小部件销售。
+
+</Chinese version answer>
+
+</example>
+
+
+If the question cannot be answered by the document, say so.If deemed necessary, the answer to the question can be extended entirely from the content of the document.
+
+Answer all of the questions immediately without preamble. 

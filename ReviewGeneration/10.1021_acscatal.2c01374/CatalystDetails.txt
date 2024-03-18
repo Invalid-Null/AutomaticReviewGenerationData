@@ -1,0 +1,143 @@
+ <output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>VOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>V</Element> 
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>45-50%</ConversionRate> 
+				<Selectivity>90% for propylene</Selectivity>
+				<Stability>Deactivates due to coking</Stability>
+				<DeactivationRates>
+					<Rate>7-fold drop in conversion over 5-6 h TOS</Rate>
+				</DeactivationRates>
+				<PropyleneYield>6.2-6.5 mol/h/kgcat</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% propane, 2.5% CO2, 95% inert</Ratio>
+				</FeedCompositionAndRatios>
+				<PropanePartialPressure>0.7-6 barg</PropanePartialPressure>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 N mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>WHSV = 1.5 gpropane/gcat/h</CatalystLoadingOrGHSV>
+			</Catalyst>
+			<Catalyst>
+				<Name>CrOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>48% for propane, 23% for CO2</ConversionRate>
+				<Selectivity>75% for (O)DHP, 10% coking, 7% cracking</Selectivity>  
+				<Stability>Deactivates due to sintering and coking</Stability>
+				<DeactivationRates>
+					<Rate>80% activity loss between 600-700°C</Rate>
+				</DeactivationRates>
+				<PropyleneYield>12 mol/h/kgcat</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% propane, 2.5% CO2, 95% inert</Ratio>
+				</FeedCompositionAndRatios>  
+				<PropanePartialPressure>0.7-6 barg</PropanePartialPressure>
+				<ReactionTemperature>615°C</ReactionTemperature>
+				<InletFlowRate>100 N mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>WHSV = 1.5 gpropane/gcat/h</CatalystLoadingOrGHSV>
+			</Catalyst>
+			<Catalyst>
+				<Name>CoOx(700)/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Co</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>N/A</ConversionRate>
+				<Selectivity>N/A</Selectivity>
+				<Stability>Coking increases above 600°C</Stability>
+				<DeactivationRates>
+					<Rate>N/A</Rate>
+				</DeactivationRates>
+				<PropyleneYield>3.2 mol/h/kgcat at 600°C</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% propane, 2.5% CO2, 95% inert</Ratio>
+				</FeedCompositionAndRatios>
+				<PropanePartialPressure>0.7-6 barg</PropanePartialPressure>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 N mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>WHSV = 1.5 gpropane/gcat/h</CatalystLoadingOrGHSV>
+			</Catalyst>
+			<Catalyst>
+				<Name>GalinstanOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+					<Element>In</Element>
+					<Element>Sn</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>8.3% propane, 5.6% CO2</ConversionRate>
+				<Selectivity>20% coking, DRP, cracking; 89% C3H6HC</Selectivity>
+				<Stability>Stable</Stability>
+				<DeactivationRates>
+					<Rate>Minimal deactivation</Rate>
+				</DeactivationRates>
+				<PropyleneYield>2.5 mol/h/kgcat at 600°C</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% propane, 2.5% CO2, 95% inert</Ratio>
+				</FeedCompositionAndRatios>
+				<PropanePartialPressure>0.7-6 barg</PropanePartialPressure>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 N mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>WHSV = 1.5 gpropane/gcat/h</CatalystLoadingOrGHSV>
+			</Catalyst>
+			<Catalyst>
+				<Name>InOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>In</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>11% propane, 14% CO2 at 600°C</ConversionRate>
+				<Selectivity>80% for propylene at 500-600°C</Selectivity>
+				<Stability>Stable and cyclable</Stability>
+				<DeactivationRates>
+					<Rate>No deactivation</Rate>
+				</DeactivationRates>
+				<PropyleneYield>2.9 mol/h/kgcat at 650°C</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% propane, 2.5% CO2, 95% inert</Ratio>
+				</FeedCompositionAndRatios>
+				<PropanePartialPressure>0.7-6 barg</PropanePartialPressure>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 N mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>WHSV = 1.5 gpropane/gcat/h</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</CatalystsList>
+		<MainContribution>
+			<Catalyst>
+				<Name>InOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>In</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>11% propane, 14% CO2 at 600°C</ConversionRate>
+				<Selectivity>80% for propylene at 500-600°C</Selectivity>
+				<Stability>Stable and cyclable</Stability>
+				<DeactivationRates>
+					<Rate>No deactivation</Rate>
+				</DeactivationRates>
+				<PropyleneYield>2.9 mol/h/kgcat at 650°C</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% propane, 2.5% CO2, 95% inert</Ratio>
+				</FeedCompositionAndRatios>
+				<PropanePartialPressure>0.7-6 barg</PropanePartialPressure>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 N mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>WHSV = 1.5 gpropane/gcat/h</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

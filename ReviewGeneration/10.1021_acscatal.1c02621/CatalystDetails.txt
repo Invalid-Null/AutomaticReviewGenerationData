@@ -1,0 +1,90 @@
+ <output>
+	<Relevance>
+		Yes
+	</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>ZrO2</Name>
+				<Type>Metal Oxide</Type>  
+				<ActiveSpeciesElements>
+					<Element>Zr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminosilicate</SupportMaterial>
+				<ConversionRate>1.8%</ConversionRate>
+				<Selectivity>74.3%</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Ga2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminosilicate</SupportMaterial>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Zr0.26Ga1</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Zr</Element>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminosilicate</SupportMaterial>
+				<ConversionRate>50.1%</ConversionRate>
+				<Selectivity>95.1%</Selectivity>
+				<PropyleneYield>1.61 kg kgCat.-1 h-1</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:N2 = 12:12:100 mL/min</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<CatalystLoadingOrGHSV>WHSV = 3.5 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Pt-Sn(I)</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Sn</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Alumina</SupportMaterial>
+				<ConversionRate>33.9%</ConversionRate>
+				<Selectivity>96.2%</Selectivity>
+				<PropyleneYield>1.33 kg kgCat.-1 h-1</PropyleneYield>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CrOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Alumina</SupportMaterial>
+				<ConversionRate>30.1%</ConversionRate>
+				<Selectivity>92.4%</Selectivity>
+				<PropyleneYield>1.04 kg kgCat.-1 h-1</PropyleneYield>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>Zr0.26Ga1</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Zr</Element>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>	<SupportMaterial>Aluminosilicate</SupportMaterial>
+				<ConversionRate>50.1%</ConversionRate>
+				<Selectivity>95.1%</Selectivity>
+				<PropyleneYield>1.61 kg kgCat.-1 h-1</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2:N2 = 12:12:100 mL/min</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<CatalystLoadingOrGHSV>WHSV = 3.5 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

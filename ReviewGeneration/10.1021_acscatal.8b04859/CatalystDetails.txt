@@ -1,0 +1,71 @@
+ <output>
+	<Relevance>
+		Yes
+	</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>CrOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>5-7%</ConversionRate>
+				<Selectivity>90% for propylene</Selectivity>
+			</Catalyst>
+			<Catalyst>
+				<Name>ZSM-5</Name>
+				<Type>Zeolite</Type>
+				<ConversionRate>53-62% for furan</ConversionRate>
+				<Selectivity>24% for methane, 45% for ethylene</Selectivity>
+			</Catalyst>
+			<Catalyst>
+				<Name>CrZSM_0.5</Name>
+				<Type>Metal Oxide + Zeolite</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide + Zeolite</SupportMaterial>
+				<ConversionRate>53-62% for furan</ConversionRate>
+				<PropyleneYield>73%</PropyleneYield>
+				<AromaticYieldEnhancement>40%</AromaticYieldEnhancement>
+			</Catalyst>
+			<Catalyst>
+				<Name>CrZSM_1</Name>
+				<Type>Metal Oxide + Zeolite</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide + Zeolite</SupportMaterial>
+				<ConversionRate>53-62% for furan</ConversionRate>
+				<PropyleneYield>83%</PropyleneYield>
+				<AromaticYieldEnhancement>60%</AromaticYieldEnhancement>
+			</Catalyst>
+			<Catalyst>
+				<Name>CrZSM_2</Name>
+				<Type>Metal Oxide + Zeolite</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide + Zeolite</SupportMaterial>
+				<ConversionRate>53-62% for furan</ConversionRate>
+				<PropyleneYield>94%</PropyleneYield>
+				<AromaticYieldEnhancement>94%</AromaticYieldEnhancement>
+			</Catalyst>
+		</CatalystsList>
+		<MainContribution>
+			<Catalyst>
+				<Name>CrZSM_2</Name>
+				<Type>Metal Oxide + Zeolite</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide + Zeolite</SupportMaterial>
+				<ConversionRate>53-62% for furan</ConversionRate>
+				<PropyleneYield>94%</PropyleneYield>
+				<AromaticYieldEnhancement>94%</AromaticYieldEnhancement>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

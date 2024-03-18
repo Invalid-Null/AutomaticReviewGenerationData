@@ -1,0 +1,502 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ Here are the relevant quotes and answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+1. 本文没有比较金属与氧化物负载金属催化剂的选择性差异。
+</Chinese version answer>
+
+<quotes>
+[1] "Pt-based bimetallic catalysts have been widely investigated in propane dehydrogenation (PDH) owing to their high activity in CH cleavage and propylene selectivity."
+
+[2] "The dehydrogenation of light alkanes, such as propane, is an endothermic and equilibrium-limited reaction, which requires very high reaction temperatures (773973 K) to achieve high olefin yields."  
+
+[3] "Various strategies have been used to overcome these problems, such as alloying with other elements (e.g., Sn, (716) Zn, (1719) Ga, (2022) Cu, (2325) Fe, (26) GaPb, (27) and rare-earth (28)), and the introduction of base promoters (alkali ions such as K+) (7,8,14,15,29) on the support surface."
+
+[4] "Pt/GaAL showed a remarkably enhanced propylene formation rate (0.17 mmolC3H6 gcat-1 s-1), indicating a great synergy between Ga and Pt."
+
+[5] "Selective poisoning, in situ DRIFTS, and H2D2 exchange experiments clearly revealed that Ga3+ is responsible for the heterolytic dissociation of the CH bond in propane, while Pt0 facilitates the rate-determining H recombination via reverse spillover." 
+
+</quotes>
+
+<English version answer>
+2. Yes, the article evaluates Pt alloy catalysts including Pt-Sn, Pt-Zn, Pt-Ga, Pt-Cu, and Pt-Fe for propane dehydrogenation. It provides data on propylene formation rates showing a synergy between Pt and Ga in Pt-Ga/Al2O3 that gives greatly enhanced activity compared to Pt/Al2O3 or Ga/Al2O3 alone. Selective poisoning, in situ DRIFTS, and isotope exchange experiments provide insights into the bifunctional mechanism, with Ga responsible for C-H activation and Pt facilitating H recombination.
+</English version answer>
+
+<Chinese version answer>
+2. 是的,本文评估了Pt-Sn、Pt-Zn、Pt-Ga、Pt-Cu和Pt-Fe等Pt合金催化剂用于丙烷脱氢反应。它提供了丙烯生成速率的数据,显示Pt和Ga在Pt-Ga/Al2O3上的协同作用大大提高了活性,相比单独的Pt/Al2O3或Ga/Al2O3。选择性毒化、原位DRIFTS和同位素交换实验提供了双功能机制方面的见解,Ga负责C-H活化,Pt有利于H重组。
+</Chinese version answer>
+
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not specifically investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. No examples or structure-function insights related to this are provided.
+</English version answer>
+
+<Chinese version answer>
+3. 本文没有具体研究双金属和合金催化剂中第二种金属的电子和几何效应。没有提供相关的范例或结构-功能关系的见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No examples or data related to this are provided.
+</English version answer>
+
+<Chinese version answer>
+4. 本文没有探索利用Re或Mn等表面下促进剂来调节双金属和合金催化剂选择性。没有提供相关的例子或数据。
+</Chinese version answer>
+
+<quotes> 
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts attributed to ensemble and/or ligand effects. No specific examples or explanations related to this are provided.
+</English version answer> 
+
+<Chinese version answer>
+5. 本文没有描述双金属或合金催化剂中金属之间的协同效应归因于配位效应和/或配位效应。没有提供相关的具体例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No examples, data, or insights related to zeolite supports are provided.
+</English version answer>
+
+<Chinese version answer> 
+6. 本文没有评估MFI、FER或BEA等任何沸石作为丙烷脱氢催化剂的载体。没有提供关于沸石载体的例子、数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No examples or structure-function relationships related to zeolite tuning are revealed.
+</English version answer>
+
+<Chinese version answer>
+7. 本文没有研究调节沸石Si/Al比或引入介孔对丙烷脱氢催化剂性能的影响。没有揭示关于调节沸石的结构-功能关系的例子。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Unfortunately there are no relevant quotes to answer the questions provided. Here are the answers:
+
+<English version answer>
+
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. 
+
+2. Yes, the article evaluates Pt-Ga bimetallic catalysts for propane dehydrogenation. It provides data showing Pt-Ga/Al2O3 has much higher activity than Pt/Al2O3 or Ga/Al2O3 alone, and shows that Pt provides hydrogen recombination sites while Ga provides the active sites for C-H bond activation.
+
+3. No, the article does not investigate electronic and geometric effects of the secondary metal in bimetallic catalysts.
+
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic catalysts.
+
+5. Yes, the article describes a synergistic effect between Pt and Ga in the Pt-Ga bimetallic catalyst, attributed to Pt facilitating hydrogen recombination via reverse spillover while Ga provides the active sites for C-H activation. 
+
+6. No, the article does not evaluate any zeolite supports.
+
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 文章没有比较金属氧化物载体催化剂的选择性概况。
+
+2. 是的,文章评估了Pt-Ga双金属催化剂用于丙烷脱氢。它提供了数据,显示Pt-Ga/Al2O3比单独Pt/Al2O3或Ga/Al2O3具有更高的活性,并表明Pt提供氢重组位点,而Ga提供C-H键活化位点。
+
+3. 否,文章没有研究双金属催化剂中第二金属的电子和几何效应。 
+
+4. 否,文章没有探讨如Re或Mn等次表面促进剂在双金属催化剂中的应用。
+
+5. 是的,文章描述了Pt-Ga双金属催化剂中Pt与Ga之间的协同效应,这是由于Pt通过反溢流促进氢重组,而Ga提供C-H键活化位点。
+
+6. 否,文章没有评估任何分子筛载体。
+
+7. 否,文章没有研究调谐分子筛Si/Al比或引入介孔对丙烷脱氢催化剂性能的影响。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses on bimetallic Pt-Ga catalysts supported on γ-Al2O3.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 不,这篇文章没有比较金属氧化物载体催化剂的选择性特征。它主要关注铝氧化物载体的双金属Pt-Ga催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+2. Yes, the article evaluates bimetallic Pt-Ga catalysts for propane dehydrogenation. It provides data showing Pt-Ga/Al2O3 has much higher activity than Pt/Al2O3 or Ga/Al2O3 alone, indicating a synergistic effect between Pt and Ga. No other Pt alloy catalysts were investigated.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 是的,这篇文章评估了丙烷脱氢反应的双金属Pt-Ga催化剂。它提供的数据显示,Pt-Ga/Al2O3的活性远高于单独的Pt/Al2O3或Ga/Al2O3,这表明Pt和Ga之间存在协同效应。文章没有研究其他Pt合金催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. No, the article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It focuses on the overall catalytic performance of Pt-Ga bimetallic catalysts without analyzing individual metal contributions in detail.
+
+</English version answer>
+
+<Chinese version answer> 
+
+3. 不,这篇文章没有研究双金属和合金催化剂中第二金属的电子和几何效应。它着重于Pt-Ga双金属催化剂的整体催化性能,没有详细分析各个金属的贡献。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts. It only studies Pt-Ga bimetallic catalysts without any subsurface promoters.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 不,这篇文章没有探究Re或Mn等次表面促进剂在双金属和合金催化剂中的应用。它仅研究了Pt-Ga双�属催化剂,没有任何次表面促进剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+
+5. No, the article does not describe any synergistic effects between metals attributed to ensemble and/or ligand effects. It shows Pt-Ga has synergistic effect but does not explain the origin of the synergy in detail.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 不,这篇文章没有描述可以归因于团簇效应和/或配体效应的金属之间的任何协同效应。它显示Pt-Ga存在协同效应,但没有详细解释协同效应的起源。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+6. No, the article does not evaluate any zeolite supports like MFI, FER or BEA structures. It only studies γ-Al2O3 support without any zeolites.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 不,这篇文章没有评估任何MFI、FER或BEA结构等沸石载体。它仅研究了γ-Al2O3载体,没有任何沸石。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. No, the article does not investigate effects of tuning zeolite Si/Al ratio or incorporating mesoporosity. It focuses solely on γ-Al2O3 support without any zeolites or mesoporous materials.
+
+</English version answer> 
+
+<Chinese version answer>
+
+7. 不,这篇文章没有研究调节沸石Si/Al比或引入介孔对性能的影响。它仅关注γ-Al2O3载体,没有任何沸石或介孔材料。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses only on metallic Pt and Pt alloy catalysts for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+1. 该文没有比较金属和氧化支持金属催化��的选择性配置文件。它只关注丙烷脱氢反应中的金属Pt和Pt合金催化剂。
+</Chinese version answer>
+
+<quotes>
+[1] Pt/GaAL showed a remarkably enhanced propylene formation rate (0.17 mmolC3H6 gcat−1 s−1), indicating a great synergy between Ga and Pt. 
+
+[2] The synergistic effect was further confirmed by evaluating the propylene formation rates while selectively poisoning Lewis acidic Ga3+ with H2O or metallic Pt0 with CO
+
+[3] Pt-Sn, Pt-Zn catalysts encapsulated within the micropores of alkali (e.g., K+ and Cs+)-modified silicalite can enhance the sintering resistance because of the physical confinement and strong Pt-alkali interactions.
+</quotes>
+
+<English version answer>  
+2. Yes, the article evaluates Pt-Ga and Pt-Zn alloy catalysts for propane dehydrogenation. It shows a synergistic effect between Ga and Pt, with Pt/GaAL exhibiting remarkably enhanced propylene formation compared to Pt/AL or GaAL alone. It also mentions prior work on Pt-Sn and encapsulated Pt-Zn and Pt-Sn in alkali-modified zeolites to improve sintering resistance.
+</English version answer>
+
+<Chinese version answer>
+2. 是的,该文评估了用于丙烷脱氢反应的Pt-Ga和Pt-Zn合金催化剂。它展示了Ga和Pt之间的协同效应,Pt/GaAL的丙烯生成量明显优于仅含Pt的Pt/AL或仅含Ga的GaAL。它还提到了先前对Pt-Sn和封装在碱改性沸石中的Pt-Zn和Pt-Sn的研究,以提高烧结阻力。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+3. The article does not specifically investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts.
+</English version answer>
+
+<Chinese version answer>
+3. 该文没有具体研究双金属和合金催化剂中次要金属的电子和几何效应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. The article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts.
+</English version answer>  
+
+<Chinese version answer>
+4. 该文没有探讨在双金属和合金催化剂中使用Re或Mn等潜在晶间促进剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts attributed to ensemble and/or ligand effects.
+</English version answer>
+
+<Chinese version answer>
+5. 该文没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于集团和/或配体效应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes  
+</quotes>
+
+<English version answer>
+6. The article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts.
+</English version answer>
+
+<Chinese version answer>  
+6. 该文没有评估丙烷脱氢反应催化剂的任何沸石载体,如MFI、FER或BEA结构。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance.
+</English version answer>
+
+<Chinese version answer>
+7. 该文没有研究调节沸石Si/Al比或引入介孔对丙烷脱氢反应催化剂性能的影响。  
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. There is no discussion of selectivity modulation in this context.
+</English version answer>
+
+<Chinese version answer>  
+1. 本文没有比较金属型和氧化型支持金属催化剂的选择性概况。也没有在这方面讨论选择性调控。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes> 
+
+<English version answer>  
+2. Yes, the article evaluates Pt-Ga bimetallic catalysts for propane dehydrogenation. It provides data showing Pt-Ga/Al2O3 has much higher activity than Pt/Al2O3 or Ga/Al2O3 alone, and insights that Ga activates the C-H bond while Pt facilitates hydrogen recombination.
+</English version answer>
+
+<Chinese version answer>
+2. 是的,本文评估了Pt-Ga双金属催化剂用于丙烷脱氢反应。它提供的数据显示,Pt-Ga/Al2O3的活性远高于单独的Pt/Al2O3或Ga/Al2O3,并提出Ga激活C-H键,而Pt促进氢重组的见解。
+</Chinese version answer>
+
+<quotes> 
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. No specific examples or structure-function insights related to this are provided.
+</English version answer>
+
+<Chinese version answer>
+3. 本文没有研究双金属和合金催化剂中次要金属的电子和几何效应。也没有提供相关的具体例子或结构-功能关系的见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No specific examples or data on this are provided.
+</English version answer>
+
+<Chinese version answer>
+4. 本文没有探索如Re或Mn等次表面促进剂在双金属和合金催化剂中的应用,以调节选择性。也没有提供相关的具体例子或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations related to this are provided.
+</English version answer>
+
+<Chinese version answer>
+5. 本文没有描述双金属或合金催化剂中的金属之间的任何协同效应,这些效应可归因于团簇和/或配体效应。也没有提供相关的具体例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+6. No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights related to zeolite supports are provided.
+</English version answer> 
+
+<Chinese version answer>
+6.本文没有评估任何类似MFI、FER或BEA结构的分子筛担体用于丙烷脱氢催化剂。也没有提供关于分子筛担体的具体例子、数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships related to zeolite tuning are revealed.
+</English version answer>
+
+<Chinese version answer>  
+7. 本文没有研究调节分子筛Si/Al比或者引入介孔对丙烷脱氢催化剂性能的影响。也没有揭示关于调节分子筛的任何具体例子或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+

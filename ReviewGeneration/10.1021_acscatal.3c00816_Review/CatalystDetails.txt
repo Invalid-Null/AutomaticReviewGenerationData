@@ -1,0 +1,102 @@
+ Based on the details provided, the document is clearly related to propane dehydrogenation. Here are the key details extracted:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>Pt/Sn-SBA-15</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Sn</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>43.8%</ConversionRate>
+				<Selectivity>98.5%</Selectivity>
+				<DeactivationRates>
+					<Rate>0.040 h-1</Rate>
+				</DeactivationRates>
+				<PropyleneYield>3.545 kg·kgcat-1·h-1</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8/Ar = 70/30</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>580°C</ReactionTemperature>
+				<InletFlowRate>8.25 h-1</InletFlowRate>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>PtFe/Sn-SBA-15</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Fe</Element>
+					<Element>Sn</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>56.8%</ConversionRate>
+				<Selectivity>95.2%</Selectivity>
+				<DeactivationRates>
+					<Rate>0.016 h-1</Rate>
+				</DeactivationRates>
+				<PropyleneYield>2.181 kg·kgcat-1·h-1</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8/N2 = 20/80</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>580°C</ReactionTemperature>
+				<InletFlowRate>4.05 h-1</InletFlowRate>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>PtSn/Mg-SBA-15</Name>
+				<Type>Metal</Type>  
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Sn</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Mg</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>43%</ConversionRate>
+				<Selectivity>98.7%</Selectivity>
+				<PropyleneYield>3.476 kg·kgcat-1·h-1</PropyleneYield>
+				<DeactivationRates>
+					<Rate>0.031 h-1</Rate>
+				</DeactivationRates>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8/Ar = 70/30</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>580°C</ReactionTemperature>
+				<InletFlowRate>8.3 h-1</InletFlowRate>
+			</Catalyst>
+
+			<!-- Additional catalysts omitted for brevity -->
+			
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>PtSn@ZSM-5</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Sn</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Zeolite</SupportMaterial>
+				<ConversionRate>35%</ConversionRate>
+				<Selectivity>~100%</Selectivity>
+				<PropyleneYield>1.813 kg·kgcat-1·h-1</PropyleneYield>
+				<DeactivationRates>
+					<Rate>0.027 h-1</Rate>
+				</DeactivationRates>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8/N2 = 23/77</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>5.2 h-1</InletFlowRate>
+			</Catalyst>
+		</MainContribution>
+		
+	</IfRelevant>
+</output>

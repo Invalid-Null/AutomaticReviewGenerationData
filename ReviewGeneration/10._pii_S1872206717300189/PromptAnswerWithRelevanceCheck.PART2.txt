@@ -1,0 +1,393 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses only on bimetallic PtSn catalysts.
+</English version answer>
+
+<Chinese version answer>
+1.不,本文没有比较金属与氧化支持金属催化剂的选择性概况。它仅集中在双金属PtSn催化剂上。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+2. No, the article does not evaluate any Pt alloy catalysts other than Pt-Sn for propane dehydrogenation. It provides data and insights specifically for PtSn catalysts supported on zeolites.
+</English version answer>
+
+<Chinese version answer>
+2.不,本文没有评估PtSn以外的其它Pt合金催化剂用于丙烷脱氢。它仅提供PtSn催化剂(以沸石为载体)的数据和见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not investigate electronic or geometric effects of the secondary metal in the PtSn bimetallic catalysts. No specific examples or structure-function insights related to this are provided.
+</English version answer>
+
+<Chinese version answer>  
+3.不,本文没有调查PtSn双金属催化剂中次要金属的电子效应或几何效应。没有提供相关的具体例子或结构-功能关系的见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes 
+</quotes>
+
+<English version answer>
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in the bimetallic catalysts. No examples or data on subsurface promoters are provided.
+</English version answer> 
+
+<Chinese version answer>
+4.不,本文没有探讨如Re或Mn等次表面促进剂在双金属催化剂中的应用。没有提供关于次表面促进剂的例子或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+5. No, the article does not describe any synergistic effects between metals in the bimetallic catalysts attributed to ensemble or ligand effects. No specific examples or explanations are provided.
+</English version answer>
+
+<Chinese version answer>
+5.不,本文没有描述双金属催化剂中金属之间的任何协同效应,这些效应可归因于团簇效应或配体效应。没有提供具体的例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. No, the article does not evaluate zeolite supports like MFI, FER, or BEA for propane dehydrogenation catalysts. It only evaluates ZSM-5 and SUZ-4 zeolite supports.
+</English version answer>
+
+<Chinese version answer>  
+6.不,本文没有评估MFI、FER或BEA等沸石用作丙烷脱氢催化剂的载体。它仅��估了ZSM-5和SUZ-4沸石载体。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on catalyst performance. No examples or structure-function relationships related to this are provided.
+</English version answer>
+
+<Chinese version answer>
+7. 不,本文没有研究调节沸石Si/Al比或引入介孔对催化剂性能的影响。没有提供相关的例子或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses solely on PtSn bimetallic catalysts.
+</English version answer>
+
+<Chinese version answer>
+1.不,本文并未比较金属氧化物载体催化剂和氧化物载体催化剂的选择性特征。文中仅关注 PtSn 双金属催化剂。
+</Chinese version answer>
+
+<quotes>
+[1] The structure and catalytic properties of PtSn catalysts supported on SUZ-4 and ZSM-5 zeolite have been studied by using various experimental techniques including XRD, nitrogen adsorption, NH3-TPD, TG, H2-TPR and TPO techniques combined with propane dehydrogenation tests.
+
+[2] Supported Pt-Sn catalysts have been widely used because of their high activities and environmentally friendly characteristics [1, 2]. 
+
+[3] In recent years, zeolites such as SUZ-4 and ZSM-5 have been found to be good supports because of their high surface areas, good thermal stabilities, large pore volumes and tunable acidity [12, 13, 14].
+
+[4] Zhou's group [20] investigated propane dehydrogenation over ZSM-5-supported Pt-Sn catalysts and found that the propylene selectivity was significantly improved by introducing promoters to neutralize the support acidity. 
+
+[5] PtSnNa/SUZ-4 was determined to be a better catalyst for propane dehydrogenation than conventional catalysts supported on ZSM-5, owing to its higher catalytic activity and stability.
+</quotes>
+
+<English version answer>
+2. Yes, the article evaluates PtSn bimetallic catalysts for propane dehydrogenation. It studies PtSn catalysts supported on SUZ-4 and ZSM-5 zeolites and finds that PtSnNa/SUZ-4 shows higher activity and stability compared to PtSnNa/ZSM-5. The article provides data on conversion, selectivity, and yield for these catalysts.
+</English version answer>
+
+<Chinese version answer>
+2. 是的,本文评估了用于丙烷脱氢的 PtSn 双金属催化剂。文中研究了负载在 SUZ-4 和 ZSM-5 分子筛上的 PtSn 催化剂,发现与 PtSnNa/ZSM-5 相比,PtSnNa/SUZ-4 显示了更高的活性和稳定性。文中提供了这些催化剂的转换率、选择性和收率的数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+3. No, the article does not investigate electronic and geometric effects of the secondary metal in the PtSn bimetallic catalysts. It does not provide insights into how the Sn modifies the Pt electronic structure or ensemble effects.
+</English version answer>
+
+<Chinese version answer>
+3. 不,本文并未研究 PtSn 双金属催化剂中辅助金属的电子效应和几何效应。文中并未提供 Sn 如何改变 Pt 的电子结构或集体效应的信息。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in the bimetallic catalysts. No examples or data are provided on subsurface promoters.
+</English version answer>
+
+<Chinese version answer> 
+4. 不,本文并未探讨在双金属催化剂中使用 Re 或 Mn 等亚表面促进剂。文中并未提供有关亚表面促进剂的示例或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in the bimetallic catalysts attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+</English version answer>
+
+<Chinese version answer>
+5. 不,本文并未描述双金属催化剂中金属之间的任何协同效应,这些效应可归因于集团效应和/或配体效应。文中并未提供具体的示例或解释。
+</Chinese version answer>
+
+<quotes>
+[1] In recent years, zeolites such as SUZ-4 and ZSM-5 have been found to be good supports because of their high surface areas, good thermal stabilities, large pore volumes and tunable acidity [12, 13, 14].
+
+[2] SUZ-4-supported catalysts have been widely used in many processes, such as the conversion of n-hexane [16], the synthesis of dimethyl ether from methanol [17], and the elimination of nitrogen oxides [18].
+
+[3] PtSnNa/SUZ-4 was determined to be a better catalyst for propane dehydrogenation than conventional catalysts supported on ZSM-5, owing to its higher catalytic activity and stability.
+</quotes>
+
+<English version answer>
+6. Yes, the article evaluates zeolite supports like SUZ-4 and ZSM-5 for propane dehydrogenation catalysts. It finds SUZ-4 to be a better support than ZSM-5, providing data showing higher activity and stability for PtSnNa/SUZ-4 compared to PtSnNa/ZSM-5. The article suggests the tunable acidity and pore structure of zeolites make them promising supports.
+</English version answer>
+
+<Chinese version answer>
+6. 是的,本文评估了 SUZ-4 和 ZSM-5 等分子筛作为丙烷脱氢催化剂的载体。结果发现 SUZ-4 是较 ZSM-5 更好的载体,数据显示 PtSnNa/SUZ-4 相比 PtSnNa/ZSM-5 具有更高的活性和稳定性。文中认为分子筛的可调酸度和孔结构使其成为有前景的载体。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity. No examples or structure-function relationships related to this are provided.
+</English version answer>
+
+<Chinese version answer>
+7. 不,本文并未研究调节分子筛 Si/Al 比或引入介孔的效果。文中并未提供相关的示例或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+1. No relevant quotes. 
+2. The article evaluates PtSn catalysts supported on SUZ-4 and ZSM-5 zeolites for propane dehydrogenation. The PtSnNa/SUZ-4 catalyst exhibited higher activity and improved stability compared to PtSnNa/ZSM-5. 
+
+3. No relevant quotes.
+4. No relevant quotes.
+5. No relevant quotes. 
+6. The article evaluates SUZ-4 and ZSM-5 zeolite supports for propane dehydrogenation catalysts. The SUZ-4-supported PtSnNa catalyst showed higher catalytic activity and stability compared to the PtSnNa/ZSM-5 catalyst.
+7. No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+1. The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No examples or explanations of selectivity modulation are provided.
+
+2. Yes, the article evaluates PtSn catalysts supported on SUZ-4 and ZSM-5 zeolites for propane dehydrogenation. The PtSnNa/SUZ-4 catalyst showed higher activity and improved stability compared to the PtSnNa/ZSM-5 catalyst.
+
+3. No, the article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. No specific examples or structure-function insights are provided.
+
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts. No specific examples or data are provided.
+
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts. No specific examples or explanations attributed to ensemble and/or ligand effects are provided.
+
+6. Yes, the article evaluates SUZ-4 and ZSM-5 zeolite supports for propane dehydrogenation catalysts. The SUZ-4-supported PtSnNa catalyst showed higher activity and stability compared to the PtSnNa/ZSM-5 catalyst.
+
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity. No specific examples or structure-function relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 文章没有比较金属和氧化supported金属催化剂的选择性谱。没有提供选择性调制的例子或解释。
+
+2. 是的,文章评估了PtSn催化剂(支持在SUZ-4 和ZSM-5沸石上)用于丙烷脱氢。PtSnNa/SUZ-4催化剂表现出比PtSnNa/ZSM-5更高的活性和稳定性。
+
+3. 否,文章没有调查双金属和合金催化剂中次要金属的电子和几何效应。没有提供具体的例子或结构-功能见解。
+
+4. 否,文章没有探索像Re或Mn这样的次表面促进剂在双金属和合金催化剂中的应用。没有提供具体的例子或数据。
+
+5. 否,文章没有描述双金属或合金催化剂中金属之间的任何协同效应。没有提供归因于集合体和/或配体效应的具体例子或解释。
+
+6. 是的,文章评估了SUZ-4和ZSM-5沸石支持用于丙烷脱氢催化剂。SUZ-4支持的PtSnNa催化剂表现出比PtSnNa/ZSM-5更高的活性和稳定性。
+
+7. 否,文章没有调查调谐沸石Si/Al比或掺入介孔对丙烷脱氢催化剂性能的影响。没有透露具体的例子或结构-功能关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+No relevant quotes
+No relevant quotes
+No relevant quotes
+No relevant quotes
+No relevant quotes
+No relevant quotes
+No relevant quotes
+</quotes>
+
+<English version answer>
+
+1. The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation are provided.
+
+2. Yes, the article evaluates PtSn bimetallic catalysts for propane dehydrogenation. It provides data on propane conversion, propylene selectivity, and stability for PtSnNa/SUZ-4 and PtSnNa/ZSM-5 catalysts. The PtSnNa/SUZ-4 catalyst showed higher activity and stability compared to PtSnNa/ZSM-5.
+
+3. No, the article does not investigate electronic and geometric effects of Sn in the PtSn bimetallic catalysts. No specific examples or structure-function insights are revealed.
+
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in the PtSn catalysts. No specific examples or data are provided.
+
+5. No, the article does not describe any synergistic effects between Pt and Sn metals attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.  
+
+6. Yes, the article evaluates zeolite supports like SUZ-4 and ZSM-5 for propane dehydrogenation catalysts. It provides data and insights showing PtSnNa/SUZ-4 was superior to PtSnNa/ZSM-5 due to higher activity and stability.
+
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity. No specific examples or structure-function relationships are revealed.
+
+</English version answer>
+
+
+<Chinese version answer>
+
+1. 文章没有比较金属氧化物支持催化剂与氧化物支持催化剂的选择性谱。没有提供具体的例子或选择性调控的解释。
+
+2. 是的,文章评估了PtSn双金属催化剂用于丙烷脱氢。它提供了PtSnNa/SUZ-4和PtSnNa/ZSM-5催化剂的丙烷转化率、丙烯选择性和稳定性的数据。PtSnNa/SUZ-4催化剂表现出比PtSnNa/ZSM-5更高的活性和稳定性。
+
+3. 否,文章没有研究PtSn双金属催化剂中Sn的电子和几何效应。没有揭示具体的例子或结构-功能关系。
+
+4. 否,文章没有探讨在PtSn催化剂中使用Re或Mn等次表面促进剂。没有提供具体的例子或数据。
+
+5. 否,文章没有描述Pt和Sn金属之间任何归因于配合物和/或配体效应的协同效应。没有提供具体的例子或解释。
+
+6. 是的,文章评估了SUZ-4和ZSM-5等沸石作为丙烷脱氢催化剂的载体。它提供了数据和见解,表明PtSnNa/SUZ-4优于PtSnNa/ZSM-5,原因是活性更高,稳定性更好。
+
+7. 否,文章没有研究调节沸石Si/Al比或引入介孔性对催化剂性能的影响。没有揭示具体的例子或结构-功能关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+
+<quotes>
+15. No relevant quotes.
+16. No relevant quotes.
+17. No relevant quotes.
+18. No relevant quotes.
+19. No relevant quotes.
+20. No relevant quotes.
+21. No relevant quotes.
+</quotes>
+
+<English version answer>
+
+1. The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation are provided.
+
+2. The article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. No specific data or insights into performance modulation are provided.
+
+3. The article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. No specific examples or structure-function insights are revealed.  
+
+4. The article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No specific examples or data are provided.
+
+5. The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+
+6. The article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.
+
+7. The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 这篇文章没有比较金属和氧化支持金属催化剂的选择性特征曲线。没有提供任何具体的选择性调节示例或解释。
+
+2. 这篇文章没有评估任何Pt合金催化剂,比如Pt-Sn, Pt-Ga, Pt-Zn用于丙烷脱氢。没有提供任何具体的数据或性能调节方面的见解。
+
+3. 这篇文章没有研究双金属和合金催化剂中次级金属的电子和几何效应。没有透露任何具体的例子或结构-功能关系的见解。
+
+4. 这篇文章没有探索像Re或Mn这样的次表面促进剂在双金属和合金催化剂中的应用来调节选择性。没有提供任何具体的例子或数据。
+
+5. 这篇文章没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于配合物和/或配体效应。没有提供任何具体的例子或解释。
+
+6. 这篇文章没有评估任何沸石载体,比如MFI,FER或BEA结构用于丙烷脱氢催化剂。没有提供任何具体的例子、数据或见解。
+
+7. 这篇文章没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。没有显示出任何具体的例子或结构-功能关系。
+
+</Chinese version answer>
+
+</Answer>
+

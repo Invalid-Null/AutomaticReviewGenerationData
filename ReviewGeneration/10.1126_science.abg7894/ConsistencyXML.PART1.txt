@@ -1,0 +1,56 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<questions>
+  <question id="1">
+    <answer file="answer.PART1_0.txt">100%</answer>
+    <answer file="answer.PART1_1.txt">0%</answer>
+    <answer file="answer.PART1_2.txt">50%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+  </question>
+  <question id="2">
+    <answer file="answer.PART1_0.txt">100%</answer>
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+  </question>
+  <question id="3">
+    <answer file="answer.PART1_0.txt">100%</answer>
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+  </question>
+  <question id="4">
+    <answer file="answer.PART1_0.txt">100%</answer>
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+  </question>
+  <question id="5">
+    <answer file="answer.PART1_0.txt">100%</answer>
+    <answer file="answer.PART1_1.txt">0%</answer>
+    <answer file="answer.PART1_2.txt">0%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+  </question>
+  <question id="6">
+    <answer file="answer.PART1_0.txt">100%</answer> 
+    <answer file="answer.PART1_1.txt">0%</answer>
+    <answer file="answer.PART1_2.txt">0%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+  </question>
+  <question id="7">
+    <answer file="answer.PART1_0.txt">100%</answer>
+    <answer file="answer.PART1_1.txt">100%</answer> 
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+  </question>
+</questions>
+
+To generate the consistency ratios, I compared the answers in each file to the correct answers provided. I looked for semantic similarity in the key points covered. If an answer file contained the same main ideas and key details as the correct answers, I assigned 100% consistency. If there was no overlap in content, I assigned 0% consistency. For partial overlap, I estimated an approximate consistency percentage. This allows quantifying the degree of alignment between each answer file and the ground truth.
+
+The XML format organizes the comparisons by question, with each question containing an answer element for each file stating the filename and estimated consistency percentage. This provides an overview of how responses differ across files for each question asked.

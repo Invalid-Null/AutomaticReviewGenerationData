@@ -1,0 +1,472 @@
+I'm going to give you a scientific literature. Then I'm going to ask you some questions about it. I'd like you to first write down exact quotes of parts of the document word by word that would help answer the question, and then I'd like you to answer the question using facts from the quoted content. Do not omit any relevant information from the text, and avoid introducing any falsehoods or assumptions that aren't directly supported by the literature. Here is the literature, in <literature></literature> XML tags:
+
+<literature>
+
+
+Technoeconomic Analysis of Alternative Pathways of Isopropanol Production
+Abstract
+Isopropanol is a widely used solvent and chemical. The growing demand for isopropanol, the declining supply of typical feedstocks for manufacturing isopropanol, and the increasing prices necessitate the search for alternative, cost-effective, and sustainable pathways for the production of isopropanol. The objective of this work is to synthesize, screen, design, and assess alternate pathways to produce isopropanol. First, biomass- and fossil-based raw materials are considered along with plausible reaction pathways. A process synthesis and integration approach is used to create and prune the alternatives based on branching, matching, and prescreening. For the promising candidates, process simulation, design, and technoeconomic assessment are carried out to compare the options. Under the studied conditions, the results show that propane dehydrogenation followed by direct hydration is the most promising pathway based on profitability (while accounting for price volatility) as well as technical and environmental benefits.
+This publication is licensed under the terms of your institutional subscription. Request reuse permissions.
+KEYWORDS:Design Process synthesis Process integration Shale gas Glycerin Propane Propylene
+Synopsis
+This figure is a superstructure that embeds various pathways for producing isopropanol from several feedstocks and intermediates.
+Introduction
+ARTICLE SECTIONSJump To
+Isopropanol (isopropyl alcohol or IPA) is an important chemical which is widely used as a solvent, a chemical intermediate, and an ingredient in personal care products and pharmaceuticals. It is ranked third in lower-alcohol production (following methanol and ethanol). (1) The global production of isopropanol is approximately 3 × 106 metric tons per annum (MTPA), with the US, Europe, and Asia each contributing about 30% of the total production. (2) The isopropanol market has been steadily growing. Its compound annual growth rate is approximately 7%, and the growth is expected to continue especially in the Asia-Pacific region primarily because of the increased use in the pharmaceutical sector. (3) Isopropanol has been largely produced from propylene via two commercial routes: indirect hydration of refinery-grade propylene and direct hydration of chemical-grade propylene. Indirect hydration is a process with two main reaction steps (esterification and hydrolysis) which convert propylene to isopropanol. The conversion is about 93%, and the selectivity to isopropanol and its main byproduct (diisopropyl ether, DIPE) is above 98%. (4) The main reactions for this process are provided in Table 1. Sulfuric acid is used as a solvent. Therefore, special materials of construction must be used to avoid excessive corrosion. Care should also be given to the treatment and disposal of process wastes including wastewater, waste sulfuric acid, spent soda, and off-gases. A key advantage for this process is its ability to use low-purity propylene feed (4060 wt %). The indirect hydration process has been common in the US.
+Table 1. Chemical Reactions of Indirect Hydration Process
+Step 1. Esterification
+main reaction CH3CHCH2+H2SO4  (CH3)2CHOSO3H
+(CH3)2CHOSO3H + CH3CHCH2((CH3)2CHO)2SO2
+Step 2. Hydrolysis
+main reaction (CH3)2CHOSO3H + H2O  (CH3)2CHOH + H2SO4
+((CH3)2CHO)2SO2 + 2H2O  2(CH3)2CHOH + H2SO4
+side reactions (CH3)2CHOSO3H + (CH3)2CHOH  ((CH3)2CH)2O + H2SO4
+((CH3)2CHO)2SO2 + (CH3)2CHO  (CH3)2CHOSO3H + ((CH3)2CH)2O
+The direct hydration process converts propylene to isopropanol via a single-step reaction. It has been the common process used in Europe and Japan. (2) The primary disadvantage of this method is the requirement for a high-purity feed (at least 90 wt % propylene). (4) Furthermore, to enhance the conversion and yield, the reaction is typically operated at much higher temperature and pressure than those used in indirect hydration. On a positive side, direct hydration has some advantages over indirect hydration. The direct hydration process uses water as a solvent instead of sulfuric acid, thereby reducing the corrosion and environmental problems. The stoichiometric equation of the propylene hydration process is given by
+Similar to the indirect method, the main byproduct of this process is diisopropyl ether (DIPE). There are three types of commercial processes based on the reaction phase of direct hydration.
+The recent substantial growth in shale gas production has led to a decline in propylene production from oil refineries. This decline is attributed to the shift in ethylene production through ethane dehydrogenation (which produces about 2% of propylene yield) instead of naphtha cracking (which produces about 15% of propylene yield). (57) The shortfall in naphtha-based propylene along with the rapid growth in propylene-based products caused market shortages and price increase. Therefore, there is motivation to investigate various feedstocks and processing pathways for the production of isopropanol. The objective of this work is to synthesize, screen, design, and assess alternate pathways to produce isopropanol from a variety of raw materials. Numerous pathways are first synthesized. High-level technoeconomic screening is used to eliminate raw materials and processing pathways that are not economically viable. Next, process simulation, design, and analysis techniques are used to compare the promising options and assess their viability under various conditions.
+Problem Statement
+ARTICLE SECTIONSJump To
+Isopropanol may be manufactured from various starting materials and via different processing pathways. It is desired to develop a systematic approach for the generation and screening of plausible routes. Because of the need to include sustainability of the supply and viability of the market, fossil-,and biomass-based raw materials should be considered. Price volatility is also to be considered in the assessment. Specifically the following questions are to be addressed:
+What are the potential raw materials to be used?
+What are possible intermediates and byproducts?
+What are the plausible processing pathways to produce isopropanol?
+How can the numerous alternatives be quickly and effectively screened?
+What are the recommended pathways and how susceptible is their profitability in light of possible price variability?
+Approach
+ARTICLE SECTIONSJump To
+Because of the potentially large number of alternatives for producing isopropanol, a systematic approach is proposed for generating a superstructure of alternative pathways, screening for potential pathways, synthesizing and simulating promising flowsheets, performing an economic analysis, and selecting recommended pathways. The following steps summarize the proposed approach:
+Step i: Generating a Superstructure of Alternatives
+The first step is the creation of a superstructure that embeds feedstocks and processing pathways of interest. The superstructure was constructed based on the branching, matching, and interception approach introduced by Pham and El-Halwagi. (8) Branching is a strategy of gathering all of the pathway information by associating the chemicals with sources and main products. The branching approach can be achieved from either a forward branching or a backward branching. The forward branching is a method for searching intermediates from feedstocks by forward approach. For example, in forward branching biomass is a source of methanol, ethanol, etc. Likewise, the backward branching is a method for generating intermediates from products. For example, isopropanol can be made from propylene, acetone, and propane. Therefore, the backward branching should list these chemicals and other species that can be used to make isopropanol. After branching the chemicals, connection of those chemicals or intermediates is needed to form a continuous pathway. When identical chemicals are connected, it is called matching. On the other hand, when different chemicals are connected via chemical reactions, the step is called interception. (8)Figure 1 is an illustration of the forward and backward branching as well as interception.
+Figure 1
+Figure 1. Example of forward and backward branching, matching, and interception for sample pathways of isopropanol production.
+After generating the superstructure of alternatives for isopropanol production, the next step is screening the potential pathways based on a high-level economic analysis. The Metric for Inspecting Sales and Reactants (MISR), an indicator of stoichiometric-economic stoichio-nomic targeting method, (9) is used for the preliminary screening. MISR (9) is defined as
+(1)
+where Fp is the annual production rate of product p, Sp is the selling price of product p, Fr is the annual feed rate of reactant r, and Cr is the purchase cost of reactant r. Pathways with MISR values less than one are eliminated because they are not economically viable (cost of raw materials exceeds value of products). Pathways with MISR values slightly higher than one are not likely to be profitable because of the additional costs associated with capital investment, utilities, labor, and other expenses. When multiple pathways had the same feed and product, a pathway with the least number of steps is selected to promote process simplification.
+Step ii: Simulating and Designing Promising Pathways
+For the pathways resulting from the prescreening step, process synthesis, simulation, and design studies are carried out to generate the mass and energy balance data for the process, equipment sizing, and key performance indicators. Next, an economic analysis is performed to evaluate feasible pathways. Capital and operating costs are estimates. The return on investment (ROI) is calculated as a measure of profitability. Sustainability and safety issues can also be included in the ROI calculations through the metric of sustainability-and-safety weighted ROI. (10,11)
+Step iii: Selecting the Recommended Pathway
+Processes meeting a minimum (threshold) ROI are considered in the final analysis. The margin of error associated with the cost estimation techniques and the impact of price volatility are considered before making a final recommendation on the selected pathway. Figure 2 summarizes the steps involved in the proposed approach.
+Figure 2
+Figure 2. Summary of the approach.
+Case Study
+ARTICLE SECTIONSJump To
+It is desired to construct a production facility for the production of 37500 tonnes per year of isopropanol. Various renewable and fossil-based feedstocks as well as processing pathways should be considered. The aforementioned approach is applied as described in the following sections.
+Generating the Superstructure of Alternatives
+Plausible feedstocks, intermediates, byproducts, and wastes were generated along with the processing pathways for conversion. The lists of chemicals and conversion technologies are given in Table 2 and Table 3, respectively. In general, numerous feedstocks may be considered based on availability, commercial potential, sustainability, and safety. In this case study, the following fresh feedstocks were considered: acetone, benzene, biomass, butane, ethane, glycerol, methane, methanol, naphtha, and propane. Some of these fresh feedstocks may also be produced as intermediates. Other chemicals were considered to only be intermediates produced within the network. The superstructure of isopropanol production resulting from branching, matching, and interception is demonstrated in Figure 3.
+Table 2. Symbols and Prices of Chemical Species
+symbol chemical price ($/kg)
+A naphtha 0.88
+B biomass 0.30
+C sugar/carbohydrate 0.57
+D syngas (H2:CO  2) 1.60
+E methane 0.14
+F ethane 0.18
+G glycerol 0.004
+H ethanol 0.78
+I propane 0.48
+J propanol 1.25
+K methanol 0.30
+L acetylene 0.68
+M ethylene 0.39
+N acetaldehyde 1.01
+O butane 0.49
+P benzene 1.21
+Q acetic acid 0.84
+R propylene 0.95 (chemical grade: 94%) purity)
+0.75 (refinery grade: 70% purity)
+S acetone 1.12
+T isopropyl acetate 1.38
+U isopropanol 1.32
+Table 3. Technology Legend of Isopropanol Production (The Reference Following Each Technology Designates the Source of Data and/or Flowsheet Info)
+conversion technology (the number before each technology represents the pathway arc on Figures 3 and 4) conversion technology (the number before each technology represents the pathway arc on Figures 3 and 4)
+1. fluid catalytic cracking (12) 20. fermentation (22)
+2. fluid catalytic cracking (12) 21. syngas fermentation (23)
+3. hydrogenation (13) 22. CO hydrogenation (24)
+4. transesterification (14) 23. CO hydrogenation (24)
+5. saponification (14) 24. CO hydrogenation (24)
+6. hydrolysis (14) 25. syngas fermentation (23)
+7. hydrolysis (9) 26. methanation (24)
+8. pyrolysis (15) 27. CO hydrogenation (15)
+9. gasification (15) 28. stream reforming (25)
+10. landfill (9) 29. autothermal reforming (25)
+11. digestion (9) 30. dry reforming (25)
+12. prehydrolysis (16) 31. combined reforming (25)
+13. fermentation (17) 32. partial oxidation (25)
+14. IB, IBE fermentation (18) 33. pyrolysis (26)
+15. cellobiose degradation (19) 34. carbonylation (27)
+16. ABE fermentation (20) 35. oxidative bromonation (28)
+17. hydrothermal (21) 36. stream cracking (29)
+18. fermentation (18) 37. stream cracking (29)
+19. gasification (15) 38. hydro-deoxygenation (30)
+conversion technology (the number before each technology represents the pathway arc on Figures 3 and 4) conversion technology (the number before each technology represents the pathway arc on Figures 3 and 4)
+39. hydro-deoxygenation (30) 58. carbonylation (27)
+40. hydrogenolysis (31) 59. hydrogenation (39)
+41. pyrolysis (32) 60. hydration (35)
+42. fermentation (33) 61. hydroformylation and hydrogenation (4)
+43. anaerobic digestion (33)  
+44. pyrolysis (17) 62. metathesis (12)
+45. gasification (17) 63. vapor phase oxidation (27)
+46. stream reforming (17) 64. oxidation (Wacker process) (35)
+47. dehydration (34) 65. oxidation (27)
+48. dehydrogenation (35) 66. oxidation (27)
+49. oxidation (35) 67. cumene and hock process (20)
+50. oxidation (36) 68. ketonization (40)
+51. direct oxidation (37) 69. esterification (41)
+52. dehydrogenation (38) 70. indirect hydration (4) (esterification + hydrolysis)
+53. oxidative dehydrogenation (38) 71. direct hydration (4)
+54. dehydration (31) 72. oxidation (20)
+55. MTP process (6) 73. hydrogenation (4)
+56. MTO process (6) 74. transesterification (42)
+57. hydroformylation (35) 75. hydrolysis (43)
+Figure 3
+Figure 3. Superstructure of pathways for isopropanol production.
+The process yield was set to the maximum theoretical value. (9) If a pathway is not economically viable when the yield is maximum, then it can be safely eliminated. For potentially viable pathways, the actual process yield will be used. When the requirement for MISR to be greater than one is used and when an additional constraint on process complexity is added to eliminate any process with more two major technology steps from the starting material to the product (isopropanol), the superstructure shown by Figure 4 is obtained.
+Figure 4
+Figure 4. Reduced superstructure after MISR prescreening and process complexity constraint (no more than two major technologies).
+Simulating and Designing Promising Pathways
+Based on the results from the prescreening step, the superstructure may be divided into two categories. The first category includes different routes to produce propylene, which are the glycerol hydro-deoxygenation, propane dehydrogenation (PDH), and methanol to olefins (MTO) process. The second category includes different routes for isopropanol production, which are the indirect hydration of propylene, direct hydration of propylene, and acetone hydrogenation.
+For each promising pathway, simulation was carried out using ASPEN Plus. Whenever actual data for the reaction conversion and yield were available (as will be discussed for the individual pathways), RSTOIC model was used. Otherwise, the reaction was modeled through the minimization of Gibbs free energy (RGIBBS). The results for key pieces of equipment (pumps, compressors, heat exchangers, and distillation columns) were exported to ASPEN Process Economic Analyzer to obtain the equipment cost. The cost of specialized reactors was obtained from literature of similar or analogous units. Lang factors were used to estimate the fixed and total capital investments. The return on investment (ROI) is calculated through the following expression: (9)
+(1a)
+where TCI is the total capital investment of the process and the net profit is given by (9)
+(2a)
+(2b)
+The tax rate was taken as 30% of the taxable income, and the depreciation was carried out using a linear scheme over 10 years and no salvage value. The process description and the results of process simulation and economic analysis are provided in the ensuing sections.
+Glycerol Hydro-deoxygenation
+Glycerol hydro-deoxygenation is a one-step catalytic propylene formation reaction with a conversion of 88% and a selectivity of 76%. A key advantage of this reaction is that propylene is the only product in the gas phase so that the separation section is not required. (30) This process is an enticing process because of its abundance and low-price glycerol feedstock. However, the main challenge of this process is that the glycerol from the biodiesel industry is crude and impure, which can damage pipes and equipment. (44,45) Thus, an expensive glycerol purification technology is required. The process begins with purifying and sending raw glycerol to the reactor to react with hydrogen. The reactor effluent comes out as the vaporliquid mixture. The mixture is then sent to flash drum to separate propylene, which is the only product in the gas phase, from byproducts, which are all in the liquid phase. The gas stream of propylene and hydrogen is sent to the pressure-swing adsorption section to purify the propylene product and recycle unreacted hydrogen back to the reactor. A flowsheet and stream table of the glycerol hydro-deoxygenation process are presented in Figure 5 and Table A1, respectively. A summary of the key information for economic analysis is demonstrated in Table 4, and the economic results of the glycerol hydro-deoxygenation process are shown in Table 5.
+Table 4. Key Information for the Glycerol Hydro-deoxygenation Process
+input/output unit value
+raw glycerol (62 wt %) kt/yr 1909
+hydrogen kt/yr 0.112
+refinery-grade propylene (75 wt %) kt/yr 361
+fuel (from alcohols) kt/yr 830
+heating utilities MMBtu/h 652
+cooling utilities MMBtu/h 847
+electricity kW 638
+Table 5. Economic Results for the Glycerol Hydro-deoxygenation Process
+description unit value
+fixed capital investment (FCI) MM$ 388
+total capital investment (TCI) MM$ 456
+annual income MM$/yr 349
+annual operating cost MM$/yr 380
+ROI yr1 2%
+Figure 5
+Figure 5. Flowsheet of glycerol hydro-deoxygenation.
+Indirect Hydration
+Refinery-grade propylene gas reacts with sulfuric acid via an esterification reaction to generate a sulfate solution in the absorber reactor. While spent gas is vented out of the process from the top of the absorber reactor, the sulfate mixture from the bottom of the absorber reactor enters the stripper reactor to react with water and form hydration reaction. Unreacted sulfuric acid is removed from the bottom of the stripper reactor and recycled back to the absorber reactor for a further esterification reaction. Product from the hydration reaction is fed to the scrubber to neutralize the residual acid with caustic. Although spent soda is discharged from the bottom of the scrubber, a neutral product leaves the top of the scrubber as vapor stream. The vapor stream is condensed and sent to the drum to separate propylene and propane gases from the product stream. The liquid product stream from the drum is pressurized and fed to the first distillation column to separate DIPE and the remaining gas from the product stream. The distillate is sold as fuel. The product stream then enters the isopropanolwater azeotropic distillation column which uses dimethyl sulfoxide (DMSO) to induce the separation. Isopropanol with a purity of 99 wt % is concentrated in this distillation column and is collected as the product stream. The heavy stream from the isopropanolwater distillation column is sent to the last column to separate DMSO from the aqueous solution to recycle it back to the azeotropic distillation column. Water is discharged from the process as a wastewater. A flowsheet of the indirect hydration process is presented in Figure 6. A stream table of the process is also presented in Table A2. A summary of the key information from the indirect hydration simulation for an economic analysis is demonstrated in Table 6, and the economic results of the indirect hydration process are shown in Table 7.
+Table 6. Key Information for the Indirect Hydration Process
+input/output unit value
+refinery-grade propylene (70 wt %) kt/yr 452
+stream kt/yr 161
+sulfuric acid aqueous (80 wt %) kt/yr 8.58
+caustic soda kt/yr 96.5
+isopropanol (99.5 wt %) kt/yr 375
+fuel (from DIPE and light gas) kt/yr 35.1
+vent gases with sulfuric acid MMft3/yr 52.6
+process wastewater MMm3/yr 0.06
+spent soda MMm3/yr 0.289
+ESP wastewater MMm3/yr 0.0596
+heating utilities MMBtu/h 250
+cooling utilities MMBtu/h 285
+electricity kW 344
+clean water for ESP MMm3/yr 0.0015
+Table 7. Economic Results for the Indirect Hydration Process
+description unit value
+fixed capital investment (FCI) MM$ 135
+total capital investment (TCI) MM$ 159
+annual income MM$/yr 497
+annual operating cost MM$/yr 422
+ROI yr1 36%
+Figure 6
+Figure 6. Flowsheet of indirect hydration process.
+Direct Hydration
+Liquid chemical-grade propylene enters the reactor and reacts with process water. The liquid effluent is cooled so that propylene and propane vaporize in a flash drum. The vapor stream from the flash drum is condensed and sent to the propylenepropane distillation column to purify unconverted propylene before recycling it back to the feed preparation section. Liquid from the flash drum is sent to the separation section to purify the isopropanol product. The separation section consists of three distillation columns. The first column separates DIPE from isopropanol. Distillate stream from this column is discharged from the process as fuel. The second column is an azeotropic distillation column, which separates water from 99 wt % isopropanol by using DMSO as an extractive solvent. The last column separates water from the solvent in order to recycle water to the feed preparation section and DMSO to the azeotropic distillation column. A flowsheet of the direct hydration process and stream table are presented in Figure 7 and Table A3, respectively. A summary of the key information from the simulation from the direct hydration process for an economic analysis is demonstrated in Table 8, and the economic results of the direct hydration process are shown in Table 9.
+Table 8. Key Information for the Direct Hydration Process
+input/output unit value
+chemical-grade propylene (95 wt %) kt/yr 350
+process water kt/yr 101
+isopropanol (99.8 wt %) kt/yr 326
+fuel (from DIPE and light gas) kt/yr 82
+heating utilities MMBtu/h 495
+cooling utilities MMBtu/h 534
+electricity kW 1253
+Table 9. Economic Results for the Direct Hydration Process
+description unit value
+fixed capital investment (FCI) MM$ 195
+total capital investment (TCI) MM$ 229
+annual income MM$/yr 432
+annual operating cost MM$/yr 364
+ROI yr1 23%
+Figure 7
+Figure 7. Flowsheet of direct hydration process.
+Acetone hydrogenation
+Hydrogen reacts with liquid acetone in the reactor and gives the vaporliquid phase product. The mixed-phase effluent is sent to drum to separate vapor from the liquid product. The vapor mixture then enters a cooler to condense all the chemicals but hydrogen. This condensed mixture enters the second drum in order to separate unreacted hydrogen from the mixture. The liquid mixture from the second drum combines with the liquid product from the first drum and leaves the process as a 98.5 wt % isopropanol product. Unreacted hydrogen that leaves the second drum is recycled back to the feed preparation section. Figure 8 and Table A4 present a flowsheet and stream summary of the acetone hydrogenation process. A summary of the key information from the acetone hydrogenation simulation for an economic analysis is demonstrated in Table 10, and the economic results of the acetone hydrogenation process are shown in Table 11. It should be noted the price of isopropanol in this process is lower than the isopropanol price in other processes because of its lower purity. The price of isopropanol with 98.5 wt % purity is approximated to be $1.2/kg. Based on the relatively low ROI of 7% (which is less than the minimum acceptable ROI of 10%) and the risk issues associated with the use of high-pressure hydrogen, acetone hydrogenation was eliminated from further consideration.
+Table 10. Key Information on Acetone Hydrogenation Process
+input/output unit value
+acetone (98.7 wt %) kt/yr 359
+hydrogen kt/yr 20.8
+isopropanol (98.5 wt %) kt/yr 371
+fuel kt/yr 11
+heating utilities MMBtu/h 7.48
+cooling utilities MMBtu/h 0.525
+electricity kW 884
+Table 11. Economic Results of Acetone Hydrogenation Process
+description unit value
+fixed capital investment (FCI) MM$ 68
+total capital investment (TCI) MM$ 80
+annual income MM$/yr 444
+annual operating cost MM$/yr 439
+ROI yr1 7%
+Figure 8
+Figure 8. Flowsheet of acetone hydrogenation process.
+Selecting the Recommended Pathway
+Final selection of propylene production: Since PDH has more potential for profitability compared to MTO, (12) the pursued pathways of propylene production are PDH and glycerol hydro-deoxygenation. While the economic analysis of glycerol hydro-deoxygenation was estimated from the simulation result, the economic analysis of PDH process was adapted from a recent study. (7) Based on the data and assumptions in this work, the ROI of the PDH process was calculated to be 20% (which can slightly increase when sustainability issues are integrated (7)). Furthermore, the produced hydrogen can be integrated with adjacent facilities to foster industrial symbiosis and to reduce carbon footprint, water uage, and energy utilization. The key information for economic evaluation of PDH process and its results are presented in Table 12 and Table 13, respectively.
+Table 12. Key Information for the Propane Dehydrogenation Process
+input/output unit value
+propane kt/yr 408
+process water kt/yr 101
+propylene (95 wt %) kt/yr 350
+hydrogen kt/yr 30
+heating utilities MMBtu/h 1220
+cooling utilities MMBtu/h 733
+electricity kW 21372
+Table 13. Economic Results for the Propane Dehydrogenation Process
+description unit value
+fixed capital investment (FCI) MM$ 430
+total capital investment (TCI) MM$ 507
+annual income MM$/yr 363
+annual operating cost MM$/yr 234
+annual ROI yr1 20%
+Based on the economic analysis of the glycerol hydro-deoxygenation, the annual ROI of the process was negative (2%), which indicates that it is not economically viable under the studies conditions. Additionally, there are some issues of glycerol hydro-deoxygenation process such as insufficient amount of glycerol from biodiesel production and uncertainty in process scale-up. Therefore, it can be concluded that PDH is the best pathway for propylene production. Although the ROI result of the glycerol hydro-deoxygenation using chemical market prices are negative, the ROI of this process can be positive if the price of raw glycerol decreases and the price of propylene increases. From the sensitivity analysis of hydro-deoxygenation from raw glycerol in Figure 9a, the process can be operate economically with raw glycerol prices ranging from $0.06/kg to $0.13/kg when the propylene price is high (more than $1.1/kg).
+Figure 9
+Figure 9. Sensitivity analysis for the annual ROI of hydro-deoxygenation from raw glycerol (a) and from purified glycerol (b).
+In order to compare the profitability of glycerol hydro-deoxygenation from raw glycerol and from refined glycerol, the sensitivity analysis of the process from refined glycerol was also performed. According to the sensitivity analysis shown in Figure 9b, the range of refined glycerol price for economically feasible scenario is between $0.32 and 0.45/kg, depending on the propylene selling price. However, it should be realized that the market price of purified glycerol is $0.85/kg and the market price of propylene is in the range of $0.91.2/kg. This implies that propylene production from refined glycerol is hardly economically viable because the market price of refined glycerol is about twice the highest feasible price of refined glycerol for the propylene market price scenario. Therefore, it can be concluded that the using raw glycerol is preferred to using pure glycerol to produce propylene via hydro-deoxygenation. Nonetheless, since the base case has a negative ROI, this option is not pursued anymore.
+Final selection of isopropanol production: While the ROI of the indirect hydration was equal to 36%, the ROI of the direct hydration was equal to 23%. As the margin of error in in these types of conceptual design and economic studies is typically on the order of 2025%, it cannot be fully concluded which pathway is the best pathway to produce isopropanol. Additionally, other sustainability and safety issues should be considered. A sensitivity analysis was performed to assess the impact of varying propylene and isopropanol prices on ROI. The results of the sensitivity analysis for the indirect and the direct hydration processes are shown in Figure 10. The results from the sensitivity analysis show that indirect hydration and direct hydration processes are economically feasible with the isopropanol market price of $1.323/kg when the price of the refinerygrade propylene drops below $0.93/kg and the price of the chemical-grade propylene drops below $1.17/kg, respectively. Additionally, when the price of the refinery-grade propylene is reduced to a range of $0.611.03/kg, the minimum acceptable level of ROI (10%) for the indirect hydration process is achieved. Similarly, the minimum acceptable level of ROI of the direct hydration process is reached when the price of the chemical-grade propylene is decreased to a range of $0.771.24/kg for the different product selling prices. Comparing the impacts of the propylene price to the ROI of indirect hydration and direct hydration processes, the ROI of the direct hydration process is less dependent on its raw material price than the ROI of the indirect hydration process. Hence, the indirect hydration process is much more sensitive to price volatility, and the ROI may easily drop below the minimum acceptable with plausible variations in prices. The direct hydration process shows a lower slope of sensitivity and is, therefore, more economically robust under price-changing conditions. Furthermore, the indirect hydration process discharges wastewater streams that are laden with sulfuric acid and caustic soda. As such, from an environmental sustainability perspective, direct hydration offers key advantages. Therefore, while both routes are recommended, the direct route is favored given the sensitivity and sustainability issues.
+Figure 10
+Figure 10. Sensitivity analysis for the annual ROI of indirect hydration (a) and direct hydration (b) processes (the lines represent the ROI for various selling prices of isopropanol).
+Since propylene hydration is recommended as the primary route for isopropanol production, the options of making versus buying propylene were considered. The ROI for the buy scenario followed by direct hydration process is 23%. The ROI for the make case, which was calculated based on the economic analysis of direct hydration and PDH processes, was found to be 22%. A summary of economic results of purchasing and manufacturing scenarios is presented in Table 14.
+Table 14. Summary of Economic Results of Two Possible Scenarios
+description propylene buy scenario propylene make scenario
+fixed capital investment (MM$/yr) 195 625
+total capital investment (MM$/yr) 229 736
+annual income (MM$/yr) 432 462
+annual operating cost (MM$/yr) 364 262
+ROI (yr1) 23% 22%
+Due to the very close ROI values for the two scenarios, a sensitivity analysis was carried out, as shown in Figure 11, to assess the changes resulting from variations in propylene (in the buy scenario) and propane (in the make scenario) prices. The results illustrate that the ROI of the buy scenario is more sensitive to the changes in propylene price than the ROI of the make scenario to the propane price. Thus, it was concluded that it is more economically robust to produce make rather than buy propylene. The sensitivity analysis of the make scenario also reveals that such route can operate economically when the propane price is less than $0.95/kg at the isopropanol price of $1.23/kg. Additionally, the minimum acceptable level of ROI of 10% for the make case is achieved with the propane price between $0.45 and 0.83/kg, depending on the isopropanol selling price. It is also worth noting that when sustainability issues (including water usage, fuel consumption, carbon footprint, and volatile organic compound emission) are included, the sustainability weighted return on investment (10) is enhanced by 16 yr1% depending on the type of process modification undertaken to integrate and intensify the process. (7) Further improvements can also be made when the process is integrated with adjacent facilities through an industrial symbiosis framework. (4649)
+Figure 11
+Figure 11. Sensitivity analysis for the annual ROI of (a) propylene make scenario and (b) propylene buy scenario.
+Conclusions
+ARTICLE SECTIONSJump To
+This work focused on the production of isopropanol from various renewable and fossil-based feedstocks. A superstructure was created to embed a rich set of potential pathways. The superstructure was constructed based on the branching, matching, and interception approach. Prescreening using high-level technoeconomic criteria was carried to eliminate infeasible or noncompetitive pathways. The remaining promising pathways included the following: propylene direct and indirect hydration (where propylene may be produced through glycerol hydro-deoxygenation, propane dehydrogenation, or methanol to olefins process) and acetone hydrogenation. The results of flowsheet synthesis, process simulation, techno-economic analysis, and other sustainability considerations were used to compare the alternate pathways. Under the studied conditions, it was found that propylene production via propane dehydrogenation is superior to glycerol hydro-deoxygenation and the most profitable pathway to produce isopropanol is direct hydration of propylene. A sensitivity analysis was carried out to confirm the conclusions under potential scenarios of price volatility.
+Author Information
+ARTICLE SECTIONSJump To
+Corresponding Author
+Mahmoud M. El-Halwagi - Chemical Engineering Department, Texas A&M University, College Station, Texas 77843, United States;  Gas and Fuels Research Center, Texas A&M Engineering Experiment Station, College Station, Texas 77843, United States;  http://orcid.org/0000-0002-0020-2281;  Email: El-Halwagi@tamu.edu
+Author
+Warissara Panjapakkul - Chemical Engineering Department, Texas A&M University, College Station, Texas 77843, United States
+Notes
+The authors declare no competing financial interest.
+Appendix
+ARTICLE SECTIONSJump To
+Tables A1 , A2, A3, and A4 follow.
+Table A1. Stream Table of Glycerol Hydro-deoxygenation
+stream name units 1 2 3 4 5 6 7 8 9 10 11 12
+temperature K 323 559 298 573 298 477 479 573 573 298 298 298
+pressure bar 20 80 80 80 1 1 80 80 80 80 80 80
+mass flows kg/h 7 7 161218 161218 238639 143723 143723 143723 304941 304941 201149 103792
+mass fractions                          
+hydrogen   1.000 1.000 1.000 1.000 0.000 0.000 0.000 0.000 0.512 0.512 0.776 0.000
+propylene   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.144 0.144 0.217 0.002
+methanol   0.000 0.000 0.000 0.000 0.335 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+2-propenol   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.008 0.008 0.001 0.022
+1-propanol   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.022 0.022 0.002 0.060
+2-propanol   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.008 0.008 0.001 0.021
+water   0.000 0.000 0.000 0.000 0.000 0.003 0.003 0.003 0.217 0.217 0.004 0.629
+propylene glycol   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.017 0.017 0.000 0.050
+1,3-propanediol   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.017 0.017 0.000 0.050
+glycerol   0.000 0.000 0.000 0.000 0.617 0.997 0.997 0.997 0.056 0.056 0.000 0.166
+NaOCH3   0.000 0.000 0.000 0.000 0.027 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+triglycerides   0.000 0.000 0.000 0.000 0.020 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+protein   0.000 0.000 0.000 0.000 0.001 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+stream name units 13 14
+temperature K 298 298
+pressure bar 80 80
+mass flows kg/h 161211 45178.2
+mass fractions      
+hydrogen   1.000 0.000
+propylene   0.000 0.965
+methanol   0.000 0.000
+2-propenol   0.000 0.003
+1-propanol   0.000 0.008
+2-propanol   0.000 0.006
+water   0.000 0.018
+propylene glycol   0.000 0.000
+1,3-propanediol   0.000 0.000
+glycerol   0.000 0.000
+NaOCH3   0.000 0.000
+triglycerides   0.000 0.000
+protein   0.000 0.000
+Table A2. Stream Table of Indirect Hydration Process
+stream name units 1 2 3 4 5 6 7 8 9 10 11
+temperature K 363 363 363 372 367 342 407 407 406 422 363
+pressure bar 6 6 6 6 6 1.01325 1.01325 3 1.01325 1.01325 1.01325
+mass flows kg/h 1072 1072 56508.3 1672.86 89697.4 89697.4 89697.4 20170.1 87556.8 63956.3 63956.3
+mass fractions                        
+propylene   0.000 0.000 0.700 0.210 0.027 0.027 0.027 0.000 0.027 0.000 0.000
+propane   0.000 0.000 0.300 0.664 0.177 0.177 0.177 0.000 0.181 0.000 0.000
+dipe   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.014 0.000 0.000
+isopropanol   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.577 0.003 0.003
+diisopropyl sulfate   0.000 0.000 0.000 0.094 0.331 0.331 0.331 0.000 0.000 0.000 0.000
+water   0.200 0.200 0.000 0.032 0.171 0.171 0.171 1.000 0.196 0.048 0.048
+isopropyl hydrogen sulfate 0.000 0.000 0.000 0.001 0.248 0.248 0.248 0.000 0.006 0.000 0.000
+DMSO   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+sulfuric acid   0.800 0.800 0.000 0.000 0.047 0.047 0.047 0.000 0.000 0.949 0.949
+caustic soda   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+sodium bisulfate   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+stream name units 12 13 14 15 16 17 18 19 20 21 22
+temperature K 363 407 418 407 325 325 325 326 312 312 395
+pressure bar 6 1.01325 1.01325 1.01325 1.01325 1.01325 1.01325 5.06625 4.053 4.053 4.32879
+mass flows kg/h 63956.3 12064 85538.4 14531.7 85550.5 18172.1 67378.4 67378.4 3696.35 697.383 62984.6
+mass fractions                        
+propylene   0.000 0.000 0.027 0.001 0.027 0.106 0.006 0.006 0.100 0.024 0.000
+Propane   0.000 0.000 0.184 0.005 0.184 0.698 0.045 0.045 0.782 0.228 0.000
+DIPE   0.000 0.000 0.014 0.002 0.014 0.008 0.016 0.016 0.113 0.668 0.003
+isopropanol   0.003 0.000 0.582 0.080 0.582 0.159 0.696 0.696 0.002 0.032 0.745
+diisopropyl sulfate   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+water   0.048 0.310 0.192 0.048 0.192 0.028 0.237 0.237 0.003 0.048 0.252
+isopropyl hydrogen sulfate 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+DMSO   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+sulfuric acid   0.949 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+caustic soda   0.000 0.690 0.000 0.066 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+sodium bisulfate   0.000 0.000 0.000 0.798 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+stream name units 23 24 25 26 27
+temperature K 345 355 424 371 474
+pressure bar 1.31 1.03421 1.31 1.03421 1.31
+mass flows kg/h 132838 46923.2 148891 16053.1 132838
+mass fractions            
+propylene   0.000 0.000 0.000 0.000 0.000
+propane   0.000 0.000 0.000 0.000 0.000
+DIPE   0.000 0.004 0.000 0.000 0.000
+isopropanol   0.000 0.995 0.001 0.011 0.000
+diisopropyl sulfate   0.000 0.000 0.000 0.000 0.000
+water   0.000 0.000 0.107 0.989 0.000
+isopropyl hydrogen sulfate 0.000 0.000 0.000 0.000 0.000
+DMSO   1.000 0.000 0.892 0.000 1.000
+sulfuric acid   0.000 0.000 0.000 0.000 0.000
+caustic soda   0.000 0.000 0.000 0.000 0.000
+sodium bisulfate   0.000 0.000 0.000 0.000 0.000
+Table A3. Stream Table of Direct Hydration Process
+stream name units 1 2 3 4 5 6 7 8 9 10 11
+temperature K 316 323 395 308 308 311 543 508 437 437 437
+pressure bar 17.51 17.51 151.99 1.01 1.01 151.99 151.99 151.99 151.99 17.37 17.37
+mass flows kg/h 43703.8 54918.3 54918.3 12610.7 50010.4 50010.4 50010.4 104928 104928 16374.8 88553.7
+mass fractions                      
+propylene   0.948 0.754 0.754 0.000 0.000 0.000 0.000 0.118 0.118 0.280 0.089
+propane   0.052 0.046 0.046 0.000 0.000 0.000 0.000 0.024 0.024 0.051 0.019
+DIPE   0.000 0.047 0.047 1.000 1.000 1.000 1.000 0.384 0.384 0.158 0.425
+isopropanol   0.000 0.148 0.148 0.000 0.000 0.000 0.000 0.468 0.468 0.495 0.463
+water   0.000 0.005 0.005 0.000 0.000 0.000 0.000 0.006 0.006 0.015 0.004
+DMSO   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+stream name units 12 13 14 15 16 17 18 19 20 21 22 23
+temperature K 328 316 446 316 316 403 345 356 416 374 474 308
+pressure bar 17.37 17.24 17.51 5.07 5.07 5.34 1.31 1.03 1.31 1.03 1.31 1.01
+mass flows kg/h 16374.8 5160.17 11214.6 10020.5 226.813 78306.3 221015 40779.4 258415 37399.7 221015 37399.7
+mass fractions                        
+propylene   0.280 0.888 0.000 0.777 0.244 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+propane   0.051 0.112 0.023 0.169 0.064 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+DIPE   0.158 0.000 0.231 0.003 0.079 0.480 0.000 0.002 0.145 1.000 0.001 1.000
+isopropanol   0.495 0.000 0.723 0.020 0.462 0.520 0.000 0.998 0.000 0.000 0.000 0.000
+water   0.015 0.000 0.022 0.032 0.151 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+DMSO   0.000 0.000 0.000 0.000 0.000 0.000 1.000 0.000 0.855 0.000 0.999 0.000
+Table A4. Stream Table of Acetone Hydrogenation Process
+stream name units 1 2 3 4 5 6 7 8
+temperature K 323 380 365 373 293 295 373 373
+pressure bar 20 30 30 30 1.01325 30 30 30
+mass flows kg/h 2623.95 2623.95 3352.72 3352.72 44876.2 44876.2 44876.2 48228.9
+mass fractions                  
+hydrogen   1.000 1.000 1.000 1.000 0.000 0.000 0.000 0.038
+acetone   0.000 0.000 0.000 0.000 0.987 0.987 0.987 0.001
+isopropanol   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.948
+water   0.000 0.000 0.000 0.000 0.013 0.013 0.013 0.012
+2-hexanol   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.001
+stream name units 9 10 11 12 13 14 15 16
+temperature K 373 373 313 313 313 313 313 368
+pressure bar 30 30 30 30 30 30 30 30
+mass flows kg/h 6223.04 42005.9 6223.04 2103.13 4119.91 728.773 1374.35 46125.8
+mass fractions                  
+HYDRO-01   0.289 0.000 0.289 0.855 0.000 1.000 0.77851 0.000
+ACETO-01   0.002 0.001 0.002 0.002 0.002 0.000 0.00237 0.001
+ISOPR-01   0.697 0.986 0.697 0.140 0.981 0.000 0.21405 0.985
+WATER   0.012 0.012 0.012 0.003 0.017 0.000 0.00507 0.012
+HEXYL-01   0.000 0.001 0.000 0.000 0.000 0.000 5.5 × 1009 0.001
+
+
+</literature>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+
+29. Does the article discuss process intensification approaches that can be applied to propane dehydrogenation? What specific examples and potential benefits are described?
+30. Does the article analyze techno-economic factors that affect the viability of propane dehydrogenation processes? What specific considerations and quantitative analysis are provided?
+31. Does the article discuss safety issues like flammability and explosion hazards associated with propane dehydrogenation? What specific concerns, examples, and mitigation strategies are described?
+32. Does the article summarize remaining challenges and knowledge gaps in propane dehydrogenation catalysis? What specific issues and future research directions are identified?
+33. Does the article propose leveraging high-throughput computational methods to accelerate propane dehydrogenation catalyst screening and design? What specific techniques and opportunities are described?
+34. Does the article highlight needs for improved in-situ characterization tools to better understand propane dehydrogenation catalysts? What specific capabilities and opportunities are identified?
+35. Does the article envision potentially transformational catalyst architectures that could enable performance breakthroughs in propane dehydrogenation? What specific ideas and opportunities are proposed?
+
+
+</questions>
+
+First, you need to sequentially extract any quotes in the literature that are most relevant to each question, and print them in numbered order, separated by newlines. Quotes should be relatively brief. Do not attempt to summarize or answer questions at this stage, but simply repeat exactly what the corresponding part of the literature says.
+
+Please enclose the full list of quotes in <quotes></quotes> XML tags. If there are no relevant quotes, write "No relevant quotes" instead.
+
+Then, answer the question, starting with "Answer:".  Do not include or reference quoted content verbatim in the answer. Don't say "According to Quote [1]" when answering. Do not write reference number of quotes after answer. Put your answer to the user inside <answer></answer> XML tags. Output formatted text, with line breaks for each question.Separate quotes and answers with a blank line. Provide the answers to all questions in English. After completing the English answers, translate all those answers into Chinese and provide the Chinese version.
+
+Thus, the format of your overall response should look like what's shown between the <example></example> tags.  Make sure to follow the formatting and spacing exactly.
+
+<example>
+
+<quotes>
+
+[1] "Company X reported revenue of $12 million in 2021."
+
+</quotes>
+
+<English version answer>
+
+1.Company X earned $12 million in 2021.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.X公司在2021年赚了1200万美元。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Almost 90% of revenue came from widget sales, with gadget sales making up the remaining 10%."
+
+</quotes>
+
+<English version answer>
+
+2.Almost 90% of it came from widget sales.
+
+</English version answer>
+
+<Chinese version answer>
+
+2.几乎90%的收入来自小部件销售。
+
+</Chinese version answer>
+
+</example>
+
+
+If the question cannot be answered by the document, say so.If deemed necessary, the answer to the question can be extended entirely from the content of the document.
+
+Answer all of the questions immediately without preamble. 

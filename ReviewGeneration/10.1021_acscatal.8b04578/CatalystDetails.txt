@@ -1,0 +1,56 @@
+ <output>
+	<Relevance>
+		yes
+	</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>Ga/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>1.1% at 450°C</ConversionRate>
+				<Selectivity>&gt;90% toward propene</Selectivity>
+			</Catalyst>
+			<Catalyst>
+				<Name>Pt/Al2O3</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>0.4% at 450°C</ConversionRate>
+				<Selectivity>&gt;95%</Selectivity>
+				<DeactivationRates>
+					<Rate>Carbon poisoning</Rate>
+				</DeactivationRates>
+			</Catalyst>
+			<Catalyst>
+				<Name>Ga37Pt/Al2O3</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>3.7% at 450°C</ConversionRate>
+				<Selectivity>90% at 450°C</Selectivity>
+			</Catalyst>
+		</CatalystsList>
+		<MainContribution>
+			<Catalyst>
+				<Name>Ga37Pt/Al2O3</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>3.7% at 450°C</ConversionRate>
+				<Selectivity>90% at 450°C</Selectivity>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

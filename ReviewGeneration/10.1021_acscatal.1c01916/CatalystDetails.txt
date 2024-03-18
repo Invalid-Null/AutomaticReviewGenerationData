@@ -1,0 +1,70 @@
+ <output>
+	<Relevance>
+		Yes
+	</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>Pd</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pd</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>N/A</SupportMaterial>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>PdIn</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pd</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>In</Element>
+				</PromoterElements>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>PtSn</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Sn</Element>
+				</PromoterElements>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Pt3Sn</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Sn</Element>
+				</PromoterElements>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>PdIn</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pd</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>In</Element>
+				</PromoterElements>
+				<ConversionRate>20%</ConversionRate>
+				<Selectivity>99%</Selectivity>
+				<Stability>High</Stability>
+				<FeedCompositionAndRatios>
+					<Ratio>H2/C3H8 = 1:1</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>873K</ReactionTemperature>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

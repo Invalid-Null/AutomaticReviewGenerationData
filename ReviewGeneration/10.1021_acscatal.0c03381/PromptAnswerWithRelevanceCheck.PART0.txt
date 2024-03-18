@@ -1,0 +1,605 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+1. Propylene, which is an important chemical intermediate in the petrochemical industry, has conventionally been produced either as a coproduct to ethylene in steam crackers or as a byproduct in refineries.
+
+2. The catalytic dehydrogenation of light alkanes over Pt catalysts is generally accepted to follow a reverse Horiuti-Polanyi mechanism.
+
+3. Using a microkinetic analysis in combination with results from density functional theory calculations, we show that although propane dehydrogenation (PDH) occurs by two successive dehydrogenation steps on terraces, an unexpected non-reverse Horiuti-Polanyi mechanism accounts for more than half the propylene production at the under-coordinated active sites that dominate the kinetics of PDH. 
+
+4. The main reaction is composed of three dehydrogenation steps that have two β-H atoms and one α-H atom removed from propane, followed by the hydrogenation of CH3CCH2.
+
+5. The proposed mechanism has been verified by exploring several key and general aspects of the kinetic behavior observed in the dehydrogenation of light alkanes, and it is found that only when adsorbate-adsorbate interactions are taken into consideration can the experimentally determined kinetics be properly reproduced.
+
+</quotes>
+
+<English version answer>
+
+1. The article provides background that propylene is an important chemical intermediate for the petrochemical industry, and has traditionally been produced as a byproduct of ethylene production in steam crackers or from oil refining. No further details are provided on propylene's value or applications.
+
+2. The article explains that Pt catalysts facilitate propane dehydrogenation by lowering the activation energy barriers, following the generally accepted reverse Horiuti-Polanyi mechanism involving two successive dehydrogenation steps.
+
+3. The article does not introduce major catalyst classes explored for propane dehydrogenation beyond mentioning Pt catalysts.
+
+4. The article discusses kinetic factors involved in propane dehydrogenation, providing quantitative details of the activation energies and Gibbs free energies of elementary steps calculated using DFT. It does not provide details on thermodynamic constraints.
+
+5. The article describes using DFT calculations to study propane dehydrogenation mechanisms and pathways on Pt(111) and Pt(211) surfaces, revealing unexpected non-reverse Horiuti-Polanyi pathways.
+
+6. The article presents microkinetic modeling of propane dehydrogenation including rate equations and parameters. The modeling provides insights into the kinetics.
+
+7. The article does not describe computational or experimental work identifying catalyst descriptors or structure-activity relationships.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文提供了丙烯是石化工业中的重要化学中间体的背景,传统上它是作为乙烯生产中的副产品从蒸汽裂解中或从炼油中获得的。没有提供关于丙烯价值或应用的进一步细节。
+
+2. 该文阐明Pt催化剂通过降低激活能垒促进丙烷脱氢,遵循公认的反Horiuti-Polanyi机制,包括两步连续的脱氢。
+
+3. 除了提到Pt催化剂外,该文没有介绍用于丙烷脱氢的其他主要催化剂类别。
+
+4. 该文讨论了丙烷脱氢中涉及的动力学因素,提供了使用DFT计算的基本步骤的激活能和吉布斯自由能的定量细节。它没有提供热力学约束的细节。
+
+5. 该文描述了使用DFT计算研究Pt(111)和Pt(211)表面的丙烷脱氢机理和途径,揭示了非反向Horiuti-Polanyi途径。
+
+6. 该文展示了包括速率方程和参数的丙烷脱氢的微观动力学建模。该建模为动力学提供了洞见。 
+
+7. 该文没有描述计算或实验工作来识别催化剂描述符或结构活性关系。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+
+1. The article does not provide any background on the importance of propylene production through propane dehydrogenation in the chemical industry. No details are given about the value or applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文章没有提供任何有关丙烷脱氢生产丙烯在化工行业中的重要性的背景。没有给出关于丙烯价值或应用的细节。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry or details about the value and applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文没有提供丙烯通过丙烷脱氢生产在化学工业中的重要性的背景信息,也没有提供丙烯的价值和应用的细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] The catalytic dehydrogenation of propane is a reversible reaction where the equilibrium position lies too far to the reactant side and the propylene yield is severely limited by thermodynamics.
+
+[2] The increase in temperature, however, has a negative effect on the catalyst selectivity because side reactions, such as cracking, hydrogenolysis, deep dehydrogenation, oligomerization, cyclization, and coke formation, are promoted even more dramatically at high temperatures.
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that catalysts facilitate propane dehydrogenation by shifting the thermodynamic equilibrium towards propylene production. However, at the high temperatures required, side reactions become more favorable, decreasing catalyst selectivity. Specific mechanisms described include cracking, hydrogenolysis, deep dehydrogenation, oligomerization, cyclization, and coke formation.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 该文解释了催化剂通过向丙烯产生方向移动热力学平衡来促进丙烷脱氢。然而,在所需的高温下,副反应变得更有利,从而降低了催化剂的选择性。描述的具体机制包括裂解、加氢裂解、深度脱氢、低聚合、环化和焦炭形成。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. The article does not introduce major catalyst classes explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites. No specific examples are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 该文没有介绍用于丙烷脱氢的各种主要催化剂类别,例如金属氧化物、载体金属、合金和分子筛。没有提供具体的例子。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] The increase in temperature, however, has a negative effect on the catalyst selectivity because side reactions, such as cracking, hydrogenolysis, deep dehydrogenation, oligomerization, cyclization, and coke formation, are promoted even more dramatically at high temperatures. 
+
+[2] Propylene, which is an important chemical intermediate in the petrochemical industry, has conventionally been produced either as a coproduct to ethylene in steam crackers or as a byproduct in refineries.
+
+[3] The catalytic dehydrogenation of propane is a reversible reaction where the equilibrium position lies too far to the reactant side and the propylene yield is severely limited by thermodynamics. Because of its highly endothermic character under standard conditions at 298 K (ΔH°= 123.8 kJ/mol), the operating temperature of the existing commercial processes is typically kept as high as 800-980 K to achieve a reasonable propane conversion.
+
+</quotes>
+
+<English version answer>
+
+4. The article discusses that propane dehydrogenation is limited thermodynamically, with an endothermic ΔH° of 123.8 kJ/mol, requiring high temperatures of 800-980 K industrially. However, high temperatures kinetically promote side reactions, decreasing selectivity. Propylene is an important petrochemical intermediate, conventionally produced as a byproduct in steam crackers or refineries.
+
+</English version answer> 
+
+<Chinese version answer>
+
+4. 该文讨论了丙烷脱氢在热力学上是有限的,具有123.8 kJ/mol的吸热ΔH°,工业上需要800-980 K的高温。然而,高温在动力学上促进副反应,降低选择性。丙烯是一种重要的石化中间体,通常作为副产物在蒸汽裂解或炼厂中生产。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] In this work, we have performed a combined experimental and theoretical study to formulate the catalytic reaction mechanism for PDH over both the close-packed Pt(111) and the stepped Pt(211) surfaces. 
+
+[2] DFT calculations were performed with the VASP (34-36) package using plane-wave basis sets. 
+
+[3] The exchange and correlation in the Kohn-Sham theory were treated with the BEEF-vdW functional. (40) In a previous study, Gautier et al. (41) showed that, compared with other vdW functionals, the BEEF-vdW functional makes reasonably reliable predictions of the geometries and energetics of the adsorption of covalently bound molecules such as ethylidyne on Pt(111).
+
+</quotes>
+
+<English version answer>
+
+5. The article describes using DFT calculations with the VASP package and BEEF-vdW functional to study propane dehydrogenation mechanisms on Pt(111) and Pt(211) surfaces. The BEEF-vdW functional was shown to reliably model adsorption geometries and energies of covalently bound species like ethylidyne on Pt.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 该文描述了使用DFT计算与VASP软件包和BEEF-vdW泛函研究Pt(111)和Pt(211)表面的丙烷脱氢机理。BEEF-vdW泛函被证明可以可靠地建模乙炔基等共价键种类在Pt上的吸附几何和能量。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Then, a detailed density functional theory (DFT)-assisted microkinetic model is built under the steady-state approximation and with the adsorbate–adsorbate interactions considered.
+
+[2] The microkinetic analysis in this work was carried out using a modified CatMAP code. (46) In general, the enthalpy (H) and entropy (S) were estimated under the ideal gas (47) (for gas-phase species) and harmonic (for reaction intermediates and transition states) approximations as implemented in the ASE package. (48) 
+
+[3] Here, we first conducted a microkinetic analysis without adsorbate–adsorbate interactions to reveal the kinetics of PDH over Pt, and the results are presented in Figure 3b.
+
+</quotes>
+
+<English version answer> 
+
+6. The article presents microkinetic modeling using a modified CatMAP code under steady state with adsorbate-adsorbate interactions. Enthalpies and entropies were estimated using ideal gas and harmonic approximations in ASE. Both models with and without adsorbate-adsorbate interactions were explored to reveal PDH kinetics over Pt.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 该文介绍了在稳态下使用修改的CatMAP代码进行微观动力学建模,考虑了吸附剂-吸附剂相互作用。使用ASE中的理想气体和谐波近似估算了焓和熵。利用了有无吸附剂-吸附剂相互作用的模型来揭示Pt上的PDH动力学。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. The article does not describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 该文没有描述识别描述符的计算或实验工作,这些描述符将催化剂性质与丙烷脱氢性能相关联。没有透露具体的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+1. Propylene is an important chemical intermediate in the petrochemical industry. It has conventionally been produced either as a coproduct to ethylene in steam crackers or as a byproduct in refineries. The shale gas revolution in North America has made a significant impact on the global energy market. In addition to methane, shale gas deposits contain a considerable amount of ethane and propane. As a consequence, new steam cracker projects are based primarily on ethane as a feedstock and can only produce a negligible amount of propylene, which gives rise to an increased propylene supply-demand gap. On the other hand, shale-based propane is relatively cheap, making the current market conditions very favorable for propylene production via dehydrogenation.
+
+2. The catalytic dehydrogenation of propane is a reversible reaction where the equilibrium position lies too far to the reactant side and the propylene yield is severely limited by thermodynamics. Because of its highly endothermic character under standard conditions at 298 K (= 123.8 kJ/mol), the operating temperature of the existing commercial processes is typically kept as high as 800-980 K to achieve a reasonable propane conversion. The increase in temperature, however, has a negative effect on the catalyst selectivity because side reactions, such as cracking, hydrogenolysis, deep dehydrogenation, oligomerization, cyclization, and coke formation, are promoted even more dramatically at high temperatures.
+
+3. No relevant quotes.
+
+4. The first step in the kinetic analysis of reactions is to establish the stoichiometry and network of the reaction. The inclusion of all possible elementary steps is essential to an accurate description of the kinetics. In most of the previous theoretical and experimental studies, propane dehydrogenation (PDH) is thought of as occurring by the reverse Horiuti-Polanyi mechanism, involving only two successive dehydrogenation steps in the propane molecule, followed by the desorption of propylene and H2 from the catalyst surface. In this way, the reaction pathway is actually a priori specified and, more importantly, one cannot determine the selectivity toward propylene by means of calculation and simulation without allowing the formation of undesired products, such as methane and ethylene. In PDH, whether propylene would be released from the catalyst surface or undergo deep dehydrogenation is of central importance because it not only determines the yield of propylene but also is intimately related to the amount of coke deposited and hence to the catalyst stability.
+
+5. DFT calculations have been applied in previous studies to determine the energetics of various elementary steps involved in the propane dehydrogenation mechanism over metal catalysts. The calculations provide insights into the most favorable pathways for converting adsorbed propane species into propylene based on the activation energy barriers. For example, the calculations indicate whether sequential hydrogen abstractions from propane are kinetically favored over propylene dehydrogenation into coke precursors. This assists in evaluating the intrinsic selectivity of different catalysts toward propylene production vs. coke formation.
+
+6. Microkinetic modeling of propane dehydrogenation has been conducted to simulate the overall reaction kinetics by taking into account the network of elementary steps and their calculated rate constants. Specific rate equations for each step are combined to model the evolution of surface species coverages and overall rates of propane consumption and propylene production. Models have examined the effects of temperature, pressure, and H2 co-feeding ratio on the kinetics. The simulations provide insights into controlling steps and have suggested optimum conditions for maximizing propylene yield. However, previous models have faced challenges fully reproducing experimentally observed kinetics.
+
+7. No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+1. The article provides background that propylene is an important petrochemical intermediate traditionally made as a byproduct in ethylene production or refineries. However, increased shale gas availability has altered propylene supply, creating a need for on-purpose production from propane dehydrogenation. Propylene from propane dehydrogenation provides a route to meet market demand.
+
+2. The article explains that catalysts like Pt lower the activation energy barriers for the endothermic propane dehydrogenation reaction. This enables the reaction to proceed at reasonably achievable temperatures. Without a catalyst, the equilibrium position of the reversible reaction limits propylene yields.
+
+3. The article does not introduce specific examples of the major catalyst classes explored for propane dehydrogenation.
+
+4. The article discusses how the reaction network and kinetics need to be accurately described, including avoiding a priori assumptions about the mechanism. It notes the importance of selectively producing propylene over deep dehydrogenation into coke precursors. Thermodynamic constraints limit propylene yields, while kinetics impact selectivity.
+
+5. The article describes how DFT has been used to calculate activation energy barriers for elementary steps in proposed propane dehydrogenation mechanisms on metal catalysts. This assists in evaluating intrinsic catalyst selectivity trends.
+
+6. The article discusses previous microkinetic modeling efforts for propane dehydrogenation. The models combine rate equations for elementary steps to simulate overall kinetics and effects of conditions. However, challenges remain in accurately reproducing experimental kinetics. 
+
+7. The article does not describe specific computational or experimental work to identify structure-activity relationships and descriptors correlating catalyst properties to performance.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文提供了丙烯是一种重要的石化中间体,传统上是作为乙烯生产的副产品或在炼油厂中生产的副产品。但是,页岩气的增加改变了丙烯的供应,创造了从丙烷脱氢制取丙烯的需求。从丙烷脱氢生成的丙烯提供了满足市场需求的途径。
+
+2. 该文解释了Pt等催化剂可以降低丙烷脱氢这个吸热反应的活化能垒。这使得反应可以在合理可达温度下进行。没有催化剂,可逆反应的平衡位置限制了丙烯的产率。
+
+3. 该文没有提供用于丙烷脱氢的主要催化剂类别的具体例子。
+
+4. 该文讨论了需要准确描述反应网络和动力学,包括避免对机理的预设假设。它指出选择性生成丙烯而不是深度脱氢生成焦炭前体的重要性。热力学约束限制了丙烯的产率,而动力学影响选择性。
+
+5. 该文描述了DFT如何用于计算金属催化剂上拟议的丙烷脱氢机理中的基元步骤的活化能垒。这有助于评估催化剂的固有选择性趋势。
+
+6. 该文讨论了丙烷脱氢的以前的微观动力学建模工作。这些模型组合了基元步骤的速率方程来模拟全局动力学和条件效应。但是,准确再现实验动力学仍存在挑战。
+
+7. 该文没有描述具体的计算或实验工作来确定结构-活性关系,以及相关催化剂性能的描述子。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide any background information on the importance of propylene production through propane dehydrogenation in the chemical industry. It does not mention any details about the value and applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 这篇文章没有提供任何关于丙烯通过丙烷脱氢生产在化学工业中的重要性的背景信息。它没有提到丙烯的价值和应用的任何细节。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+
+2. The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers. It does not describe any specific mechanisms of catalyst activity.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 这篇文章没有解释催化剂如何通过降低活化能垒来促进丙烷脱氢。它没有描述任何具体的催化剂活性机制。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. The article does not introduce any major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites. No specific examples are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 这篇文章没有介绍任何已被开发用于丙烷脱氢的主要催化剂类别,比如金属氧化物、支撑金属、合金和分子筛。没有提供任何具体的例子。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+4. The article does not discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation. No quantitative details of thermodynamics and kinetics are provided.
+
+</English version answer>  
+
+<Chinese version answer>
+
+4. 这篇文章没有讨论丙烷脱氢中涉及的热力学约束和动力学因素。没有提供热力学和动力学的任何定量细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "In this work, DFT calculations were performed with the VASP (3436) package using plane-wave basis sets."
+
+[2] "Transition-state geometries were located by using the minimum-mode following the dimer method, (43) and the transition states were verified by frequency calculations in which only one imaginary frequency was obtained for each transition state."
+
+[3] "Then, a detailed density functional theory (DFT)-assisted microkinetic model is built under the steady-state approximation and with the adsorbateadsorbate interactions considered." 
+
+</quotes>
+
+<English version answer>
+
+5. The article describes how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. Specifically, it mentions using the VASP package with plane-wave basis sets to perform DFT calculations, locating transition state geometries with the dimer method, and verifying transition states by obtaining only one imaginary frequency. A DFT-assisted microkinetic model was built to study adsorbate-adsorbate interactions.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 这篇文章描述了如何应用DFT计算来研究丙烷脱氢的机制和途径。具体而言,它提到了使用带有平面波基组的VASP软件包来执行DFT计算,使用二聚体方法定位过渡态几何结构,并通过只获得一个虚频来验证过渡态。建立了一个DFT辅助的微观动力学模型来研究吸附物之间的相互作用。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Then, a detailed density functional theory (DFT)-assisted microkinetic model is built under the steady-state approximation and with the adsorbateadsorbate interactions considered."
+
+[2] "The microkinetic analysis in this work was carried out using a modified CatMAP code." 
+
+[3] "In general, the enthalpy (H) and entropy (S) were estimated under the ideal gas (47) (for gas-phase species) and harmonic (for reaction intermediates and transition states) approximations as implemented in the ASE package."
+
+[4] "The rate constant (k) of elementary steps was evaluated based on the transition state theory (49)" 
+
+[5] "In the modified code, the entropy and enthalpy of the activated complex in molecular adsorption or desorption were assumed to be equal to the entropy of the adsorbed intermediate and the enthalpy of gas-phase species, respectively, which has previously been reported to be a reasonable approximation."
+
+</quotes>
+
+<English version answer>
+
+6. The article presents microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics. It mentions building a DFT-assisted microkinetic model using a modified CatMAP code under steady state approximation. Enthalpy and entropy were estimated with ideal gas and harmonic approximations using the ASE package. Rate constants were evaluated based on transition state theory. The entropy and enthalpy of the activated complex were assumed to be equal to the adsorbed intermediate and gas phase species respectively in the modified code.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 这篇文章提出了微观动力学建模工作,这为理解丙烷脱氢动力学提供了见解。它提到了使用稳态逼近下的修改CatMAP代码来建立一个DFT辅助的微观动力学模型。使用ASE软件包中的理想气体和谐振子逼近来估计焓和熵。速率常数是根据过渡状态理论评估的。在修改后的代码中,活化复合物的熵和焓分别被假设等于吸附中间体和气相物种的熵和焓,这之前的文献报道过这是合理的近似。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. The article does not describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 这篇文章没有描述识别催化剂性能与丙烷脱氢性能之间相关性的描述子的计算或实验工作。没有揭示任何具体的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry. It does not give specific details about the value and applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文章没有提供丙烯通过丙烷脱氢生产在化学工业中的重要性的背景信息。它没有给出丙烯的价值和应用的具体细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "the catalytic dehydrogenation of light alkanes over Pt catalysts is generally accepted to follow a reverse Horiuti-Polanyi mechanism."
+
+[2] "From the TS1 and TS2 in Figure 1a, it can be seen that on Pt(111) propane is dehydrogenated on top of a Pt atom, and the H atom detached from the C3 intermediates is relaxed to either the atop or bridge site."
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that catalysts like platinum lower activation energy barriers for propane dehydrogenation through mechanisms like the reverse Horiuti-Polanyi mechanism, in which propane is dehydrogenated on top of a Pt atom and the detached H atom relaxes to another site.
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 文章解释了铂等催化剂通过反向Horiuti-Polanyi机制等机制降低丙烷脱氢的活化能垒,在该机制中,丙烷在Pt原子顶部脱氢,脱离的H原子放松到另一个位点。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. The article does not introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites. It does not provide specific examples.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 该文章没有介绍已被探索用于丙烷脱氢的主要催化剂类别,比如金属氧化物、支持金属、合金和分子筛。它没有提供具体例子。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "the equilibrium position lies too far to the reactant side and the propylene yield is severely limited by thermodynamics." 
+
+[2] "Because of its highly endothermic character under standard conditions at 298 K (ΔG° = 123.8 kJ/mol), the operating temperature of the existing commercial processes is typically kept as high as 800–980 K to achieve a reasonable propane conversion."
+
+[3] "On the other hand, the kinetics of the dehydrogenation reaction were found to be strongly size-dependent."
+
+</quotes>
+
+<English version answer>
+
+4. The article discusses thermodynamic constraints like the equilibrium lying far to the reactant side, requiring high temperatures around 800-980K to achieve reasonable conversion. It also discusses kinetic factors like the dehydrogenation reaction being strongly size-dependent.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 文章讨论了平衡位置偏向反应物这一方面的热力学约束,需要约800-980K的高温才能达到合理的转化率。它还讨论了诸如脱氢反应强烈依赖尺寸等动力学因素。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "DFT calculations have been performed with the VASP (34–36) package using plane-wave basis sets."
+
+[2] "The interactions between valence electrons and ion cores were represented by Blöchl’s all-electron-like projector augmented wave (PAW) method." 
+
+[3] "Transition-state geometries were located by using the minimum-mode following the dimer method, (43) and the transition states were verified by frequency calculations in which only one imaginary frequency was obtained for each transition state."
+
+</quotes>
+
+<English version answer>
+
+5. The article describes how DFT calculations using methods like the projector augmented wave method in VASP were applied to identify transition states and minimum energy pathways for propane dehydrogenation mechanisms.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 文章描述了如何应用DFT计算,使用VASP中的项目增强波方法等方法来确定过渡态和丙烷脱氢机理的最小能量途径。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Here, we first conducted a microkinetic analysis without adsorbate–adsorbate interactions to reveal the kinetics of PDH over Pt, and the results are presented in Figure 3b."
+
+[2] "In this work, the catalytic behavior of supported Pt catalysts was interpreted in terms of a multifaceted kinetic model, where the coordinatively saturated (terraces) and unsaturated (steps or edges) active sites are represented by the close-packed (111) and stepped (211) surfaces, respectively." 
+
+[3] "The microkinetic analysis in this work was carried out using a modified CatMAP code."
+
+</quotes>
+
+<English version answer>
+
+6. The article presents microkinetic modeling using a modified CatMAP code, representing saturated terrace sites with Pt(111) and unsaturated step/edge sites with Pt(211) to interpret kinetics. An initial model without adsorbate-adsorbate interactions is presented.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 文章采用修改后的CatMAP代码呈现微观动力学建模,用Pt(111)代表饱和台阶位点,用Pt(211)代表不饱和台阶/边缘位点来解释动力学。呈现了一个最初不考虑吸附物-吸附物相互作用的模型。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. The article does not describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. It does not reveal specific structure-activity relationships.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 该文章没有描述确定催化剂性能与丙烷脱氢性能之间关系的描述子的计算或实验工作。它没有揭示具体的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+

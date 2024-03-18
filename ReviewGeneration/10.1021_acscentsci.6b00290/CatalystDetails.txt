@@ -1,0 +1,71 @@
+ <output>
+    <Relevance>
+        Yes
+    </Relevance>
+    <IfRelevant>
+        <CatalystsList>
+            <Catalyst>
+                <Name>Co-AIM+NU-1000</Name>
+                <Type>Metal oxide</Type>
+                <ActiveSpeciesElements>
+                    <Element>Co</Element>
+                </ActiveSpeciesElements>
+                <SupportMaterial>NU-1000</SupportMaterial>
+                <ConversionRate>8.7% (after 24 h)</ConversionRate>  
+                <Selectivity>100% (at 180 C)</Selectivity>
+                <Stability>Stable after 24 h</Stability>
+                <DeactivationRates>
+                    <Rate>Decreased from 8.7% to 8.3% after ~24 h</Rate>
+                </DeactivationRates>
+                <ReactionTemperature>230 C</ReactionTemperature>
+                <TurnoverFrequency>1.02 h^-1</TurnoverFrequency>
+            </Catalyst>
+            
+            <Catalyst>
+                <Name>Co-SIM+NU-1000</Name>
+                <Type>Metal oxide</Type>
+                <ActiveSpeciesElements>
+                    <Element>Co</Element>
+                </ActiveSpeciesElements>
+                <SupportMaterial>NU-1000</SupportMaterial>
+                <ConversionRate>3.8% (after 24 h)</ConversionRate>
+                <Selectivity>100% (at 180 C)</Selectivity>
+                <Stability>Stable after 24 h</Stability>
+                <DeactivationRates>
+                    <Rate>Decreased from 3.8% to 3.7% after ~24 h</Rate> 
+                </DeactivationRates>
+                <ReactionTemperature>230 C</ReactionTemperature>
+                <TurnoverFrequency>0.54 h^-1</TurnoverFrequency>
+            </Catalyst>
+            
+            <Catalyst>
+                <Name>Co/ZrO2</Name>
+                <Type>Metal</Type>
+                <ActiveSpeciesElements>
+                    <Element>Co</Element>
+                </ActiveSpeciesElements>
+                <SupportMaterial>ZrO2</SupportMaterial>
+                <TurnoverFrequency>0.15 h^-1</TurnoverFrequency>
+            </Catalyst>
+        </CatalystsList>
+        
+        <MainContribution>
+            <Catalyst>
+                <Name>Co-AIM+NU-1000</Name>
+                <Type>Metal oxide</Type>
+                <ActiveSpeciesElements>
+                    <Element>Co</Element>
+                </ActiveSpeciesElements>
+                <SupportMaterial>NU-1000</SupportMaterial>
+                <ConversionRate>8.7% (after 24 h)</ConversionRate>
+                <Selectivity>100% (at 180 C)</Selectivity>
+                <Stability>Stable after 24 h</Stability>
+                <DeactivationRates>
+                    <Rate>Decreased from 8.7% to 8.3% after ~24 h</Rate>
+                </DeactivationRates>
+                <ReactionTemperature>230 C</ReactionTemperature>
+                <TurnoverFrequency>1.02 h^-1</TurnoverFrequency>
+            </Catalyst>
+        </MainContribution>
+    </IfRelevant>
+</output>

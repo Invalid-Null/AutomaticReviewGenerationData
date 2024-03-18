@@ -1,0 +1,127 @@
+ Based on the details in the document, this is related to propane dehydrogenation.
+
+The relevant information extracted in XML format is:
+
+<output>
+	<Relevance>Yes</Relevance> 
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>3Pt/SiO2</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Selectivity>77%</Selectivity>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% C3H8 in N2</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>550°C</ReactionTemperature>
+				<InletFlowRate>200 cm3/min</InletFlowRate>
+			</Catalyst>
+			<Catalyst>
+				<Name>10Co/SiO2</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Co</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Selectivity>19%</Selectivity>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% C3H8 in N2</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>550°C</ReactionTemperature>
+				<InletFlowRate>200 cm3/min</InletFlowRate>
+			</Catalyst>
+			<Catalyst>
+				<Name>2CoII/SiO2</Name>
+				<Type>Single Atom</Type>
+				<ActiveSpeciesElements>
+					<Element>Co</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Selectivity>99%</Selectivity>
+			</Catalyst>
+			<Catalyst>
+				<Name>2Pt0.6Co/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Co</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Selectivity>96%</Selectivity>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% C3H8 in N2</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>550°C</ReactionTemperature>
+				<InletFlowRate>200 cm3/min</InletFlowRate>
+			</Catalyst>
+			<Catalyst>
+				<Name>2Pt1Co/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Co</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Selectivity>96%</Selectivity>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% C3H8 in N2</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>550°C</ReactionTemperature>
+				<InletFlowRate>200 cm3/min</InletFlowRate>
+			</Catalyst>
+			<Catalyst>
+				<Name>2Pt2Co/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Co</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Selectivity>96%</Selectivity>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% C3H8 in N2</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>550°C</ReactionTemperature>
+				<InletFlowRate>200 cm3/min</InletFlowRate>
+			</Catalyst>
+			<Catalyst>
+				<Name>2Pt4Co/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Co</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Selectivity>92%</Selectivity>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% C3H8 in N2</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>550°C</ReactionTemperature>
+				<InletFlowRate>200 cm3/min</InletFlowRate>
+			</Catalyst>
+		</CatalystsList>
+		<MainContribution>
+			<Catalyst>
+				<Name>2Pt1Co/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Co</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Selectivity>96%</Selectivity>
+				<FeedCompositionAndRatios>
+					<Ratio>2.5% C3H8 in N2</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>550°C</ReactionTemperature>
+				<InletFlowRate>200 cm3/min</InletFlowRate>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>
+
+The 2Pt1Co/SiO2 alloy catalyst stands out as the main scientific contribution, as it is identified as having a uniform Pt3Co alloy structure throughout the nanoparticle based on detailed characterization. This results in high 96% propylene selectivity at 550°C due to the geometric ensemble effect of the Pt3Co structure.

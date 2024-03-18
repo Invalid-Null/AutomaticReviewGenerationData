@@ -1,0 +1,62 @@
+ Yes, the document is related to propane dehydrogenation. Here are the key details extracted in XML format:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>DFNS/BN</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>B</Element> 
+					<Element>N</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>25.5%</ConversionRate>
+				<Selectivity>59.4% for propene, 16.5% for ethene</Selectivity>  
+				<Stability>Moderately stable for 19 hours</Stability>
+				<DeactivationRates>
+					<Rate>Conversion decreased to ~18% after 19 hours</Rate>
+				</DeactivationRates>
+				<PropeneProductionRate>38,360 μmol gcat-1 h-1</PropeneProductionRate>
+				<EtheneProductionRate>10,657 μmol gcat-1 h-1</EtheneProductionRate>
+				<ReactionTemperature>490°C</ReactionTemperature>
+			</Catalyst>
+			<Catalyst>
+				<Name>DFNS/B2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>B</Element>
+					<Element>O</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>24.8%</ConversionRate>
+				<Selectivity>17.9% for propene, 6.8% for ethene</Selectivity>
+				<Stability>Stable for 19 hours</Stability>
+				<PropeneProductionRate>19,520 μmol gcat-1 h-1</PropeneProductionRate>
+				<EtheneProductionRate>7441 μmol gcat-1 h-1</EtheneProductionRate>
+				<ReactionTemperature>490°C</ReactionTemperature>
+			</Catalyst>
+		</CatalystsList>
+		<MainContribution>
+			<Catalyst>
+				<Name>DFNS/BN</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>B</Element>
+					<Element>N</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>25.5%</ConversionRate>
+				<Selectivity>59.4% for propene, 16.5% for ethene</Selectivity>
+				<Stability>Moderately stable for 19 hours</Stability>
+				<DeactivationRates>
+					<Rate>Conversion decreased to ~18% after 19 hours</Rate>
+				</DeactivationRates>
+				<PropeneProductionRate>38,360 μmol gcat-1 h-1</PropeneProductionRate>
+				<EtheneProductionRate>10,657 μmol gcat-1 h-1</EtheneProductionRate>
+				<ReactionTemperature>490°C</ReactionTemperature>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

@@ -1,0 +1,176 @@
+ Yes, the given document is related to propane dehydrogenation. Here is the extracted information in XML format:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>RuO2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ru</Element> 
+				</ActiveSpeciesElements>
+				<ConversionRate>25%</ConversionRate>
+				<Selectivity>2.4% for C3H6</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Fe2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Fe</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>8.1% for C3H8, 4.0% for O2</ConversionRate>
+				<Selectivity>94% for C3H6</Selectivity>
+				<Stability>Not stable, deactivates within 10 hours</Stability>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CuO</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cu</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>4.4% for C3H8, 4.2% for O2</ConversionRate>
+				<Selectivity>84% for C3H6</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>NiO</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ni</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>2.2% for C3H8, 1.0% for O2</ConversionRate>  
+				<Selectivity>74% for C3H6</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>VOPO4</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>V</Element>
+					<Element>P</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>16% for C3H8, 23% for O2</ConversionRate>
+				<Selectivity>57% for C3H6</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>La2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>La</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>3.1% for C3H8, 2.8% for O2</ConversionRate>
+				<Selectivity>72% for C3H6</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CeO2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>29% for C3H8, 44% for O2</ConversionRate>
+				<Selectivity>61% for C3H6</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Eu2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Eu</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>10% for C3H8, 13% for O2</ConversionRate>
+				<Selectivity>75% for C3H6</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CeO2 Nanorods</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+				</ActiveSpeciesElements>
+				<ExposedFacets>
+					<Facet>{110}</Facet>
+					<Facet>{100}</Facet>
+				</ExposedFacets>
+				<ConversionRate>1.8 mmol m-2 h-1 for C3H8</ConversionRate>
+				<Selectivity>55% for C3H6 at 38% C3H8 conversion</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CeO2 Nanocubes</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+				</ActiveSpeciesElements>
+				<ExposedFacets>
+					<Facet>{100}</Facet>
+				</ExposedFacets>
+				<ConversionRate>1.4 mmol m-2 h-1 for C3H8</ConversionRate>
+				<Selectivity>61% for C3H6 at 29% C3H8 conversion</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CeO2 Nano-octahedra</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+				</ActiveSpeciesElements>
+				<ExposedFacets>
+					<Facet>{111}</Facet>
+				</ExposedFacets>
+				<ConversionRate>0.68 mmol m-2 h-1 for C3H8</ConversionRate>
+				<Selectivity>40% for C3H6 at 10% C3H8 conversion</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CeO2 Nanoparticles</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+				</ActiveSpeciesElements>
+				<ExposedFacets>
+					<Facet>{111}</Facet>
+				</ExposedFacets>
+				<ConversionRate>0.56 mmol m-2 h-1 for C3H8</ConversionRate>
+				<Selectivity>47% for C3H6 at 10% C3H8 conversion</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>8 wt% NiO-CeO2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ni</Element>
+				</PromoterElements>
+				<ConversionRate>52% for C3H8, 68% for O2</ConversionRate>
+				<Selectivity>80% for C3H6</Selectivity>
+				<Stability>Stable for 100 hours</Stability>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>8 wt% NiO-CeO2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ni</Element>
+				</PromoterElements>
+				<ConversionRate>52% for C3H8, 68% for O2</ConversionRate>
+				<Selectivity>80% for C3H6</Selectivity>
+				<Stability>Stable for 100 hours</Stability>
+				<PropyleneYield>55%</PropyleneYield>
+				<PropanePartialPressure>18 kPa</PropanePartialPressure>
+				<ReactionTemperature>773 K</ReactionTemperature>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

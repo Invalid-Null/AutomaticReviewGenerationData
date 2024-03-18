@@ -1,0 +1,76 @@
+ Based on the details in the document, this is related to propane dehydrogenation. Here is the extracted information:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>ZnZrxOy</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Zn</Element>
+					<Element>Zr</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>21%</ConversionRate>  
+				<Selectivity>92%</Selectivity>
+				<ReactionTemperature>450 °C</ReactionTemperature>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>ZnZr2</Name> 
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Zn</Element>
+					<Element>Zr</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>26%</ConversionRate>
+				<Selectivity>86%</Selectivity>
+				<PropyleneYield>1.32 kg/kgcat/h</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>21% C3H8</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>500 °C</ReactionTemperature>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Pt/Al2O3</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>20%</ConversionRate>
+				<Selectivity>81%</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CrOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>17%</ConversionRate>
+				<Selectivity>85%</Selectivity>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>ZnZr2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Zn</Element>
+					<Element>Zr</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>26%</ConversionRate>
+				<Selectivity>86%</Selectivity>
+				<PropyleneYield>1.32 kg/kgcat/h</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>21% C3H8</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>500 °C</ReactionTemperature>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

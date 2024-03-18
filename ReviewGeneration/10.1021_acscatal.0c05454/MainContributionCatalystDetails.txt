@@ -1,0 +1,37 @@
+ Based on the details in the document, this is related to propane dehydrogenation. The main catalyst contribution is:
+
+<output>
+	<Relevance>
+		Yes
+	</Relevance>
+	<IfRelevant>
+		<MainContribution>
+			<Catalyst>
+				<Name>Ir1-Ga2O3</Name>
+				<Type>Single Atom</Type>
+				<CompositionElements>
+					<Element>Ir</Element>
+					<Element>Ga</Element>
+					<Element>O</Element>
+				</CompositionElements>
+				<ActiveSpeciesElements>
+					<Element>Ir</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>12% initially, ~12% after 4h</ConversionRate>
+				<Selectivity>99%</Selectivity>
+				<Stability>Stable</Stability>
+				<DeactivationRates>
+					<Rate>Negligible after 4h</Rate>
+				</DeactivationRates>
+				<PropyleneYield>99%</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2 = 5:4</Ratio>
+				</FeedCompositionAndRatios>
+				<PropanePartialPressure>0.2 bar</PropanePartialPressure>
+				<ReactionTemperature>575Â°C</ReactionTemperature>
+				<CatalystLoadingOrGHSV>0.1 g catalyst</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

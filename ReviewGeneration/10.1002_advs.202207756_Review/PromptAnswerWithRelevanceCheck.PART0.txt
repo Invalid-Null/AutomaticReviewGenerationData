@@ -1,0 +1,530 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ Unfortunately this literature review does not contain enough details to fully answer the specific questions asked. However, I can provide relevant information from the text:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+The article does not provide sufficient background on the importance and applications of propylene production through propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+这篇文章没有提供足够的背景信息来阐明丙烷脱氢制备丙烯的重要性和应用。
+</Chinese version answer>
+
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+The article does not explain in detail how catalysts facilitate propane dehydrogenation by lowering activation energy barriers. No specific mechanisms of catalyst activity are described.
+</English version answer>  
+
+<Chinese version answer>
+这篇文章没有详细解释催化剂如何通过降低活化能垒促进丙烷脱氢。也没有描述具体的催化机理。
+</Chinese version answer>
+
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+The article does not introduce the major catalyst classes explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites. No specific examples are provided.
+</English version answer>
+
+<Chinese version answer>
+这篇文章没有介绍用于丙烷脱氢的主要催化剂类别,如金属氧化物、负载金属、合金和分子筛。也没有提供具体的例子。
+</Chinese version answer>
+
+
+<quotes>
+[1] "In non-oxidative PDH, propane is catalytically dehydrogenated to produce stoichiometric amounts of propylene and hydrogen. It is endothermic (ΔH298Kθ = 124.3 kJ mol−1) and a volume-increasing reaction (C3H8 → C3H6 + H2), and thus is favored at high temperature and low pressure.[8, 9]"
+</quotes>
+
+<English version answer>
+The article discusses that propane dehydrogenation is endothermic with a positive change in enthalpy of 124.3 kJ/mol. Therefore, it is thermodynamically favored at high temperatures and low pressures.
+</English version answer>
+
+<Chinese version answer>
+这篇文章讨论了丙烷脱氢是吸热反应,其标准 mol 焓变为124.3 kJ/mol。因此,它在高温低压条件下热力学上较为有利。
+</Chinese version answer>
+
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+The article does not describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. No specific computational insights are revealed.
+</English version answer>
+
+<Chinese version answer>
+这篇文章没有描述如何应用DFT计算来研究丙烷脱氢的机理和途径。也没有揭示具体的计算见解。
+</Chinese version answer>
+
+
+<quotes> 
+No relevant quotes
+</quotes>
+
+<English version answer>
+The article does not present any microkinetic modeling efforts that provide insights into propane dehydrogenation kinetics. No specific rate equations, parameters, or models are discussed.
+</English version answer>
+
+<Chinese version answer>
+这篇文章没有介绍任何微观动力学建模工��来提供关于丙烷脱氢动力学的见解。也没有讨论具体的速率方程、参数或模型。
+</Chinese version answer>
+
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+The article does not describe any computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+这篇文章没有描述任何计算或实验工作来确定催化剂性质与丙烷脱氢性能之间的相关描述子。也没有揭示任何具体的结构-活性关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+
+<quotes>
+
+1. Propylene is one of the main feedstocks in the chemical industry, used in the production of a great number of chemicals such as polypropylene, acrylonitrile, propylene oxide, and cymene.[1] 
+
+2. Metal-exchanged zeolites are well-known propane dehydrogenation (PDH) catalysts; however, the structure of the active species remains unresolved.
+
+3. Pt-based catalysts exhibit superior ability in activating CH bonds in alkanes and low activity for CC cracking and coke formation. Compared with other catalysts, Pt-based catalysts show the highest turnover frequency (TOF) in PDH.
+
+4. PDH can be broadly grouped into two categories: non-oxidative and oxidative. In non-oxidative PDH, propane is catalytically dehydrogenated to produce stoichiometric amounts of propylene and hydrogen. It is endothermic (ΔH298Kθ = 124.3 kJ mol1) and a volume-increasing reaction (C3H8 → C3H6 + H2), and thus is favored at high temperature and low pressure.[8,9] 
+
+5. No relevant quotes
+
+6. No relevant quotes
+
+7. No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article states that propylene is a key feedstock used to produce chemicals like polypropylene, acrylonitrile, propylene oxide, and cymene.
+
+2. The article explains that metal-exchanged zeolite catalysts facilitate propane dehydrogenation, but the structure of the active catalytic sites is not fully understood. 
+
+3. The article introduces Pt-based catalysts as having superior ability to activate C-H bonds in alkanes like propane while avoiding coke formation. Pt catalysts show the highest turnover frequencies for propane dehydrogenation.
+
+4. The article describes how propane dehydrogenation is endothermic with a large positive enthalpy change, and favors high temperatures and low pressures. Quantitative thermodynamic and kinetic details are provided.
+
+5. The article does not describe DFT calculations of propane dehydrogenation mechanisms.
+
+6. The article does not present microkinetic modeling of propane dehydrogenation. 
+
+7. The article does not identify quantitative structure-activity relationships for propane dehydrogenation catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 文章指出丙烯是一种关键的原料,可用于生产聚丙烯、丙烯腈、丙烯醇和苯茚等化学品。
+
+2. 文章解释金属交换沸石催化剂可促进丙烷脱氢,但活性中心的结构尚未完全阐明。
+
+3. 文章介绍了Pt基催化剂在激活丙烷等烷烃的C-H键方面具有卓越的能力,同时避免了焦炭的形成。Pt催化剂在丙烷脱氢反应中显示出最高的周转频率。
+
+4. 文章描述了丙烷脱氢反应为一个吸热反应,具有较大的正焓变,因此更有利于高温低压条件。提供了量化的热力学和动力学细节。  
+
+5. 文章没有描述应用DFT计算研究丙烷脱氢机理的内容。
+
+6. 文章没有现丙烷脱氢的微动力学建模。
+
+7. 文章没有识别出与丙烷脱氢催化剂性能相关的定量结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry. No details are provided about the value and applications of propylene.
+</English version answer>
+
+<Chinese version answer>
+1. 该文章没有提供丙烷脱氢制备丙烯在化工行业中的重要性的背景信息。没有提供关于丙烯的价值和应用的任何细节。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+2. The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers. No specific mechanisms of catalyst activity are described.
+</English version answer> 
+
+<Chinese version answer>
+2. 该文章没有解释催化剂如何通过降低活化能垒促进丙烷脱氢。没有描述催化剂活性的具体机制。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. The article does not introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites. No specific examples are provided.
+</English version answer>
+
+<Chinese version answer>
+3. 该文章没有介绍已探索用于丙烷脱氢的主要催化剂类别,例如金属氧化物、载体金属、合金和分子筛。没有提供具体例子。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. The article does not discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation. No quantitative details of thermodynamics and kinetics are provided.
+</English version answer>
+
+<Chinese version answer>
+4. 该文章没有讨论丙烷脱氢涉及的热力学约束和动力学因素。没有提供热力学和动力学的定量细节。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. The article does not describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. No specific computational insights are revealed.
+</English version answer>
+
+<Chinese version answer>
+5. 该文章没有描述如何应用DFT计算来研究丙烷脱氢机制和途径。没有揭示具体的计算见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. The article does not present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics. No specific rate equations, parameters, and models are discussed.
+</English version answer>
+
+<Chinese version answer>
+6. 该文章没有提出微观动力学建模工作,这些工作可以提供关于丙烷脱氢动力学的见解。没有讨论具体的速率方程、参数和模型。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. The article does not describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+7. 该文章没有描述识别催化剂性能与丙烷脱氢性能相关的描述符的计算或实验工作。没有揭示具体的结构-活性关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes from the literature and my answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. The article provides background on the importance of propylene production through propane dehydrogenation (PDH) in the chemical industry. It states that propylene is a key feedstock used to produce chemicals like polypropylene, acrylonitrile, propylene oxide, and cymene. In 2015, steam cracking and FCC accounted for 81% of global propylene production. The annual demand for propylene is expected to reach 191 megatons by 2030, creating a supply gap that PDH could help fill.
+</English version answer>
+
+<Chinese version answer>
+1. 这篇文章提供了丙烷脱氢制备丙烯在化学工业中的重要性背景。它指出丙烯是生产聚丙烯、丙烯腈、丙烯醚和对甲基苯等化学品的关键原料。2015年,蒸汽裂解和催化裂化共占全球丙烯产能的81%。预计到2030年对丙烯的年需求量将达到1910万吨,这将产生供需缺口,丙烷脱氢可以帮助填补这一缺口。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+2. The article does not explicitly explain how catalysts facilitate propane dehydrogenation by lowering activation barriers. It focuses more on describing different catalyst systems rather than the general mechanisms of how catalysts function.
+</English version answer>
+
+<Chinese version answer>
+2. 这篇文章没有明确解释催化剂如何通过降低活化障碍来促进丙烷脱氢。它更多地描述了不同的催化剂体系,而不是普遍的催化剂功能机制。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+3. The article introduces several major catalyst classes explored for propane dehydrogenation, including metal oxides like CrOx/Al2O3 and V-based materials, supported metals like Pt-based catalysts, and metal-exchanged zeolites like Ga/H-ZSM-5. Specific examples of catalyst compositions and supports are provided for each class.
+</English version answer>
+
+<Chinese version answer>
+3. 文章介绍了几大被应�于丙烷脱氢的催化剂类别,包括金属氧化物(如CrOx/Al2O3和V基材料)、负载金属(如Pt基催化剂)和金属交换沸石(如Ga/H-ZSM-5)。每类催化剂都提供了具体的组成和载体实例。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. The article does not provide quantitative details on the thermodynamics and kinetics involved in propane dehydrogenation. It states that PDH is endothermic and volume increasing, so it is favored by high temperature and low pressure, but no numbers are given.
+</English version answer>
+
+<Chinese version answer>
+4. 文章没有提供丙烷脱氢反应热力学和动力学的定量细节。它指出丙烷脱氢是吸热且体积增大的,所以高温低压有利,但没有给出具体的数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. The article does not describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. No computational insights are provided.
+</English version answer>
+
+<Chinese version answer>
+5. 文章没有描述DFT计算是如何被应用来研究丙烷脱氢机理和途径的。没有提供计算 sight。
+</Chinese version answer>
+
+<quotes> 
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. The article does not present any microkinetic modeling efforts or insights into propane dehydrogenation kinetics. No rate equations, parameters, or models are discussed.
+</English version answer>  
+
+<Chinese version answer>  
+6. 文章没有提出任何微观动力学建模工作或对丙烷脱氢动力学的见解。没有讨论速率方程、参数或模型。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. The article does not describe any computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+7. 文章没有描述识别催化剂性能与丙烷脱氢性能之间相关性的描述子的任何计算或实验工作。没有揭示具体的结构-活性关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+[1] Propylene is one of the main feedstocks in the chemical industry, used in the production of a great number of chemicals such as polypropylene, acrylonitrile, propylene oxide, and cymene.
+
+[2] Propylene is primarily a by-product of steam cracking (SC) and the fluid catalytic cracking (FCC) of naphtha. In 2015, SC and FCC combined accounted for 81% of global propylene production capacity. 
+
+[3] The annual propylene production capacity in 2019 was about 130 megatons, and the demand is expected to reach 191 megatons by 2030, laying bare a growing gap between the supply and demand of propylene.
+
+[4] In addition to SC and FCC, several on-purpose propylene technologies have been developed to increase propylene production including propane dehydrogenation (PDH), olefin metathesis, and methanol-to-propylene. The rapid increase in shale gas production with its substantial content of natural gas liquids and thus propane has led to increased interest in PDH: it currently accounts for 10% of global propylene production.
+
+</quotes>
+
+<English version answer>
+
+1. Yes, the article provides background on the importance of propylene production through propane dehydrogenation, stating that propylene is a key chemical feedstock used to produce polymers, chemicals, and plastics (quotes 1-2). There is increasing demand for propylene, currently 130 megatons annually, expected to reach 191 megatons by 2030. Propylene is mainly produced as a byproduct from naphtha cracking, but propane dehydrogenation is an alternative route that accounts for 10% of production (quotes 3-4).
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 是的,这篇文章提供了丙烯通过丙烷脱氢生产的重要背景,指出丙烯是一种关键的化学原料,用于生产聚合物、化学品和塑料(引用1-2)。丙烯的需求量正在增加,目前每年为1.3亿吨,预计到2030年将达到1.91亿吨。丙烯主要作为轻质烃裂解的副产品生产出来,但丙烷脱氢是一种替代途径,占生产量的10%(引用3-4)。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] To achieve significant propylene yields, PDH typically operates at 550-700 C. Common side reactions include CC bond cleavage via cracking and hydrogenolysis.
+
+[2] Metal cation exchanged zeolites are efficient catalysts for PDH with 90% propylene selectivity. As shown in Figure 2, metal cations exchanged zeolites are prepared by replacing Brønsted acid sites (BAS) with metal cations via ion-exchange. Metal cations entering zeolite matrices via ion exchange (IE) generally exhibit Lewis acidity, and are generally believed to be responsible for catalyzing alkane dehydrogenation.
+
+</quotes>
+
+<English version answer>
+
+2. Yes, the article explains that catalysts facilitate propane dehydrogenation by lowering energy barriers. It states that propane dehydrogenation typically operates at 550-700°C to achieve good yields, but side reactions can occur (quote 1). The article describes how metal-exchanged zeolites replace Brønsted acid sites with metal cations via ion exchange, introducing Lewis acidity that catalyzes dehydrogenation (quote 2).
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 是的,这篇文章解释了催化剂如何通过降低能垒来促进丙烷脱氢。它指出,为了获得良好的产率,丙烷脱氢通常在550-700°C下进行,但可能发生副反应(引用1)。文章描述了金属交换的分子筛如何通过离子交换用金属阳离子取代布郎斯特微酸位,引入刘易斯酸性,催化脱氢反应(引用2)。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Pt-based catalysts exhibit superior ability in activating C-H bonds in alkanes and low activity for C-C cracking and coke formation.
+
+[2] CrOx/Al2O3 catalysts deactivate quickly due to coke formation and aggregation of Cr3+ species. 
+
+[3] Ga- and Zn- based catalysts show moderate levels of catalytic activity with high propylene selectivity.
+
+</quotes>
+
+<English version answer>
+
+3. Yes, the article introduces major catalyst classes explored for propane dehydrogenation. It states Pt-based catalysts activate C-H bonds with low cracking (quote 1). It also describes CrOx/Al2O3 catalysts that deactivate from coking (quote 2), and Ga- and Zn-based zeolite catalysts with good selectivity (quote 3).
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 是的,这篇文章介绍了在丙烷脱氢中探索的主要催化剂类别。它指出,Pt基催化剂能激活C-H键,裂解活性低(引用1)。它还描述了会因炭化而失活的CrOx/Al2O3催化剂(引用2),以及选择性好的Ga- 和Zn-基分子筛催化剂(引用3)。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] PDH can be broadly grouped into two categories: non-oxidative and oxidative. In non-oxidative PDH, propane is catalytically dehydrogenated to produce stoichiometric amounts of propylene and hydrogen. It is endothermic (ΔH298Kθ = 124.3 kJ mol−1) and a volume-increasing reaction (C3H8 → C3H6 + H2), and thus is favored at high temperature and low pressure.
+
+[2] Oxidants, usually O2, can be co-fed with propane to enhance the thermodynamic driving force in the oxidative dehydrogenation of propane (ODHP) process. This process is exothermic (ΔH298Kθ = 117 kJ mol−1) and thus the conversion of propane is no longer limited by thermodynamics. 
+
+[3] CO2-assisted ODHP (CO2-ODHP, C3H8 + CO2 → C3H6 + CO + H2O) could, in theory, improve the thermodynamics of PDH. CO2 has two advantages: i) consumes H2 through the reverse water-gas-shift reaction (RWGS: CO2 + H2 → CO + H2O) increasing the equilibrium conversion of propane; ii) CO2 can remove coke via the reverse Boudouard reaction (CO2 + C → 2CO).
+
+</quotes>
+
+<English version answer>
+
+4. Yes, the article discusses the thermodynamic constraints and kinetic factors in propane dehydrogenation. It describes non-oxidative PDH as endothermic and favored by high temperature and low pressure (quote 1). It explains how oxidative PDH with O2 or CO2 co-feeds can improve thermodynamic conversion by providing exothermic oxidation reactions (quotes 2-3).
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 是的,这篇文章讨论了丙烷脱氢中的热力学约束和动力学因素。它描述非氧化脱氢是吸热的,高温低压有利(引用1)。它解释了使用O2或CO2共进料的氧化脱氢可以通过提供放热的氧化反应来改善热力学转换(引用2-3)。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes found.
+
+</quotes>
+
+<English version answer>
+
+5. No, the article does not describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 不,本文没有描述如何应用DFT计算来研究丙烷脱氢的机理和途径。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes found.
+
+</quotes>
+
+<English version answer>
+
+6. No, the article does not present any microkinetic modeling insights into propane dehydrogenation kinetics. No rate equations, parameters, or models are discussed.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 不,本文没有提供关于丙烷脱氢动力学的微观动力学模型见解。没有讨论速率方程、参数或模型。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes found.
+
+</quotes>
+
+<English version answer>  
+
+7. No, the article does not describe any computational or experimental work to identify catalyst descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 不,本文没有描述任何计算或实验工作来识别催化剂描述子,将催化剂性质与丙烷脱氢性能联系起来。没有揭示具体的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+

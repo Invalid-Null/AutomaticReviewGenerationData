@@ -1,0 +1,480 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+8. Does the article evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation? What specific examples, data, and insights are provided?
+
+9. Does the article investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance? What specific examples and relationships are revealed?
+
+10. Does the article propose mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts? What specific reaction steps, intermediates, active sites are described?
+
+11. Does the article explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation? What specific examples and insights into activity and selectivity modulation are provided?
+
+12. Does the article evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation? What specific data, characterizations and insights are provided?
+
+13. Does the article investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts? What specific examples and structure-function relationships are revealed?
+
+14. Does the article propose mechanistic reaction pathways for propane dehydrogenation over the studied supported metal catalysts? What specific steps, intermediates, and active sites are described?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ Unfortunately there are no relevant quotes from the given literature to answer the questions.
+
+<English version answer>
+
+1. Answer: No, the article does not evaluate any Cr2O3, Pt-Sn, Ga2O3 catalysts for propane dehydrogenation. It focuses solely on manganese oxide based catalysts.
+
+2. Answer: Yes, the article investigates how tuning oxidation states, oxygen mobility, and acid-base properties of manganese oxides affects propane dehydrogenation performance. It shows that anchoring amorphous manganese oxide on ceria support creates active interfacial oxygen sites for propane activation and oxygen-deficient manganese oxide layers that stabilize propene and hinder overoxidation. 
+
+3. Answer: Yes, the article proposes a mechanistic scenario where propane is activated on the interfacial Mn-O-Ce oxygen species to form propene. Propene can then be stabilized by the oxygen-deficient Mn sites which lack active oxygen species. This prevents overoxidation of propene.
+
+4. Answer: Yes, the article extensively explores metal-support interfacial effects between Mn oxide and Ce oxide. It shows anchoring amorphous MnOx on CeO2 creates strong interfacial interactions that generate active sites for propane activation and propene stabilization, improving activity and selectivity.
+
+5. Answer: No, the article does not evaluate any supported mono-metallic Pt, Pd or Ir catalysts for propane dehydrogenation. 
+
+6. Answer: Not applicable since no supported metal catalysts were studied.
+
+7. Answer: Not applicable since no supported metal catalysts were studied.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 答案:不,本文没有评价任何用于丙烷脱氢的Cr2O3、Pt-Sn、Ga2O3催化剂。它仅专注于以锰氧化物为基础的��化剂。
+
+2. 答案:是的,本文研究了调节锰氧化物的氧化态、氧的运动性以及酸碱性如何影响丙烷脱氢性能。它展示了锚定无定形锰氧化物在硫氰酸盐载体上会形成活性的界面氧位点,用于激活丙烷,以及氧缺损的锰氧化物层,稳定丙烯并抑制过氧化。
+
+3. 答案:是的,本文提出了一个机理方案,其中丙烷在锰-氧-铈的界面氧位点上被激活形成丙烯。然后丙烯可以被缺乏活性氧的氧缺损锰位点稳定。这可防止丙烯过氧化。
+
+4. 答案:是的,本文广泛探索了锰氧化物和氧化铈之间的金属-载体界面效应。它展示了锚定无定形MnOx在CeO2上可形成强烈的界面相互作用,产生用于丙烷激活和丙烯稳定的活性位点,提高活性和选择性。
+
+5. 答案:不,本文没有评价任何Pt、Pd或Ir单金属催化剂用于丙烷脱氢。
+
+6. 答案:不适用,因为没有研究受支持的金属催化剂。 
+
+7. 答案:不适用,因为没有研究受支持的金属催化剂。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有评估Cr2O3、Pt-Sn、Ga2O3等有前景的金属氧化物催化剂用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: The article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有研究调控金属氧化物的氧化态、氧迁移性和酸碱性如何影响丙烷脱氢性能。
+</Chinese version answer>
+
+<quotes>
+[1] "The key technique is to anchor the amorphous manganese oxide with thin-layer morphology on a ceria support, which forms strong oxidesupport interactions (SOSIs) with interfacial MnOCe sites for carbonhydrogen bond activation and oxygen-deficient manganese oxide layers to hinder the propene overoxidation under the ODHP conditions."
+
+[2] "According to these results, it was proposed that different reaction regions exist on the MnOx/CeO2-SOSI catalyst, including the propane activation on the interfacial oxygen sites and propene stabilization on the oxygen-deficient Mn sites."
+
+[3] "Specifically, propane was activated on the interfacial oxygen species to form propene. Both the propane and propene could be overoxidized by the interfacial oxygen of MnOCe and the surface oxygen of MnOx layers (MnOMn) of the as-synthesized MnOx/CeO2-SOSI catalyst at the beginning of the reaction, forming oxygen-deficient MnOxCeO2 interfaces and MnOx layers." 
+
+[4] "The interfacial oxygen can be easily regenerated, while the oxygen defects on MnOx layers are stabilized by the SOSI to hinder the oxygen regeneration under the ODHP conditions."
+
+[5] "In the subsequent propane dehydrogenation, propene, which might be as-formed on the interface, can be significantly stabilized by the oxygen-deficient Mn sites because of the favorable interaction between Mn2+ sites and the nucleophilic CC group."
+
+[6] "The lack of active oxygen on these Mn sites could efficiently hinder the overoxidation."
+</quotes>
+
+<English version answer>
+Answer: The article proposes a mechanistic scenario for propane dehydrogenation over the Mn-Ce oxide catalyst studied. It describes propane activation occurring on interfacial Mn-O-Ce sites to form propene. Then propene can be stabilized on oxygen-deficient Mn sites, while interfacial oxygen and MnOx layer oxygen can cause overoxidation to COx initially. But oxygen defects in MnOx layers are stabilized by strong oxide-support interactions, hindering full oxygen regeneration and overoxidation. This allows propene to be protected on oxygen-deficient Mn sites.
+</English version answer>
+
+<Chinese version answer>  
+答:该文针对所研究的Mn-Ce氧化物催化剂提出了丙烷脱氢的机理场景。其描述了丙烷在Mn-O-Ce界面的位点活化生成丙烯。然后丙烯可以稳定在氧缺损的Mn位点上,而界面氧和MnOx层氧最初可以导致COx的过氧化。但是MnOx层中的氧缺陷受到强氧化物载体相互作用的稳定,抑制了完全的氧再生和过氧化。这使得丙烯可以被保护在氧缺损的Mn位点上。
+</Chinese version answer>
+
+<quotes>
+[1] "Our characterizations have confirmed the existence of stable oxygen defects on the amorphous MnOx layers of MnOx/CeO2-SOSI, which exhibits the same kinetic behavior as the supported vanadium oxide catalysts." 
+
+[2] "The MnOx species should play a dominant role in the ODHP because the bare CeO2 support exhibits CO2 as a dominant product with low propane transformation rate and high apparent activation energy."
+
+[3] "Decreasing the MnOx loading in MnOx/CeO2-SOSI reduced the catalytic activity, but the propene selectivity was mostly maintained, while raising the MnOx loading led to overoxidation."
+
+[4] "These results indicate that the MnOx-related species rather than the bare ceria are the active sites for the catalytic turnover." 
+
+[5] "The SOSI, which stabilizes the oxygen-deficient Mn species under the ODHP conditions, displays the crucial role for realizing the unusual performances, which even outperform the practically promising vanadium oxide catalysts."
+</quotes>
+
+<English version answer>
+Answer: The article explores metal-support interfacial effects in the Mn-Ce oxide catalyst for propane dehydrogenation. It shows that MnOx species, rather than bare CeO2, are the active sites. Strong oxide-support interactions between MnOx and CeO2 help stabilize oxygen defects on MnOx layers, which is key to achieving high propene selectivity that exceeds vanadium oxide catalysts. Decreasing MnOx loading reduces activity but maintains selectivity, while increasing MnOx causes overoxidation, further demonstrating the role of MnOx-CeO2 interfaces.
+</English version answer>
+
+<Chinese version answer>  
+答:该文探究了Mn-Ce氧化物催化剂中金属-载体界面效应对丙烷脱氢的影响。其显示MnOx物种而非裸CeO2是活性位点。MnOx与CeO2之间的强氧化物载体相互作用有助于稳定MnOx层上的氧缺陷,这是实现高丙烯选择性以超过钒氧化物催化剂的关键。减少MnOx负载会降低活性但保持选择性,而增加MnOx会导致过氧化,进一步证明了MnOx-CeO2界面的作用。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:该文没有评估Pt、Pd或Ir等支撑的单金属催化剂用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts, since it does not study supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>  
+答:由于该文没有研究支撑的金属催化剂,所以也没有研究金属粒子尺寸、形状和载体相互作用等性质如何影响支撑金属催化剂的性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not propose mechanistic pathways for propane dehydrogenation over supported metal catalysts, since it does not study supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+答:由于该文没有研究支撑的金属催化剂,所以也没有提出支撑金属催化剂上丙烷脱氢的机理途径。  
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. Answer: No, the article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+1. 答:文中没有评价Cr2O3、Pt-Sn、Ga2O3等有前景的金属氧化物催化剂用于丙烷脱氢反应。
+</Chinese version answer>
+
+<quotes>
+[1] The current dominant route for propene production is the steam cracking of large hydrocarbons in naphtha, which relies on the raw materials from crude oil. 
+[2] Compared with the nonoxidative process, the oxidative dehydrogenation of propane (ODHP) would save 45.0% of the energy consumption because of the favorable thermodynamic features including exothermicity and lower reaction temperatures.
+[3] However, the current ODHP processes have a big problem of the overoxidation of propene, which is more reactive than propane, into thermodynamically stable CO/CO2, resulting in insufficient propene selectivity.
+</quotes>
+
+<English version answer>
+2. Answer: Yes, the article investigates how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance. It shows that oxidative dehydrogenation of propane is more favorable thermodynamically than non-oxidative dehydrogenation, but it suffers from overoxidation of propene to COx due to high reactivity of lattice oxygen. 
+</English version answer>
+
+<Chinese version answer>
+2. 答:文中探讨了调控金属氧化物的氧化态、氧的迁移能力以及酸碱性如何影响丙烷脱氢反应性能。结果表明,丙烷氧化脱氢反应相比非氧化脱氢反应在热力学上更有利,但过量氧化丙烯生成COx的问题更严重,因为晶格氧的高活性。
+</Chinese version answer>
+
+<quotes>
+[1] These phenomena suggest that the MnOx/CeO2-SOSI catalyst might follow a similar mechanism of vanadium oxide catalysts in tuning the reaction pathways from combustion to selective ODHP: the surface oxygen is modulated to hinder the overoxidation.
+[2] When propane was introduced (Figure 5a), the mode of MnOx was unchanged in position but remarkably decreased in intensity with a rise in the temperature (Figures 5a, S33a, and S34a). This phenomenon might be due to the primary interaction of propane with the MnOxCeO2 interfacial oxygen species, which is well consistent with the general knowledge that the CH bond in hydrocarbons easily reacts with the active oxygen on the interface with an asymmetric Coulomb interaction with Mn and Ce.  
+[3] Introducing propene to the MnOx/CeO2-SOSI catalyst led to a red shift in the Raman mode of MnOx from 656 to 652 cm-1 (Figure 5b), which is different from the phenomenon observed in the propane case. This might be assigned to the fact that the nucleophilic CC group in propene favors to react with the oxygen-deficient Mn rather than O sites, in good agreement with the phenomenon in the literature.
+</quotes>
+
+<English version answer>
+3. Answer: Yes, the article proposes mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts. It suggests propane is activated on MnOx-CeO2 interfacial sites to form propene. Propene can further react with oxygen-deficient Mn sites, which stabilizes propene against overoxidation. The specific steps involve propane reacting with interfacial oxygen species, propene interacting with Mn sites, and modulation of surface oxygen to prevent overoxidation.
+</English version answer> 
+
+<Chinese version answer>
+3. 答:文中确实提出了金属氧化物催化剂促进丙烷脱氢反应的机理假说。该机理认为丙烷在MnOx-CeO2界面活性位发生活化生成丙烯,丙烯进一步与缺氧Mn位点反应,抑制过氧化。具体步骤包括丙烷与界面氧反应、丙烯与Mn位点作用,以及调控表面氧种抑制过氧化。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. Answer: No, the article does not explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+4. 答:文中没有探讨金属氧化物催化剂中金属-载体界面效应对丙烷脱氢反应的影响。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. Answer: No, the article does not evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+5. 答:文中没有评价Pt、Pd或Ir等载体支持的单金属催化剂用于丙烷脱氢反应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+6. Answer: No, the article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+6. 答:文中没有研究金属颗粒大小、形状以及与载体的相互作用等因素如何影响载体支持金属催化剂的性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. Answer: No, the article does not propose mechanistic reaction pathways for propane dehydrogenation over any studied supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+7. 答:文中没有提出任何研究的载体支持金属催化剂促进丙烷脱氢反应的机理路径。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. Answer: The article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>  
+1. 答:该文献没有评估Cr2O3、Pt-Sn、Ga2O3等有前景的金属氧化物催化剂用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+2. Answer: The article does not investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance.
+</English version answer>
+
+<Chinese version answer>
+2. 答:该文献没有研究调控金属氧化物的氧化态、氧原子迁移性以及酸碱性如何影响丙烷脱氢性能。
+</Chinese version answer>
+
+<quotes>
+[1] "In the subsequent propane dehydrogenation, propene, which might be as-formed on the interface, can be significantly stabilized by the oxygen-deficient Mn sites because of the favorable interaction between Mn2+ sites and the nucleophilic CC group (Mn2+-CC, pathway III)."
+[2] "Both the propane and propene could be overoxidized by the interfacial oxygen of Mn-OCe and the surface oxygen of MnOx layers (Mn-OMn) of the as-synthesized MnOx/CeO2-SOSI catalyst at the beginning of the reaction, forming oxygen-deficient MnOxCeO2 interfaces and MnOx layers (pathway I)."  
+[3] "The interfacial oxygen can be easily regenerated (pathway II-i), while the oxygen defects on MnOx layers are stabilized by the SOSI to hinder the oxygen regeneration (pathway II-ii) under the ODHP conditions"
+</quotes>
+
+<English version answer>
+3. Answer: The article proposes a mechanistic scenario for propane dehydrogenation over the MnOx/CeO2-SOSI catalyst. It describes propane activation on the Mn-O-Ce interfacial sites to form propene (pathway I), which can then be stabilized on oxygen-deficient Mn sites via interaction with the CC double bond (pathway III). Meanwhile, both propane and propene can undergo overoxidation on interfacial Mn-O-Ce or surface Mn-O-Mn oxygen sites, creating oxygen vacancies that are regenerated on Mn-O-Ce but stabilized on MnOx layers by strong oxide-support interactions (pathway II).   
+</English version answer>
+
+<Chinese version answer>  
+3. 答:该文献为MnOx/CeO2-SOSI催化剂上的丙烷脱氢提出了一个机理场景。它描述了丙烷在Mn-O-Ce界面活跃位点上的活化生成丙烯(路径I),然后丙烯可以通过与CC双键的相互作用稳定在氧缺陷Mn位点上(路径III)。同时,丙烷和丙烯都可以在Mn-O-Ce界面氧或Mn-O-Mn表面氧位点上过氧化,生成氧空隙,Mn-O-Ce界面的氧空隙可以再生,而MnOx层面的氧空隙却因氧化物与载体强相互作用而稳定(路径II)。
+</Chinese version answer>
+
+<quotes>
+[1] "The Mn0.05Ce0.95Ox, MnOx/CeO2, MnOx/SiO2, and MnO2 dominantly catalyze the combustion rather than ODHP, giving insufficient propene production rates with high selectivity to invaluable CO/CO2 (50.0–78.0%) (Figures 3b and S21)."  
+[2] "Compared with the general manganese oxide catalysts, the most significant advantage of MnOx/CeO2-SOSI is tuning the reaction pathways from combustion to the selective oxidative dehydrogenation."
+[3] "By the construction of manganese oxide with amorphous and layered structures on the ceria matrix, the obtained MnOx/CeO2-SOSI catalyst modulates surface oxygen to hinder the overoxidation of propene on the oxygen-deficient Mn sites."
+</quotes>
+
+<English version answer>
+4. Answer: The article explores metal-support interfacial effects in the MnOx/CeO2-SOSI catalyst for propane dehydrogenation. It shows that depositing amorphous, layered MnOx on ceria leads to strong oxide-support interactions that modulate surface oxygen species. This tunes the reaction pathways from combustion to selective oxidative dehydrogenation by hindering propene overoxidation on oxygen-deficient Mn sites. In contrast, Mn oxides without ceria support like MnO2 show high combustion selectivity.
+</English version answer> 
+
+<Chinese version answer>
+4. 答:该文献研究了MnOx/CeO2-SOSI催化剂中金属-载体界面效应对丙烷脱氢的影响。它显示,在氧化铈上沉积无定形、层状MnOx会形成强的氧化物与载体相互作用,调控表面氧种,从而将反应途径从燃烧转变为选择性氧化脱氢,通过氧缺陷Mn位点抑制丙烯过氧化。相比之下,没有氧化铈载体的MnO2等Mn氧化物显示出高的燃烧选择性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. Answer: The article does not evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+5. 答:该文献没有评估Pt、Pd或Ir等SUPPORTED单金属催化剂用于丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. Answer: The article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>  
+6. 答:该文献没有研究金属粒子大小、形状以及与载体的相互作用等性质如何影响SUPPORTED金属催化剂的性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. Answer: The article does not propose mechanistic reaction pathways for propane dehydrogenation over any supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+7. 答:该文献没有为任何SUPPORTED金属催化剂上的丙烷脱氢提出机理反应途径。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. Answer: No, the article does not evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation. It focuses on manganese oxide based catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 答案:文中没有评价Cr2O3、Pt-Sn、Ga2O3等有前景的金属氧化物催化剂用于丙烷脱氢。文中仅关注锰氧化物基催化剂。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+2. Answer: No, the article does not specifically investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance. It focuses on the effect of metal-support interactions.
+</English version answer>
+
+<Chinese version answer>
+2. 答案:文中没有具体研究调节金属氧化物的氧化态、氧的迁移性以及酸碱性如何影响丙烷脱氢性能。文中仅关注金属与载体的相互作用效应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. Answer: No, the article does not propose specific mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts. It focuses on evaluating the catalytic performance.
+</English version answer>  
+
+<Chinese version answer>  
+3. 答案:文中没有提出丙烷在所研究金属氧化物催化剂上的脱氢具体机理。文中仅关注催化性能的评价。
+</Chinese version answer>
+
+<quotes>
+[1] "Multiple structure and mechanism investigations demonstrate that the SOSI forms active interfacial oxygen sites for propane activation and oxygen-deficient manganese oxide to stabilize propene and hinder overoxidation under the ODHP conditions."
+
+[2] "These features boost the ODHP to exhibit simultaneously high activity and propene selectivity, outperforming the general manganese oxide catalysts and even the practically promising vanadium catalysts."  
+
+[3] "This research work deepens remarkably the structureperformance relationship understanding of metal oxide catalysts in ODHP."
+</quotes>
+
+<English version answer>
+4. Answer: Yes, the article explores metal-support interfacial effects in manganese oxide catalysts for propane dehydrogenation. It shows that strong oxide-support interactions (SOSIs) between manganese oxide and ceria form active interfacial oxygen sites that activate propane and oxygen-deficient MnOx species that stabilize propene and prevent overoxidation. This boosts activity and selectivity, outperforming general MnOx and even promising VOx catalysts. The work provides insights into tuning performance via interfacial effects.
+</English version answer>
+
+<Chinese version answer>
+4. 答案:是的,文中探索了锰氧化物催化剂中金属与载体界面效应对丙烷脱氢的影响。文中显示,锰氧化物与CeO2之间的强氧化物-载体相互作用(SOSI)形成了活性界面的氧位点,这些氧位点活化了丙烷,而缺氧的MnOx种则稳定了丙烯并防止过氧化。这增强了活性和选择性,优于普通的MnOx甚至有前景的VOx催化剂。这项工作提供了通过界面效应调节性能的见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. Answer: No, the article does not evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation. It focuses on metal oxide catalysts.
+</English version answer>
+
+<Chinese version answer>  
+5. 答案:文中没有评价Pt、Pd或Ir等支持单金属催化剂用于丙烷脱氢。文中仅关注金属氧化物催化剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. Answer: No, the article does not investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts, as it focuses on metal oxide catalysts.
+</English version answer>
+
+<Chinese version answer>
+6. 答案:文中没有研究金属颗粒大小、形状以及与载体的相互作用等性质如何影响支持金属催化剂的性能,因为文中仅关注金属氧化物催化剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. Answer: No, the article does not propose mechanistic reaction pathways for propane dehydrogenation over supported metal catalysts, as it focuses on metal oxide catalysts.
+</English version answer>
+
+<Chinese version answer>
+7. 答案:文中没有提出丙烷在支持金属催化剂上的脱氢反应途径,因为文中仅关注金属氧化物催化剂。
+</Chinese version answer>
+
+</Answer>
+

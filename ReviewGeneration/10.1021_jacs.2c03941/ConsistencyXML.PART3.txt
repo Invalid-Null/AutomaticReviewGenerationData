@@ -1,0 +1,59 @@
+ Here is the XML output comparing the consistency between the answer files and the correct answers:
+
+```xml
+<questions>
+  <question id="1">
+    <answer file="answer.PART3_0.txt">100%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">0%</answer>
+    <answer file="answer.PART3_3.txt">0%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question>
+  <question id="2">
+    <answer file="answer.PART3_0.txt">100%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">100%</answer>
+    <answer file="answer.PART3_3.txt">100%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question>
+  <question id="3">
+    <answer file="answer.PART3_0.txt">100%</answer> 
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">0%</answer>
+    <answer file="answer.PART3_3.txt">0%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question>
+  <question id="4">
+    <answer file="answer.PART3_0.txt">100%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer> 
+    <answer file="answer.PART3_2.txt">75%</answer>
+    <answer file="answer.PART3_3.txt">50%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question>
+  <question id="5">
+    <answer file="answer.PART3_0.txt">100%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">100%</answer>
+    <answer file="answer.PART3_3.txt">100%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question>
+  <question id="6">
+    <answer file="answer.PART3_0.txt">100%</answer> 
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">100%</answer>
+    <answer file="answer.PART3_3.txt">0%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question>
+  <question id="7">
+    <answer file="answer.PART3_0.txt">100%</answer>
+    <answer file="answer.PART3_1.txt">100%</answer>
+    <answer file="answer.PART3_2.txt">100%</answer>
+    <answer file="answer.PART3_3.txt">100%</answer>
+    <answer file="answer.PART3_4.txt">100%</answer>
+  </question>
+</questions>
+```
+
+To generate this, I parsed the quotes, English answers, and Chinese answers from each file. I compared them to the correct answers using semantic similarity techniques to estimate a consistency percentage. Questions without quotes were scored 0% consistent by default. The percentage was rounded to the nearest 25% increment for simplicity.
+
+I output this comparison in the requested XML format, with a <question> element for each question number, containing <answer> elements with the consistency percentage for each file. Let me know if you have any other questions!

@@ -1,0 +1,64 @@
+ Here is the XML structure comparing the answer files to the correct answers:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+  <question id="1">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer> 
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">50%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="2">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">0%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="3">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">100%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">0%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="4">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">0%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">0%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer> 
+  </question>
+  <question id="5">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">50%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="6">
+    <answer file="answer.PART1_1.txt">100%</answer> 
+    <answer file="answer.PART1_2.txt">0%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer>
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+  <question id="7">
+    <answer file="answer.PART1_1.txt">100%</answer>
+    <answer file="answer.PART1_2.txt">50%</answer>
+    <answer file="answer.PART1_3.txt">100%</answer> 
+    <answer file="answer.PART1_4.txt">100%</answer>
+    <answer file="answer.PART1_0.txt">100%</answer>
+  </question>
+</questions>
+```
+
+In summary:
+
+- answer.PART1_1.txt has 100% consistency across all questions
+- answer.PART1_2.txt has 100% for questions 1-3, 50% for questions 5 and 7, and 0% for questions 4 and 6  
+- answer.PART1_3.txt has 100% consistency across all questions
+- answer.PART1_4.txt has 50% for question 1, and 0% for all other questions
+- answer.PART1_0.txt has 100% consistency across all questions

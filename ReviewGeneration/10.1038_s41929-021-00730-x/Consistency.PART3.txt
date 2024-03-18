@@ -1,0 +1,64 @@
+ Here is the JSON structure comparing the answers in each file to the correct answers:
+
+```json
+{
+  "1": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "100%"
+  },
+  "2": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",  
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "100%"
+  },
+  "3": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "100%"
+  },
+  "4": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "100%"
+  },
+  "5": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "100%"
+  },
+  "6": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%", 
+    "answer.PART3_0.txt": "100%"
+  },
+  "7": {
+    "answer.PART3_2.txt": "100%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "100%",
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "100%"
+  },
+  "8": {
+    "answer.PART3_2.txt": "0%",
+    "answer.PART3_1.txt": "100%",
+    "answer.PART3_3.txt": "0%",
+    "answer.PART3_4.txt": "100%",
+    "answer.PART3_0.txt": "100%"
+  }
+}
+```
+
+I parsed the correct answers and each comparative answer file to extract the English version answers. For each question, I compared the extracted English answer to the correct English answer and calculated the consistency ratio as either 100% for a perfect match or 0% for no match. The json structure organizes the consistency ratios by question number and filename.

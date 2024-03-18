@@ -1,0 +1,106 @@
+ Yes, the document is related to propane dehydrogenation. Here is the extracted information in XML format:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>RuO2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ru</Element> 
+				</ActiveSpeciesElements>
+				<ConversionRate>25%</ConversionRate>
+				<Selectivity>2.4%</Selectivity>
+				<PropyleneYield>0.6%</PropyleneYield>
+				<ReactionTemperature>773 K</ReactionTemperature>
+			</Catalyst>
+
+			<Catalyst>
+				<Name>Fe2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Fe</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>8.1%</ConversionRate>
+				<Selectivity>94%</Selectivity>
+				<PropyleneYield>7.6%</PropyleneYield>
+				<ReactionTemperature>773 K</ReactionTemperature>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CuO</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cu</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>4.4%</ConversionRate>
+				<Selectivity>84%</Selectivity>
+				<PropyleneYield>3.7%</PropyleneYield>
+				<ReactionTemperature>773 K</ReactionTemperature>
+			</Catalyst>
+
+			<Catalyst>
+				<Name>NiO</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ni</Element>
+				</ActiveSpeciesElements>				
+				<ConversionRate>2.2%</ConversionRate>
+				<Selectivity>74%</Selectivity>
+				<PropyleneYield>1.6%</PropyleneYield>
+				<ReactionTemperature>773 K</ReactionTemperature>
+			</Catalyst>
+
+			<Catalyst>
+				<Name>CeO2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+				</ActiveSpeciesElements>				
+				<ConversionRate>29%</ConversionRate>
+				<Selectivity>61%</Selectivity>
+				<PropyleneYield>18%</PropyleneYield>
+				<ReactionTemperature>773 K</ReactionTemperature>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>NiO-CeO2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+					<Element>Ni</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ni</Element>
+				</PromoterElements>
+				<ConversionRate>52%</ConversionRate>
+				<Selectivity>80%</Selectivity>
+				<PropyleneYield>55%</PropyleneYield>
+				<ReactionTemperature>773 K</ReactionTemperature>
+				anePartialPressure>25 kPa</PropanePartialPressure>
+			</Catalyst>
+
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>NiO-CeO2</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Ce</Element>
+					<Element>Ni</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ni</Element>
+				</PromoterElements>
+				<ConversionRate>52%</ConversionRate>
+				<Selectivity>80%</Selectivity>
+				<PropyleneYield>55%</PropyleneYield>
+				<ReactionTemperature>773 K</ReactionTemperature>
+				<PropanePartialPressure>25 kPa</PropanePartialPressure>
+			</Catalyst>
+		</MainContribution>
+		
+	</IfRelevant>
+</output>

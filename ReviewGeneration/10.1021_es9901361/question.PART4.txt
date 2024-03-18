@@ -1,0 +1,234 @@
+I'm going to give you a scientific literature. Then I'm going to ask you some questions about it. I'd like you to first write down exact quotes of parts of the document word by word that would help answer the question, and then I'd like you to answer the question using facts from the quoted content. Do not omit any relevant information from the text, and avoid introducing any falsehoods or assumptions that aren't directly supported by the literature. Here is the literature, in <literature></literature> XML tags:
+
+<literature>
+
+
+Comparison of Batch and Column Methods for Determining Strontium Distribution Coefficients for Unsaturated Transport in Basalt
+Abstract
+Contaminant distribution coefficients determined under saturated conditions are often used to model transport under unsaturated conditions. Although the distribution coefficients are assumed to be consistent under different moisture conditions, this is rarely tested. Column and batch adsorption tests were used to determine strontium distribution coefficients in crushed basalt. Column tests were conducted at saturated and unsaturated moisture contents. Batch tests were conducted at several solid/liquid ratios. Preliminary column tests using bromide as a conservative tracer indicated the presence of immobile water in the column and pointed toward the use of a two-region model to determine the Sr distribution coefficients. Use of a single-region model (no immobile water), however, resulted in an average value (3.09 mL/g) not significantly different than the average value determined using the two-region model (3.41 mL/g). Moisture content had no significant effect on Sr distribution coefficients determined by applying either model to the column test data. The batch test distribution coefficient determined at the recommended standard solid/liquid ratio (0.25 g/mL) was less than the column test values and decreased significantly with increasing solid/liquid ratio. The results indicate that Kds determined with this method will not accurately reflect Sr transport in unsaturated or saturated basalt.
+This publication is licensed under the terms of your institutional subscription. Request reuse permissions.
+*
+To whom correspondence should be addressed. E-mail: ixp@inel.gov; phone: (208) 526-0906; fax: (208) 526-0875.
+
+Present address: Department of Chemistry, Hartwick College, Oneonta, NY 13820.
+
+Present address: Whitman College, Chemistry Department, Boyer Avenue, Walla Walla, WA 99362.
+Introduction
+ARTICLE SECTIONSJump To
+Wastewater containing strontium-90 has been discharged to onsite infiltration ponds and disposal wells at the Idaho National Engineering and Environmental Laboratory (INEEL) since the early 1950s. Water samples collected from selected wells penetrating the Snake River Plain (SRP) aquifer underlying the site show strontium-90 concentrations exceeding the maximum contaminant level (MCL) of 8 pCi/L ( 1, 2).
+Numerous wells are used to track the strontium-90 plume in the aquifer, but tracking the strontium-90 in the vadose zone is more difficult. The vadose zone at the INEEL ranges in thickness from 61 to 275 m and comprises numerous basalt layers and sedimentary interbeds. In view of this difficulty, modeling is often used to determine the behavior of strontium-90 in the vadose zone.
+Transport models used to simulate solute movement in porous media often use the distribution coefficient, Kd (mL/g), to describe the partitioning of the solute between solid and liquid phases. Although the accuracy of the distribution coefficient as a means for describing the interaction of a chemical species with subsurface material has been a subject of intense debate ( 38), it is still the primary method in use today. Of the many questions surrounding the use of the distribution coefficient, the one that has received the least attention may be the effect of soil moisture content. Previous work in this area has dealt primarily with flow model development or sorption of organic contaminants ( 914). Varying soil moisture content may influence the distribution coefficient of cations, such as strontium, in a variety of ways. For example, at low moisture content, transport of the species to the porous media surface by diffusion may be slower and thus more important than the sorption rate. For heterogeneous surfaces, the fact that the portion of the surface available for sorption is reduced at low moisture contents may also alter the type of surface sites available for sorption (clay, iron oxide, organic matter, etc.). Finally, micropores and other limited flow regions may cause concentration gradients which, in turn, may alter the speciation of the contaminant.
+Distribution coefficients are determined in the laboratory most commonly using either column ( 15) or batch ( 16) techniques. The column technique involves packing a small column with the relevant geologic material and allowing water with a contaminant pulse to flow through the column under controlled flow (usually saturated) conditions. Analysis of the resulting contaminant breakthrough curve (BTC) leads to determination of the Kd. The batch technique involves adding a known amount of adsorbate in an aqueous solution to an adsorbent and agitating the mixture until equilibrium is achieved. The mixture is centrifuged and the concentration of the contaminant in the supernatant is determined. Any adsorbate missing from the supernatant is assumed to be adsorbed. A simple calculation then leads to the determi nation of the Kd. Column tests have the advantage of being conducted under conditions approximating those observed in the field. Specifically, (1) columns may be packed to have bulk densities and porosities similar to those observed in the field, (2) column tests are conducted under advective and dispersive flow conditions similar to those in the field, and (3) column tests may be conducted under a variety of different moisture contents. Column tests have the disadvantage of being quite time consuming and of commingling chemical and physical transport processes. Batch tests have the advantage of being relatively simple and fast. They are generally the method of choice for strongly sorbing contaminants due to the extremely long time requirements of column tests for such contaminants. Batch methods are currently the only methods available for determining sorption rate constants, because chemical processes cannot be completely separated from physical processes in column tests. Batch tests have the disadvantage of being conducted under conditions far removed from those observed in the field. Specifically, they are carried out under static conditions (no advective flow) and at solid/liquid ratios much lower than present in the field.
+Strontium (Sr) Kds have been determined for sediments ( 1720) and basalt ( 19) at the INEEL. Strontium Kds in basalt ranged from 1.1 to 2.7 mL/g. Strontium Kds have also been determined for other geologic media at other sites ( 2126). However, most Sr Kds have been determined under saturated conditions. The coefficients are subsequently often used to model transport through the vadose zone with the assump tion that the Kds are consistent under different moisture conditions. This assumption is rarely tested. There is scant evidence that Sr Kds determined under unsaturated condi tions are similar to those determined under saturated conditions for sediment ( 27) and none for basalt. The purpose of this paper is to compare Sr Kds determined in unsaturated basalt to those determined under typical laboratory (saturated) conditions. Both column and batch tests are used to determine the Sr Kds.
+Materials and Methods
+ARTICLE SECTIONSJump To
+Characterization of Basalt. Both column and batch tests were carried out using basalt collected from the INEEL. The basalt used came from a boulder collected near the Radioactive Waste Management Complex. The basalt is characterized as being vesicular. Microscopic examination of similar samples revealed threadlike intercrystalline fractures that connect the vesicles to one another through the rock matrix ( 28). Part of the boulder was crushed for use in the batch and column tests. The characteristics and mineral composition of the crushed basalt are given in Table 1. The crushed basalt was dry sieved, and the fraction larger than 250 μm was used in the batch and column tests. This size fraction was chosen because it provided uniform hydraulics in packed columns.
+Table 1. Physical and Chemical Characteristics of the Crushed Basalt
+characteristicvalue
+NH4OacextractableMn(ppm)1.0
+totalCEC(meq/100g)6.05
+particlesizeused(mm)0.252.0
+majormineralspyroxene(3050%)
+ plagioclase(3050%)
+ olivine(1530%)
+ magnetite(<10%)
+Table 2. Comparison of Snake River Plain Aquifer and Synthetic Groundwater Compositions
+ synthetic groundwaterSnakeRiverPlain aquifer( 29)
+componentbasechemistry (mg/L)average (mg/L)max (mg/L)min (mg/L)
+Ca2+11.5511205.0
+K+9.84120
+Mg2+8.318540.2
+Na+19.7261404.0
+Cl-18.9282301.8
+SO42-23.4412181.8
+HCO3-96.622051052
+F-0.50.6110.03
+SiO210.0501385.8
+pH8.07.89.17.0
+I(mol/L)0.00480.0080.020.004
+Synthetic Groundwater. All column and batch tests were conducted using a synthetic groundwater formulated to approximate the composition observed in SRP aquifer samples ( 29). Groundwater was used as a basis for these tests because it is extremely difficult to extract pore water from the basalt in the vadose zone compared to collecting water from existing groundwater sampling wells that penetrate the aquifer. Additionally, Sr movement in the basalt aquifer is of significant interest at this site. The compositions of the synthetic groundwater and field samples are compared in Table 2. The synthetic groundwater had an ionic strength of 4.8 mM and a total dissolved solids concentration of 212.4 mg/L. Equilibrium speciation modeling using MINTEQ indicated that much of the groundwater in the Snake River Plain aquifer is supersaturated with respect to dolomite. Although the kinetics of dolomite precipitation are slow, it was decided to keep the calcium, magnesium, and carbonate composition of the synthetic groundwater below that at which dolomite is expected to precipitate, to ensure that the synthetic groundwater composition remained constant over time and between tests. The synthetic groundwater was made by adding reagents to distilled, deionized water with the final pH adjusted to 8.00  0.05 using either 1.0 N HCl or 0.5 N NaOH. The Sr concentration for all tests was 500 μg/L.
+Column Test Methodology. Column tests were conducted following the procedure of van Genuchten and Wierenga ( 15). We used columns constructed of Plexiglas (2.77 cm internal diameter by 25.4 cm in length) with bolted flanges at both ends and two tensiometers installed approximately 2.5 cm from each end. Columns were filled with air-dry crushed basalt by adding the basalt in approximately 1 cm increments and tapping lightly. Care was taken to avoid obvious layering or segregation of basalt by particle size. The oven-dry weight of the crushed basalt was also determined. The bulk density of the column was calculated as the weight of solid (corrected for moisture content) added to the column per unit of column volume.
+For unsaturated flow experiments, glass wool was installed at the bottom end of the column. Synthetic groundwater was pumped up through the column using a syringe pump until the column was saturated. Flow was stopped and the glass wool was replaced with a wettable porous plastic disk and nylon mesh filter. The input solution line was switched to the top of the column and the bottom of the column was connected to a vacuum chamber. Synthetic groundwater flow was established to the top of the column at the desired rate for the experiment, with vacuum applied to the bottom of the column through the vacuum chamber. The vacuum was adjusted using a pressure regulator until tensions in the column tensiometers were equal. The input solution then was switched from synthetic groundwater to spiked synthetic groundwater. Strontium and bromide were used as spikes in separate experiments. In general, this input solution was applied to the column until the level of spike in the effluent solution matched the level of spike in the input solution. At that point, the input solution was switched back to unspiked synthetic groundwater. Unspiked synthetic groundwater continued to be applied to the column until the spike level in the column effluent was at or near background levels.
+The same column, without repacking, was used for all six unsaturated flow experiments, and one saturated flow experiment. A second column was used for the remaining four saturated flow experiments. At the conclusion of a given experiment, a different flow rate was applied to the top of the column and vacuum adjusted, as described above, to establish flow at a different moisture content. The saturated flow experiment was run by pumping input solution to the bottom of the column and collecting effluent from the top of the column. The porous disk and nylon filter were removed from the bottom of the column and replaced with glass wool for the saturated flow experiments.
+The pore volume of the column at each moisture content (unsaturated and saturated) was calculated as the difference in column weight before water was applied to the column and after steady flow conditions were established for each experiment. Column effluent was collected in relatively small (<12 mL) increments using a fraction collector installed inside the vacuum chamber (the vacuum chamber was not required for the saturated experiment). Selected effluent samples (enough to define the BTC) were chosen for analysis. Input flow rates were monitored continually by weighing the input reservoir.
+Batch Test Methodology. The batch test design was adapted from ASTM method D4319, Standard Test Method for Distribution Ratios by the Short-Term Batch Method ( 16). The solid/liquid ratios used in batch tests ranged from 0.11 to 2.33 and included the ratio (0.25) recommended by ASTM D4319.
+Batch tests were conducted in polystyrene tubes (15 or 50 mL). Basalt was added to a tared centrifuge tube and weighed to 0.0002 g. The appropriate volume of synthetic groundwater was added to each tube and the tubes tumbled at 10 rpm for two consecutive 12-h periods. At the conclusion of the first 12-h period, the tubes were centrifuged and the synthetic groundwater was siphoned off, discarded, and replaced with fresh synthetic groundwater. The tubes were returned to the tumbler for an additional 12 h. At the conclusion of the second 12-h wash, the same procedure was followed. The final weight of the centrifuge tubes was measured prior to the addition of the spike for determination of the amount of synthetic groundwater in each tube.
+Duplicate centrifuge tubes were prepared for all sampling times. Additionally, one tube blank (no solid present) was taken at each sampling time and three soil blanks (no spike present) were taken throughout the test period. Tube blanks were taken to account for any loss of the spiked element to the container walls, and soil blanks were taken to account for any Sr that may already have been present in the basalt.
+Generally a small volume and high concentration were required for batch test spike solutions so that small incre ments (0.1 mL) could be added to each centrifuge tube without having a significant effect on the aqueous volume. Centrifuge tubes were spiked in reverse order of that used for sampling. At the designated sampling times, samples and tube blanks were removed from the tumbler and allowed to settle for a few seconds. The aqueous phase concentration was defined as the activity remaining in suspension after centrifugation for 20 min at 3200 rpm. The supernatant was subsequently filtered through a 0.2 μm cellulose acetate syringe filter.
+Bromide and Strontium Analysis. Bromide was measured using a Fisher Scientific Accumet 50 meter with ion selective electrodes. The meter and electrodes were calibrated with at least three solutions covering the range of bromide concentrations expected in the samples. The meter and electrodes were calibrated before each use, and calibration was checked every 2 h during use.
+Strontium was measured using a Perkin-Elmer model 5100 atomic absorption spectrophotometer with a Zeeman 5100 graphite furnace. All Sr samples were preserved by acidifica tion (pH <2) with nitric acid. The spectrophotometer was calibrated using four standard solutions covering the concentration range expected in the samples prior to each use. All samples and standards were run in triplicate.
+Calculations. Prior to conducting the column tests, we speculated that the vesicular basalt with microscopic intercrystalline fractures, even after crushing, could contain pockets and dead-end pores in which water would be relatively stagnant or immobile. van Genuchten and Wierenga ( 30) developed a transport model that accounts for regions of mobile and immobile water. In this model, advective-dispersive transport is restricted to the mobile water phase, while transfer of solutes into and out of the immobile water phase is assumed to be diffusion limited. The governing equations for this model are
+
+where Cm and Cim are the concentrations in the mobile and immobile water regions, Pm is the Peclet number for the process of dispersion in the mobile zone = vmL/Dm, Dm and vm are the dispersion coefficient and average pore water velocity of the mobile water, respectively, T is the normalized time = vt/L, t is time, L is the length of the column, Z is the normalized distance = z/L, and z is the distance. β is a dimensionless partition variable and ω is the normalized mass transfer coefficient. β and ω are defined as
+
+where θm is the volumetric water content of the mobile region, f is the mass fraction of sorbent comprising the mobile region, and α is the average mass transfer coefficient between the mobile and immobile regions. R is the retardation factor and is related to the distribution coefficient, Kd, as follows:
+where ρ is the soil bulk density and θ is the volumetric water content. Henceforth, we refer to this model as the two-region model. Without regions of immobile water, this model reduces to the familiar (single region) advection-dispersion equation:
+We used both the two-region and single-region (assuming no immobile water) models to model our BTCs. Solutions to eqs 1 and 2, assuming linear equilibrium adsorption of solutes, were fitted to the column BTCs using the nonlinear least-squares inversion program CXTFIT ( 31). Previous studies at the INEEL have shown that sorption of Sr on surficial and interbed sediments and alluvium is linear ( 19, 20).
+Distribution coefficients for batch tests were determined using the following equation
+where Ci and C are solution Sr concentrations at the beginning and end of tumbling, respectively, V is the volume of the solution (mL), and W is the weight of the basalt (g).
+Results and Discussion
+ARTICLE SECTIONSJump To
+Column Studies. Prior to running Sr through the columns, BTCs were established for bromide, a conservative tracer, at moisture contents comparable to those used for the Sr column runs. These column studies were used to check the flow characteristics of the column and determine whether all of the water in the column is mobile or whether there are pockets of immobile or stagnant water. The saturated and unsaturated Br BTCs are shown in Figures 1 and 2, respectively. The curves exhibit a fairly high degree of symmetry mimicking the input pulses, although a little bit of tailing is evident in both the leading and trailing edges of the BTCs. Column characteristics and parameters for Br BTCs estimated using CXTFIT are listed in Table 3.
+Figure 1 Saturated column Br BTC data fitted with single- and two-region models.
+
+Figure 2 Unsaturated column Br BTC data fitted with single- and two-region models.
+Table 3. Column Characteristics and CXTFIT-Estimated Parameters for Br BTCs
+columnmodelporewater velocity (cm/min)moisture content (cm3/cm3)porosity (%)ρ (g/cm3)D (cm2/min)RKd (mL/g)βωR2
+2tworegion0.74350.21839.31.6740.742600.940250.00780.809330.147270.9615
+1tworegion0.37310.18039.31.6740.303240.993780.000670.687420.228530.9989
+3tworegion0.04090.15739.31.6740.013751.026740.002510.679261.108200.9923
+CB5BR1tworegion0.48440.45745.71.4970.05861.05040.01540.91680.19710.9954
+CB5BR2tworegion0.92650.45745.71.4970.22990.99210.00240.9484875.87160.9936
+2singleregion0.74350.21839.31.6741.432790.846790.0199  0.9539
+1singleregion0.37310.18039.31.6740.838690.810370.0204  0.9902
+3singleregion0.04090.15739.31.6740.094031.001270.000119  0.9872
+CB5BR1singleregion0.48440.45745.71.4970.10261.01250.0038  0.9918
+CB5BR2singleregion0.92650.45745.71.4970.22700.993720.0019  0.9934
+Bromide Kds determined using the two-region model are essentially zero, indicative of conservative tracers, and the saturated Kds do not differ significantly from the unsaturated Kds at the 0.05 probability level (Table 4). With Kd = 0, eq 3 reduces to
+i.e., β represents the fraction of mobile water in the column. The saturated column experiments indicate that 58% of the water in the column is immobile. This water occupies dead-end pores and possibly vesicles in the basalt particles. The fraction of immobile water generally appears to increase with decreasing moisture content (at 15.7% moisture content, there is about 32% immobile water), although this may be more a function of pore water velocity (which was varied to obtain the different levels of moisture content) than degree of saturation ( 32, 33).
+Table 4. Analysis of Variance (ANOVA) Results from Comparing Saturated vs Unsaturated Column Br Kds Showing Degrees of Freedom (df), Error Sum of Squares (SS), Error Mean Squares (MS), Variance Ratio (F), and Significance Probability Level (P-value)
+modelsourceofvariationdfSSMSFP-value
+tworegionbetweengroups18.64×10-058.64×10-051.2106570.351572
+ withingroups30.0002147.14×10-05  
+ total40.000301   
+singleregionbetweengroups10.0002470.0002472.5517510.208458
+ withingroups30.000299.68×10-05  
+ total40.000537   
+The Br BTCs exhibit symmetry typical of BTCs from porous media with no regions of immobile water. This provides incentive to explore the use of the simpler single-region model (eq 6) for describing Br transport in the crushed basalt. Distribution coefficients determined using the single-region model are also essentially zero (Table 3). There is no significant difference (at the 0.05 probability level) between the saturated and unsaturated values (Table 4). The single-region model fitted curves are virtually identical to the two-region model fitted curves (Figures 1 and 2). Reflecting this similarity, pooled (saturated and unsaturated) single-region model Kds are not different statistically (at the 0.05 probability level) than the pooled two-region model Kds (Table 5). These results indicate that regions of immobile water in the basalt (if they actually exist) do not play a significant role in the transport of Br and that the single-region model is appropri ate. The good fit and indication of the existence of immobile water with the two-region model just may reflect the fact that the data are fitted with a greater number of parameters.
+Table 5. ANOVA Results from Comparing Single-Region vs Two-Region Model Br Kds
+sourceofvariationdfSSMSFP-value
+betweengroups10.0002050.0002051.9614520.19893
+withingroups80.0008380.000105  
+total90.001043   
+Saturated and unsaturated BTCs for Sr are shown in Figures 3 and 4, respectively. The Sr BTCs are similar to the Br BTCs in that they exhibit some tailing in the leading and trailing edges. Strontium BTCs observed for unsaturated crushed basalt columns closely resemble those observed for saturated crushed basalt columns. Figure 4a differs in appearance from the other BTCs because the Sr input pulse applied to this column was shorter than the input pulses applied to the other columns. Column characteristics and parameters estimated by CXTFIT are listed in Table 6. The solution to the CDE assuming the two-region model (based on our original assumption that the basalt contains regions of immobile water) fits the BTCs well as evidenced by the coefficients of determination (all over 0.98).
+Figure 3 Saturated column Sr BTC data fitted with single- and two-region models.
+
+Figure 4 Unsaturated column Sr BTC data fitted with single- and two-region models.
+Table 6. Column Characteristics and CXTFIT-Estimated Parameters for Sr BTCs
+columnmodelporewater velocity (cm/min)moisture content (cm3/cm3)porosity (%)ρ (g/cm3)D (cm2/min)RKd (mL/g)βωR2
+4tworegion0.03280.2039.31.6740.0530733.512953.8840.480820.750240.9825
+5tworegion0.29500.2239.31.6744.3221019.783782.4690.40850339.06800.9900
+6tworegion0.64440.2539.31.6745.1876229.495784.2560.478740.175760.9916
+CB5SR1tworegion0.40070.45745.71.4971.707613.40173.78760.91502243.6790.9973
+CB5SR2tworegion0.90730.45745.71.4971.692912.21973.42660.63950.56140.9963
+7tworegion0.38840.39339.31.6742.670812.15802.6180.76830.20530.9978
+4singleregion0.03280.2039.31.6740.2765329.075083.354  0.9713
+5singleregion0.29500.2239.31.6743.9737719.043732.371  0.9916
+6singleregion0.64440.2539.31.67414.1990522.323843.185  0.9839
+CB5SR1singleregion0.40070.45745.71.4971.620112.98963.6618  0.9970
+CB5SR2singleregion0.90730.45745.71.4974.394912.07043.3810  0.9951
+7singleregion0.38840.39339.31.6744.256612.08262.601  0.9972
+Pore water velocity was varied by a little more than a factor of 2 in the saturated column experiments. This had relatively little effect on the resulting Kds. Two of the unsaturated column experiments were run with pore water velocities comparable to those of the saturated column experiments while the pore water velocity of the third unsaturated column was an order of magnitude less than the lowest saturated column pore water velocity. Despite these differences in flow conditions, the resulting Kds were fairly consistent. This demonstrates the robustness of the column method in determining the Sr Kds under different flow conditions.
+The Sr Kds estimated from unsaturated BTCs (with the two-region model) range from 2.47 to 4.26 mL/g and agree reasonably well with those obtained from saturated crushed basalt packed columns (Kd = 2.623.79 mL/g). Statistically, the two sets of data are not different at the 0.05 probability level (Table 7). These results indicate that the Sr Kds determined from the simpler, faster, and more generally used saturated column studies are applicable for predicting Sr transport under unsaturated conditions. The pooled mean of all column-measured Sr Kds (3.41 mL/g) using the two-region model is similar to previous values for saturated basalt determined at the INEEL.
+Table 7. ANOVA Results from Comparing Saturated vs Unsaturated Sr Kds
+modelsourceofvariationdfSSMSFP-value
+tworegionbetweengroups10.1005700.1005700.1612100.708571
+ withingroups42.4953660.623841  
+ total52.595935   
+singleregionbetweengroups10.0897440.0897440.3103540.607163
+ withingroups41.1566640.289166  
+ total51.246408   
+In view of our results in applying the single-region model to Br transport in the crushed basalt, we also determined Sr Kds with the simpler, single-region model. Column characteristics and parameters estimated by using the single-region model in CXTFIT are listed in Table 6. The solution to the CDE assuming the single-region model fit the BTCs well as evidenced by the coefficients of determination (all over 0.97). The Sr Kds estimated from unsaturated BTCs range from 2.37 to 3.35 mL/g and agree reasonably well with those obtained from saturated crushed basalt packed columns (Kd = 2.603.66 mL/g). Strontium Kds determined from the unsaturated columns using the single-region model do not differ significantly (at the 0.05 probability level) from those determined from the saturated columns (Table 7). The pooled mean of all column-measured Sr Kds using the single-region model is 3.09 mL/g.
+Saturated and unsaturated Kd values were combined for each model since the above analyses indicated that these values essentially come from the same population. Using the combined values, Sr Kds determined using the single-region model do not differ significantly from those determined using the two-region model (Table 8). The fitted curves are virtually identical for each of the saturated columns and for one of the unsaturated columns. The fitted curves are very similar for the remaining two unsaturated columns. These results show that immobile water is not a significant factor in the crushed basalt and that the simpler single-region model Kds can be used to model Sr transport in the vadose zone.
+Table 8. ANOVA Results from Comparing Single-Region vs Two-Region Model Sr Kds
+sourceofvariationdfSSMSFP-value
+betweengroups10.2968570.2968570.7725930.400044
+withingroups103.8423430.384234  
+total114.139199   
+Batch Studies. Batch studies were also performed to determine Sr Kds. Initially, a kinetic study was conducted to determine the time required to reach equilibrium. Identical mixtures of crushed basalt and Sr solution were prepared and shaken for various times. Figure 5 shows the results of this study. Partitioning of Sr between the solid and liquid phases was completed within 50 h. Subsequent batch tests were run for 155 h to ensure equilibrium had been achieved.
+Figure 5 Results from the batch study of Sr sorption kinetics showing Sr in solution as a function of time.
+Batch experiments are usually run at low solid-to-liquid ratios, e.g., ASTM D 4319 recommends using an amount of liquid exactly four times the weight in grams of the solid material. The standard batch test is representative of saturated conditions. ASTM suggests that other ratios which would more closely approximate the normal field situation can be used. We ran a series of batch tests with increasing solid-to-liquid ratios. The higher the solid/liquid ratio, the greater the chance of surfaces being in contact with each other and not being available for sorption. This may be similar to unsaturated conditions in which not all surfaces are in contact with the liquid and, thus, are not available for sorption. The solid-to-liquid ratios that we used ranged from the recommended standard of 0.25 to 2.33. We also ran one test at a lower than recommended ratio of 0.11 to determine if changes in Kd occur in the opposite direction.
+Figure 6 Batch test Kd values as a function of solid/liquid ratio.
+The Kds measured for the varying solid/liquid ratios are presented in Table 9. The Kds varied from 0.577 mL/g at the highest solid-to-liquid ratio to 2.561 mL/g at the lowest solid-to-liquid ratio. The Kds measured at the standard recom mended ratio (0.25) and, at the lower ratio (0.11), are nearly the same (2.498 mL/g vs 2.561 mL/g, respectively) and are lower than the average column Kds (3.41 mL/g and 3.09 mL/g for the two-region and single-region models, respectively). Increasing the solid/liquid ratio beyond the recommended value (0.25) results in a definite decreasing trend in Kds as indicated by the significant regression at the 0.05 level (Table 10, Figure 6). In terms of a comparison to field conditions, increasing the solid/liquid ratio (more solid/less liquid) corresponds to decreasing saturation level. Instead of converging toward the column test Kds, the batch test Kds determined with increasing solid/liquid ratios trend in the opposite direction.
+Table 9. Results from Batch Tests with Varying Crushed Basalt/Synthetic Groundwater Ratios
+crushed basalt (g)strontium solution (mL)solid/liquid ratiodistribution coefficient (mL/g)
+3270.112.561
+6240.252.498
+9210.432.160
+12180.671.668
+15151.001.354
+18121.500.956
+2192.330.577
+Table 10. ANOVA Results for Regression of Kd on Solid/Liquid Ratio
+sourceof variationdfSSMSFsignificance F
+regression13.2667173.26671763.766830.000497
+residual50.2561450.051229  
+total63.522862   
+The column tests for Sr Kds appear to be more robust than the batch tests. Column tests conducted at various moisture contents from saturation to 20% consistently resulted in essentially the same Kd value. The method was also insensitive to the two models used in fitting the BTCs. Previous studies comparing batch and column methods cover the gamut of agreement from good ( 34, 35) to poor ( 36, 37). Studies showing higher distribution coefficients from column methods are not uncommon ( 38, 39). Greater adsorption in flow systems relative to batch systems has been speculated to result from greater differences in concentration and composition of solution in batch systems during the equilibration period. Desorbed antecedent species are removed from the column in the flow system but remain to compete for sorption sites in the batch system. This will affect the exchange equilibria in batch systems, but not in flow systems, because the solution phase composition in the flow system is relatively constant ( 40). This reasoning suggests that distribution coefficients should, in fact, differ in batch and column systems. The actual mechanism(s) causing the differences, however, have not been definitively determined and remain open to speculation. Decreasing values of the batch method Kds with increasing solid/liquid ratios havebeen noted by previous researchers ( 4143) and is often referred to as the solids effect or the soil/solution ratio effect. Again, although attempts have been made to explain this effect ( 43, 44), its cause remains undetermined. The results of this study indicate that the Kds determined with the batch method will not accurately reflect Sr transport in unsaturated or saturated basalt.
+Author Information
+ARTICLE SECTIONSJump To
+Authors
+Indrek Porro - Idaho National Engineering and Environmental Laboratory, P.O. Box 1625, Idaho Falls, Idaho 83415-2107
+Meredith E. Newman - Idaho National Engineering and Environmental Laboratory, P.O. Box 1625, Idaho Falls, Idaho 83415-2107
+Frank M. Dunnivant - Idaho National Engineering and Environmental Laboratory, P.O. Box 1625, Idaho Falls, Idaho 83415-2107
+
+
+</literature>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+
+29. Does the article discuss process intensification approaches that can be applied to propane dehydrogenation? What specific examples and potential benefits are described?
+30. Does the article analyze techno-economic factors that affect the viability of propane dehydrogenation processes? What specific considerations and quantitative analysis are provided?
+31. Does the article discuss safety issues like flammability and explosion hazards associated with propane dehydrogenation? What specific concerns, examples, and mitigation strategies are described?
+32. Does the article summarize remaining challenges and knowledge gaps in propane dehydrogenation catalysis? What specific issues and future research directions are identified?
+33. Does the article propose leveraging high-throughput computational methods to accelerate propane dehydrogenation catalyst screening and design? What specific techniques and opportunities are described?
+34. Does the article highlight needs for improved in-situ characterization tools to better understand propane dehydrogenation catalysts? What specific capabilities and opportunities are identified?
+35. Does the article envision potentially transformational catalyst architectures that could enable performance breakthroughs in propane dehydrogenation? What specific ideas and opportunities are proposed?
+
+
+</questions>
+
+First, you need to sequentially extract any quotes in the literature that are most relevant to each question, and print them in numbered order, separated by newlines. Quotes should be relatively brief. Do not attempt to summarize or answer questions at this stage, but simply repeat exactly what the corresponding part of the literature says.
+
+Please enclose the full list of quotes in <quotes></quotes> XML tags. If there are no relevant quotes, write "No relevant quotes" instead.
+
+Then, answer the question, starting with "Answer:".  Do not include or reference quoted content verbatim in the answer. Don't say "According to Quote [1]" when answering. Do not write reference number of quotes after answer. Put your answer to the user inside <answer></answer> XML tags. Output formatted text, with line breaks for each question.Separate quotes and answers with a blank line. Provide the answers to all questions in English. After completing the English answers, translate all those answers into Chinese and provide the Chinese version.
+
+Thus, the format of your overall response should look like what's shown between the <example></example> tags.  Make sure to follow the formatting and spacing exactly.
+
+<example>
+
+<quotes>
+
+[1] "Company X reported revenue of $12 million in 2021."
+
+</quotes>
+
+<English version answer>
+
+1.Company X earned $12 million in 2021.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.X公司在2021年赚了1200万美元。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Almost 90% of revenue came from widget sales, with gadget sales making up the remaining 10%."
+
+</quotes>
+
+<English version answer>
+
+2.Almost 90% of it came from widget sales.
+
+</English version answer>
+
+<Chinese version answer>
+
+2.几乎90%的收入来自小部件销售。
+
+</Chinese version answer>
+
+</example>
+
+
+If the question cannot be answered by the document, say so.If deemed necessary, the answer to the question can be extended entirely from the content of the document.
+
+Answer all of the questions immediately without preamble. 

@@ -1,0 +1,85 @@
+ Based on the details in the document, this document is related to propane dehydrogenation.
+
+The document mentions the following catalysts:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>CrOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>33.2%</ConversionRate>
+				<Selectivity>90.4%</Selectivity>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Pt-based</Name> 
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>48.7%</ConversionRate>
+				<Selectivity>99%</Selectivity>
+				<Stability>Excellent</Stability>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Ga/H-ZSM-5</Name>
+				<Type>Metal Exchanged Zeolite</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Zeolite</SupportMaterial>
+				<ConversionRate><10%</ConversionRate>
+				<Selectivity>91.6%</Selectivity>
+				<ActiveSpecies>Ga2O2^2+</ActiveSpecies>
+				<ConversionRate>N/A</ConversionRate>
+				<Selectivity>91.1%</Selectivity>
+				<ActiveSpecies>Ga+</ActiveSpecies>
+			</Catalyst>
+			
+			<Catalyst>
+			   <Name>Zn/H-ZSM-5</Name>
+			   <Type>Metal Exchanged Zeolite</Type>
+			   <ActiveSpeciesElements>
+				 <Element>Zn</Element>
+			   </ActiveSpeciesElements>
+			   <SupportMaterial>Zeolite</SupportMaterial>
+			   <ConversionRate>&lt;2%</ConversionRate>
+			   <Selectivity>88%</Selectivity>
+			</Catalyst>
+
+			<Catalyst>
+				<Name>In/H-CHA</Name>
+				<Type>Metal Exchanged Zeolite</Type>
+				<ActiveSpeciesElements>
+					<Element>In</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Zeolite</SupportMaterial>
+			</Catalyst>
+			
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>Ga/H-ZSM-5</Name>
+				<Type>Metal Exchanged Zeolite</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Zeolite</SupportMaterial>
+				<ActiveSpecies>Ga2O2^2+</ActiveSpecies>
+				<ConversionRate>N/A</ConversionRate>
+				<Selectivity>91.6%</Selectivity>
+				<TurnoverFrequency>2120 hr^-1</TurnoverFrequency>
+			</Catalyst>
+		</MainContribution>
+		
+	</IfRelevant>
+</output>

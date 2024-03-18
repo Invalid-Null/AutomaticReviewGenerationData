@@ -1,0 +1,450 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation are provided.
+</English version answer>
+
+<Chinese version answer>
+Answer: 这篇文章没有比较金属和氧化支持金属催化剂的选择性配置文件。也没�提供具体的例子或选择性调控的解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. No specific data or insights into performance modulation are provided.  
+</English version answer>
+
+<Chinese version answer>
+Answer: 这篇文章没有评估任何类似Pt-Sn、Pt-Ga、Pt-Zn的铂合金催化剂用于丙烷脱氢。也没有提供关于性能调控的具体数据或见解。
+</Chinese version answer>
+
+<quotes>
+[1] "Given that the propylene adsorption energy has been identified as the descriptor in this work, it is not surprising that the turnover frequency for propane dehydrogenation has a good linear relationship with the propylene adsorption energy, as shown in Fig. 8a." 
+
+[2] "The scaling relations also suggest that a higher catalyst selectivity toward propylene can only be achieved at the expense of a lower catalytic activity for propane dehydrogenation."
+
+[3] "The core-shell catalysts are found to have less negative propylene adsorption energies and higher activation energies for the dehydrogenation reactions than Pt, thus giving rise to a lower catalytic activity and a higher selectivity toward propylene."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article does investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It provides specific examples and structure-function insights by showing that the adsorption energy of propylene as a descriptor scales linearly with turnover frequency and selectivity, indicating electronic structure modulation by the core metal affects activity and selectivity. It also shows core-shell catalysts have weaker propylene adsorption and higher dehydrogenation barriers than Pt, lowering activity but improving selectivity.
+</English version answer> 
+
+<Chinese version answer>
+Answer: 是的,这篇文章探究了双金属和合金催化剂中第二种金属的电子和几何效应。它通过展示丙烯吸附能作为描述子与周转频率和选择性呈线性关系的具体例子和结构-功能关系的见解,表明核心金属对电子结构的调控会影响活性和选择性。它还展示核壳催化剂相比铂有较弱的丙烯吸附和更高的脱氢障碍,这会降低活性但提高选择性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No specific examples or data are provided.
+</English version answer>
+
+<Chinese version answer>
+Answer: 这篇文章没有探究在双金属和合金催化剂中使用类似Re或Mn这样的亚表面助剂来调整选择性。没有提供具体的例子或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+</English version answer> 
+
+<Chinese version answer>
+Answer: 这篇文章没有描述双金属或合金催化剂中的金属之间的任何协同效应,也没有归因于配位集效应和/或配体效应。没有提供具体的例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.
+</English version answer>
+
+<Chinese version answer>
+Answer: 这篇文章没有评估任何类似MFI、FER或BEA结构的沸石支持体用于丙烷脱氢催化剂。没有提供具体的例子、数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+Answer: 这篇文章没有研究调节沸石Si/Al比或掺入介孔对丙烷脱氢催化剂性能的影响。没有提供具体的例子或揭示结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation are provided.
+</English version answer>
+
+<Chinese version answer>
+答:文章没有比较金属和氧化物支持的金属催化剂的选择性曲线。也没有提供具体的例子或关于选择性调控的解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. No specific data or insights into performance modulation are provided.
+</English version answer>
+
+<Chinese version answer>
+答:文章没有评估任何Pt合金催化剂,比如Pt-Sn、Pt-Ga、Pt-Zn,用于丙烷脱氢。也没有提供关于性能调控的具体数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: Yes, the article investigates electronic and geometric effects of the secondary metal in bimetallic core-shell catalysts. It studies the strain and ligand effects of substituting late transition metals like Fe, Co, Ni, etc. for Pt in the core on the lattice parameter and d-band center of the surface Pt atoms. This tunes the chemisorption energies and transition state energies, affecting activity and selectivity.
+</English version answer>
+
+<Chinese version answer>  
+答:是的,文章研究了双金属核壳催化剂中次要金属的电子和几何效应。它研究了在核心区域用Fe、Co、Ni等后过渡金属取代Pt所造成的应变效应和配体效应对表面Pt原子的晶格参数和d带中心的影响。这调谐了化学吸附能和过渡态能量,影响活性和选择性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No specific examples or data are provided.  
+</English version answer>
+
+<Chinese version answer>
+答:文章没有探索在双金属和合金催化剂中使用Re或Mn等次表面促进剂来调节选择性。没有提供具体的例子或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes> 
+
+<English version answer>
+Answer: No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+</English version answer>
+
+<Chinese version answer>
+答:文章没有描述双金属或合金催化剂中的金属之间的任何协同效应,这些效应归因于集团效应和/或配体效应。没有提供具体的例子或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+Answer: No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.
+</English version answer> 
+
+<Chinese version answer>
+答:文章没有评估任何沸石支持体,比如MFI、FER或BEA结构,用于丙烷脱氢催化剂。没有提供具体的例子、数据或见解。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+答:文章没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。没有提供具体的例子或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses only on Pt-based core-shell alloy catalysts.
+</English version answer>
+
+<Chinese version answer>
+答:文中没有比较金属和氧化物负载的金属催化剂的选择性。文章仅专注于Pt基核壳合金催化剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:文中没有评估Pt-Sn、Pt-Ga、Pt-Zn等Pt合金催化剂在丙烷脱氢反应中的表现。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: Yes, the article investigates electronic and geometric effects of the secondary metal in Pt-based core-shell alloy catalysts. It shows that strain and ligand effects of the core metal can tune the d-band center and width of surface Pt atoms, modifying chemisorption energies. This allows tuning of activity and selectivity.
+</English version answer>
+
+<Chinese version answer>  
+答:是的,文章研究了Pt基核壳合金催化剂中辅助金属的电子和几何效应。它展示了核心金属的应变和配体效应可以调节表面Pt原子的d带中心和宽度,从而改变化学吸附能。这使得活性和选择性的调控成为可能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity.
+</English version answer>
+
+<Chinese version answer>
+答:不,文章没有探索在双金属和合金催化剂中使用Re或Mn等亚表面促进剂来调节选择性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes> 
+
+<English version answer>
+Answer: No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. It focuses only on strain and ligand effects of individual metals.
+</English version answer>
+
+<Chinese version answer>
+答:不,文章没有描述双金属或合金催化剂中的金属间存在任何协同效应,归因于配位体集效应和/或配体效应。文章仅关注单个金属的应变和配体效应。
+</Chinese version answer>
+
+<quotes>
+No relevant
+</quotes>
+
+<English version answer>  
+Answer: No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. It focuses only on Pt-based core-shell nanoparticles.
+</English version answer> 
+
+<Chinese version answer>
+答:不,文章没有评估MFI、FER或BEA等沸石支持丙烷脱氢反应的催化剂。文章仅关注Pt基核壳米粒子。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. It does not involve zeolite supports.  
+</English version answer>
+
+<Chinese version answer> 
+答:不,文章没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢反应催化剂性能的影响。文中不涉及沸石载体。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Unfortunately there are no relevant quotes from the literature that directly answer any of the questions.
+
+<English version answer>
+
+1. Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses only on Pt-based metallic core-shell nanoparticles.
+
+2. Answer: No, the article does not evaluate Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. 
+
+3. Answer: Yes, the article investigates electronic and geometric effects of the secondary metal in the core-shell nanoparticles. It shows how the lattice strain and ligand effects of the core metal tune the d-band center and chemisorption energies of surface Pt atoms, affecting catalytic activity and selectivity.
+
+4. Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in the core-shell nanoparticles.
+
+5. Answer: No, the article does not describe any synergistic effects between metals in the core-shell nanoparticles attributed to ensemble and/or ligand effects. 
+
+6. Answer: No, the article does not evaluate any zeolite supports for propane dehydrogenation catalysts.
+
+7. Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 回答:不,文章没有比较金属和氧化支持金属催化剂的选择性谱。它只关注Pt基核壳纳米粒子。
+
+2. 回答:不,文章没有评估Pt合金催化剂,如Pt-Sn、Pt-Ga和Pt-Zn,用于丙烷脱氢。
+
+3. 回答:是的,文章调查了核壳纳米粒子中第二金属的电子和几何效应。它展示了核心金属的晶格应变和配体效应如何调谐表面Pt原子的d带中心和化学吸附能,从而影响催化活性和选择性。
+
+4. 回答:不,文章没有探索在核壳纳米粒子中使用近表面促进剂如Re或Mn。 
+
+5. 回答:不,文章没有描述核壳纳米粒子中金属之间的任何协同效应,这是由于集团和/或配体效应。
+
+6. 回答:不,文章没有评估任何沸石支撑体用于丙烷脱氢催化剂。
+
+7. 回答:不,文章没有调查调谐沸石Si/Al比或掺入介孔性对丙烷脱氢催化剂性能的影响。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses only on metallic Pt-based core-shell nanoparticles.
+</English version answer>
+
+<Chinese version answer>
+Answer: 否,本文没有比较金属和氧化支持金属催化剂的选择性谱。它仅关注金属Pt基核壳纳米粒子。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. It only studies Pt-based core-shell nanoparticles with late transition metals like Fe, Co, Ni, etc. in the core.
+</English version answer> 
+
+<Chinese version answer>
+Answer: 否,本文没有评估Pt-Sn、Pt-Ga、Pt-Zn等Pt合金催化剂用于丙烷脱氢。它仅研究了以Fe、Co、Ni等后过渡金属为核的Pt基核壳纳米粒子。
+</Chinese version answer>
+
+<quotes>
+[1] "Because of the size mismatch and electronegativity difference, the electronic structures of the shell atoms are modified by the core atoms through the combined strain and ligand effects [25], making it possible to tailor the adsorption and catalytic properties of the core-shell alloys to a particular application."
+
+[2] "The adsorption behavior of the core-shell alloy surfaces is determined not only by the strain effect but also by the electron transfer between the solute and host metal, which is known as the ligand effect and arises from the change in the chemical environment of a metal with its surrounding ligand [25]."
+</quotes>
+
+<English version answer>  
+Answer: Yes, the article investigates electronic and geometric effects of the secondary metal in the core-shell nanoparticles. It explains that the core metal modifies the electronic structure of the Pt shell atoms through strain and ligand effects, allowing tuning of the adsorption and catalytic properties.
+</English version answer>
+
+<Chinese version answer>
+Answer: 是的,本文研究了核壳纳米粒子中的第二金属的电子和几何效应。它解释说,核金属通过应变和配体效应改变Pt壳层原子的电子结构,从而调节吸附和催化性能。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. It only studies late transition metals as core metals in Pt-based core-shell nanoparticles.
+</English version answer>
+
+<Chinese version answer>
+Answer: 否,本文没有探究如Re或Mn等亚表面促进剂在双金属和合金催化剂中的应用来调节选择性。它仅研究了以后过渡金属为核的Pt基核壳纳米粒子。
+</Chinese version answer>
+
+<quotes>
+[1] "Microkinetic analysis combined with the results obtained from density functional theory calculations has been performed to examine the catalytic activity and selectivity of Pt-based core-shell alloy catalysts for propane dehydrogenation."
+
+[2] "The scaling relations also suggest that a higher catalyst selectivity toward propylene can only be achieved at the expense of a lower catalytic activity for propane dehydrogenation."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article describes synergistic effects between Pt and the core metal in the core-shell nanoparticles, attributed to ensemble and ligand effects. It shows how the core metal modulates the selectivity and activity of the Pt shell for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>  
+Answer: 是的,本文描述了核壳纳米粒子中的Pt和核金属之间的协同效应,归因于配位团效应。它展示了核金属如何调节Pt壳层对丙烷脱氢的选择性和活性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. It only studies unsupported Pt-based core-shell nanoparticles.
+</English version answer>
+
+<Chinese version answer>
+Answer: 否,本文没有评估MFI、FER或BEA等沸石支持的丙烷脱氢催化剂。它仅研究了无支撑的Pt基核壳纳米粒子。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance, since it does not study zeolite-supported catalysts.  
+</English version answer>
+
+<Chinese version answer>
+Answer: 否,由于本文没有研究沸石支持的催化剂,所以也没有调查调节沸石Si/Al比或引入介孔对丙烷脱氢催化剂性能的影响。
+</Chinese version answer>
+
+</Answer>
+

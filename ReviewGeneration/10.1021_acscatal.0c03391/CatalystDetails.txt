@@ -1,0 +1,68 @@
+ Based on the details in the document, this is related to propane dehydrogenation. Here is the extracted information in XML format:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>Pt/Al2O3</Name>
+				<Type>Metal</Type>  
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>16%</ConversionRate>
+				<Selectivity>91%</Selectivity>
+				<Stability>Decreases with time on stream</Stability>
+				<DeactivationRates>
+					<Rate>16% to 11% after 20 hours</Rate>
+				</DeactivationRates>
+				<PropyleneYield>14.6%</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2 = 1:1</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>260 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>390,000 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+			<Catalyst>
+				<Name>ncAlO/x%Pt/Al2O3</Name>  
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>16%</ConversionRate>
+				<Selectivity>96%</Selectivity>
+				<Stability>Increases with Al2O3 ALD coating cycles</Stability>
+				<PropyleneYield>15.4%</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2 = 1:1</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>260 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>390,000 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</CatalystsList>
+		<MainContribution>
+			<Catalyst>
+				<Name>ncAlO/x%Pt/Al2O3</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>16%</ConversionRate>
+				<Selectivity>96%</Selectivity>
+				<Stability>Increases with Al2O3 ALD coating cycles</Stability>
+				<PropyleneYield>15.4%</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:H2 = 1:1</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>260 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>390,000 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

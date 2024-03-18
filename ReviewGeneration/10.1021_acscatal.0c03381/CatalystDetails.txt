@@ -1,0 +1,59 @@
+ Based on the details in the document, this is related to propane dehydrogenation.
+
+The document mentions the following catalysts:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>Pt/Al2O3</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>N/A</ConversionRate>
+				<Selectivity>N/A</Selectivity>
+				<Stability>N/A</Stability>
+				<DeactivationRates>
+					<Rate>N/A</Rate>
+				</DeactivationRates>
+				<PropaneProductionRate>N/A</PropaneProductionRate>
+				<PropyleneYield>N/A</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>H2/C3H8</Ratio>
+				</FeedCompositionAndRatios>
+				<PropanePartialPressure>0.03 bar</PropanePartialPressure>
+				<ReactionTemperature>723.15 K</ReactionTemperature>
+				<InletFlowRate>N/A</InletFlowRate>
+				<CatalystLoadingOrGHSV>N/A</CatalystLoadingOrGHSV>
+			</Catalyst>
+			<Catalyst>
+				<Name>Pt(111)</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+			</Catalyst>
+			<Catalyst>
+				<Name>Pt(211)</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+			</Catalyst>
+		</CatalystsList>
+		<MainContribution>
+			<Catalyst>
+				<Name>Pt(211)</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>
+
+The document identifies Pt(211) as the pivotal scientific contribution, as it reveals an unexpected non-reverse Horiuti-Polanyi mechanism that accounts for over 50% of the propylene production. The microkinetic analysis shows Pt(211) has much higher activity than Pt(111) and matches experimental kinetics better.

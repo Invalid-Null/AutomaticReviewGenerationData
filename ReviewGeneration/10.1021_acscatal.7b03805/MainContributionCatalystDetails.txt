@@ -1,0 +1,38 @@
+ Based on the details in the document, this is related to propane dehydrogenation. The main catalyst contribution is:
+
+<output>
+	<Relevance>
+		Yes
+	</Relevance>
+	<IfRelevant>
+		<MainContribution>
+			<Catalyst>
+				<Name>5% Pd/CeZrAlOx</Name>
+				<Type>Metal Oxide</Type>
+				<CompositionElements>
+					<Element>Ce</Element>
+					<Element>Zr</Element>
+					<Element>Al</Element>
+					<Element>O</Element>
+				</CompositionElements>
+				<ActiveSpeciesElements>
+					<Element>Pd</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ce</Element>
+					<Element>Zr</Element>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>10% after 1h</ConversionRate>
+				<Selectivity>93% to propene</Selectivity>  
+				<Stability>Stable for 140h</Stability>
+				<DeactivationRates>
+					<Rate>9.5% to 4% over 140h</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>500Â°C</ReactionTemperature>
+				<InletFlowRate>15 cm3/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>GHSV = 6000 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

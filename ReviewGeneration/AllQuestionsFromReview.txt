@@ -1,0 +1,929 @@
+Here is a detailed question-based outline for a review article on propane dehydrogenation catalysts, covering both the English and Chinese versions:
+
+English Version:
+
+1. What is the current status of propylene supply, and why is propane dehydrogenation increasingly important?
+   - What are the conventional routes for propylene production and their limitations?
+   - What is the propylene supply-demand gap, and what factors are causing it? 
+   - How does propane dehydrogenation address the propylene shortage versus alternatives?
+   - What are the thermodynamic challenges in propane dehydrogenation, and how can they be overcome?
+
+2. What are the different oxidative dehydrogenation approaches, and how do soft oxidants differ?
+   - What is conventional O2-assisted oxidative dehydrogenation and its drawbacks?
+   - What soft oxidants have been explored as alternatives and what are their advantages?
+   - How does using soft oxidants alleviate thermodynamic limitations and overoxidation?
+   - What are the relative benefits and limitations of CO2, N2O, S-containing compounds, and halogens? 
+
+3. What are the reaction mechanisms and redox cycles proposed for CO2-assisted oxidative dehydrogenation? 
+   - What are the key parallel and consecutive reaction networks identified?
+   - What redox cycles have been proposed for Cr and V-based catalysts?
+   - How does the nature of the support affect the redox behavior and cycles?
+   - What are the proposed roles of CO2 in regenerating or modifying catalyst redox states?
+
+4. How does the composition and structure of metal oxide catalysts correlate with redox properties and activity?
+   - How does controlling Cr and V loading and dispersion affect the evolution of active sites? 
+   - What are the effects of promoters and second metals on maintaining proper oxidation states?
+   - How do the porosity, acidity, and other properties of supports modulate redox behavior?
+   - What characterization techniques have been crucial in elucidating these composition-structure-redox relationships?
+
+5. What mechanistic and computational insights have been gained into CO2-assisted dehydrogenation?
+   - What mechanistic scenarios have prevailed from DFT studies regarding CO2 activation modes?
+   - How have calculations guided selectivity optimization between oxidative dehydrogenation and reforming?
+   - What microkinetic and kinetic Monte Carlo simulations have revealed about optimizing paths?
+   - Where have mechanistic hypotheses and computational results aligned or differed from experiments?
+
+6. How does the nature of metal oxides and solid acids affect reactivity in the absence of redox cycles?
+   - How do polymorphs, morphology and other factors modulate Ga2O3's activity?
+   - What are the proposed heterolytic mechanisms and conjugation effects over Ga2O3?
+   - How does modulating acid strength and density in zeolites impact propane activation versus side reactions?
+   - What characterization techniques have illuminated composition-activity relationships in these materials?
+
+7. What aspects of catalyst synthesis, structure characterization, and testing have been crucial?
+   - What preparation methods have enabled optimizing metal oxide dispersion and crystallite sizes?
+   - How have in situ/operando techniques elucidated working redox cycles and intermediates?
+   - What reactor configurations have provided insights into kinetics, equilibria, and roles of CO2?
+   - Where are gaps in connecting synthesis, characterization, and testing in elucidating mechanisms?
+
+8. How do issues of catalyst deactivation, regeneration, and stability need to be further addressed?
+   - What causes of deactivation have been identified, and how are they characterized?
+   - What regeneration procedures and conditions have shown promise in restoring activity?
+   - How can synthesis procedures and compositions improve redox catalyst stability?
+   - What has enabled non-redox catalysts to maintain activity over prolonged reactions?
+
+9. What unique mechanistic considerations exist for N2O-assisted propane dehydrogenation?
+   - How does N2O's weaker oxidizing potential affect redox cycles on metal oxides?  
+   - What spectroscopic and computational insights exist into N2O activation modes on catalysts?
+   - In what ways can N2O lead to different active oxygen species and reactivity compared to O2?
+   - What causes the rapid deactivation observed for many catalysts with N2O as the oxidant?
+
+10. How suitable are various zeolite topologies and compositions for dehydrogenation with N2O?
+    - What iron-containing zeolite catalysts have shown promising productivity and how? 
+    - How do framework type, acidity, and dealumination methods affect activity and selectivity trends?
+    - What mechanistic scenarios have been proposed regarding N2O activation over zeolites?
+    - How might the nature of active sites and location of coke formation influence deactivation?
+
+11. What unique considerations exist when using S-containing compounds as soft oxidants?
+    - How can H2S or SO2 serve as co-feeds to promote dehydrogenation activity and/or selectivity?
+    - What metal sulfides and sulfates have shown promising activity as prepared or in situ generated catalysts?
+    - What are proposed mechanisms regarding S-compound activation and regeneration of catalysts?
+    - What hurdles exist regarding byproduct formation, separation, catalyst stability, and other factors?
+
+12. How have oxyhalogenation pathways enabled selective alkane activation?
+    - How does propane oxychlorination compare to oxybromination in terms of viability and selectivity?
+    - What catalyst compositions enable properly balanced redox abilities for high productivity?
+    - What mechanistic scenarios have spectroscopic and computational studies revealed? 
+    - How might gas phase radical pathways compete with desired surface-driven reactions?
+
+13. Where have other novel soft oxidants shown initial promise for propane dehydrogenation?
+    - How might NOx, SOx, and other oxidants participate in redox cycles or via radical reactions?
+    - What preliminary computational and experimental results exist regarding these pathways?
+    - What additional theoretical and experimental work is needed to evaluate their potential?
+    - How transferrable are insights between these emerging oxidants and more established ones?
+
+14. What theoretical methods have provided insights into mechanisms and guided catalyst design?
+    - How have DFT studies and microkinetics revealed thermodynamic and kinetic selectivity descriptors?
+    - Where have computational predictions aligned or differed from experimental observances and why?
+    - What high-throughput screening approaches are feasible considering redox steps?
+    - How can computations further address catalyst stability and regeneration? 
+
+15. What reactor configurations and process intensification methods are on the horizon?
+    - How might membrane reactors enable better control of oxidant delivery?
+    - What benefits might microreactors offer regarding heat transfer and kinetics?
+    - How could chemical looping concepts integrate dehydrogenation with oxidation?
+    - What techno-economic analyses are needed to assess process viability?
+
+16. What key challenges and knowledge gaps remain in optimizing propane dehydrogenation systems?
+    - What ambiguities exist regarding working redox cycles, intermediates, and descriptors?
+    - How can we extend catalyst lifetimes and stability at relevant conditions?
+    - What breakthroughs are needed in reactor and process engineering aspects? 
+    - How can we continue improving computational-experimental synergies and mechanistic understanding?
+
+17. What are promising directions and visions for advancing propane dehydrogenation technologies?
+    - How can we design optimal multifunctional catalysts using computational approaches?
+    - What in situ characterization techniques may provide breakthrough insights?
+    - How will process intensification methods reshape propane dehydrogenation practices?
+    - What techno-economic and life cycle analyses should guide research priorities?
+
+中文版:
+
+1. 丙烷脱氢技术目前发展现状如何,为何其重要性日益增加?
+   - 目前丙烯生产的常规途径有哪些,限制因素是什么?
+   - 丙烯供需缺口现状如何,原因是什么?
+   - 与其他途径相比,丙烷脱氢如何解决丙烯短缺问题?
+   - 丙烷脱氢存在哪些热力学障碍,如何克服?
+
+2. 不同氧化偶联脱氢途径有哪些,软氧化剂有何不同?
+   - 常规O2辅助氧化脱氢存在哪些缺点?
+   - 已探索哪些软氧化剂作为替代,优势又是什么?
+   - 使用软氧化剂如何减轻热力学限制和过氧化问题?
+   - CO2、N2O、含硫化合物和卤素各自的优缺点分别是什么?
+
+3. CO2辅助氧化脱氢的机理和氧化还原循环有哪些提议?
+   - 已确定的并行和连串反应网络有哪些?
+   - Cr和V基催化剂提出了哪些氧化还原循环?
+   - 支撑体的性质如何影响氧化还原行为和循环?
+   - CO2在再生或调节催化剂氧化还原态方面有哪些提议作用?
+
+4. 金属氧化物催化剂的组成和结构如何与氧化还原性能和活性相关?
+   - 控制Cr和V的负载量和分散状态如何影响活性位的演变?
+   - 掺杂剂和第二金属如何帮助维持适当的氧化态?
+   - 支撑体的孔隙度、酸碱度等性质如何调节氧化还原行为?
+   - 哪些表征技术对阐明这些组成-结构-氧化还原关系至关重要?
+
+5. CO2辅助脱氢在机理和计算方面获得了哪些启示?
+   - DFT研究提出了哪些关于CO2激活模式的机理情况?
+   - 计算如何指导氧化脱氢和重整之间的选择性优化?
+   - 微观动力学和动力学Monte Carlo模拟揭示了什么路径优化信息?
+   - 机理假说和计算结果在哪些方面与实验一致或不同?
+
+6. 在缺乏氧化还原循环的情况下,金属氧化物和固体酸的性质如何影响反应活性?
+   - 晶型、形态等因素如何调节Ga2O3的活性?
+   - Ga2O3提出的异裂机理和共轭效应是什么? 
+   - 调节分子筛的酸强度和密度如何影响丙烷激活和副反应?
+   - 哪些表征技术阐明了这些材料的组成-活性关系?
+
+7. 催化剂合成、结构表征和测试哪些方面的进展至关重要?
+   - 何种制备方法实现了优化金属氧化物分散度和结晶尺寸?
+   - 原位/介 situ技术如何阐明了工作氧化还原循环和中间体?
+   - 何种反应器配置提供了关于动力学、平衡和CO2作用的启示?
+   - 在阐明机理方面,合成、表征和测试之间存在哪些差距?
+
+8. 催化剂失活、再生和稳定性问题还需进一步解决吗?
+   - 已确定哪些失活原因,如何表征?
+   - 哪些再生方法和条件显示了恢复活性的前景?
+   - 合成方法和组成如何提高氧化还原型催化剂的稳定性?
+   - 何种因素使非氧化还原型催化剂能在长时间反应中保持活性?
+
+9. N2O辅助丙烷脱氢有哪些独特的机理考量?
+   - N2O较弱的氧化性如何影响金属氧化物的氧化还原循环?
+   - 对催化剂的N2O激活模式存在哪些光谱学和计算见解?
+   - N2O与O2相比如何导致不同的活性氧物种和反应活性?
+   - 为何许多催化剂在使用N2O作为氧化剂时快速失活?
+
+10. 各种分子筛结构和组成对N2O辅助脱氢的适宜性如何?
+    - 哪些含铁分子筛催化剂显示了有前景的活性,其机理是什么?
+    - 框架类型、酸度和脱硝方法如何影响活性和选择性趋势? 
+    - 对于分子筛的N2O激活提出了什么机理情况?
+    - 活性位点的性质和结焦位置如何影响失活?
+
+11. 使用含硫化合物作为软氧化剂存在哪些独特考量?
+    - H2S或SO2如何作为共饲料来提升脱氢活性和(或)选择性?
+    - 哪些金属硫化物和硫酸盐表现出作为制备或原位生成催化剂的良好活性?
+    - 对催化剂激活和再生提出了哪些含硫化合物的机理?
+    - 副产物生成、分离、催化剂稳定性等方面存在哪些障碍?
+
+12. 氧卤化反应途径如何实现选择性烷烃激活?
+    - 与氧溴化相比,丙烷氧氯化在可行性和选择性方面有何区别?
+    - 何种催化剂组成实现适度的氧化还原能力以获得高产率?
+    - 分光与计算研究揭示了什么机理情况?
+    - 气相自由基途径如何与理想的表面驱动反应竞争?
+
+13. 哪些新颖的软氧化剂初步显示丙烷脱氢的前景?
+    - NOx、SOx等氧化剂如何通过氧化还原循环或自由基反应参与反应?
+    - 对这些途径存在哪些初步的计算和实验结果?
+    - 进一步评估其潜力还需哪些理论与实验工作?
+    - 这些新兴氧化剂与较为成熟的氧化剂之间转化见解的可能性如何?
+
+14. 理论方法在揭示机理和引导催化剂设计方面提供了哪些启示?
+    - DFT研究和微观动力学揭示了哪些热力学和动力学选择性描述子?
+    - 计算预测与实验观测的一致与不同之处在哪里,原因是什么?
+    -考虑氧化还原步骤,哪些高通量筛选方法是可行的?
+    - 计算如何进一步解决催化剂稳定性和再生问题?
+
+15. 哪些反应器配置和过程强化方法具有前景?
+    - 膜反应器如何实现更好的氧化剂输送控制?
+    - 微反应器在传热和动力学方面可能提供哪些益处?
+    - 化学循环概念如何将脱氢与氧化结合?
+    - 哪些技术经济分析需要评估工艺的可行性?
+
+16. 优化丙烷脱氢体系还存在哪些关键挑战和知识空白?
+    - 工作氧化还原循环、中间体和描述子存在哪些模糊之处?
+    - 如何在相关条件下延长催化剂使用寿命和稳定性?
+    - 反应工程和工艺方面需要哪些突破?
+    - 如何继续改进计算与实验的协同增效和机理理解?
+
+17. 丙烷脱氢技术进一步发展的前景和愿景是什么?
+    - 如何利用计算方法设计优化的多功能催化剂?
+    - 哪些原位表征技术可能带来突破性启示?
+    - 工艺强化方法将如何重塑丙烷脱氢实践?
+    - 哪些技术经济和生命周期分析应该指导研究优先顺序?
+ Here is a detailed question-based outline for a comprehensive review article on propane dehydrogenation catalysts:
+
+English Version:
+
+1. Foundations of propane dehydrogenation
+   - What is the role of propylene in the chemical industry and why is on-purpose production desirable?
+   - What are the main routes for propylene production and how does propane dehydrogenation compare?
+   - What are the key thermodynamic and kinetic considerations in propane dehydrogenation?
+   - What are the major challenges and limitations inherent to propane dehydrogenation?
+
+2. Catalyst design and optimization 
+   - What catalyst compositions have been explored, how do they compare in activity and stability, and what are their limitations?
+   - How does the inclusion of promoters such as Sn, Ga, and Zn affect catalyst performance?
+   - What are the synergistic effects between the active metal and the support?
+   - How do factors like particle size, exposed facets, and ensemble effects influence activity and selectivity?
+   - What insights have DFT studies provided into optimizing catalyst composition and geometry?
+
+3. Mechanisms and microkinetics
+   - What is the reaction network for propane dehydrogenation and what are the likely side reactions?
+   - How are elementary reaction rates and activation barriers calculated using DFT? 
+   - What kinetic models have been developed to describe catalyst deactivation?
+   - How do computational approaches like kMC simulations provide molecular-level insights?
+   - What descriptors correlate catalyst properties to optimal activity and selectivity?
+
+4. Deactivation via coking
+   - What is the composition and nature of coke deposits?
+   - How does coke distribute spatially on the catalyst and support?
+   - What are the impacts of coking on catalytic performance?
+   - How do factors like H2 co-feeding and metal-support interactions affect coking?
+   - What kinetic models describe coke formation and catalyst deactivation?
+
+5. Strategies for coke suppression
+   - How does altering feed composition with H2 and H2O mitigate coking?
+   - What changes in active metal ensembles, promoters, and particle size minimize coking?
+   - How does support engineering and doping help reduce coke accumulation?
+   - What unique benefits arise from single atom catalysts?
+   - How does confining metal clusters in zeolites enhance stability?
+
+6. Regeneration and characterization
+   - What methods can remove coke deposits and regenerate catalysts?
+   - How do factors like promotion affect coke combustion temperature?
+   - What characterization techniques probe coke distribution and properties?
+   - How does regeneration impact active phase sintering and dispersion?
+   - What mechanistic insights arise from operando studies during regeneration?
+
+7. Outlook and future directions
+   - What novel synthetic strategies can produce optimized active site geometries?
+   - How can computational approaches accelerate identification of ideal catalyst compositions?
+   - What new insights into coke formation mechanisms are needed from simulations?
+   - How can migration from metal to support be enhanced through interface engineering?
+   - What in situ characterization capabilities are required to probe working catalysts?
+
+中文版本:
+
+1. 丙烷脱氢基础知识
+   - 丙烯在化工行业中的作用是什么,为何有目的地生产丙烯是可取的?
+   - 丙烯的主要生产途径是什么,丙烷脱氢与其他途径相比有何优势?
+   - 丙烷脱氢的关键热力学和动力学考量是什么?
+   - 丙烷脱氢固有的主要挑战和局限性是什么?
+
+2. 催化剂设计和优化
+   - 已经探索了哪些催化剂组成,它们在活性和稳定性方面的比较以及各自的局限性是什么?
+   - 如Sn、Ga 和Zn等助剂的引入会如何影响催化剂性能?
+   - 活性金属和载体之间存在哪些协同效应?
+   - 诸如颗粒大小、曝光面和集团效应等因素会如何影响活性和选择性?
+   - DFT研究为优化催化剂组成和结构提供了哪些洞见?
+
+3. 机理和微观动力学
+   - 丙烷脱氢的反应网络是什么,可能的副反应有哪些?
+   - 如何用DFT计算初级反应的反应速率和活化能垒?
+   - 开发了哪些动力学模型来描述催化剂失活?
+   - 计算方法如kMC模拟如何提供分子水平的洞察? 
+   - 什么描述子将催化剂性质与最佳活性和选择性相关联?
+
+4. 炭化氢失活
+   - 炭化物沉积的组成和性质是什么?
+   - 炭化物在催化剂和载体上如何分布?
+   - 炭化对催化性能有何影响?
+   - 如H2共饲料和金属载体相互作用如何影响炭化?
+   - 什么动力学模型描述了炭化形成和催化剂失活?
+
+5. 抑制炭化的策略
+   - 改变馏分组成加入H2和H2O可减轻炭化程度吗?
+   - 改变活性金属团簇、助剂和颗粒大小可最小化炭化吗?
+   - 载体工程和掺杂如何有助于减少炭化积累?
+   - 单原子催化剂有何独特优势?
+   - 限制在分子筛中的金属簇如何增强稳定性?
+
+6. 再生和表征
+   - 什么方法可以去除炭化物和再生催化剂?
+   - 如助剂等因素如何影响炭化物的燃烧温度?
+   - 什么表征技术可以探测炭化物的分布和性质?
+   - 再生如何影响活性相烧结和分散?
+   - 操作过程研究可以提供哪些机理洞察?
+
+7. 前景和未来方向
+   - 什么新合成策略可以产生优化的活性位点几何结构?
+   - 计算方法如何加速识别理想催化剂组成?
+   - 对炭化形成机理还需要模拟提供哪些新的洞察?
+   - 如何通过界面工程增强从金属到载体的迁移?
+   - 需要哪些原位表征功能来探测工作催化剂?
+ Here is a detailed question-based outline for a comprehensive review article on propane dehydrogenation catalysts:
+
+English Version:
+
+1. What are the fundamental principles and mechanisms of propane dehydrogenation?
+   - What is the role of catalysts in enabling propane dehydrogenation?
+   - How does the Horiuti-Polanyi mechanism explain propane dehydrogenation kinetics?
+   - What are the key thermodynamic considerations for propane dehydrogenation?
+   - What are the major side reactions that can occur, and how do they impact process performance?
+   - What are the basic network models depicting the complex surface reactions involved?
+   
+2. What are the primary causes of catalyst deactivation in propane dehydrogenation?
+   - How does coke deposition impact catalyst stability and selectivity?
+   - What is the mechanistic origin of coke precursors on different catalyst surfaces?
+   - How do sintering processes like Ostwald ripening and particle migration lead to loss of active sites?
+   - What is the role of active metal volatilization and leaching in irreversible deactivation?
+   - How do computational approaches shed insights into coke formation kinetics?
+   
+3. How can metal promoters enable stable and selective propane dehydrogenation catalysts?
+   - What specific electronic and geometric effects do promoters like Sn, Ga, In, Zn induce in Pt?
+   - How does subsurface tuning using promoters like Mn further optimize Pt catalyst selectivity?
+   - What oxide synergies can promoters like Zr, Mg create on supports like SiO2, ZnO?
+   - Can DFT identify optimal binding energies imparted by promoters for desired reactions?
+   - What multipromoter systems show synergistic stability enhancement effects?
+   
+4. How can strong metal-support interactions be engineered into propane dehydrogenation catalysts?
+   - What is the role of surface organometallic chemistry in anchoring isolated active sites?
+   - How can zeolite dealumination introduce binding hydroxyl nests to incorporate metals?
+   - What encapsulation strategies can zeolites and overlay coatings offer for site stabilization?
+   - How do theoretical approaches guide design of optimized anchoring site environments?
+   - Can advanced characterization techniques probe true active site locations and metal-support bonding?
+
+5. What tailored support properties can overcome key limitations in propane dehydrogenation? 
+   - How does balancing support acidity prevent side reactions and coking?
+   - Can morphology control like sheets, nanomeshes improve mass transfer limitations?
+   - What advantages do hierarchical zeolites offer over conventional microporous forms?
+   - How do mesopores provide access to active sites while maintaining hydrothermal stability?
+   - Can computational screening identify optimal support textures for target reactions?
+   
+6. What are the current challenges and limitations in developing industrial propane dehydrogenation catalysts?
+   - What economic factors hinder widespread adoption of many academic catalyst designs?
+   - How scalable are emerging synthetic strategies for site isolation and encapsulation?
+   - What gaps remain in understanding synergistic effects between various catalyst components?
+   - How robust are optimized academic catalyst formulations under harsh industrial conditions?
+   - Where are more durable multifunctional systems needed to address prevailing stability issues?
+   
+7. What are promising directions and visions for propane dehydrogenation catalyst development?
+   - What novel characterization tools can shed new insights into active structures?
+   - How can computational approaches accelerate screening of multifaceted catalyst compositions?
+   - What new synthetic techniques may emerge for crafting designer active site environments?
+   - How can bioinspired approaches mimic enzymatic CH activation strategies?
+   - What transformational catalyst architectures could unlock new performance horizons?
+
+中文版本:
+
+1. 丙烷脱氢的基本原理和机制是什么?
+   - 催化剂在实现丙烷脱氢方面的作用是什么?
+   - Horiuti-Polanyi机理如何解释丙烷脱氢的动力学?
+   - 丙烷脱氢的关键热力学考虑因素是什么?
+   - 可能发生的主要副反应有哪些,它们如何影响过程性能?
+   - 描述涉及的复杂表面反应的基本网络模型?
+   
+2. 在丙烷脱氢中,催化剂失活的主要原因是什么?
+   - 焦炭沉积如何影响催化剂的稳定性和选择性?
+   - 在不同催化剂表面上,焦炭前体的机理起源是什么?
+   - Ostwald熟化和颗粒迁移等烧结过程如何导致活性位点的损失?
+   - 活性金属挥发和淋洗在不可逆失活方面的作用是什么?
+   - 计算方法如何提供焦炭形成动力学的见解?
+   
+3. 金属促进剂如何实现稳定且选择性好的丙烷脱氢催化剂?
+   - Sn、Ga、In、Zn等促进剂在Pt中的具体电子和几何效应是什么? 
+   - Mn等促进剂的亚表面调谐如何进一步优化Pt催化剂的选择性?
+   - Zr、Mg等促进剂在SiO2、ZnO等载体上产生的氧化物协同效应是什么?
+   - DFT能否确定促进剂所赋予的最佳结合能,以获得所需反应?
+   - 什么多促进剂体系显示出协同稳定性增强效果?
+   
+4. 如何在丙烷脱氢催化剂中工程化强大的金属-载体相互作用?
+   - 表面有机金属化学在锚定隔离活性位点方面的作用是什么?
+   - 沸石除醇化如何引入结合的羟基巢以掺入金属?
+   - 沸石和覆层涂层可以提供什么样的位点稳定的胶囊化策略?
+   - 理论方法如何指导优化的锚定位点环境的设计?
+   - 先进的表征技术可以探测真实的活性位点定位和金属-载体键合吗?
+   
+5. 哪些定制的载体性质可以克服丙烷脱氢的关键限制?
+   - 平衡载体酸度如何防止副反应和焦炭形成?
+   - 形态控制(薄片、纳米网)如何改进质量转移限制?
+   - 分层沸石与常规微孔形式相比有什么优势?
+   - 介孔如何在保持热稳定性的同时为活性位点提供通道?
+   - 计算筛选可以确定目标反应的最佳载体纹理吗?
+   
+6. 在开发工业丙烷脱氢催化剂方面目前存在哪些挑战和局限性?
+   - 什么经济因素阻碍了许多学术催化剂设计的广泛采用?
+   - 新兴的位点隔离和封装合成策略的可扩展性如何?
+   - 在理解各种催化剂组分之间的协同效应方面仍存在哪些差距?
+   - 在严苛的工业条件下,优化的学术催化剂配方的稳定性和鲁棒性如何?
+   - 在现有的稳定性问题上,需要更耐用的多功能系统吗?
+   
+7. 丙烷脱氢催化剂发展的前景和展望是什么?
+   - 哪些新颖的表征工具可以为活性结构提供新的见解?
+   - 计算方法如何加速多方面催化剂组成的筛选?
+   - 可能出现什么新合成技术来制备设计师活性位点环境?
+   - 生物启发法可以模拟哪些酶促CH激活策略?
+   - 什么转型的催化剂体系可以解锁新的性能地平线?
+ Here is a detailed 17-theme question-based outline for a review article on propane dehydrogenation catalysts, with the English version first followed by the Chinese translation:
+
+Introduction
+
+- What are the key applications and motivations for propane dehydrogenation to produce propene? 为什么要将丙烷脱氢制备丙烯,它有哪些关键应用和动机?
+
+- How do propane dehydrogenation catalysts compare to other routes for propene production in terms of efficiency, cost, and sustainability? 与其他制备丙烯的方法相比,丙烷脱氢催化剂在效率、成本和可持续性方面有哪些优势?
+
+- What are the general categories of propane dehydrogenation catalysts and what are their distinguishing features? 丙烷脱氢催化剂可以分为哪些大的类别,它们有哪些区别?
+
+Boron-Based Catalysts
+
+- What is unique about boron-based catalysts for propane dehydrogenation compared to traditional metal and metal oxide catalysts? 与传统金属和金属氧化物催化剂相比,用于丙烷脱氢的硼基催化剂有哪些独特之处?
+
+- How do different boron precursors and synthetic methods impact the dimensionality and dispersion of active sites? 不同的硼前体和合成方法如何影响活性位的维度和分散性?
+
+- What are the proposed active sites on boron-based catalysts and how are they formed under reaction conditions? 硼基催化剂上的proposed活性位是什么,它们是如何在反应条件下形成的?
+
+- How does the spatial configuration of active sites correlate with propane dehydrogenation performance? 活性位的空间配置与丙烷脱氢性能有哪些相关性?
+
+- What are the main strategies and benefits for constructing 1D, 2D and 3D boron active sites? 构建1D、2D 和 3D 硼活性位的主要策略和好处分别是什么?
+
+Reaction Mechanisms
+
+- What are the proposed surface-mediated reaction mechanisms on different boron-based catalysts? 在不同的硼基催化剂上,提出的表面中间反应机理是什么?
+
+- What experimental evidence supports the involvement of gas phase radical reactions? 有哪些实验证据支持气相自由基反应的参与?
+
+- How do the surface and gas phase reaction pathways synergize in the overall catalysis? 表面反应和气相反应通路如何协同总体催化?
+
+- What are the roles of ·OOH, ·C3H7 and other radicals? ·OOH、·C3H7等自由基起什么作用?
+
+- How does the confinement effect of porous structures impact radical reactions? 孔结构的约束效应如何影响自由基反应?
+
+- What are the proposed rate-determining steps on boron active sites? 在硼活性位上,提出的速率控制步骤是什么?
+
+Challenges and Opportunities 
+
+- What are the main limitations of boron-based propane dehydrogenation catalysts? 硼基丙烷脱氢催化剂的主要局限是什么?
+
+- How can the selectivity vs. conversion tradeoff be addressed? 如何解决选择性与转化率的权衡问题? 
+
+- What causes catalyst deactivation and boron leaching? 催化剂失活和硼溶出的原因是什么?
+
+- How can radical initiation and termination be controlled? 如何控制自由基的初始化和终止?
+
+- What is lacking in our current understanding of the reaction networks? 在当前对反应网络的理解上还存在哪些不足?
+
+Future Outlook
+
+- What progress is needed to meet propene productivity targets? 为了实现丙烯生产目标,还需要取得哪些进展?
+
+- How can computational studies better complement experimental work? 计算研究如何更好地补充实验工作?
+
+- What new characterization tools could provide insights into active sites? 哪些新型表征工具能对活性位提供洞见? 
+
+- What is the vision for designing next-generation boron-based propane dehydrogenation catalysts? 下一代硼基丙烷脱氢催化剂的设计愿景是什么?
+
+引言
+
+- 将丙烷脱氢制备丙烯有哪些关键应用和动机?
+
+- 与其他制备丙烯的方法相比,丙烷脱氢催化剂在效率、成本和可持续性方面有哪些优势? 
+
+- 丙烷脱氢催化剂可以分为哪些大的类别,它们有哪些区别?
+
+硼基催化剂
+
+- 与传统金属和金属氧化物催化剂相比,用于丙烷脱氢的硼基催化剂有哪些独特之处?
+
+- 不同的硼前体和合成方法如何影响活性位的维度和分散性?
+
+- 硼基催化剂上的proposed活性位是什么,它们是如何在反应条件下形成的?
+
+- 活性位的空间配置与丙烷脱氢性能有哪些相关性?
+
+- 构建1D、2D 和 3D 硼活性位的主要策略和好处分别是什么?
+
+反应机理
+
+- 在不同的硼基催化剂上,提出的表面中间反应机理是什么?
+
+- 有哪些实验证据支持气相自由基反应的参与?
+
+- 表面反应和气相反应通路如何协同总体催化?
+
+- ·OOH、·C3H7等自由基起什么作用?
+
+- 孔结构的约束效应如何影响自由基反应?
+
+- 在硼活性位上,提出的速率控制步骤是什么?
+
+挑战和机遇
+
+- 硼基丙烷脱氢催化剂的主要局限是什么? 
+
+- 如何解决选择性与转化率的权衡问题?
+
+- 催化剂失活和硼溶出的原因是什么?
+
+- 如何控制自由基的初始化和终止?
+
+- 在当前对反应网络的理解上还存在哪些不足?
+
+未来展望
+
+- 为了实现丙烯生产目标,还需要取得哪些进展?
+
+- 计算研究如何更好地补充实验工作?
+
+- 哪些新型表征工具能对活性位提供洞见?
+
+- 下一代硼基丙烷脱氢催化剂的设计愿景是什么?
+ Here is a detailed question-based outline for a comprehensive review article on propane dehydrogenation catalysts:
+
+English Version:
+
+1. Introduction to propane dehydrogenation 
+   
+   - What are the major downstream applications of propylene?
+   - How has the propylene supply-demand gap evolved over the years?
+   - What are the conventional and emerging propylene production technologies?
+   - Why is propane dehydrogenation an attractive route for propylene production?
+   
+2. Metal-oxide molecular sieve catalysts for propane dehydrogenation
+
+   - What are the typical ordered mesoporous silica materials used as catalyst supports? 
+   - How do the textural properties of supports like MCM-41, SBA-15, HMS impact metal dispersion and catalyst performance?
+   - What strategies like framework incorporation and heteroatom substitution are used to improve metal-support interactions?
+   - How do synthesis conditions and pretreatments affect the oxidation state and distribution of active metal sites?
+   - What are the typical mechanisms and rate-determining steps over mesoporous silica-supported catalysts?
+   
+3. Metal-zeolite catalysts for propane dehydrogenation
+
+   - What are the commonly used zeolite topologies like MFI and BEA? How does vary the Si/Al ratio impact Bronsted/Lewis acidity?
+   - What is the difference between post-synthesis and direct hydrothermal synthesis methods? 
+   - How does the zeolite pore architecture and heteroatom substitution affect active site localization?
+   - What is the identified function of Bronsted acid sites – beneficial or detrimental for propane activation?
+   - How does the dynamic evolution of isolated metal sites occur during pretreatment and reaction?
+   - What are the advanced techniques like iDPC-STEM and solid-state NMR used to identify active sites?
+   - How do ligands assist in synthesizing single atom active sites? What is their stabilization mechanism?
+   
+4. Hierarchical zeolite-supported catalysts
+
+   - What are the typical synthetic strategies like desilication and surfactant-assisted self-assembly?
+   - How does introducing mesoporosity impact mass transfer, metal dispersion, and Bronsted/Lewis acidity?  
+   - What is the effect of direct hydrothermal synthesis versus post-synthetic alkali treatment on the hierarchical structure?
+   - How does the presence of silanol nests enable unique active site structures like Pt-rare earth alloys?
+   - What are the advanced electron microscopy techniques used to visualize encapsulated metal clusters?
+   - What is the current status of non-noble metal catalysts based on hierarchical zeolites?
+   
+5. Computational insights into active sites and mechanisms
+
+   - How are DFT calculations used to screen potential active sites and reveal most favorable reaction mechanisms?
+   - What new theoretical techniques like metadynamics and 2D NMR simulations help identify dynamic active site evolution?
+   - How do the calculations explain experimental trends in activity/selectivity based on active site structure?
+   - What are the mechanistic insights obtained from modeling propane activation on isolated metal sites?
+   - What are the theoretical high-throughput screening approaches to predict promising active site-support combinations?
+   
+6. Challenges and strategies for catalyst regeneration
+
+   - What are the major deactivation mechanisms like sintering, coking, and leaching observed during regeneration?
+   - How does the zeolite crystal size, hydrothermal stability, and metal encapsulation impact regeneration capacity?  
+   - What are the advanced techniques like alkali-metal doping used to improve catalyst regeneration?
+   - How to minimize active site damage during oxidative regeneration while removing coke deposits?
+   - What is the current status of developing noble-metal free catalysts with high regeneration capacity?
+   
+7. Opportunities in scale up and commercialization 
+
+   - What metrics like cost, toxicity, and environmental impact drive industrial adoption?
+   - What are the emerging trends in green and solvent-free catalyst synthesis techniques?
+   - How can techniques like direct H2 reduction enable low-cost and large-scale synthesis?
+   - What is the current focus on developing rare-earth metal free and non-precious group metal catalysts?  
+   - How far are the top-performing lab-scale catalysts from pilot-scale demonstration and commercial viability?
+   - What are the engineering considerations around heat management and H2 selective removal at larger scales?
+
+中文版本:
+
+1. 丙烷脱氢反应简介
+   
+   - 丙烯的主要下游应用有哪些?
+   - 近年来丙烯供需缺口是如何变化的?
+   - 传统和新兴的丙烯生产技术有哪些?
+   - 为什么丙烷脱氢是丙烯生产的一种有吸引力的途径?
+   
+2. 氧化物分子筛催化剂用于丙烷脱氢反应
+
+   - 典型的有序介孔硅材料有哪些作为催化剂载体?
+   - 如MCM-41、SBA-15、HMS等载体的纹理性质如何影响金属分散和催化剂性能?
+   - 框架掺入和杂原子取代等策略如何改善金属与载体的相互作用?
+   - 合成条件和预处理如何影响活性金属位点的氧化态和分布?
+   - 介孔硅载体催化剂的典型机理和速率控制步骤是什么?
+   
+3. 金属沸石催化剂用于丙烷脱氢反应
+
+   - 常用的MFI和BEA等沸石结构有哪些?Si/Al比的变化如何影响Bronsted/Lewis酸性?
+   - 后处理合成和直接水热合成方法有何不同?
+   - 沸石孔结构和杂原子取代如何影响活性位点的定位?
+   - Bronsted酸位点的确定功能是有益还是有害于丙烷激活?
+   - 隔离金属位点在预处理和反应过程中的动态变化是什么?
+   - iDPC-STEM和固态NMR等先进技术用于识别活性位点。
+   - 配体如何协助合成单原子活性位点?它们的稳定机制是什么?
+   
+4. 层状沸石支持的催化剂
+
+   - 典型的合成策略如脱硅和表面活性剂助自组装法是什么?
+   - 引入介孔结构如何影响传质,金属分散和Bronsted/Lewis酸性?
+   - 直接水热合成与后处理碱处理的效果有何不同?
+   - 硅醇巢的存在如何形成独特的活性位点结构如Pt-稀土合金?
+   - 先进的电子显微技术用于可视化封装金属簇。
+   - 基于层状沸石的非贵金属催化剂的当前状态如何?
+   
+5. 对活性位点和机理的计算洞见
+
+   - DFT计算如何用于筛选潜在活性位点和揭示最有利的反应机理?
+   - 比如Metadynamics和2D NMR模拟等新理论技术如何帮助识别动态活性位点的演变?
+   - 这些计算结果如何基于活性位点的结构解释实验趋势的活性/选择性?
+   - 对隔离金属位点上的丙烷激活建模获得了哪些机理认识?
+   - 理论高通量筛选方法有哪些用于预测有前途的活性位点-载体组合?
+
+6. 催化剂再生的挑战和策略
+
+   - 主要的失活机制如烧结、结焦和溶出在再生过程中观察到哪些?
+   - 沸石晶体尺寸、水热稳定性和金属封装如何影响再生能力?
+   - 碱金属掺杂等先进技术用于改善催化剂再生用途是什么?
+   - 如何在去除炭渣沉积的同时最大限度地减少活性位点的损坏?
+   - 具有高再生能力的无贵金属催化剂的当前状态如何?
+   
+7. 规模化和商业化的机遇
+
+   - 成本、毒性和环境影响等指标如何驱动工业采用?
+   - 减少溶剂和绿色催化剂合成技术等新兴趋势是什么?
+   - 如直接H2还原等技术如何实现低成本和大规模合成?
+   - 当前发展稀土金属无和非贵金属催化剂的重点是什么?
+   - 顶级实验室催化剂距离中试放大和商业化还有多远?
+   - 更大规模下的热管理和选择性H2去除的工程考量是什么?
+ Here is a detailed question-based outline for a comprehensive review article on propane dehydrogenation catalysts, with the English version followed by the Chinese translation:
+
+Propane Dehydrogenation Catalysts Review Article Outline
+
+1. What are the major applications and demands for propene in the chemical industry?
+
+2. What are the conventional industrial methods for propene production? What are their main advantages and limitations?  
+
+3. Why is catalytic dehydrogenation of propane an attractive alternative route for propene production? How does it compare with other routes in terms of economics and sustainability?
+
+4. What are the main thermodynamic considerations governing catalytic dehydrogenation of propane? How do they affect conversion and selectivity?
+
+5. What are the major classes of catalysts studied for propane dehydrogenation, including metal oxides, supported metals, and bimetallics?
+
+6. How do factors like oxidation state, oxygen mobility, acid-base properties, and redox properties influence the activity and selectivity of oxide-based catalysts?
+
+7. What are the proposed mechanisms of propane activation and dehydrogenation over different oxide catalysts like Cr, V, Ga, and In oxides?
+
+8. How does the choice of support affect the dispersion, redox properties and stability of active phases in oxide catalysts?
+
+9. What are the advantages of supported metal and bimetallic catalysts? How does the synergy between different metals modulate selectivity?
+
+10. How do interfacial sites in bimetallic catalysts like Fe-Ni and Pt-Ni enable selective dehydrogenation over cracking?
+
+11. What is the role of promoters like Pt, Pd and Au in modifying the catalytic behavior and stability of propane dehydrogenation catalysts? 
+
+12. What are the mechanistic insights obtained from in-situ spectroscopy techniques like XANES, EXAFS, XRD, regarding the nature of active sites?
+
+13. How have DFT calculations elucidated reaction mechanisms and energetics of propane dehydrogenation over model catalyst surfaces?
+
+14. What are the major causes of catalyst deactivation, like coking, sintering, phase changes etc? How can they be mitigated through design strategies?
+
+15. What are some novel catalysts like carbides and nitrides emerging as alternatives to traditional oxide-based systems?
+
+16. What are some of the current challenges and limitations facing propane dehydrogenation catalysts?
+
+17. What are promising directions for future research to enhance the viability of propane dehydrogenation catalysts?
+
+丙烷脱氢催化剂综述大纲
+
+1. 丙烯在化工行业有哪些主要应用和需求?
+
+2. 工业上常用的丙烯生产方法有哪些?它们各自的主要优势和局限性是什么?
+
+3. 与其他方法相比,催化脱氢法生产丙烯有哪些吸引人的优势?在经济和可持续性方面如何?
+
+4. 控制催化脱氢反应的主要热力学考虑是什么?它们如何影响转化率和选择性?
+
+5. 已经研究过哪些主要类型的丙烷脱氢催化剂,包括金属氧化物、负载金属和双金属催化剂?
+
+6. 氧化态、氧的迁移能力、酸碱性质和氧化还原性质等因素如何影响氧化物基催化剂的活性和选择性?
+
+7. 在不同的氧化物催化剂如Cr、V、Ga和In氧化物上,丙烷的活化和脱氢机理是怎样被提出的?
+
+8. 支撑物的选择如何影响氧化物催化剂活性相的分散性、氧化还原性和稳定性?
+
+9. 负载金属和双金属催化剂有哪些优势?不同金属之间的协同效应如何调节选择性?
+
+10. 如Fe-Ni和Pt-Ni的双金属催化剂中的界面位点如何实现选择性脱氢而不是裂化?
+
+11. Pt、Pd 和 Au等助剂如何调节丙烷脱氢催化剂的催化性能和稳定性?
+
+12. XANES、EXAFS、XRD等原位表征技术提供了哪些关于活性位点本质的机理信息?
+
+13. DFT计算如何阐明了丙烷在模型催化剂表面的反应机理和能量关系?
+
+14. 催化剂失活的主要原因如共king、烧结、相变等是什么?如何通过设计策略减轻这些问题?
+
+15. 如碳化物和氮化物等新型催化剂作为传统氧化物催化剂体系的替代品正在出现,有哪些新进展?
+
+16. 目前丙烷脱氢催化剂还面临哪些挑战和局限?
+
+17. 未来哪些前沿研究方向有望提高丙烷脱氢催化剂应用的可行性?
+ Here is a detailed question-based outline for a review article on propane dehydrogenation catalysts, with the English version followed by the Chinese translation:
+
+Propane Dehydrogenation Catalysts: A Question-Based Outline for a Comprehensive Review
+
+1. What are the fundamental principles and mechanisms of catalytic propane dehydrogenation?
+    - What are the thermodynamic limitations and kinetic considerations?
+    - What are the possible reaction pathways and rate-determining steps?
+    - How do common catalysts like Cr2O3 and Pt mediate the dehydrogenation process?
+    - What are the roles of catalyst composition, oxidation state, morphology in activity and selectivity?
+
+丙烷脱氢催化剂:综述文章的问题提纲
+
+1. 催化丙烷脱氢的基本原理和机理是什么?
+    - 热动力学限制和动力学考虑是什么? 
+    - 可能的反应途径和速率控制步骤是什么?
+    - Cr2O3和Pt等常见催化剂如何调节脱氢过程?
+    - 催化剂组成、氧化态、形貌对活性和选择性的影响如何?
+
+2. What are the major challenges and side reactions in catalytic propane dehydrogenation? 
+    - What are the origins of catalyst deactivation via coking, sintering etc?
+    - How does propylene combustion occur and affect selectivity?
+    - What are the options to suppress secondary reactions?
+
+2. 催化丙烷脱氢中的主要挑战和副反应是什么?
+    - 催化剂脱活(焦炭化、烧结等)的起源是什么?
+    - 丙烯燃烧如何发生并影响选择性?
+    - 抑制次生反应的方法有哪些?
+
+3. How can process intensification concepts be applied to propane dehydrogenation?
+    - What is the role of membrane reactors?
+    - How does integration with hydrogen combustion help? 
+    - What are chemical looping and cyclic reaction schemes?
+    - What tandem catalysis configurations show promise?
+
+3. 工艺强化的概念如何应用于丙烷脱氢?
+    - 膜反应器的作用是什么?
+    - 与氢燃烧结合有何帮助?
+    - 什么是化学循环和循环反应方案?
+    - 哪些串联催化配置显示前景?
+
+4. What are the emerging computational methods to understand propane dehydrogenation?
+    - How are DFT and microkinetics applied? 
+    - What machine learning methods are promising?
+    - How do computations aid advanced characterization?
+    - What are multiscale modeling strategies?
+
+4. 理解丙烷脱氢的新兴计算方法是什么?
+    - DFT和微观动力学的应用是什么?
+    - 哪些机器学习方法前景可期?
+    - 计算如何辅助先进表征?
+    - 什么是多尺度建模策略?
+
+5. What novel catalyst compositions are being explored for propane dehydrogenation?
+    - How can reducible oxides enhance selectivity?
+    - What single atom catalysts show potential?
+    - How do bimetallics and intermetallics perform?
+    - Can catalyst-support interactions be beneficial?  
+
+5. 正在探索哪些新颖的催化剂组成以用于丙烷脱氢?
+    - 可还原氧化物如何增强选择性?
+    - 哪些单原子催化剂展现潜力?
+    - 双金属和金属间化合物的表现如何?
+    - 催化剂与载体的相互作用是否有利?
+
+6. What progress is being made in tailoring catalyst morphology?
+    - What are the effects of nanoparticles, nanowires etc?
+    - How can crystal facets be manipulated?
+    - What 3D architectures show advantages?
+    - How can hierarchical porosity help?
+
+6. 催化剂形貌调控方面取得了哪些进展?
+    - 纳米粒子、纳米线等的影响是什么?
+    - 如何操控晶体表面? 
+    - 哪些三维体系结构展现优势?
+    - 层次多孔性如何有利?
+
+7. What are the optimal tandem reactor configurations for propane dehydrogenation?
+    - What materials show promise as selective hydrogen oxidation catalysts?
+    - What interfacial designs promote coupled reactions?
+    - How can stability and coking be mitigated?
+    - What performance targets need to be met?
+
+7. 丙烷脱氢最佳的串联反应器配置是什么?
+    - 哪些材料作为选择氢氧化催化剂表现出前景?
+    - 什么界面设计可以促进耦合反应?
+    - 如何减轻稳定性和焦炭问题?
+    - 需要达到哪些性能目标?
+
+8. What characterization tools are critical to evaluate propane dehydrogenation catalysts?
+    - How can in-situ spectroscopy be applied?
+    - What microscopy methods are most useful?
+    - What can X-ray techniques reveal?
+    - How can isotopic labeling help decipher mechanisms? 
+
+8. 哪些表征工具对评价丙烷脱氢催化剂至关重要?
+    - 如何应用原位光谱技术?
+    - 最有用的显微技术是什么?
+    - X射线技术可以揭示什么?
+    - 同位素标记如何帮助解密机理?
+
+9. What progress on catalyst scale-up and manufacturing is still required?
+    - What are the options in fixed bed vs fluidized bed reactors?
+    - How can catalyst shaping and pelletization be optimized?
+    - What processing methods allow nanostructure control?
+    - What are the options in catalyst regeneration?
+
+9. 催化剂规模放大和制备方面还需要哪些进展?
+    - 固定床反应器与流化床反应器的选择有哪些?
+    - 如何优化催化剂成型和制粒?
+    - 哪些处理方法可以控制纳米结构? 
+    - 催化剂再生方面有哪些选择?
+
+10. How can process modeling guide propane dehydrogenation development?
+    - What are the multifaceted simulations required?
+    - How to couple kinetics with heat and mass transfer? 
+    - What are CFD requirements and capabilities?
+    - Can simulations accelerate scale-up?
+
+10. 工艺建模如何指导丙烷脱氢的发展?
+    - 需要哪些多方面的模拟?
+    - 如何couple动力学与传热传质?
+    - CFD的需求和功能是什么?
+    - 模拟可以加速规模放大吗?
+
+11. What are techno-economic considerations for propane dehydrogenation processes?
+    - How do operating conditions affect cost analysis?
+    - What are benchmarking methodologies?
+    - Where are the cost benefits in tandem systems?
+    - How close are current technologies to economic viability?
+
+11. 丙烷脱氢工艺的技术经济考量是什么?
+    - 工艺条件如何影响成本分析?
+    - 基准方法是什么?
+    - 串联系统的成本效益体现在哪里?
+    - 当前技术距离经济可行性还有多远?
+
+12. What safety factors need to be addressed in propane dehydrogenation?
+    - How to mitigate flammability and explosion risks?
+    - What standards exist for risk assessment?
+    - How can computational fluid dynamics aid safety?
+    - What inherent safety design principles apply?
+
+12. 丙烷脱氢中需要解决哪些安全因素?
+    - 如何减轻可燃爆炸危险?
+    - 存在哪些风险评估标准?
+    - 计算流体动力学如何有助于安全?
+    - 适用哪些固有安全设计原则?
+
+13. How can propane dehydrogenation processes be made more sustainable? 
+    - What are the waste and emission levels to minimize?
+    - What renewable feedstocks could be viable?
+    - How can catalysis enable the circular economy?
+    - What policy measures can drive sustainability?
+
+13. 如何使丙烷脱氢工艺更具可持续性?
+    - 需要最小化哪些废弃物和排放?
+    - 哪些可再生反应料可能可行?
+    - 催化如何实现循环经济?
+    - 哪些政策措施可以推动可持续发展?
+
+14. What recent advances in machine learning are applicable to propane dehydrogenation?
+    - How can high-throughput experiments be leveraged?
+    - What neural networks show advantages?
+    - How can automation and robotic science help?
+    - What data pipelines need development?
+
+14. 近期在机器学习方面的进展如何应用于丙烷脱氢?
+    - 如何利用高通量实验?
+    - 哪些神经网络展现出优势?
+    - 自动化和机器人科学如何提供帮助?
+    - 需要发展哪些数据流水线?
+
+15. Where are the major opportunities for future innovation in propane dehydrogenation catalysts?
+    - What novel compositions and morphologies can be targeted?
+    - How can in-situ characterization techniques move forward?
+    - What reactor and process improvements should be focused on?
+    - How to make catalyst design more systematic?
+
+15. 丙烷脱氢催化剂未来创新的主要机遇在哪里?
+    - 应该针对哪些新颖的组成和形貌?
+    - 原位表征技术如何推进?
+    - 应着重哪些反应器和工艺改进?
+    - 如何使催化剂设计更系统化?
+
+16. What are the commercialization barriers and prospects for propane dehydrogenation technologies?
+    - What policy incentives exist worldwide?
+    - How can renewables affect market dynamics?
+    - What IP landscape factors need consideration? 
+    - How close are needed cost and performance targets?
+
+16. 丙烷脱氢技术的商业化障碍和前景是什么?
+    - 全球存在哪些政策激励?
+    - 可再生能源如何影响市场动态?
+    - 需要考虑哪些知识产权格局因素?
+    - 目标成本和性能距离要求还有多远?
+
+17. How can international collaboration accelerate advances in propane dehydrogenation?
+    - What foundational principles need unified understanding?
+    - Where can open innovation platforms make an impact?
+    - What regional infrastructure capabilities need leveraging?
+    - How to synergize academic, industry and government efforts?
+
+17. 国际合作如何加速丙烷脱氢的进展?
+    - 需要统一理解哪些基础原理?
+    - 开放创新平台可以在哪些方面发挥影响?
+    - 需要利用哪些区域基础设施能力?
+    - 如何使学术界、产业界和政府的工作产生协同效应?

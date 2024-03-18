@@ -1,0 +1,765 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide specific details about the value and applications of propylene. It only briefly mentions that propylene is an important raw material for producing chemicals like polypropylene, without quantifying the demand or applications.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文献没有提供丙烯的价值和应用的具体细节。它只是简要提到丙烯是生产聚丙烯等化学品的重要原料,没有量化需求或应用。
+
+</Chinese version answer>
+
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+2. The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers. It does not describe specific mechanisms of catalyst activity.
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 该文献没有解释催化剂如何通过降低活化能垒来促进丙烷脱氢。它没有描述催化剂活性的具体机制。
+
+</Chinese version answer>
+
+
+<quotes>
+
+[1] "Molecular sieves with uniform porous structure, high thermal stability, and unique confinement capability have been proven to be ideal supports for well-dispersed active sites to generate efficient PDH performance."
+
+[2] "The VOx or CrOx supported on MCM-41 and SBA-15 has been widely investigated in PDH reactions"
+
+[3] "This Sn-HMS obtained 40% propane conversion with 90% propylene selectivity."
+
+[4] "The optimized catalyst with the highest amount of Td Co2+ sites achieves a propane conversion of 37% and propylene selectivity of 96%." 
+
+</quotes>
+
+<English version answer>
+
+3. The article introduces several major catalyst classes explored for propane dehydrogenation, including metal oxides like VOx/CrOx supported on mesoporous silica MCM-41 and SBA-15, Sn-incorporated hexagonal mesoporous silica (HMS), and Co-incorporated mesoporous silica. It also briefly mentions metal-zeolite and metal-hierarchical zeolite catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 该文献介绍了几类被研究用于丙烷脱氢的主要催化剂,包括载于介孔硅土MCM-41和SBA-15上的金属氧化物如VOx/CrOx,六方介孔硅土(HMS)掺杂的Sn,以及介孔硅土掺杂的Co。它还简要提到了金属沸石和金属分级沸石催化剂。
+
+</Chinese version answer>
+
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+
+4. The article does not discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation. It does not provide quantitative details of thermodynamics and kinetics.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 该文献没有讨论丙烷脱氢中涉及的热力学约束和动力学因素。它没有提供热力学和动力学的定量细节。
+
+</Chinese version answer>
+
+
+<quotes>
+
+[1] "DFT calculations further reveal that the Zn-O-Zn site possesses a lower apparent activation barrier (1.81 eV) than the single site Zn2+ (2.14 eV), which explains well the experimental observations."
+
+</quotes>
+
+<English version answer>
+
+5. The article briefly describes how DFT calculations revealed the binuclear Zn-O-Zn site has a lower activation barrier for propane dehydrogenation compared to single Zn2+ sites, which explained the superior catalytic performance of ZnO/S-1_3 catalyst. This provides an example of how DFT provided insights into propane dehydrogenation mechanisms on a specific catalyst.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 该文献简要描述了DFT计算揭示了二核Zn-O-Zn位点的丙烷脱氢活化能垒低于单核Zn2+位点,这解释了ZnO/S-1_3催化剂的卓越催化性能。这提供了DFT如何对特定催化剂的丙烷脱氢机理提供见解的一个例子。
+
+</Chinese version answer>
+
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+6. The article does not present any microkinetic modeling efforts or provide insights into propane dehydrogenation kinetics. It does not discuss specific rate equations, parameters, or kinetic models.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 该文献没有提供任何微观动力学建模工作,也没有提供对丙烷脱氢动力学的洞见。它没有讨论具体的速率方程、参数或动力学模型。
+
+</Chinese version answer>
+
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. The article does not describe any computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. It does not reveal any specific quantitative structure-activity relationships.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 该文献没有描述识别催化剂性质与丙烷脱氢性能相关的描述符的任何计算或实验工作。它没有揭示任何具体的定量结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide background information on the importance and applications of propylene production through propane dehydrogenation. It focuses more on recent progress in catalyst development.
+
+</English version answer> 
+
+<Chinese version answer>
+
+1. 这篇文章没有提供丙烯通过丙烷脱氢生产的重要性和应用的背景信息。它更多地关注于催化剂发展的最新进展。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+2. The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers or describe specific mechanisms of catalyst activity.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 这篇文章没有解释催化剂如何通过降低活化能垒促进丙烷脱氢,也没有描述催化剂活性的具体机制。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Molecular sieve supports with uniform porous structure, high thermal stability, and unique confinement capability have been proven to be ideal supports for well-dispersed active sites to generate efficient PDH performance."
+
+[2] "In this review, we describe the progress in the synthesis and PDH performance of metal-molecular sieve catalysts, including metal-mesoporous silica, metal-zeolite, and metal-hierarchical zeolite catalysts."
+
+</quotes>
+
+<English version answer>
+
+3. The article introduces major catalyst classes explored for propane dehydrogenation, including metal-mesoporous silica, metal-zeolite, and metal-hierarchical zeolite catalysts. It states that molecular sieve supports are ideal for generating efficient propane dehydrogenation performance due to their uniform porous structure, high thermal stability, and unique confinement capability.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 这篇文章介绍了被探索用于丙烷脱氢的主要催化剂类别,包括金属-介孔硅、金属-分子筛和金属-层状分子筛催化剂。它指出分子筛支撑材料由于其均匀的孔结构、高热稳定性和独特的限域作用,是产生高效丙烷脱氢性能的理想材料。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+4. The article does not discuss the thermodynamic constraints or kinetic factors involved in propane dehydrogenation. No quantitative details of thermodynamics or kinetics are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 这篇文章没有讨论丙烷脱氢中涉及的热力学约束或动力学因素。没有提供热力学或动力学的定量细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "DFT calculations further reveal that the Zn-O-Zn site possesses a lower apparent activation barrier (1.81 eV) than the single site Zn2+ (2.14 eV), which explains well the experimental observations."
+
+</quotes>
+
+<English version answer>
+
+5. The article briefly mentions that DFT calculations have been applied to study propane dehydrogenation mechanisms on some catalysts. As an example, it states that DFT calculations revealed a lower activation barrier on binuclear Zn-O-Zn sites compared to single-site Zn2+ sites, consistent with experimental results.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 文章简要提到DFT计算被应用于研究某些催化剂上的丙烷脱氢机理。例如,它指出DFT计算显示双核Zn-O-Zn位点的活化能垒低于单核Zn2+位点,与实验结果一致。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+
+6. The article does not present any microkinetic modeling efforts or insights into propane dehydrogenation kinetics. No rate equations, parameters, or kinetic models are discussed.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 这篇文章没有提出任何微观动力学建模工作或关于丙烷脱氢动力学的见解。没有讨论速率方程、参数或动力学模型。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. The article does not describe any computational or experimental work to identify structure-activity relationships or catalyst descriptors that correlate with propane dehydrogenation performance.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 这篇文章没有描述任何计算或实验工作来确定结构-活性关系,或确定与丙烷脱氢性能相关的催化剂描述符。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+
+<quotes>
+
+[1] Propylene is the important raw material for producing a wide variety of chemicals such as acrolein, polypropylene, acetone, propylene oxide, etc.
+
+[2] According to a report from IHS Markit Ltd. and Dow Chemical Inc., the global propylene supply demand market renders a big gap since 2015, and the propylene demand would keep growing at an average annual rate of 2% to 3% up to 2030.
+
+[3] Propane direct dehydrogenation (PDH) is an attractive technology for propylene production that has received extensive attention.
+
+[4] PDH is acknowledged as a structure-insensitive reaction where the CH bond cleavage can occur on every metal or metaloxygen site.
+
+[5] The harsh PDH conditions (i.e., high temperature, strongly reductive atmosphere, and frequent regeneration) easily cause catalyst deactivation through sintering and structural reconstruction. 
+
+[6] The stabilization of subnanometric active sites requires large surface area support with a strong metalsupport interaction, which cannot be fully satisfied by conventional Al2O3 support.
+
+[7] Molecular sieves with uniform porous structure, high thermal stability, and unique confinement capability have been proven to be ideal supports for well-dispersed active sites to generate efficient PDH performance.
+
+</quotes>
+
+<English version answer>
+
+1. Answer: The article provides background that propylene is an important chemical for producing various downstream chemicals like polypropylene, but its supply cannot meet growing demand. Propane dehydrogenation is an attractive way to produce propylene. 
+
+</English version answer> 
+
+<Chinese version answer>
+
+1. 回答:文章提供了丙烯是生产各种下游化学品(如聚丙烯)的重要化学品但其供应无法满足日益增长的需求背景。丙烷脱氢是生产丙烯的有吸引力的途径。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] In this review, we describe the progress in the synthesis and PDH performance of metal-molecular sieve catalysts, including metal-mesoporous silica, metal-zeolite, and metal-hierarchical zeolite catalysts. 
+
+[2] The strategies in identifying and regulating active site microstructure and metal-molecular sieve interactions as well as their correlations with active site structure and PDH mechanism are introduced simultaneously.
+
+[3] This review is expected to provide some guidance for future catalyst design based on utilizing the molecular sieves structural confinement to facilitate propane activation and active site stabilization.
+
+</quotes>
+
+<English version answer>
+
+2. Answer: The article reviews progress in synthesizing and characterizing metal-molecular sieve catalysts for propane dehydrogenation, including identifying how the molecular sieve structure impacts stabilization of active sites and the dehydrogenation mechanism. It aims to guide future catalyst design using molecular sieve structural confinement.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 回答:文章回顾了合成和表征金属分子筛丙烷脱氢催化剂的进展,包括识别分子筛结构如何影响活性位点的稳定和脱氢机理。它旨在指导未来利用分子筛结构限制来设计催化剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes> 
+
+<English version answer>
+
+3. Answer: The article does not explicitly explain how catalysts facilitate propane dehydrogenation by lowering activation barriers or discuss specific mechanisms.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 回答:文章没有明确解释催化剂如何通过降低活化能障碍来促进丙烷脱氢,也没有讨论具体的机理。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Molecular sieve supports possess a larger specific surface area and well-defined pores/cavities, which have been proven to possess stronger capability to prevent subnanometric metal species from sintering. 
+
+[2] Researchers have developed several efficient strategies to stabilize highly dispersed active sites on/within molecular sieves, which exhibit outstanding catalytic PDH performance, especially in catalytic lifetime and propylene selectivity.
+
+[3] Pt/Sn-SBA-15, PtFe/Sn-SBA-15, PtIn/Sn-SBA-15, PtSn@ ZSM-5, PtNa/Zn-ZSM-5, and PtZn/TS-1 are examples of supported metal catalysts. 
+
+[4] Sn-HMS, VOx-OMS, Co SAs/SiO2 NMs, Co-OMS, and Zn/S-1 are examples of metal oxide catalysts.
+
+[5] ZnOx/ZSM-5, CrOx/ZSM-5, Ga2O22+/ZSM-5, Zn/S-1, NiZn@S-1 are examples of zeolite catalysts.
+
+</quotes>
+
+<English version answer>
+
+4. Answer: The article introduces various catalyst classes explored for propane dehydrogenation, including supported metals (e.g. Pt/Sn-SBA-15), metal oxides (e.g. Sn-HMS), and metal-containing zeolites (e.g. ZnOx/ZSM-5). It states molecular sieves are good at stabilizing and dispersing active sites.
+
+</English version answer>
+
+<Chinese version answer>  
+
+4. 回答:文章介绍了各类被研究用于丙烷脱氢的催化剂,包括负载金属(例如Pt/Sn-SBA-15)、金属氧化物(例如Sn-HMS)和含金属分子筛(例如ZnOx/ZSM-5)。它指出分子筛善于稳定和扩散活性位点。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] X represents the Conv/Conveq wherein Conveq is the equilibrium conversion (calculated by Aspen Plus) under corresponding conditions.
+
+[2] Propane direct dehydrogenation (PDH) is an attractive technology for propylene production that has received extensive attention. Molecular sieve supports possess a larger specific surface area and well-defined pores/cavities, which have been proven to possess stronger capability to prevent subnanometric metal species from sintering.
+
+</quotes>
+
+<English version answer> 
+
+5. Answer: The article provides some thermodynamic context by mentioning equilibrium propane conversion calculated by Aspen Plus under different conditions. It also states molecular sieves help kinetically stabilize active sites against sintering at high temperatures. But overall few quantitative details of thermodynamics or kinetics are given.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 回答:文章提到了在不同条件下用Aspen Plus计算的平衡丙烷转化率,提供了一些热力学背景。它还指出分子筛有助于在高温下动力学稳定活性位点,防止团聚。但总的来说,几乎没有给出热力学或动力学的定量细节。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+6. Answer: The article does not describe any DFT calculations applied to study propane dehydrogenation mechanisms and pathways.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 回答:文章没有描述应用DFT计算来研究丙烷脱氢机理和途径的工作。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. Answer: The article does not present any microkinetic modeling of propane dehydrogenation kinetics.
+
+</English version answer>
+
+<Chinese version answer> 
+
+7. 回答:文章没有提出任何丙烷脱氢动力学的微观动力学建模。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+8. Answer: The article does not describe computational or experimental work to identify structure-activity relationships or descriptors correlating catalyst properties to propane dehydrogenation performance.
+
+</English version answer>
+
+<Chinese version answer>
+
+8. 回答:文章没有描述计算或实验工作来识别结构-活性关系或描述催化剂性质与丙烷脱氢性能的相关性。
+
+</Chinese version answer>
+
+</quotes>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+Answer: The article does not provide specific background information on the importance and applications of propylene production through propane dehydrogenation. It focuses more on discussing recent progress in catalyst development.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:本文没有提供丙烯通过丙烷脱氢生产的重要性和应用的具体背景信息。它更多地讨论了催化剂开发的最近进展。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes> 
+
+<English version answer>
+Answer: The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers or describe specific mechanisms of catalyst activity. It focuses more on summarizing different catalyst classes explored for this reaction.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:本文没有解释催化剂如何通过降低活化能垒来促进丙烷脱氢,也没有描述催化剂活性的具体机制。它更多地总结了为这一反应探索的不同催化剂类别。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+Answer: The article introduces major catalyst classes explored for propane dehydrogenation, including metal oxides, supported metals, alloys, and zeolites. Specific examples discussed include Pt, Cr, V, Zn, Ga, and Co based catalysts on supports like silica, alumina, and zeolites. 
+
+</English version answer>
+
+<Chinese version answer>
+
+答:本文介绍了为丙烷脱氢探索的主要催化剂类别,包括金属氧化物、负载金属、合金和分子筛。讨论的具体例子包括Pt、Cr、V、Zn、Ga和Co基催化剂,以二氧化硅、氧化铝和分子筛为载体。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+Answer: The article does not provide details on the thermodynamic constraints or kinetic factors involved in propane dehydrogenation. It focuses more on summarizing recent progress in catalyst development.
+
+</English version answer> 
+
+<Chinese version answer>
+
+答:本文没有提供丙烷脱氢涉及的热力学约束或动力学因素的细节。它更多地总结了催化剂开发的最新进展。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+Answer: The article does not describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. It focuses more on experimental catalyst synthesis and characterization.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:本文没有描述DFT计算如何应用于研究丙烷脱氢机制和途径。它更多地关注实验催化剂的合成和表征。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+Answer: The article does not present microkinetic modeling efforts or provide insights into propane dehydrogenation kinetics. It focuses more on experimental catalyst synthesis and characterization.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:本文没有呈现微观动力学建模的工作,也没有提供关于丙烷脱氢动力学的见解。它更多地关注实验催化剂的合成和表征。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+Answer: The article does not describe computational or experimental work to identify structure-activity relationships or catalyst descriptors that correlate with propane dehydrogenation performance. It focuses more on summarizing different catalyst systems explored rather than quantitative structure-activity correlations.
+
+</English version answer>
+
+<Chinese version answer>
+
+答:本文没有描述计算或实验工作来识别结构-活性关系或与丙烷脱氢性能相关的催化剂描述符。它更多地概述了所探索的不同催化剂体系,而不是定量的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+[1] Propylene is the important raw material for producing a wide variety of chemicals such as acrolein, polypropylene, acetone, propylene oxide, etc.
+
+[2] According to a report from IHS Markit Ltd. and Dow Chemical Inc., the global propylene supply demand market renders a big gap since 2015, and the propylene demand would keep growing at an average annual rate of 2% to 3% up to 2030.
+
+[3] Conventional propylene production mainly comes from fluid catalytic cracking and steam cracking of naphtha and heavy oil. Due to the rapid consumption of crude oil, these traditional propylene production technologies cannot satisfy current and future demands well.  
+
+</quotes>
+
+<English version answer>
+
+1. The article provides background that propylene is an important raw material for producing chemicals like acrolein, polypropylene, acetone, and propylene oxide. It states there is a large gap between propylene supply and demand that is projected to continue growing 2-3% annually through 2030. It notes conventional production from naphtha and heavy oil cracking cannot meet current and future demand due to crude oil consumption.  
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文提供了背景信息,丙烯是生产丙烯醛、聚丙烯、丙酮和丙烯氧化物等化学品的重要原料。文中指出,目前丙烯的供求间存在很大的缺口,预计到2030年,丙烯需求量将持续以每年2-3%的速度增长。它指出,由于原油消耗,传统的从石脑油和重油裂解生产的丙烯已经不能满足当前和未来的需求。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+2. The article does not directly explain how catalysts facilitate propane dehydrogenation by lowering activation barriers. It does not describe specific mechanisms of catalyst activity.
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 该文没有直接解释催化剂如何通过降低活化能垒促进丙烷脱氢。也没有描述催化剂活性的具体机理。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Molecular sieves with uniform porous structure, high thermal stability, and unique confinement capability have been proven to be ideal supports for well-dispersed active sites to generate efficient PDH performance. 
+
+[2] Pt-based and CrOx-based catalysts [are used in industry]. 
+
+[3] The high cost of Pt and environmental issues of CrOx drive researchers to explore efficient nonprecious and nontoxic alternatives.
+
+[4] Ordered mesoporous silica (OMS) and hierarchical zeolites are also typical molecular sieves [in addition to conventional zeolites].
+
+</quotes>
+
+<English version answer>
+
+3. The article introduces molecular sieves, Pt-based catalysts, CrOx-based catalysts, ordered mesoporous silica, and hierarchical zeolites as major catalyst classes explored for propane dehydrogenation. It states molecular sieves provide uniform pores to disperse active sites and their thermal stability and confinement effects improve PDH performance. Pt-based and CrOx-based catalysts are used industrially, but researchers aim to find non-precious and non-toxic alternatives due to cost and environmental issues.
+
+</English version answer>
+
+<Chinese version answer> 
+
+3. 该文介绍了分子筛、Pt基催化剂、CrOx基催化剂、有序介孔硅以及分层分子筛等丙烷脱氢的主要催化剂类别。文中指出,分子筛提供了均匀的孔结构来分散活性位点,它们的热稳定性和限域效应提高了丙烷脱氢的性能。Pt基和CrOx基催化剂在工业上得到应用,但由于成本和环境问题,研究人员旨在找到非贵金属和无毒的替代品。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+4. The article does not discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation. It does not provide quantitative details of thermodynamics and kinetics.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 该文没有讨论丙烷脱氢涉及的热力学约束和动力学因素,也没有提供热力学和动力学的定量细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Density functional theory (DFT) calculations reveal the electronic enriched Pt has a more negative d-band center, while the d-band center values negatively correlate with propylene selectivity for PtM@Pt models.
+
+[2] DFT calculations further reveal that the Zn-O-Zn site possesses a lower apparent activation barrier (1.81 eV) than the single site Zn2+ (2.14 eV), which explains well the experimental observations.
+
+</quotes>
+
+<English version answer>
+
+5. The article describes how DFT calculations revealed the d-band center of electron-enriched Pt negatively correlates with propylene selectivity over PtM@Pt catalysts. DFT also showed Zn-O-Zn sites have a lower apparent activation barrier than single Zn2+ sites, matching experiments.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 该文描述了DFT计算揭示了电子浓集的Pt的d带中心与PtM@Pt催化剂上的丙烯选择性之间呈负相关,DFT还显示Zn-O-Zn位点比单个Zn2+位点具有更低的表观活化能垒,与实验结果吻合。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+6. The article does not present microkinetic modeling efforts that provided insights into propane dehydrogenation kinetics. It does not discuss specific rate equations, parameters, or models.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 该文没有介绍微观动力学建模工作对丙烷脱氢动力学的见解。也没有讨论具体的速率方程、参数或模型。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+7. The article does not describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. It does not reveal specific structure-activity relationships.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 该文没有描述计算或实验工作识别出将催化剂性质与丙烷脱氢性能相关的描述子。也没有揭示具体的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+

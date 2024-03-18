@@ -1,0 +1,83 @@
+ <output>
+	<Relevance>
+		Yes
+	</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>0.1% Pt/Al2O3</Name>
+				<Type>Single Atom</Type>  
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>53%</ConversionRate>
+				<Selectivity>92%</Selectivity>
+				<Stability>Good</Stability>
+				<DeactivationRates>
+					<Rate>Minimal coking</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>575째C</ReactionTemperature>
+				<InletFlowRate>78 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>18.9 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+
+			<Catalyst>
+				<Name>0.3% Pt/Al2O3</Name>
+				<Type>Small Clusters</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>50%</ConversionRate>  
+				<Selectivity>85%</Selectivity>
+				<Stability>Moderate</Stability>
+				<DeactivationRates>
+					<Rate>Some coking</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>575째C</ReactionTemperature>
+				<InletFlowRate>78 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>18.9 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+
+			<Catalyst>
+				<Name>3% Pt/Al2O3</Name>
+				<Type>Nanoparticles</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>45%</ConversionRate>
+				<Selectivity>53%</Selectivity> 
+				<Stability>Poor</Stability>
+				<DeactivationRates>
+					<Rate>Significant coking</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>575째C</ReactionTemperature>
+				<InletFlowRate>78 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>18.9 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>0.1% Pt/Al2O3</Name>
+				<Type>Single Atom</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>53%</ConversionRate>
+				<Selectivity>92%</Selectivity>
+				<Stability>Good</Stability>
+				<DeactivationRates>
+					<Rate>Minimal coking</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>575째C</ReactionTemperature>
+				<InletFlowRate>78 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>18.9 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

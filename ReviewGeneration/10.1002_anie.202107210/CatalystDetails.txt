@@ -1,0 +1,86 @@
+ The document is relevant to propane dehydrogenation. Here is the extracted information in XML format:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>PtGa/SiO2</Name> 
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>PtGa-Ca/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ca</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Stability>Higher stability than PtGa/SiO2</Stability>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>PtGa-Pb/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element> 
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Pb</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Stability>Enhanced stability compared to PtGa/SiO2</Stability>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>PtGa-Ca-Pb/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ca</Element>
+					<Element>Pb</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Stability>Much greater stability than other catalysts</Stability>
+				<DeactivationRates>
+					<Rate>0.00033 h^-1</Rate>
+					<Rate>Mean catalyst lifetime = 3067 h</Rate> 
+				</DeactivationRates>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>PtGa-Ca-Pb/SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Ga</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ca</Element>
+					<Element>Pb</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<Stability>Much greater stability than other catalysts</Stability>
+				<DeactivationRates>
+					<Rate>0.00033 h^-1</Rate>
+					<Rate>Mean catalyst lifetime = 3067 h</Rate>
+				</DeactivationRates>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

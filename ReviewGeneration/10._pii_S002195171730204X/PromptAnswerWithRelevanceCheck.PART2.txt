@@ -1,0 +1,589 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses solely on PtSn bimetallic catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+1. 这篇文章没有比较金属和氧化支持金属催化剂的选择性配置文件。它仅关注 PtSn 双金属催化剂。
+
+</Chinese version answer>
+
+<quotes>
+[1] A series of PtSn/TS-1 catalysts with systematically controlled zeolite sizes were successfully synthesized.
+
+[2] The contents of platinum and tin in the final catalyst were fixed at 0.5 and 0.6 wt.%, respectively.
+
+[3] Dissection of diffraction peaks indicates that the smaller samples show a lower diffraction intensity generally...Particularly, no peaks of crystalline platinum or tin are detected in any sample, which indicates a very small size of these.
+
+[4] The initial conversion of propane can reach as high as 53.5% and is still as high as 52.4% in the fourth cycle.
+
+</quotes>
+
+<English version answer>
+
+2. Yes, the article evaluates PtSn bimetallic catalysts for propane dehydrogenation. It synthesizes a series of PtSn/TS-1 catalysts with 0.5 wt% Pt and 0.6 wt% Sn, showing high initial propane conversion up to 53.5% that remains stable after multiple cycles. The PtSn nanoparticles are highly dispersed and have small size based on the XRD patterns.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 是的,这篇文章评估了 PtSn 双金属催化剂用于丙烷脱氢反应。它合成了一系列含有 0.5 wt% Pt 和 0.6 wt% Sn 的 PtSn/TS-1 催化剂,显示出高达 53.5% 的初步丙烷转化率,并在多循环后保持稳定。根据 XRD 图谱,PtSn 纳米粒子高度分散且体积很小。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not investigate electronic and geometric effects of the secondary metal in the PtSn bimetallic catalysts. It focuses on the crystal size effects of the TS-1 zeolite support.
+
+</English version answer> 
+
+<Chinese version answer>
+3. 不,这篇文章没有研究 PtSn 双金属催化剂中第二金属的电子和几何效应。它关注的是 TS-1 分子筛支持体的晶体尺寸效应。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in the bimetallic catalysts. It only studies PtSn bimetallic catalysts without subsurface promoters.
+
+</English version answer>
+
+<Chinese version answer>
+4. 不,这篇文章没有探讨如 Re 或 Mn 等亚表面促进剂在双金属催化剂中的应用。它仅研究了不含亚表面促进剂的 PtSn 双金属催化剂。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in the PtSn bimetallic catalysts attributed to ensemble and/or ligand effects. It does not investigate the synergy between Pt and Sn.
+
+</English version answer>
+
+<Chinese version answer>
+5. 不,这篇文章没有描述 PtSn 双金属催化剂中金属之间的任何协同效应,这些效应可归因于集合和/或配体效应。它没有研究 Pt 和 Sn 之间的协同作用。
+
+</Chinese version answer>
+
+<quotes>
+[1] A series of PtSn/TS-1 catalysts with systematically controlled zeolite sizes were successfully synthesized. 
+
+[2] All PtSn/TS-1 samples exhibit typical MFI-type XRD patterns at (011), (020), (051), (303), (313), and (532), as observed in the 2θ ranges of 7.88.7 and 2225, implying the high purity of catalysts.
+
+[3] The TS-1 zeolites have an average crystal diameter of 100 nm initially and increase by 2, 3, or even 50 times when the synthesis conditions are changed; the largest TS-1 crystals are approximately 5.7 μm.
+
+</quotes>
+
+<English version answer>
+
+6. Yes, the article evaluates MFI-type zeolite TS-1 as the support for the PtSn catalysts for propane dehydrogenation. It synthesizes PtSn catalysts supported on TS-1 with systematically controlled crystal sizes from 100 nm to 5.7 μm, and shows they exhibit the typical MFI XRD patterns.
+
+</English version answer>
+
+<Chinese version answer>
+6. 是的,这篇文章评估了 MFI 型沸石 TS-1 作为 PtSn 催化剂的载体用于丙烷脱氢反应。它合成了采用系统控制晶体尺寸为 100 nm 至 5.7 μm 的 TS-1 支持的 PtSn 催化剂,并表明它们展示了典型的 MFI XRD 图样。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity. It focuses only on the crystal size effects for the purely siliceous TS-1 zeolite support. 
+
+</English version answer>
+
+<Chinese version answer>
+7. 不,这篇文章没有研究调节沸石 Si/Al 比或引入介孔度的效果。它仅关注纯硅质 TS-1 分子筛支持体的晶体尺寸效应。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes.
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+1. 这篇文章没有对比金属和氧化金属支持的催化剂的选择性。
+</Chinese version answer>
+
+<quotes>
+[1] Bimetallic PtSn-based catalysts exhibit higher catalytic activity and better tolerance of coke formation [2].
+
+[2] PtSn/TS-1(100 nm) catalyst is continuously regenerated and tested. After the redispersion of PtSn active components and coke combustion, the catalyst still preserves its better catalytic performance, which makes it suitable for commercial application.
+</quotes>
+
+<English version answer>
+2. Yes, the article evaluates PtSn bimetallic catalysts for propane dehydrogenation. It provides data showing improved activity and coke tolerance compared to monometallic Pt catalysts. 
+
+</English version answer>
+
+<Chinese version answer>
+2. 是的,这篇文章评估了PtSn双金属催化剂用于丙烷脱氢。它提供的数据表明,与单金属Pt催化剂相比,活性和抗焦炭性得到提高。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes.
+</quotes>
+
+<English version answer>
+3. No, the article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts.
+</English version answer> 
+
+<Chinese version answer>  
+3. 否,文章并未研究双金属和合金催化剂中第二金属的电子效应和几何效应。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes.
+</quotes>
+
+<English version answer>  
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity.
+</English version answer>
+
+<Chinese version answer>
+4. 否,文章没有探讨在双金属和合金催化剂中使用Re或Mn等下层促进剂来调节选择性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes.
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects.
+</English version answer>
+
+<Chinese version answer>  
+5. 否,文章没有描述双金属或合金催化剂中的金属之间的任何协同效应,这些效应归因于团簇效应和/或配体效应。
+</Chinese version answer>
+
+<quotes>
+[1] A series of PtSn/TS-1 catalysts with systematically controlled zeolite sizes were successfully synthesized. The particle sizes of the supports are in the range from 100 nm to 5.72 μm, while keeping a narrow size distribution.
+
+[2] The minimal size TS-1 (100 nm)-supported PtSn catalyst gave the best catalytic performance and almost preserved the activity after a four-cycle reaction. 
+
+[3] Supports with suitable physical morphology (small crystal size accompanied by hierarchical pore) and chemical properties (acidity) are of fundamental importance for the PDH reaction.
+</quotes>
+
+<English version answer>
+6. Yes, the article evaluates TS-1 zeolite supports with MFI structure for propane dehydrogenation catalysts. It synthesizes TS-1 supports with sizes from 100 nm to 5.72 μm and shows the 100 nm TS-1 support gives the best catalytic performance due to suitable physical morphology and acidity.
+</English version answer>
+
+<Chinese version answer>  
+6. 是的,文章评价了MFI结构的TS-1分子筛支持用于丙烷脱氢催化剂。它合成了100nm到5.72μm大小的TS-1支持,并显示100nm TS-1支持提供了最佳的催化性能,归因于合适的物理形态和酸度。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes.
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. It only studies the effect of crystallite size using purely siliceous TS-1 zeolite.
+</English version answer>
+
+<Chinese version answer>
+7. 否,文章没有研究改变分子筛Si/Al比或者引入介孔性对丙烷脱氢催化剂性能的影响。它仅仅研究了使用纯硅TS-1分子筛的晶粒尺寸效应。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Unfortunately there are no relevant quotes from the given literature that directly address the questions asked. The article does not compare selectivity profiles of metallic versus oxidized supported metal catalysts, evaluate Pt alloy catalysts like Pt-Sn, investigate electronic/geometric effects or subsurface promoters in bimetallic catalysts, describe synergistic ensemble/ligand effects in bimetallics, or evaluate different zeolite supports or their effects on propane dehydrogenation performance.
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+
+1. The article does not compare selectivity profiles of metallic versus oxidized supported metal catalysts. No examples or explanations of selectivity modulation are provided.
+
+2. The article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. No specific data or insights into performance modulation are provided. 
+
+3. The article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. No specific examples or structure-function insights are revealed.
+
+4. The article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No specific examples or data are provided.
+
+5. The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+
+6. The article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.
+
+7. The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文献没有比较金属态和氧化态载体金属催化剂的选择性谱。没有提供选择性调变的具体示例和解释。
+
+2. 该文献没有评估任何Pt合金催化剂,如Pt-Sn、Pt-Ga、Pt-Zn,用于丙烷脱氢。没有提供性能调变的具体数据或见解。
+
+3. 该文献没有研究双金属和合金催化剂中第二金属的电子和几何效应。没有揭示具体示例或结构-功能关系的见解。
+
+4. 该文献没有探讨在双金属和合金催化剂中使用Re或Mn等次表面促进剂来调节选择性。没有提供具体示例或数据。
+
+5. 该文献没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于集团和/或配体效应。没有提供具体示例或解释。
+
+6. 该文献没有评估任何MFI、FER或BEA结构等沸石载体,用于丙烷脱氢催化剂。没有提供具体示例、数据或见解。
+
+7. 该文献没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。没有揭示具体示例或结构-功能关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses solely on evaluating bimetallic PtSn catalysts supported on titanosilicate (TS-1) zeolites of varying crystal sizes. No comparison is made to other oxidation states or non-alloyed catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 否,本文没有比较金属态和氧化态载体催化剂的选择性曲线。它仅仅专注于评估不同晶粒大小的硅钛质沸石(TS-1)负载的双金属 PtSn 催化剂。没有与其他氧化态或非合金催化剂进行比较。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+2. Yes, the article evaluates PtSn bimetallic catalysts for propane dehydrogenation. It synthesizes PtSn/TS-1 catalysts with different TS-1 particle sizes from 100 nm to 5.72 μm and evaluates their performance for propane dehydrogenation. The 100 nm PtSn/TS-1 catalyst shows the highest 53.5% propane conversion and stable 47.7% conversion after 7 hours.  
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 是的,本文评估了PtSn双金属催化剂用于丙烷脱氢反应。它合成了不同TS-1粒子大小从100 nm到5.72 μm的PtSn/TS-1催化剂,并评估了它们在丙烷脱氢反应中的性能。100 nm PtSn/TS-1催化剂显示出最高的53.5%丙烷转化率,并在7小时后保持稳定的47.7%转化率。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. No, the article does not specifically investigate electronic and geometric effects of the secondary metal Sn in the PtSn bimetallic catalysts. It does not systematically vary the Sn content or oxidation state. The focus is on the effect of zeolite particle size. No insights into Sn modulation of catalyst performance are provided.
+
+</English version answer> 
+
+<Chinese version answer>
+
+3. 否,本文没有具体研究PtSn双金属催化剂中第二金属Sn的电子和几何效应。它没有系统地改变Sn的含量或氧化态。重点是沸石粒子大小的效应。没有提供Sn调控催化剂性能的见解。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes 
+
+</quotes>
+
+<English version answer>
+
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in the bimetallic PtSn catalysts. It only evaluates the PtSn alloy catalysts supported on TS-1 zeolites. No data on subsurface promoters is provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 否,本文没有探索在PtSn双金属催化剂中使用Re或Mn等亚表面促进剂。它仅评估了负载在TS-1沸石上的PtSn合金催化剂。没有提供亚表面促进剂的数据。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+5. No, the article does not describe any synergistic effects between Pt and Sn metals in the bimetallic catalysts attributed to ensemble and/or ligand effects. It does not investigate the modulation of Pt-Sn interactions or geometries. The focus is solely on the zeolite support effects. No insights into metal-metal synergy are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 否,本文没有描述Pt和Sn金属在双金属催化剂中的任何协同效应,这些效应归因于团簇和/或配体效应。它没有研究Pt-Sn相互作用或几何形状的调节。重点仅仅在于沸石支撑的效应。没有提供金属间协同作用的见解。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "To address this problem, methods are still needed to reduce the acid content and strength by adding alkali (earth) metal. The application of new zeolites with lower acidity is still promising and important to the main reaction."
+
+[2] "The TS-1 samples have no strong acid sites, as evident from the NH3 TPD curves shown in Fig. 5A. Only one desorption peak at 160 C is observed, corresponding to a weak acid site."  
+
+[3] "It is also worthwhile to note that the acid properties of the catalysts have a large effect on the catalytic performance including propane conversion, selectivity to propylene, and stability of the catalysts."
+
+</quotes>
+
+<English version answer>
+
+6. Yes, the article evaluates titanosilicate zeolite TS-1 as a support for propane dehydrogenation catalysts. It notes that TS-1 exhibits only weak acidity compared to conventional zeolites like ZSM-5, avoiding side reactions like cracking and coking. NH3-TPD data in Fig. 5 shows TS-1 has only a single peak at 160°C indicating weak acid sites, while ZSM-5 has additional strong acid sites. The weak acidity of TS-1 is noted to improve propane conversion, propylene selectivity and catalyst lifetime compared to ZSM-5.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 是的,本文评估了硅钛质沸石TS-1作为丙烷脱氢催化剂载体。它指出,与传统沸石(如ZSM-5)相比,TS-1仅仅展示弱酸性,避免了裂化和结焦等副反应。图5中的NH3-TPD数据显示,TS-1仅有单一峰位于160°C,表示弱酸中心,而ZSM-5有额外的强酸中心。文中指出TS-1的弱酸性与ZSM-5相比可以提高丙烷转化率、丙烯选择性和催化剂使用寿命。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The TS-1 zeolites have an average crystal diameter of 100 nm initially and increase by 2, 3, or even 50 times when the synthesis conditions are changed; the largest TS-1 crystals are approximately 5.7 μm."
+
+[2] "The higher surface area and the existence of hierarchical porosity in smaller TS-1 zeolites result in a significant improvement in catalytic performance." 
+
+[3] "Low resistance to intercrystalline diffusion facilitates the departure of propylene from the active sites, which avoids some further side reactions, such as coking. Hence, the lifetime of smaller TS-1 zeolite-supported PtSn catalysts is much longer than that of the larger samples, as discussed above."
+
+</quotes>
+
+<English version answer>
+
+7. Yes, the article investigates the effects of tuning TS-1 crystal size from 100 nm to 5.7 μm. Smaller crystal size introduces mesoporosity between crystals, enhancing mass transfer. The 100 nm catalyst shows higher surface area and hierarchical porosity, significantly improving propane conversion to 53.5% and catalyst lifetime. Faster diffusion through intercrystalline mesopores avoids side reactions like coking, increasing lifetime.
+
+</English version answer> 
+
+<Chinese version answer>
+
+7. 是的,本文研究了调节TS-1晶粒大小从100 nm到5.7 μm的效应。较小的晶粒大小在晶粒之间引入了介孔,增强了质量传递。100 nm催化剂显示出更高的表面积和层次多孔结构,显著提高了丙烷转化率至53.5%和催化剂使用寿命。 通过晶格间介孔更快的扩散避免了结焦等副反应,增加了使用寿命。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+15. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+15. 本文没有比较金属与氧化物支持金属催化剂的选择性。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Bimetallic PtSn/TS-1 catalysts were prepared by the incipient-wetness impregnation method."
+
+[2] "The contents of platinum and tin in the final catalyst were fixed at 0.5 and 0.6 wt.%, respectively."
+
+[3] "The PtSn/TS-1(100 nm) catalyst exhibits the best catalytic performance." 
+
+[4] "Compared with traditional PtSn/Al2O3 catalysts, the PtSn/TS-1 catalyst shows both higher selectivity and conversion due to electronic and steric factors."
+
+</quotes>
+
+<English version answer>
+
+16. Yes, the article evaluates PtSn bimetallic catalysts for propane dehydrogenation. It prepares PtSn/TS-1 catalysts with 0.5 wt% Pt and 0.6 wt% Sn, and shows the PtSn/TS-1(100 nm) catalyst has the best performance in terms of selectivity and conversion compared to traditional PtSn/Al2O3 catalysts. 
+
+</English version answer>
+
+<Chinese version answer>
+
+16. 是的,本文评估了PtSn双金属催化剂用于丙烷脱氢反应。它准备了含0.5 wt% Pt和0.6 wt% Sn的PtSn/TS-1催化剂,结果显示PtSn/TS-1(100 nm)催化剂相比传统的PtSn/Al2O3催化剂,在选择性和转化率方面表现最好。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+17. No, the article does not specifically investigate electronic and geometric effects of the secondary metal in the PtSn bimetallic catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+17. 否,本文没有具体研究PtSn双金属催化剂中第二金属的电子效应和几何效应。
+
+</Chinese version answer> 
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+18. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts.
+
+</English version answer> 
+
+<Chinese version answer>
+
+18. 否,本文没有探索在双金属和合金催化剂中使用Re或Mn等亚表面促进剂。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+19. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+19. 否,本文没有描述双金属或合金催化剂中的金属之间的协同效应。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "The channels of microporous aluminosilicates are surrounded by catalytically active strong acid sites, which cause the cracking of alkanes and cut back the desired products."
+
+[2] "To address this problem, methods are still needed to reduce the acid content and strength by adding alkali (earth) metal."  
+
+[3] "The application of new zeolites with lower acidity is still promising and important to the main reaction."
+
+[4] "Supports with suitable physical morphology (small crystal size accompanied by hierarchical pore) and chemical properties (acidity) are of fundamental importance for the PDH reaction."
+
+[5] "The constituent elements of support in different catalysts can influence their acidity."
+
+</quotes>
+
+<English version answer> 
+
+20. Yes, the article evaluates zeolite supports like TS-1 with MFI structure for propane dehydrogenation catalysts. It shows TS-1 with lower acidity compared to ZSM-5 is promising to avoid side reactions like cracking while maintaining high activity for propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer>
+
+20. 是的,本文评估了MFI结构的TS-1等沸石支持物用于丙烷脱氢催化剂。结果显示,相比ZSM-5,酸性更低的TS-1有望避免裂化等副反应,同时保持高的丙烷脱氢活性。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+21. No, the article does not investigate effects of tuning Si/Al ratio or incorporating mesoporosity in the zeolite supports. It focuses on the crystal size effects.
+
+</English version answer>
+
+<Chinese version answer>
+
+21. 否,本文没有研究调节Si/Al比或者在沸石载体中引入介孔的效果。文中主要关注晶粒大小的效应。
+
+</Chinese version answer>
+
+</Answer>
+

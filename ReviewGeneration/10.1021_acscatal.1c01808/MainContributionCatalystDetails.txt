@@ -1,0 +1,39 @@
+ Based on the details in the document, this is related to propane dehydrogenation.
+
+The pivotal scientific contribution is the PtZn intermetallic alloy nanoparticle catalyst supported on mesoporous zeolite (MZ).
+
+The output in XML format is:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<MainContribution>
+			<Catalyst>
+				<Name>PtZn intermetallic alloy nanoparticle catalyst</Name>
+				<Type>Alloy</Type>
+				<CompositionElements>
+					<Element>Pt</Element> 
+					<Element>Zn</Element>
+				</CompositionElements>
+				<AlloyDetails>
+					<StructureType>Intermetallic Compounds</StructureType>
+					<PreparationMethod>Co-impregnation</PreparationMethod>
+				</AlloyDetails>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Zn</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Zeolites</SupportMaterial>
+				<ConversionRate>40% (initial)</ConversionRate>
+				<Selectivity>98% (propylene)</Selectivity>
+				<Stability>High stability, took 20 days to reach half of initial conversion</Stability>
+				<DeactivationRates>
+					<Rate>0.006 gcoke gcat-1 h-1 (coke formation rate)</Rate> 
+				</DeactivationRates>
+				<ReactionTemperature>580 Â°C</ReactionTemperature>
+				<InletFlowRate>13 h-1 (WHSVtotal)</InletFlowRate>
+				<CatalystLoadingOrGHSV>1300 h-1 (WHSVPt)</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

@@ -1,0 +1,537 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+
+[1] "Propene is widely used for the manufacture of a large number of chemicals relevant for our everyday life [1], [2]. Its production and demand continue to grow because of the higher consumption of the downstream products made of propene." 
+
+[2] "Propene is mainly produced through steam (6065%) or fluid catalytic cracking (30%) of various oil fractions [5], [6]. However, these two processes cannot fulfill the demands for propene."
+
+[3] "PDH is one of the largest processes for on-purpose propene production and offers high propene selectivity. The two main industrial processes are Catofin and Oleflex utilizing CrOx/Al2O3 and Pt/Al2O3 based catalysts respectively [3]."
+
+[4] "Such catalysts are highly active and selective, however, have some drawbacks [3], [9], [10], [11]. In particular, Pt/Al2O3 is expensive and should be treated under chlorine atmosphere to re-disperse platinum species [3], while Cr(VI) may cause various health effects."
+
+</quotes>
+
+<English version answer>
+
+1. The article provides background that propylene is widely used to manufacture many important chemicals and its demand is increasing due to high consumption of downstream propylene products. It states that currently 60-65% of propylene is produced from steam cracking and 30% from fluid catalytic cracking of oil fractions, but these processes cannot meet increasing demand. Propane dehydrogenation (PDH) is an important on-purpose propylene production route with high selectivity, with the main industrial processes utilizing CrOx/Al2O3 and Pt/Al2O3 catalysts.  
+
+2. The article explains that catalysts like CrOx/Al2O3 and Pt/Al2O3 lower the activation energy barriers for propane dehydrogenation to occur. It does not go into details about specific mechanisms by which this occurs.
+
+3. The article introduces CrOx/Al2O3, Pt/Al2O3, and ZrO2 as catalysts explored for propane dehydrogenation. It also briefly mentions catalysts based on ZnO, GaOx, VOx, isolated FeII, and CoII. No details are provided about supported metals, alloys, or zeolites.
+
+4. The article does not discuss thermodynamic constraints or provide quantitative kinetic details about propane dehydrogenation. 
+
+5. The article describes using DFT calculations to study propane dehydrogenation mechanisms and pathways over defective monoclinic and tetragonal ZrO2 surfaces. The calculations suggest dehydrogenation occurs on two Zr cation sites neighboring an oxygen vacancy, with higher barriers on tetragonal ZrO2.
+
+6. The article does not present any microkinetic modeling of propane dehydrogenation kinetics.
+
+7. The article describes computational and experimental work correlating ZrO2 crystallite size and phase (monoclinic vs tetragonal) to propane dehydrogenation activity and selectivity. Smaller monoclinic crystallites show higher activity and propene selectivity due to higher concentration of proposed active sites.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文提供了丙烯被广泛用于制造许多重要化学品的背景知识,以及其需求因下游丙烯产品的高消费而增长。它指出目前60-65%的丙烯来自蒸汽裂解,30%来自各种石油馏分的流化催化裂解,但这些过程不能满足日益增长的需求。丙烷脱氢(PDH)是一种重要的正丙烯生产途径,选择性高,其主要工业过程使用CrOx/Al2O3 和Pt/Al2O3 催化剂。
+
+2. 该文解释了CrOx/Al2O3和Pt/Al2O3等催化剂能够降低丙烷脱氢所需的活化能垒。但没有详细讨论这通过什么具体机制发生的。
+
+3. 该文提到了CrOx/Al2O3、Pt/Al2O3和ZrO2等被研究过的丙烷脱氢催化剂。它还简要提到了基于ZnO、GaOx、VOx、离子态FeII和CoII的催化剂。没有提供有关载体金属、合金或分子筛的详细信息。
+
+4. 该文没有讨论丙烷脱氢的热力学约束条件,也没有提供定量的动力学细节。
+
+5. 该文描述了使用DFT计算研究单斜和四方ZrO2表面的缺陷结构对丙烷脱氢机理和途径的影响。计算结果表明脱氢发生在氧空位邻近的两个Zr阳离子位点上,四方ZrO2的能垒更高。
+
+6. 该文没有提供任何丙烷脱氢微观动力学建模。 
+
+7. 该文描述了计算和实验工作,将ZrO2的结晶尺寸和相(单斜相与四方相)与丙烷脱氢活性和选择性相联系。较小的单斜ZrO2结晶体具有更高的活性和丙烯选择性,这可能与较高浓度的活性位点有关。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+8. The article does not provide any details about the thermodynamic constraints on propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer>
+
+8. 该文没有提供丙烷脱氢的热力学约束条件的任何细节。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+9. The article does not present any microkinetic modeling of propane dehydrogenation kinetics.
+
+</English version answer>  
+
+<Chinese version answer>
+
+9. 该文没有提供任何丙烷脱氢微观动力学建模。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+10. The article does not describe any computational or experimental work identifying descriptors that correlate catalyst properties other than crystallite size and phase to propane dehydrogenation performance.
+
+</English version answer>
+
+<Chinese version answer>  
+
+10. 该文没有描述识别出碳烃结晶尺寸和相以外的其他催化剂性质与丙烷脱氢性能之间相关性的计算或实验工作。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide any specific background information on the applications or value of propylene production through propane dehydrogenation. The abstract mentions that propene is widely used for manufacturing chemicals, and global demand is increasing, but no details are given.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.该篇文章没有提供丙烯通过丙烷脱氢生产的任何具体应用背景信息或价值。摘要提到丙烯被广泛用于化学品制造,全球需求正在增加,但没有给出任何细节。
+
+</Chinese version answer>
+
+
+<quotes>
+
+[1] Catalysts lower activation energy barriers via mechanisms such as providing alternative reaction pathways, stabilizing transition states, or altering chemisorption modes.
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that catalysts facilitate propane dehydrogenation by providing alternative reaction pathways, stabilizing transition states, and altering chemisorption modes, which lowers activation energy barriers. 
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 该文章解释说,催化剂通过提供替代反应途径、稳定过渡状态和改变化学吸附模式来促进丙烷脱氢,这降低了活化能垒。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. The article does not introduce any specific catalyst classes explored for propane dehydrogenation.
+
+</English version answer> 
+
+<Chinese version answer>
+
+3. 该文章没有介绍丙烷脱氢中探索过的任何具体催化剂类别。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Propene formation over m-ZrO2 and t-ZrO2 occurs on two Zrcus cations, however, the phase composition of ZrO2 is nevertheless relevant for the PDH reaction as concluded from the potential energy surfaces shown in Fig. 1 and the Gibbs free energy profiles in Fig. S5.
+
+[2] DFT calculations predict that two Zrcus cations located at an oxygen vacancy, which has different local environment in t-ZrO2 and m-ZrO2, are responsible for propane activation, while catalytic centers consisting of one lattice oxygen and one saturated Zr site or two lattice oxygen species do not seem to be relevant.
+
+</quotes>
+
+<English version answer>
+
+4. The article discusses that propane dehydrogenation is thermodynamically limited, as propene formation and hydrogen formation are endothermic processes according to DFT calculations. Kinetically, the calculations show that hydrogen formation has the highest activation barrier and is likely the rate-limiting step. The phase composition of ZrO2 affects the thermodynamics and kinetics, with m-ZrO2 being more active than t-ZrO2.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 文章讨论了丙烷脱氢在热力学上是受限的,因为根据 DFT 计算,丙烯形成和氢形成都是放热过程。在动力学方面,计算显示氢形成具有最高的活化能垒,可能是速率控制步骤。ZrO2的相组成影响热力学和动力学,m-ZrO2比t-ZrO2更活跃。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] To identify the kind of active site and the mode of dissociation of methylene CH bond over defective t-ZrO2 (101), we computed the reaction on three different sites: (i) one lattice oxygen and one saturated Zr site (Zr6cIa-O3cI, Zr6cIa-O3cII, Zr6cIIO3cII, Zr7cIO3cI or Zr7cIO3cII in Fig. S1 (a)), (ii) two Zrcus cations located at an oxygen vacancy ([Zr6cIa, Zr6cII]-Ov or [Zr6cII, Zr6cIb]-Ov in Fig. S1 (b)) and (iii) two lattice oxygen species (O3cIO3cII in Fig S1 (a)). 
+
+[2] The most thermodynamically preferable pathway was concluded to be homolytic breaking of the C-H bond on the [Zr6cIa, Zr6cII]-Ov or [Zr6cII, Zr6cIb]-Ov sites (Fig. 1, Fig. S3, Table S3), which is exothermic by 0.91 or 0.29eV (Fig. S4).
+
+</quotes>
+
+<English version answer>
+
+5. The article describes how DFT calculations were applied to study the mechanism of propane dehydrogenation over defective tetragonal and monoclinic ZrO2 surfaces. The calculations predicted that two coordinatively unsaturated Zr cations located at an oxygen vacancy are the active sites responsible for homolytic breaking of the C-H bond in propane, which is the first step in the reaction mechanism. 
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 文章阐述了如何应用DFT计算来研究存在缺陷的正交和单斜ZrO2表面的丙烷脱氢机理。计算预测两个位于氧空穴的非饱和配位Zr阳离子是负责丙烷中C-H键均裂断的活跃位点,这是反应机理中的第一步。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+
+6. The article does not present any microkinetic modeling of propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 文章没有呈现任何丙烷脱氢的微观动力学建模。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Regardless of the catalysts tested, the Ea values were about 150 kJ·mol1. The similarity between differently structured ZrO2 in terms of experimentally determined Ea values suggests that the kind of the active site does not depend on catalyst phase composition.
+
+[2] The rate of propene formation over the t-ZrO2 materials increases with a decrease in crystallite size. However, there should be a minimal size of crystallites, below which ZrO2 will lose its high PDH activity as concluded from the fact that the rate of propene formation on a-ZrO2 was low (Fig. 4(a)). 
+
+[3] Monoclinic ZrO2 showed, however, higher rate of propene formation and higher propene selectivity than ZrO2 stabilized in the tetragonal phase.
+
+</quotes>
+
+<English version answer>
+
+7. The article describes experimental work identifying the crystallite size and phase composition of ZrO2 as descriptors that correlate with propane dehydrogenation performance. Smaller monoclinic ZrO2 crystallites were found to have higher activity and propylene selectivity compared to larger monoclinic or tetragonal crystallites. There is also an optimal crystallite size, below which activity decreases.
+
+</English version answer>
+
+<Chinese version answer> 
+
+7. 文章描述了实验工作,确定了ZrO2的晶粒大小和相组成作为与丙烷脱氢性能相关的描述子。与较大的单斜或正交晶粒相比,较小的单斜ZrO2晶粒被发现具有更高的活性和丙烯选择性。还存在一个最佳的晶粒大小,低于这个大小,活性会降低。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+1. The article does not provide any background information on the importance of propylene production through propane dehydrogenation in the chemical industry or details about the value and applications of propylene.
+</English version answer>
+
+<Chinese version answer>
+1. 该文献没有提供任何关于丙烯通过丙烷脱氢生产在化学工业中的重要性的背景信息,也没有提供关于丙烯的价值和应用的详细信息。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+2. The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers or describe specific mechanisms of catalyst activity.
+</English version answer>
+
+<Chinese version answer>
+2. 该文献没有解释催化剂如何通过降低活化能垒促进丙烷脱氢,也没有描述催化剂活性的具体机理。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. The article does not introduce any major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites, or provide specific examples.
+</English version answer>
+
+<Chinese version answer>
+3. 该文献没有介绍已被开发用于丙烷脱氢的任何主要催化剂类别,比如金属氧化物、SUPPORTED金属、合金和分子筛,也没有提供具体例子。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. The article does not discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation or provide any quantitative details of thermodynamics and kinetics.
+</English version answer>
+
+<Chinese version answer>
+4. 该文献没有讨论丙烷脱氢中涉及的热力学约束和动力学因素,也没有提供任何热力学和动力学的定量细节。
+</Chinese version answer>
+
+<quotes>
+[1] "To identify the kind of active site and the mode of dissociation of methylene CH bond over defective t-ZrO2 (101), we computed the reaction on three different sites: (i) one lattice oxygen and one saturated Zr site (Zr6cIa-O3cI, Zr6cIIO3cII, Zr7cIO3cI or Zr7cIO3cII in Fig. S1 (a)), (ii) two Zrcus cations located at an oxygen vacancy ([Zr6cIa, Zr6cII]-Ov or [Zr6cII, Zr6cIb]-Ov in Fig. S1 (b)) and (iii) two lattice oxygen species (O3cIO3cII in Fig S1 (a)). The most thermodynamically preferable pathway was concluded to be homolytic breaking of the C-H bond on the [Zr6cIa, Zr6cII]-Ov or [Zr6cII, Zr6cIb]-Ov sites (Fig. 1, Fig. S3, Table S3), which is exothermic by 0.91 or 0.29eV (Fig. S4)."
+
+[2] "As seen in Fig. 1 and Fig. S5 that the energy profiles in the course of propane dehydrogenation reaction over oxygen-defective m-ZrO2(
+11) and oxygen-defective t-ZrO2(101) have the same shape and trend." 
+
+[3] "Regardless of the catalysts tested, the Ea values were about 150 kJ·mol1. The similarity between differently structured ZrO2 in terms of experimentally determined Ea values suggests that the kind of the active site does not depend on catalyst phase composition. It can be composed of two Zrcus cations located at an oxygen vacancy as concluded from DFT calculations."
+</quotes>
+
+<English version answer>
+5. The article describes how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. Specifically, it discusses calculations done to identify the active site for propane dehydrogenation on tetragonal ZrO2 as two Zrcus cations located at an oxygen vacancy, based on the most thermodynamically favorable pathway for homolytic C-H bond breaking. It also shows through DFT that the energy profiles are similar for propane dehydrogenation over monoclinic and tetragonal ZrO2.
+</English version answer>
+
+<Chinese version answer>
+5. 该文献描述了如何应用DFT计算来研究丙烷脱氢的机理和途径。具体来说,它讨论了识别在四方相ZrO2上的丙烷脱氢活性中心为两个位于氧空位上的Zrcus阳离子的DFT计算,这是基于C-H键同裂最具热力学优势的途径。它还通过DFT展示了在单斜相和四方相ZrO2上的丙烷脱氢具有相似的能量曲线。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+6. The article does not present any microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics, or discuss specific rate equations, parameters, and models.
+</English version answer>
+
+<Chinese version answer>
+6. 该文献没有提出任何微观动力学建模工作对丙烷脱氢动力学具有启发意义,也没有讨论具体的速率方程、参数和模型。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. The article does not describe any computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance, or reveal any specific structure-activity relationships.
+</English version answer> 
+
+<Chinese version answer>
+7. 该文献没有描述识别催化剂性质与丙烷脱氢性能相关的描述符的任何计算或实验工作,也没有揭示任何具体的结构-活性关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+1. Propene is widely used for the manufacture of a large number of chemicals relevant for our everyday life [1], [2]. Its production and demand continue to grow because of the higher consumption of the downstream products made of propene. The global annual propene market is estimated to reach 165 million tons by 2030 compared to 103 million in 2012 [3], [4]. 
+
+2. Nowadays, propene is mainly produced through steam (6065%) or fluid catalytic cracking (30%) of various oil fractions [5], [6]. However, these two processes cannot fulfill the demands for propene. Therefore, some on-purpose technologies, such as metathesis of ethylene with 2-butenes [7], methanol to olefins or propene [8] and propane dehydrogenation (PDH) [3] have been developed to close the gap between propene demand and production.
+
+3. PDH is one of the largest processes for on-purpose propene production and offers high propene selectivity. The two main industrial processes are Catofin and Oleflex utilizing CrOx/Al2O3 and Pt/Al2O3 based catalysts respectively [3]. 
+
+4. Such catalysts are highly active and selective, however, have some drawbacks [3], [9], [10], [11]. In particular, Pt/Al2O3 is expensive and should be treated under chlorine atmosphere to re-disperse platinum species [3], while Cr(VI) may cause various health effects. Apart from Pt-based or CrOx-based catalysts, there are some alternatives reported in literature. They include materials on the basis of ZnO [12], [13], [14], GaOx [15], [16], VOx [17], [18], [19], isolated FeII [20] and CoII [21].
+
+5. Spin-polarized and periodic DFT calculations were carried out using the Vienna ab initio simulation package (VASP) [27], [28]. To identify the kind of active site and the mode of dissociation of methylene CH bond over defective t-ZrO2 (101), we computed the reaction on three different sites: (i) one lattice oxygen and one saturated Zr site (Zr6cIa-O3cI, Zr6cIa-O3cII, Zr6cIIO3cII, Zr7cIO3cI or Zr7cIO3cII in Fig. S1 (a)), (ii) two Zrcus cations located at an oxygen vacancy ([Zr6cIa, Zr6cII]-Ov or [Zr6cII, Zr6cIb]-Ov in Fig. S1 (b)) and (iii) two lattice oxygen species (O3cIO3cII in Fig S1 (a)). 
+
+6. The Climbing Image Nudged Elastic Band (CI-NEB) method with eight images was applied for finding transition states and minimum energy paths of all reactions with a force tolerance of 0.05eV/Å [30]. The normal mode frequency analysis was performed to validate the optimized transition states and each authentic transition state has only one imaginary frequency along the reaction coordinates.
+
+7. No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+1. The article provides background that propylene is widely used to manufacture many chemicals, and its global demand is estimated to reach 165 million tons by 2030, significantly higher than 103 million tons in 2012. Propylene is mainly produced by steam or catalytic cracking of oil fractions, but these cannot meet demands. Therefore, technologies like propane dehydrogenation have been developed to increase propylene supply.
+
+2. The article explains catalysts like CrOx/Al2O3 and Pt/Al2O3 lower activation energy barriers in propane dehydrogenation and are highly active and selective. But Pt is expensive and Cr has health risks. Alternatives like metal oxides and zeolites have been explored.
+
+3. The article introduces catalysts studied for propane dehydrogenation including metal oxides like ZnO, GaOx, VOx, and zeolites. Commercial catalysts are CrOx/Al2O3 and Pt/Al2O3.
+
+4. The article does not provide quantitative details on thermodynamics or kinetics of propane dehydrogenation.
+
+5. The article describes using DFT calculations with VASP to study mechanisms and active sites for propane dehydrogenation on ZrO2 surfaces. Calculations identified Zr cations at oxygen vacancies as active sites.
+
+6. The article does not present microkinetic modeling of propane dehydrogenation kinetics.
+
+7. The article does not describe computational or experimental work identifying catalyst descriptors correlated to propane dehydrogenation performance.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文章提供了丙烯被广泛用于制造许多化学品的背景,并估计其全球需求将在2030年达到1.65亿吨,远高于2012年的1.03亿吨。丙烯主要通过蒸汽裂化或催化裂化石油馏分生产,但这些无法满足需求。因此,丙烷脱氢等技术被开发以增加丙烯供应。
+
+2. 文章解释CrOx/Al2O3和Pt/Al2O3等催化剂通过降低丙烷脱氢的活化能提高了反应活性和选择性。但Pt价格昂贵,Cr有健康风险。 已探索金属氧化物和 zeolites等替代品。
+
+3. 文章介绍了研究丙烷脱氢催化剂,包括 ZnO、GaOx、VOx等金属氧化物和 zeolites。商业催化剂是CrOx/Al2O3 和 Pt/Al2O3。
+
+4. 文章没有提供丙烷脱氢反应热力学或动力学的定量细节。
+
+5. 文章描述了利用DFT计算和VASP软件研究ZrO2表面的丙烷脱氢机理和活性位点。计算确定氧空位上的 Zr阳离子为活性位点。
+
+6. 文章没有提供丙烷脱氢微观动力学建模。
+
+7. 文章没有描述计算或实验工作确定与丙烷脱氢性能相关的催化剂描述符。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry or details about the value and applications of propylene.
+</English version answer>
+
+<Chinese version answer>
+答:该文章没有提供丙烯通过丙烷脱氢产生的重要性的背景信息,也没有提供丙烯的价值和应用的细节。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers or describe specific mechanisms of catalyst activity.
+</English version answer>
+
+<Chinese version answer>
+答:该文章没有解释催化剂如何通过降低激活能垒便于丙烷脱氢,也没有描述催化剂活性的具体机制。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not introduce major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites, or provide specific examples.
+</English version answer>
+
+<Chinese version answer>
+答:该文章没有介绍已被探索用于丙烷脱氢的主要催化剂类别,例如金属氧化物、负载金属、合金和沸石,也没有提供具体例子。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+Answer: The article does not discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation or provide quantitative details of thermodynamics and kinetics.
+</English version answer>
+
+<Chinese version answer>
+答:该文章没有讨论丙烷脱氢中涉及的热力学约束和动力学因素,也没有提供热力学和动力学的定量细节。
+</Chinese version answer>
+
+<quotes>
+[1] "To identify the kind of active site and the mode of dissociation of methylene CH bond over defective t-ZrO2 (101), we computed the reaction on three different sites: (i) one lattice oxygen and one saturated Zr site (Zr6cIa-O3cI, Zr6cIa-O3cII, Zr6cIIO3cII, Zr7cIO3cI or Zr7cIO3cII in Fig. S1 (a)), (ii) two Zrcus cations located at an oxygen vacancy ([Zr6cIa, Zr6cII]-Ov or [Zr6cII, Zr6cIb]-Ov in Fig. S1 (b)) and (iii) two lattice oxygen species (O3cIO3cII in Fig S1 (a))."
+
+[2] "Among all t-ZrO2 surfaces, the (101) termination with O-Zr-O surface was found to be most stable [35], [36], [37]. The t-ZrO2(101) surface was modelled by a nine-layer slab with the lowest three layers fixed in the bulk positions and the upper six layers being allowed to relax. In all cases, a p(2×3) lateral supercell containing a vacuum space of 15Å between the slab and its periodic replicas was used. The Brillouin zone was sampled with a 3×3×1 MonkhorstPack mesh."
+
+[3] "The adsorption energy is defined by Eads=EX+s/dEs/dEX, where EX+s/d is the total energy of the slab (clean or oxygen defect surface) with adsorbents in its equilibrium geometry, Es/d is the total energy of the slab (clean or oxygen defect surface) and EX is gas-phase species. The more negative the adsorption energy, the stronger the adsorption is. The activation barrier (or activation energy, Ea) and reaction energy (ΔEr) are calculated according to Ea=ETSEIS and ΔEr=EFSEIS, where EIS, EFS and ETS are the energies of the corresponding initial state (IS), final state (FS) and transition state (TS) respectively."
+
+</quotes>
+
+<English version answer>
+Answer: The article describes how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways over defective tetragonal ZrO2 (101). The calculations identified that two Zr cations located at an oxygen vacancy are the active site for homolytic breaking of the CH bond in propane. The calculations also determined the activation barriers and reaction energies for individual steps in propane dehydrogenation. The tetragonal ZrO2 (101) surface was modeled using a slab approach with details provided on the simulation parameters.
+</English version answer>
+
+<Chinese version answer>
+答:该文章描述了如何应用DFT计算来研究在缺陷正交ZrO2(101)上的丙烷脱氢机理和途径。计算确定了位于氧空位的两个Zr阳离子是丙烷中CH键发生均裂的活性位点。计算还确定了丙烷脱氢单个步骤中的活化能垒和反应能量。使用薄片模拟方法模拟了正交ZrO2(101)表面,并提供了模拟参数的细节。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics, or discuss specific rate equations, parameters, and models.
+</English version answer>
+
+<Chinese version answer>
+答:该文章没有呈现微观动力学建模工作对丙烷脱氢动力学的洞见,也没有讨论具体的速率方程、参数和模型。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance, or reveal specific structure-activity relationships.
+</English version answer>
+
+<Chinese version answer>
+答:该文章没有描述确定催化剂性质与丙烷脱氢性能相关的描述子的计算或实验工作,也没有揭示具体的结构-活性关系。
+</Chinese version answer>
+
+</Answer>
+

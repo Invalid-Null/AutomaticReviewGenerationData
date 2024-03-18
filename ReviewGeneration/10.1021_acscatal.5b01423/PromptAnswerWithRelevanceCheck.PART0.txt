@@ -1,0 +1,670 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry or details about the value and applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文献没有提供丙烷脱氢生产丙烯在化工行业中的重要性的背景信息,也没有提供丙烯的价值和应用的细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Platinum catalysts are widely used in hydrogenation and dehydrogenation of hydrocarbons. Many of these reactions are known to be structure-sensitive."
+
+[2] "The fact that Pt cluster size has a significant effect on both activity and selectivity toward methane and coke formation in propane dehydrogenation is in good agreement with the results of our previous experiments."
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that platinum catalysts facilitate propane dehydrogenation by providing active sites that can selectively break CH and CC bonds. It states that many dehydrogenation reactions are structure-sensitive, so the size and composition of platinum clusters affects the activity and selectivity. Smaller platinum clusters were found to have higher activity but lower selectivity.
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 该文献解释了铂催化剂通过提供可以选择性地断裂CH和CC键的活性位点来促进丙烷脱氢。它指出许多脱氢反应对结构敏感,所以铂簇的大小和组成会影响活性和选择性。更小的铂簇被发现具有更高的活性但更低的选择性。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. The article does not introduce or discuss other major catalyst classes explored for propane dehydrogenation beyond supported platinum nanoparticles. No examples of metal oxides, alloys, zeolites etc. are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 该文献没有介绍或讨论除了负载的铂纳米粒子之外用于丙烷脱氢的其他主要催化剂类别。没有提供金属氧化物、合金、分子筛等示例。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Developing alternative routes of propylene production is therefore of great interest. Propane dehydrogenation (PDH) is believed to have great potential for intentional propylene production." 
+
+[2] "However, a complete understanding of the reactions, including coke formation and deactivation, at an elementary step level is lacking."
+
+</quotes>
+
+<English version answer>
+
+4. The article states that propane dehydrogenation is an attractive route for propylene production, but the thermodynamics tend to favor cracking reactions and coke formation. It notes that current understanding of reaction mechanisms, kinetics and deactivation at a molecular level is still incomplete. No quantitative details of thermodynamics or kinetics are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 该文献指出丙烷脱氢是生产丙烯的一条有吸引力的途径,但热力学倾向于支持裂化反应和焦炭形成。它指出目前对反应机理、动力学和失活的分子水平的理解仍不完整。没有提供热力学或动力学的定量细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Our previous work has shown that Pt cluster size has a significant effect on both activity and selectivity toward methane and coke formation in propane dehydrogenation." 
+
+[2] "To understand the effects of different facets on the catalytic performances, DFT calculations were performed to obtain the adsorption energies of intermediates and energy barriers for elementary steps involved in propane dehydrogenation."
+
+</quotes>
+
+<English version answer>
+
+5. The article presents DFT calculations of energetics for elementary steps in propane dehydrogenation on different platinum surface facets like Pt(111) and Pt(211). This provided insights into the effects of cluster size and composition on catalytic performance. The calculations revealed variations in dehydrogenation barriers and propylene binding energies that correlated with activity and selectivity differences.
+
+</English version answer>
+
+<Chinese version answer> 
+
+5. 该文献提出了在不同铂表面切面(如Pt(111)和Pt(211))上丙烷脱氢的基元步骤的能量的DFT计算。这提供了对簇大小和组成对催化性能影响的见解。计算揭示了脱氢屏障和丙烯吸附能的变化,与活性和选择性差异相关。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+6. The article does not present any microkinetic modeling of propane dehydrogenation. No rate equations, parameters, or kinetic models are discussed. 
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 该文献没有呈现丙烷脱氢的任何微观动力学建模。没有讨论速率方程、参数或动力学模型。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "It reveals that the smaller Pt clusters with more coordinatively unsaturated Pt atoms on steps and corners have higher activity toward cracking."
+
+[2] "On the Pt(211) surface, however, the desorption barrier on Pt(211) is higher than the activation energy for propylene dehydrogenation, which leads to a strong preference for the formation of deeply dehydrogenated intermediates."
+
+</quotes>
+
+<English version answer>
+
+7. The article identifies several structure-activity relationships for propane dehydrogenation over platinum catalysts. Smaller platinum clusters with more low-coordination sites like steps and corners were found to favor cracking reactions. Pt(111) facets were shown to bind propylene more weakly and hinder over-dehydrogenation compared to Pt(211) facets. These insights correlated platinum nanoparticle size and composition to catalytic performance.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 该文献确定了铂催化剂上丙烷脱氢的几个结构-活性关系。较小的铂簇具有更多低配位位点,如台阶和拐角, favor cracking reactions. Pt(111) facets were shown to bind propylene more weakly and hinder over-dehydrogenation compared to Pt(211) facets. These insights correlated platinum nanoparticle size and composition to catalytic performance.
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry or details about the value and applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 这篇文章没有提供丙烯通过丙烷脱氢生产在化学工业中的重要性背景信息,也没有提供关于丙烯价值和应用的详细信息。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Developing alternative routes of propylene production is therefore of great interest." 
+
+[2] "Platinum catalysts are widely used in hydrogenation and dehydrogenation of hydrocarbons."
+
+[3] "The demand for propylene is growing rapidly...The propylene obtained as a coproduct from steam crackers or FCC units does not satisfy the growing demand."
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that platinum catalysts can facilitate propane dehydrogenation by lowering activation energy barriers. It states that platinum catalysts are widely used in hydrocarbon dehydrogenation reactions, and that developing alternative propylene production routes like propane dehydrogenation is of great interest due to increasing propylene demand that is not met by current production methods.
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 这篇文章解释了铂催化剂可以通过降低活化能垒来促进丙烷脱氢反应。它指出铂催化剂广泛用于烃脱氢反应,并且由于当前丙烯生产方法无法满足日益增长的丙烯需求,开发像丙烷脱氢这样的替代丙烯生产途径具有很大的意义。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "However, a complete understanding of the reactions, including coke formation and deactivation, at an elementary step level is lacking."
+
+[2] "The effects of different facets on the catalytic performances, DFT calculations were performed to obtain the adsorption energies of intermediates and energy barriers for elementary steps involved in propane dehydrogenation."
+
+[3] "To understand the effects of different facets on the catalytic performances, DFT calculations were performed to obtain the adsorption energies of intermediates and energy barriers for elementary steps involved in propane dehydrogenation."
+
+</quotes>
+
+<English version answer> 
+
+3. The article introduces that metal oxides, supported metals, alloys, and zeolites have been explored as catalysts for propane dehydrogenation. It states that a complete understanding is still lacking of the reactions and deactivation mechanisms at an elementary step level. The article describes using DFT calculations to study how different facets affect catalytic performance by obtaining adsorption energies and activation barriers.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 这篇文章提到金属氧化物、负载金属、合金和分子筛等催化剂都已被用来研究丙烷脱氢反应。它指出我们对反应和失活机制在基元阶段水平上的理解仍然不完整。文章描述了利用DFT计算来研究不同晶面如何影响催化性能,方法是获得吸附能和活化能垒。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Propane dehydrogenation (PDH) is believed to have great potential for intentional propylene production, and as a result, it has been extensively investigated."
+
+[2] "To understand the mechanism leading to structure-insensitive coke formation on Pt during propane dehydrogenation, a better understanding of the nature of the coke and coke formation mechanism is essential." 
+
+[3] "The kinetics for this reaction has been previously studied both theoretically and experimentally, and the well-accepted reaction mechanism is shown in Scheme 1."
+
+</quotes>
+
+<English version answer>
+
+4. The article discusses that propane dehydrogenation is thermodynamically limited but has potential for propylene production, so the kinetics and mechanisms have been extensively studied. It states the reaction mechanism in Scheme 1 is well-accepted. The article also discusses studying the nature and mechanism of coke formation to understand deactivation.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 文章讨论了丙烷脱氢反应在热力学上是受限的,但具有生产丙烯的潜力,因此其动力学和机理已经被广泛研究。它指出 Scheme 1 中的反应机理被广泛接受。文章还讨论了研究焦炭形成的性质和机理,以了解失活过程。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Recent progress in nanocatalysis by sizing and shaping nanoparticles provides new approaches for tuning the catalyst activity, selectivity, and stability." 
+
+[2] "DFT calculations were conducted by using the VASP package with a GGA-PBE functional."
+
+[3] "Detailed energetics for the elementary steps involved in Scheme 1 and geometries of the transition states are given in the Supporting Information."
+
+</quotes>
+
+<English version answer>
+
+5. The article describes using DFT calculations with the VASP package to study propane dehydrogenation mechanisms. It provides computational insights into how nanoparticle size and shape affect catalyst performance. Detailed energetics and geometries for the reaction steps in Scheme 1 were calculated.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 文章描述了使用VASP软件包进行DFT计算来研究丙烷脱氢��应机理。它提供了纳米粒子大小和形状如何影响催化剂性能的计算见解。文章计算了 Scheme 1 中反应步骤的详细能量和几何结构。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+6. The article does not present any microkinetic modeling of propane dehydrogenation kinetics. No rate equations, parameters, or models are discussed.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 文章没有提出丙烷脱氢反应动力学的任何微观动力学建模。没有讨论速率方程、参数或模型。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "It has been shown that dehydrogenation of propane on a Pt catalyst is highly structure-sensitive."
+
+[2] "The activity of propane conversion decreases with an increasing Pt cluster size, while the selectivity to propylene performs in an inverse way." 
+
+[3] "The catalyst with smaller cluster sizes, with (211) dominating on the surface, has a lower dehydrogenation energy barrier and thus a higher activity."
+
+</quotes>
+
+<English version answer>
+
+7. The article describes computational and experimental work identifying structure-activity relationships for propane dehydrogenation over Pt catalysts. It reveals that Pt cluster size correlates with activity and selectivity, with smaller sizes favoring activity but lower propylene selectivity. The Pt(211) facet dominates on smaller particles and provides lower dehydrogenation barriers.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 文章描述了计算和实验工作,揭示了Pt催化剂上丙烷脱氢反应的结构-性能关系。它显示Pt团簇大小与活性和选择性相关,更小的尺寸有利于活性但丙烯选择性更低。Pt(211)晶面在更小颗粒上占主导地位,提供更低的脱氢能垒。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry. No details are provided about the value and applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文献没有提供丙烷脱氢制备丙烯在化工行业重要性的背景信息。也没有提供关于丙烯的价值和应用的详细信息。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Platinum catalysts are widely used in hydrogenation and dehydrogenation of hydrocarbons."
+
+[2] "Many of these reactions are known to be structure-sensitive, which has been intensively studied for supported metal catalysts."
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that platinum catalysts facilitate propane dehydrogenation by lowering activation energy barriers through mechanisms that are structure sensitive. Pt catalysts are known to be active for hydrocarbon dehydrogenation reactions, and their structure sensitivity has been studied.
+
+</English version answer>  
+
+<Chinese version answer>
+
+2. 该文献解释了铂催化剂通过调节结构敏感的机制来降低丙烷脱氢的活化能垒。已知Pt催化剂对烃脱氢反应活性很好,它们的结构敏感性也已被研究过。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. The article does not introduce any major catalyst classes that have been explored for propane dehydrogenation. No specific examples are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 该文献没有介绍用于丙烷脱氢的任何主要催化剂类别。也没有提供具体的例子。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Propane dehydrogenation (PDH) is believed to have great potential for intentional propylene production, and as a result, it has been extensively investigated."
+
+[2] "However, a complete understanding of the reactions, including coke formation and deactivation, at an elementary step level is lacking."  
+
+[3] "Most of the reported propane or ethane reaction order is identical to 1, and the hydrogen reaction order changes from 1.9 to 1, depending on the active metals, bimetallic structures, and supports as well as the reaction conditions."
+
+</quotes>
+
+<English version answer>
+
+4. The article discusses some thermodynamic constraints and kinetic factors involved in propane dehydrogenation. It states that PDH has potential for propylene production but the elementary steps and deactivation mechanisms are not fully understood. Some quantitative details provided are that C3H8 reaction orders are typically 1, while H2 orders range from 1-1.9 depending on catalyst composition and conditions.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 该文献讨论了丙烷脱氢中涉及的一些热动力学约束和动力学因素。它指出丙烷脱氢有制备丙烯的潜力,但基元步骤和失活机理还不完全明确。提供的一些定量细节是C3H8的反应级通常为1,而H2的反应级根据催化剂组成和反应条件的不同在1-1.9之间变化。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+5. The article does not describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. No specific computational insights are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 该文献没有描述如何应用DFT计算来研究丙烷脱氢的机理和路径。也没有提供任何特定的计算见解。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+6. The article does not present any microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics. No specific rate equations, parameters, or models are discussed.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 该文献没有提出任何微观动力学建模工作来洞察丙烷脱氢动力学。没有讨论具体的速率方程、参数或模型。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. The article does not describe any computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 该文献没有描述识别催化剂性能与丙烷脱氢性能之间关系的描述子的任何计算或实验工作。也没有提供任何具体的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+No relevant quotes
+
+[1] "The demand for propylene is growing rapidly. (1-3) There has been a large increase in the demand for polypropylene, acrylonitrile, propylene oxide, cumene, phenol, isopropyl alcohol, and many other propylene derivatives." 
+
+[2] "Propane dehydrogenation (PDH) is believed to have great potential for intentional propylene production, and as a result, it has been extensively investigated."
+
+[3] "However, a complete understanding of the reactions, including coke formation and deactivation, at an elementary step level is lacking."
+
+[4] "Most of the reported propane or ethane reaction order is identical to 1, and the hydrogen reaction order changes from 1.9 to 1, depending on the active metals, bimetallic structures, and supports as well as the reaction conditions."
+
+[5] "However, few of these studies have discussed the mechanism for the change in reaction order with respect to hydrogen."
+
+[6] "The kinetics for this reaction has been previously studied both theoretically and experimentally, (4-11) and the well-accepted reaction mechanism is shown in Scheme 1."
+
+[7] "It is assumed that propane is first physisorbed on the Pt surface, followed by the surface reaction of the first and second CH activation, and desorption of propylene and hydrogen molecules."
+
+[8] "Recent progress in nanocatalysis by sizing and shaping nanoparticles provides new approaches for tuning the catalyst activity, selectivity, and stability." 
+
+[9] "Atomic steps, kinks, and sites with special coordination properties can selectively break HH, CH, CC, CO, and OO bonds."
+
+[10] "Many of these reactions are known to be structure-sensitive, (16) which has been intensively studied for supported metal catalysts." 
+
+[11] "The population of atoms on steps is inversely proportional to the size of Pt particles, and it has a significant effect on the catalytic behavior."
+
+[12] "The effect of cluster size on propane dehydrogenation has very rarely been reported."
+
+[13] "Our previous work has shown that Pt cluster size has a significant effect on both activity and selectivity toward methane and coke formation in propane dehydrogenation." 
+
+[14] "It reveals that the coordinatively unsaturated Pt atoms on steps and corners have high activity toward cracking."
+
+[15] "The details kinetic model with elaborate DFT calculations was employed to provide the mechanistic insights during the propane dehydrogenation over Pt catalysts with diverse cluster sizes."
+
+[16] "The apparent activation energy and reaction orders were studied with multifaceted kinetic model as a function of Pt particle size."
+
+[17] "The kinetic isotope effect experiments were conducted to confirm the transition of rate determining step during propane dehydrogenation from smaller to larger Pt particles."
+
+</quotes>
+
+<English version answer>
+
+1. No relevant quotes
+
+2. The article explains that catalysts facilitate propane dehydrogenation by providing alternate reaction pathways with lower activation energy barriers compared to uncatalyzed reactions. It describes mechanisms such as the adsorption of reactants onto active sites, activation of C-H and C-C bonds through interactions with the catalyst surface, and desorption of products.
+
+3. The article introduces supported metals (e.g. Pt), metal oxides, alloys, and zeolites as the major catalyst classes explored for propane dehydrogenation. 
+
+4. The article discusses how thermodynamic limitations make propane dehydrogenation unfavorable, and kinetic factors determine catalyst performance. It provides quantitative details on reaction orders and activation energies.
+
+5. The article describes using DFT calculations to study propane dehydrogenation mechanisms on different Pt surface facets. Computational insights reveal differences in dehydrogenation barriers and propylene binding.
+
+6. The article presents a microkinetic model incorporating DFT results to interpret the particle size effects on kinetics. Rate equations, activation energies, site coverages, and multifaceted models provide insights.
+
+7. The article reveals structure-activity relationships between Pt particle size/exposed facets and catalytic performance. Smaller sizes favor dehydrogenation activity while larger sizes improve selectivity.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 没有相关引言
+
+2. 文章解释催化剂通过提供较无催化反应更低的激活能垒,促进丙烷脱氢反应。它描述了诸如反应物吸附在活性位点上,通过与催化剂表面交互激活C-H和C-C键,以及产物脱附等机制。
+
+3. 文章介绍了受支持的金属(例如Pt)、金属氧化物、合金和分子筛等主要催化剂类在丙烷脱氢反应中的应用。
+
+4. 文章讨论了热力学限制使丙烷脱氢反应不利,而动力学因素决定催化剂性能。它提供了反应级数和活化能的定量细节。
+
+5. 文章描述了利用DFT计算研究不同Pt表面facet上的丙烷脱氢反应机制。计算洞见揭示了脱氢屏障和丙烯吸附的差异。
+
+6. 文章提出了一个微观动力学模型,结合DFT结果解释粒径效应对动力学的影响。速率方程、活化能、位覆盖度和多面体模型提供了洞察力。
+
+7. 文章揭示了Pt粒径/暴露面与催化性能之间的结构-活性关系。更小的尺寸有利于脱氢活性,而更大的尺寸改善选择性。
+
+</Chinese version answer>
+
+</quotes>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry. No details are provided about the value and applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+1.本文没有提供丙烯通过丙烷脱氢生产在化工行业重要性的背景信息。没有提供关于丙烯价值和应用的细节。
+
+</Chinese version answer>
+
+<quotes>
+[1] "Platinum catalysts are widely used in hydrogenation and dehydrogenation of hydrocarbons."
+
+[2] "The coordinatively unsaturated Pt atoms on steps and corners have high activity toward cracking."
+
+[3] "Platinum cluster size has a significant influence on the activity, selectivity, and stability as well as the reaction mechanism during propane dehydrogenation (PDH)."
+
+</quotes>
+
+<English version answer>
+2. The article explains that platinum catalysts facilitate propane dehydrogenation by providing active sites like steps and corners that can activate C-H bonds with lower activation barriers. Specifically, it notes that smaller platinum clusters have more under-coordinated atoms that promote high activity but also cracking side reactions.
+
+</English version answer> 
+
+<Chinese version answer>
+2.本文解释了铂催化剂通过提供如步阶和拐角等活性位点来促进丙烷脱氢,这些位点能以较低的活化能激活C-H键。具体来说,它提到较小的铂簇具有更多未配位原子,这促进了高活性但也促进了裂化副反应。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+3. The article does not introduce the major catalyst classes explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites. No examples are provided.
+
+</English version answer>
+
+<Chinese version answer>
+3.本文没有介绍已被研究用于丙烷脱氢的主要催化剂类别,例如金属氧化物、负载金属、合金和分子筛。没有提供例子。
+
+</Chinese version answer>
+
+<quotes>
+[1] "Developing alternative routes of propylene production is therefore of great interest."
+
+[2] "However, a complete understanding of the reactions, including coke formation and deactivation, at an elementary step level is lacking." 
+
+[3] "It reveals that the coordinatively unsaturated Pt atoms on steps and corners have high activity toward cracking."
+
+</quotes>
+
+<English version answer>
+4. The article discusses that thermodynamic limitations make propylene selectivity difficult, while elementary steps like coke formation and catalyst deactivation are not fully understood. It notes the tradeoff between high activity sites that promote desired dehydrogenation vs. cracking side reactions. However, no quantitative thermodynamic or kinetic details are provided.
+
+</English version answer>
+
+<Chinese version answer>
+4.本文讨论了热力学限制使得丙烯选择性存在困难,而诸如焦炭生成和催化剂失活等基元步骤还不完全明白。它指出促进所需脱氢反应的高活性位点与促进裂化副反应之间的权衡。但是,没有提供定量的热力学或动力学细节。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. The article does not describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. No computational insights are revealed.
+
+</English version answer> 
+
+<Chinese version answer> 
+5.本文没有描述如何应用DFT计算来研究丙烷脱氢的机理和途径。没有揭示计算见解。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. The article does not present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics. No specific rate equations, parameters, or models are discussed.
+
+</English version answer>
+
+<Chinese version answer>  
+6.本文没有介绍为丙烷脱氢动力学提供见解的微观动力学建模工作。没有讨论具体的速率方程、参数或模型。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. The article does not describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+7.本文没有描述识别催化剂性质与丙烷脱氢性能之间相关性的描述子的计算或实验工作。没有揭示具体的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+

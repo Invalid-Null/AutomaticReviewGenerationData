@@ -1,0 +1,57 @@
+ Here is the comparison of the answer files against the correct answers in JSON format:
+
+```json
+{
+  "1": {
+    "answer.PART1_0.txt": "100%", 
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%", 
+    "answer.PART1_4.txt": "100%"
+  },
+  "2": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "50%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "3": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "4": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "5": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "6": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "7": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  }
+}
+```
+
+To generate this, I parsed the correct answer file to extract the answers for each question number. Then for each answer file, I compared it question-by-question to the correct answers, calculated a consistency percentage, and populated the JSON structure with the results.

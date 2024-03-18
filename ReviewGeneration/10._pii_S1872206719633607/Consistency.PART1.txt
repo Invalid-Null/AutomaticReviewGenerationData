@@ -1,0 +1,57 @@
+ Here is the comparative analysis in the requested JSON format:
+
+```json
+{
+  "1": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "0%", 
+    "answer.PART1_2.txt": "0%",
+    "answer.PART1_3.txt": "0%",
+    "answer.PART1_4.txt": "0%"
+  },
+  "2": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%", 
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "3": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "4": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "5": {
+    "answer.PART1_0.txt": "0%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "0%",
+    "answer.PART1_3.txt": "0%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "6": {
+    "answer.PART1_0.txt": "0%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "0%",
+    "answer.PART1_3.txt": "0%",
+    "answer.PART1_4.txt": "100%"
+  },
+  "7": {
+    "answer.PART1_0.txt": "100%",
+    "answer.PART1_1.txt": "100%",
+    "answer.PART1_2.txt": "100%",
+    "answer.PART1_3.txt": "100%",
+    "answer.PART1_4.txt": "100%"
+  }
+}
+```
+
+To generate this, I extracted the correct answers and the answers from each file. For each question, I compared the semantic similarity between the correct answer and each file's answer, and expressed that as a percentage consistency score. This was done for both the English and Chinese versions. The final consistency ratio for each file and question is the average of the English and Chinese consistencies.

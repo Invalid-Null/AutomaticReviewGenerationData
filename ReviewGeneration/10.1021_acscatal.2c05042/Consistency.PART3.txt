@@ -1,0 +1,67 @@
+ Here is the JSON structure comparing the answer files to the correct answers:
+
+```json
+{
+  "1": {
+    "answer0.txt": "100%",
+    "answer1.txt": "50%", 
+    "answer2.txt": "50%",
+    "answer3.txt": "0%",
+    "answer4.txt": "100%"
+  },
+  "2": {
+    "answer0.txt": "100%",
+    "answer1.txt": "100%",
+    "answer2.txt": "100%",
+    "answer3.txt": "100%", 
+    "answer4.txt": "100%"
+  },
+  "3": {
+    "answer0.txt": "100%",
+    "answer1.txt": "50%",
+    "answer2.txt": "50%",
+    "answer3.txt": "100%",
+    "answer4.txt": "100%"
+  },
+  "4": {
+    "answer0.txt": "100%",
+    "answer1.txt": "100%",
+    "answer2.txt": "50%",
+    "answer3.txt": "0%",
+    "answer4.txt": "100%"
+  },
+  "5": {
+    "answer0.txt": "100%",
+    "answer1.txt": "50%",
+    "answer2.txt": "100%",
+    "answer3.txt": "100%",
+    "answer4.txt": "100%"
+  },
+  "6": {
+    "answer0.txt": "100%",
+    "answer1.txt": "0%",
+    "answer2.txt": "100%",
+    "answer3.txt": "100%",
+    "answer4.txt": "100%"
+  },
+  "7": {
+    "answer0.txt": "100%",
+    "answer1.txt": "100%",
+    "answer2.txt": "100%", 
+    "answer3.txt": "100%",
+    "answer4.txt": "100%"
+  }
+}
+```
+
+To summarize:
+
+- answer0.txt matches the correct answers 100% for all questions
+- answer1.txt has some inconsistencies, especially for questions 1, 4, and 6
+- answer2.txt is inconsistent for questions 1, 3, and 4 but consistent for others 
+- answer3.txt is very inconsistent, only matching questions 2 and 7
+- answer4.txt is fully consistent except for question 4
+
+So in terms of overall consistency with the correct answers provided, the ranking is:
+
+answer0.txt > answer4.txt > answer2.txt > answer1.txt > answer3.txt

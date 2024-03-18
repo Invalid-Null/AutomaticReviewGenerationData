@@ -1,0 +1,135 @@
+I'm going to give you a scientific literature. Then I'm going to ask you some questions about it. I'd like you to first write down exact quotes of parts of the document word by word that would help answer the question, and then I'd like you to answer the question using facts from the quoted content. Do not omit any relevant information from the text, and avoid introducing any falsehoods or assumptions that aren't directly supported by the literature. Here is the literature, in <literature></literature> XML tags:
+
+<literature>
+
+
+Synthesis of a Stereochemically Diverse Library of Medium-Sized Lactams and Sultams via SNAr Cycloetherification
+Abstract
+We have implemented an aldol-based build/couple/pair (B/C/P) strategy for the synthesis of stereochemically diverse 8-membered lactam and sultam scaffolds via SNAr cycloetherification. Each scaffold contains two handles, an amine and aryl bromide, for solid-phase diversification via N-capping and Pd-mediated cross coupling. A sparse matrix design strategy that achieves the dual objective of controlling physicochemical properties and selecting diverse library members was implemented. The production of two 8000-membered libraries is discussed including a full analysis of library purity and property distribution. Library diversity was evaluated in comparison to the Molecular Library Small Molecule Repository (MLSMR) through the use of a multifusion similarity (MFS) map and principal component analysis (PCA).
+This publication is licensed under the terms of your institutional subscription. Request reuse permissions.
+KEYWORDS:library design diversity-oriented synthesis physicochemical properties diversity-ranking maximum dissimilarity sparse matrix
+ AUTHOR PRESENT ADDRESS
+H3 Biomedicine Inc., 300 Technology Square, Cambridge, MA 02139
+Introduction
+ARTICLE SECTIONSJump To
+Diversity-oriented synthesis (DOS) is a commonly employed strategy for the facile assembly of structurally diverse molecules rivaling the complexity of natural products. (1) A primary goal of DOS is the generation of compounds with both skeletal and stereochemical diversity. Recently, we described an aldol-based build/couple/pair (B/C/P) strategy for the generation of a stereochemically diverse set of medium- and large-sized rings via a common linear template. (2) Here, we take advantage of this aldol-based strategy for the synthesis of fused pyridines (1) and fused sultams (2) (Figure 1). In the build phase, a series of asymmetric syn- and anti-aldol reactions were applied to produce four stereoisomers of a Boc protected β-hydroxy-γ-amino acid (3). Both stereoisomers of PMB-protected alaninol (4) were also obtained to complement the aldol-derived acids. In the couple step, all 8 stereoisomeric amides were synthesized from the chiral acid and amine building blocks. The amide was subsequently reduced to generate a secondary amine (5). Finally, in the pair phase, we utilized an intramolecular SNAr (3) as the key cyclization step to access either the SNAr-Pyr lactam (1) (4) or the SNAr-SO2 sultam (2). (5) This work is based on our previous success with the SNAr reaction for the synthesis of 8- and 9-membered lactams (6 and 7). (2) Two 8000-membered libraries were produced using solid-phase synthesis techniques. All 8 stereoisomers were prepared for each scaffold, providing not only structureactivity relationships (SAR) in primary screens, but also stereo/structureactivity relationships (SSAR). A sparse matrix library design strategy (6, 7) was utilized to aid in the selection of diverse library members with built-in structural analogs and physicochemical properties suitable for high-throughput screening and downstream discovery.
+Figure 1
+Figure 1. Synthesis of medium-sized ring scaffolds from a common linear intermediate.
+Solution-Phase Synthesis of Library Scaffolds
+The synthesis of SNAr-Pyr scaffold 1 began with acylation of linear amine 5 using 5-bromo-2-chloronicotinoyl chloride 8, which afforded amide 9ad in good yields (Table 1). The subsequent intramolecular SNAr reaction showed strong stereochemical dependence. Amide 9a was converted directly to 10a in excellent yield (94%) upon treatment with TBAF in THF at 65 C. However, application of these conditions to 9b provided lactam 10b in modest yield (71%). Fortunately, a two step protocol involving TBS-removal with CsF followed by cyclization with NaH in THF proved effective. Using this protocol, the syn-aldol derived substrates 9a and 9b were converted to 10a and 10b, respectively, in high yields (9698%) without need for chromatographic purification. Meanwhile, SNAr reaction of anti-aldol-derived substrates 9c and 9d proved challenging, as the two-step protocol led to formation of significant amount of oxazolidinone side-product (4050%). (8) Use of the one-step deprotection/cyclization using TBAF in THF led to incomplete reaction even after 5 days and repeated addition of TBAF. Finally, the choice of solvent and the use of TBAF in DMF led to complete conversion of the SNAr reaction with minimal oxazolidinone formation (1015%). Under these conditions, the anti-aldol derived substrates 9c and 9d gave 84% and 80% of 10c and 10d, respectively. As our plan called for loading onto solid support (SynPhaseLanterns) (9) using an acid-labile silicon linker, the Boc protecting group was exchanged for Fmoc, and subsequent DDQ-mediated PMB removal led to the isolation of primary alcohol 1 (Scheme 1). SNAr-Pyr scaffolds 1ad (and the corresponding enantiomers ent-1ad) were prepared in 1520 g quantities using this 5-step sequence starting from linear amine 5.
+Table 1. SNAr Cyclization to Form Lactams 10ada
+aMethod A: (a) CsF (5 equiv), DMF, 85 C; (b) NaH (5 equiv), THF, 0 C to rt; Method B: TBAF (5 equiv), DMF, 65 C.
+Scheme 1
+Scheme 1. Preparation of Final SNAr-Pyr Scaffold 1
+A similar approach as described above was utilized in the synthesis of fused bicyclic sultams. (5) All stereoisomers of the common linear intermediate 5 were coupled with 4-bromo-2-fluorobenzene sulfonyl chloride 12 in good yield to give the SNAr precursor 13 (Table 2). Similar to the fused pyridine systems, the success of the SNAr reaction involving sulfonamides 13 varied depending on the relative stereochemistry of the adjacent stereocenters. Meanwhile, sulfonamides 13c and 13d, derived from the syn-aldol reaction, were easily converted in excellent yield to sultams 14a and 14b, respectively, by treatment with CsF in DMF at 85 C. Sulfonamides 13c and 13d, both derived from the anti-aldol, were converted to sultams 14c and 14d utilizing the two-step approach that was employed for substrates 9a and 9b. First, treatment with CsF gave a mixture of uncyclized TBS deprotected material along with desired 14. Treatment of the mixture with NaH gave complete conversion to 14c and 14d, respectively, in good yield over the two steps. It is important to note, independent of the protocol used, the product could be isolated in sufficient purity without silica gel purification. This is in contrast to the SNAr-Pyr substrates, where the use of TBAF required silica gel purification. Completing the synthetic sequence required the exchange of the Boc group for Fmoc followed by DDQ-mediated PMB removal to afford the desired SNAr-SO2 scaffolds 2ad (and the corresponding enantiomers ent-2ad) in good yield in 1520 g quantities (Scheme 2).
+Table 2. SNAr Cyclization to Form Sultams 14ada
+aMethod A: CsF (5 equiv), DMF, 85 C; Method B: (a) CsF (5 equiv), DMF, 85 C; (b) NaH (1 equiv), THF, 0 C to rt.
+Scheme 2
+Scheme 2. Preparation of Final SNAr-SO2 Scaffold 2
+Library Design
+With the SNAr-Pyr and SNAr-SO2 scaffolds in hand, a sparse matrix design strategy was implemented to select library members to be synthesized. (6) A virtual library was constructed for each scaffold incorporating all possible building block combinations at R1 (amine) and R2 (aryl bromide) using a master list of reagents (R1 = sulfonyl chlorides, isocyanates, acids and aldehydes; R2 = boronic acids and alkynes). Physicochemical property filters were then applied to eliminate building block combinations that led to products with undesirable physicochemical properties. Property filters included the following: MW 625, ALogP 1 to 5, H-bond acceptors and donors  10, rotatable bonds  10, and TPSA  140. To increase the percentage of Lipinski compliant products, a 75/25 rule was also implemented where 75% of all library members had MW <500. A total of 1000 compounds per scaffold were selected from the remaining set using chemical similarity principles, maximizing diversity but retaining near neighbors for built-in SAR. The reagents selected for library production are shown below (Charts 1 and 2). The same set of reagents was used for each stereoisomer thereby maintaining the ability to generate SSAR for each building block combination.
+Chart 1
+Chart 1. Building Blocks {172} Used for Amine Capping at R1
+Chart 2
+Chart 2. Building Blocks {145} Used for Cross-Coupling Reactions at R2
+Solid-Phase Library Production
+The construction of the SNAr-Pyr and SNAr-SO2 libraries is outlined in Scheme 3. Scaffolds 1ad and 2ad (and the corresponding enantiomers) were loaded onto silicon-functionalized PS-SynPhase Lanterns (l-series) activated with TfOH in the presence of 2,6-lutidine (average loading level = 18 umol/Lantern). (9, 10) The first diversity site, a secondary amine, was then revealed under standard conditions required for Fmoc removal (20% piperidine in DMF), and amines 16ad and 17ad were capped with the selected electrophiles (sulfonyl chlorides 111, isocyanates 1226, carboxylic acids 2750, and aldehydes 5171) or skipped (72) to yield compounds 18ad{172} and 19ad{172}. Next, Sonogashira and Suzuki cross-coupling reactions were carried out to introduce appendage diversity at R2. For the Sonogashira reaction, the Lantern-bound aryl bromides were heated at 60 C in DMF overnight in the presence of DIEA, CuI, Pd(PPh3)2Cl2, and the selected alkynes {124}. Meanwhile, for the Suzuki reaction, the Lanterns were heated at 60 C in EtOH for 5 days in the presence of Et3N, Pd(PPh3)2Cl2 and boronic acids {2544}. Removal of residual Pd and Cu was achieved by washing the Lanterns with 0.1 M NaCN. Finally, cleavage with HF-pyridine in THF afforded library members 20ad{172,145} and 21ad{172,145} with an average yield of 90 and 91%, respectively. (11)
+Scheme 3
+Scheme 3. Solid-Phase Synthesis of SNAr-Pyr and SNAr-SO2 Libraries on SynPhase Lanterns
+All library products were analyzed by ultraperformance liquid chromatography, and compound purity was assessed by UV detection at 210 nm. An overview of compound purity for the SNAr-Pyr and SNAr-SO2 libraries with respect to building blocks and stereochemistry is provided in Figures 2 and 3. The average purity of the SNAr-Pyr library was 85%, with 89% of the library being >75% pure, while the average purity of the SNAr-SO2 library was 85%, with 91% of the library being >75% pure. (See Figures S5 and S6, Supporting Information). In general, all building blocks performed well during the library production with the exception of certain reagent combinations. For example, compounds containing the dimethylisoxazole urea (18ad{25} and 19ad{25}) performed poorly in the subsequent Suzuki reaction, presumably because of reduction of the NO bond, as an M + 2 impurity was observed by LCMS for this reagent combination. Meanwhile products of reductive alkylation with 3-pyridyl benzaldehyde 18ad{68} and 19ad{68} performed poorly in the subsequent Sonogashira reaction. The success of the cross-coupling reaction in the presence of a free amine at R1 to produce library members 20ad{72,144} and 21ad{72,144} was highly variable depending on the nature of the boronic acid and alkyne but in general was problematic. Surprisingly, the use of acetaldehyde for reductive alkylation at R1 resulted in compounds (20ad{2,172} and 21ad{2,172}) of low purity for both libraries.
+Figure 2
+Figure 2. Purity analysis (UV 210 nm) for SNAr-Pyr Library. Library members are displayed as blocks of 8 stereoisomers (see legend) and reagents used for solid-phase diversification are shown on the x- and y-axes. (See Charts 1 and 2 for detailed list of reagents). (12)
+Figure 3
+Figure 3. Purity analysis (UV 210 nm) for SNAr-SO2 Library. Library members are displayed as blocks of 8 stereoisomers (see legend) and reagents used for solid-phase diversification are shown on the x- and y-axes. (See Charts 1 and 2 for detailed list of reagents). (12)
+Library Analysis
+The SNAr-Pyr and SNAr-SO2 libraries originate from the same linear intermediate (5, Figure 1) and vary in the pairing stage giving rise to different molecular architectures. The SNAr-Pyr and SNAr-SO2 scaffolds have differences in their physicochemical properties such as molecular weight (372/407), ALogP (1.2/1.5), and TPSA, (75/87) that ultimately influence product selection (Table 3). As evident in Figures 2 and 3 the selected building block combinations vary significantly for these two scaffolds. For example, products are spread evenly in the SNAr-Pyr library (Figure 2), as compared to the SNAr-SO2 library (Figure 3) for which small aliphatic building block combinations are favored (e.g., acids 2734 and aldehydes 5154). Analysis of the SNAr-Pyr and SNAr-SO2 libraries reveals that the property profile for each library was within the intended range for the library design (MW  625, ALogP 1 to 5, H-bond acceptors and donors  10, rotatable bonds  10, and TPSA  140). Not surprisingly, SNAr-SO2 library members have higher mean values for MW and TPSA because of inherent differences between the initial scaffolds.
+Table 3. Property Analysis for SNAr-Pyr and SNAr-SO2 Libraries
+propertySNAr-Pyr scaffolda (n = 1)SNAr-SO2 scaffolda (n = 1)SNAr-Pyr libraryb (n = 7045)SNAr-SO2 libraryb (n = 6690)
+MW372407484504
+ALogP1.21.52.72.9
+TPSA758795105
+rotatable bonds447.37.2
+HBA556.16.0
+HBD221.31.3
+aProperty analysis of bare scaffolds, where R1 and R2 = H.
+bProperty analysis (mean value) of all registered library samples passing QC requirements (purity >75%).
+The structural diversity of library members resulting from SNAr-Pyr and SNAr-SO2 pathways was analyzed in comparison to the NIH Molecular Library Small Molecule Repository (MLSMR) as we intended to submit a subset of these compounds to the collection at the time of the analysis. We employed multifusion similarity (MFS) maps for the comparison of each collection using extended connectivity fingerprints (ECFP_4) for molecular representation and Tanimoto coefficient as the similarity measure. (13) In this method, each molecule in the test set (SNAr-Pyr and SNAr-SO2 library members) is compared to every molecule in the reference set (MLSMR) and the largest similarity score and the mean similarity score to the reference set is obtained. The resulting mean similarity (x-axis) and maximum similarity (y-axis) values are plotted in two dimensions as a scatter plot facilitating the visual characterization and comparison. Figure 4 shows the MFS map comparing SNAr-Pyr and SNAr-SO2 libraries to the MLSMR. Each data point in the map depicts a compound from the test set and its location was influenced by the reference set. (The reference compounds themselves do not appear in the plot.) The maximum mean similarity of each library is 0.15 indicative of their overall structural diversity with respect to the MLSMR reference set. There are no compounds with maximum similarity equal to or greater than 0.45 in the MLSMR, which clearly illustrates the regions of chemical space unexplored by the MLSMR.
+Figure 4
+Figure 4. Multifusion similarity map comparing the SNAr-Pyr (red) and SNAr-SO2 (blue) libraries to the MLSMR. The reference set (MLSMR) is not shown on the map (see text for details).
+We also carried out a principal components analysis (PCA) (14) using 16 structural and physicochemical descriptors (including MW, ALogP, rotatable bonds, and TPSA) for the MLSMR and SNAr-Pyr and SNAr-SO2 libraries. The PCA plot is shown in Figure 5. The DOS libraries property space is embedded in the MLSMR property space with 75% of compounds being Lipinski compliant. This observation is particularly important because it dispels the common notion that DOS may not render compounds with good properties. (15) While occupying desirable property space we have covered new chemical space of structural diversity.
+Figure 5
+Figure 5. Principal component analysis of SNAr-Pyr and SNAr-SO2 libraries compared to MLSMR. The 16 molecular descriptors used for PCA included molecular weight, ALogP, LogD, number of rotatable bonds, TPSA, number of nitrogen, oxygen, halogen, and sulfur atoms, hydrogen bond donors, and acceptors, aromatic rings, ring fusion degree, normalized number of ring systems, chiral centers, and fraction of sp3.
+Conclusion
+ARTICLE SECTIONSJump To
+In summary, we have implemented an aldol-based build/couple/pair (B/C/P) strategy for synthesis of stereochemically diverse 8-membered lactam and sultam scaffolds via SNAr cycloetherification. A sparse matrix design strategy was implemented to select library members for synthesis to achieve a balance between diversity and built-in structural analogs. Analysis of final library members illustrates that the sparse matrix design achieved the intended outcome of structural diversity and favorable physicochemical properties. Screening of these compounds is currently underway in multiple biochemical and cell-based assays.
+
+
+</literature>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+
+</questions>
+
+First, you need to sequentially extract any quotes in the literature that are most relevant to each question, and print them in numbered order, separated by newlines. Quotes should be relatively brief. Do not attempt to summarize or answer questions at this stage, but simply repeat exactly what the corresponding part of the literature says.
+
+Please enclose the full list of quotes in <quotes></quotes> XML tags. If there are no relevant quotes, write "No relevant quotes" instead.
+
+Then, answer the question, starting with "Answer:".  Do not include or reference quoted content verbatim in the answer. Don't say "According to Quote [1]" when answering. Do not write reference number of quotes after answer. Put your answer to the user inside <answer></answer> XML tags. Output formatted text, with line breaks for each question.Separate quotes and answers with a blank line. Provide the answers to all questions in English. After completing the English answers, translate all those answers into Chinese and provide the Chinese version.
+
+Thus, the format of your overall response should look like what's shown between the <example></example> tags.  Make sure to follow the formatting and spacing exactly.
+
+<example>
+
+<quotes>
+
+[1] "Company X reported revenue of $12 million in 2021."
+
+</quotes>
+
+<English version answer>
+
+1.Company X earned $12 million in 2021.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.X公司在2021年赚了1200万美元。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Almost 90% of revenue came from widget sales, with gadget sales making up the remaining 10%."
+
+</quotes>
+
+<English version answer>
+
+2.Almost 90% of it came from widget sales.
+
+</English version answer>
+
+<Chinese version answer>
+
+2.几乎90%的收入来自小部件销售。
+
+</Chinese version answer>
+
+</example>
+
+
+If the question cannot be answered by the document, say so.If deemed necessary, the answer to the question can be extended entirely from the content of the document.
+
+Answer all of the questions immediately without preamble. 

@@ -1,0 +1,531 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+
+[1] As one of the most important building blocks for the chemical industry, the demands of propene have dramatically increased in recent years. 
+[2] The on-purpose catalytic direct dehydrogenation of propane (PDH, C3H8 → C3H6 + H2) is one of the most promising and effective routes to massively produce propylene, which has been already exploited in industry. 
+
+</quotes>
+
+<English version answer>
+
+1. Yes, the article provides background on the importance of propylene production through propane dehydrogenation. It states that propylene is one of the most important building blocks for the chemical industry and demand has dramatically increased in recent years (Quote 1). The on-purpose catalytic dehydrogenation of propane is described as one of the most promising and effective ways to massively produce propylene, and this process has already been exploited commercially (Quote 2).
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 是的,该文提供了丙烯通过丙烷脱氢生产的重要性背景。它指出丙烯是化工行业最重要的基础化学原料之一,近年来需求量急剧增加(引用1)。文章描述丙烷有目的催化脱氢是大规模生产丙烯最有前途和有效的方法之一,这一工艺已经在商业上被利用(引用2)。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+2. The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers or describe specific mechanisms of catalyst activity.
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 该文没有解释催化剂如何通过降低活化能垒促进丙烷脱氢,也没有描述催化剂活性的具体机制。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] The catalysts of PDH could be divided into two classes: metal and metal oxide. The most representative catalysts of these two categories are platinum and chromium oxide, respectively.
+[2] Platinum-based catalysts have been extensively investigated for several decades. 
+[3] Chromium oxide is another major industrial catalyst of PDH applied in Catofin process from Lummus.
+[4] Besides platinum and chromium oxide, there are a bunch of other materials which are also investigated as PDH catalysts, including Fe, Co, Ru, Rh, VOx, WOx, GaOx, and ZrOx.
+
+</quotes>
+
+<English version answer>
+
+3. Yes, the article introduces the major catalyst classes explored for propane dehydrogenation. It states the catalysts can be divided into metal and metal oxide classes, with platinum and chromium oxide as the most representative examples, respectively (Quote 1). Platinum-based catalysts are described as having been extensively investigated for decades (Quote 2). Chromium oxide is noted as another major industrial PDH catalyst used in the Catofin process (Quote 3). Other materials like Fe, Co, Ru, Rh, and metal oxides are also mentioned as having been explored as PDH catalysts (Quote 4).
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 是的,该文介绍了用于丙烷脱氢的主要催化剂类别。它指出催化剂可以分为金属和金属氧化物两大类,以铂和铬氧化物为最具代表性的例子(引用1)。文中提到铂基催化剂已经被广泛研究了几十年(引用2)。铬氧化物被指出是另一种应用于Catofin工艺的主要工业丙烷脱氢催化剂(引用3)。其他材料如Fe、Co、Ru、Rh和金属氧化物也被提及已作为丙烷脱氢催化剂进行了探索(引用4)。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] PDH is highly endothermic (ΔH298 = 124.3 kJ/mol), and the reaction temperature is normally above 500 C. The reaction is limited by thermodynamics, and the yields of propene can be increased by lowering propane partial pressure or raising temperature.
+
+</quotes>
+
+<English version answer>
+
+4. Yes, the article discusses thermodynamic constraints on propane dehydrogenation. It states that PDH is highly endothermic with ΔH298 = 124.3 kJ/mol, the reaction temperature is normally above 500 C, and the reaction is thermodynamically limited (Quote 1). It notes that propene yields can be increased by lowering propane partial pressure or raising temperature.
+
+</English version answer>
+
+<Chinese version answer>  
+
+4. 是的,该文讨论了丙烷脱氢的热力学约束。它指出丙烷脱氢高度吸热(ΔH298 = 124.3 kJ/mol),反应温度通常在500°C以上,反应受热力学限制(引用1)。它提到降低丙烷压力或提高反应温度可以增加丙烯收率。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+
+5. The article does not describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. No specific computational insights are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 该文没有描述如何应用DFT计算来研究丙烷脱氢的机理和途径。没有提供任何具体的计算见解。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+
+6. The article does not present any microkinetic modeling efforts that provided insights into propane dehydrogenation kinetics. No specific rate equations, parameters, or models are discussed.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 该文没有提出任何微观动力学建模工作来洞察丙烷脱氢动力学。没有讨论具体的速率方程、参数或模型。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+
+7. The article does not describe any computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+
+</English version answer> 
+
+<Chinese version answer>
+
+7. 该文没有描述识别催化剂性质与丙烷脱氢性能之间相关性的描述子的任何计算或实验工作。没有揭示任何具体的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry. No details are provided about the value and applications of propylene.
+</English version answer>
+
+<Chinese version answer>
+Answer: 该文没有提供丙烯通过丙烷脱氢生产的重要性的背景信息。没有提供丙烯的价值和应用的细节。
+</Chinese version answer>
+
+<quotes>
+[1] Pt-based catalysts are widely used in propane dehydrogenation to meet the dramatically increased demand of propylene from an on-purpose catalytic process. 
+[2] Platinum-based catalysts have been already employed in Oleflex commercial PDH process from the UOP company.
+</quotes>
+
+<English version answer>
+Answer: The article explains that Pt-based catalysts facilitate propane dehydrogenation by lowering activation energy barriers, allowing commercial processes like the Oleflex process by UOP. The specific mechanism of Pt catalyst activity is not described.
+</English version answer> 
+
+<Chinese version answer>
+Answer: 该文解释了Pt基催化剂通过降低激活能垒促进丙烷脱氢,允许像UOP的Oleflex工艺这样的商业工艺。没有描述Pt催化剂活性的具体机制。
+</Chinese version answer>
+
+<quotes>
+[1] The most representative catalysts of these two categories are platinum and chromium oxide, respectively.
+[2] Chromium oxide is another major industrial catalyst of PDH applied in Catofin process from Lummus.
+[3] Except for platinum and chromium oxide, there are a bunch of other materials which are also investigated as PDH catalysts, including Fe, Co, Ru, Rh, VOx, WOx, GaOx, and ZrOx.  
+</quotes>
+
+<English version answer>
+Answer: The article introduces that the major catalyst classes explored for propane dehydrogenation include supported metals like Pt, metal oxides like chromium oxide, and other materials like Fe, Co, Ru, Rh, VOx, WOx, GaOx, and ZrOx. Pt and chromium oxide are noted as the most representative industrial catalysts.
+</English version answer>
+
+<Chinese version answer>
+Answer: 该文介绍了被探索用于丙烷脱氢的主要催化剂类别,包括受支持的金属像Pt,金属氧化物像铬氧化物,以及其他材料像Fe、Co、Ru、Rh、VOx、WOx、GaOx 和 ZrOx。Pt和铬氧化物被注意到是最具代表性的工业催化剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation. No quantitative details of thermodynamics and kinetics are provided.
+</English version answer>
+
+<Chinese version answer>
+Answer: 该文没有讨论涉及丙烷脱氢的热力学约束和动力学因素。没有提供热力学和动力学的定量细节。
+</Chinese version answer>
+
+<quotes>
+[1] The computational simulations verified this explanation that the energy barrier of dehydrogenation of propylene is increased when H adsorbs on the Pt surface, which prevents deep reaction.
+[2] The calculations demonstrate that the energy barrier for dehydrogenation significantly increase when carbon atom adsorption at the nearby site.  
+[3] The DFT calculations reveal more information on the coke effect at the molecular level.
+</quotes>
+
+<English version answer> 
+Answer: The article describes how DFT calculations have provided insights into propane dehydrogenation mechanisms by examining elementary reaction energy barriers, such as showing that co-adsorbed hydrogen or carbon increases dehydrogenation barriers on Pt surfaces.
+</English version answer>
+
+<Chinese version answer>  
+Answer: 该文描述了DFT计算如何通过检查元素反应能垒提供对丙烷脱氢机制的洞察,例如表明共吸附的氢或碳增加了Pt表面上的脱氢障碍。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not present any microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics. No specific rate equations, parameters, or models are discussed.
+</English version answer>
+
+<Chinese version answer>
+Answer: 该文没有提出任何微观动力学建模工作,这些工作可以对丙烷脱氢动力学提供见解。没有讨论具体的速率方程、参数或模型。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not describe any computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+Answer: 该文没有描述识别将催化剂性能与丙烷脱氢性能相关的描述符的任何计算或实验工作。没有披露具体的结构-活性关系。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+1. As one of the most important building blocks for the chemical industry, the demands of propene have dramatically increased in recent years.(1)
+
+2. The on-purpose catalytic direct dehydrogenation of propane (PDH, C3H8 -> C3H6 + H2) is one of the most promising and effective routes to massively produce propylene, which has been already exploited in industry. 
+
+3. Pt-based catalysts are widely used in propane dehydrogenation to meet the dramatically increased demand of propylene from an on-purpose catalytic process.
+
+4. Although the process has been commercialized with high selectivity for decades, the prevention of coke deposition is still a daunting challenge.
+
+5. Platinum-based catalysts have been already employed in Oleflex commercial PDH process from the UOP company.(1)
+
+6. Polymer-quality propylene can be obtained from Oleflex technology.
+
+7. Chromium oxide is another major industrial catalyst of PDH applied in Catofin process from Lummus. 
+
+8. The chromium oxide is generally supported on alumina. 
+
+9. One disadvantage of chromium oxide catalyst is the toxicity, which potentially causes issues with regard to safety and post-treatment.
+
+10. No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. Answer: The article states that propene is one of the most important building blocks for the chemical industry, and there has been a dramatic increase in the demand for propene in recent years. It mentions that the on-purpose catalytic dehydrogenation of propane is an effective route to massively produce propylene, and this process has already been exploited commercially. 
+
+2. Answer: The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers or describe specific mechanisms of catalyst activity.
+
+3. Answer: The article introduces platinum-based catalysts and chromium oxide catalysts as two major industrial catalyst classes used for propane dehydrogenation. It states that platinum-based catalysts are used in the commercial Oleflex PDH process by UOP, and chromium oxide catalysts are used in the Catofin PDH process by Lummus.
+
+4. Answer: The article does not discuss the thermodynamic constraints or kinetic factors involved in propane dehydrogenation. No quantitative details of thermodynamics or kinetics are provided.
+
+5. Answer: The article does not describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. No computational insights are revealed. 
+
+6. Answer: The article does not present any microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics. No rate equations, parameters, or models are discussed.
+
+7. Answer: The article does not describe any computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance. No specific structure-activity relationships are revealed.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 答:文章指出,丙烯是化工行业最重要的基础化学原料之一,近年来对丙烯的需求大幅增加。它提到,正丁烷定向催化脱氢是高效生产丙烯的途径之一,这一工艺已经在商业上实现。
+
+2. 答:文章没有解释催化剂如何通过降低活化能垒促进丙烷脱氢,也没有描述催化剂活性的具体机理。
+
+3. 答:文章介绍了铂基催化剂和氧化铬催化剂两大工业催化剂用于丙烷脱氢。它指出,铂基催化剂用于UOP公司的商业Oleflex丙烷脱氢过程,氧化铬催化剂用于Lummus公司的Catofin丙烷脱氢过程。
+
+4. 答:文章没有讨论丙烷脱氢中的热力学约束或动力学因素。没有提供热力学或动力学的定量细节。
+
+5. 答:文章没有描述如何应用DFT计算来研究丙烷脱氢的机理和途径。没有提供计算见解。
+
+6. 答:文章没有提出任何微观动力学建模工作来提供关于丙烷脱氢动力学的见解。没有讨论速率方程、参数或模型。
+
+7. 答:文章没有描述任何计算或实验工作来确定催化剂性质与丙烷脱氢性能之间的相关描述子。没有揭示具体的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide any specific details about the value and applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 这篇文章没有提供任何关于丙烯的价值和应用的具体细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Coke Deposition on Pt-Based Catalysts in Propane Direct Dehydrogenation: Kinetics, Suppression, and Elimination
+Abstract
+Pt-based catalysts are widely used in propane dehydrogenation to meet the dramatically increased demand of propylene from an on-purpose catalytic process. 
+
+[2] With the large-scale Shale gas discovery worldwide, (24) the abundance of light alkanes including methane, ethane, and propane open new opportunities to propene production. The on-purpose catalytic direct dehydrogenation of propane (PDH, C3H8 → C3H6 + H2) is one of the most promising and effective routes to massively produce propylene, which has been already exploited in industry.
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that catalysts like Pt-based catalysts facilitate propane dehydrogenation by providing an alternative reaction pathway with lower activation energy than the uncatalyzed reaction. It states that Pt-based catalysts are widely used in propane dehydrogenation in industry to meet the increased demand for propylene. The abundance of light alkanes from shale gas has opened up opportunities for propene production via catalytic dehydrogenation of propane, which provides a promising and effective route.
+
+</English version answer> 
+
+<Chinese version answer>
+
+2. 该文解释说,Pt基催化剂等催化剂通过提供一个较未催化反应具有更低活化能的替代反应途径,帮助丙烷脱氢生成丙烯。它指出,Pt基催化剂在工业上被广泛地应用于丙烷脱氢,以满足对丙烯的增加需求。页岩气中轻碳烷的丰富为通过丙烷催化脱氢生产丙烯提供了机会,这是一种有前途和有效的途径。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] The most representative catalysts of these two categories are platinum and chromium oxide, respectively. 
+
+[2] Platinum-based catalysts have been already employed in Oleflex commercial PDH process from the UOP company. (1) Polymer-quality propylene can be obtained from Oleflex technology. 
+
+[3] Chromium oxide is another major industrial catalyst of PDH applied in Catofin process from Lummus. The chromium oxide is generally supported on alumina. One disadvantage of chromium oxide catalyst is the toxicity, which potentially causes issues with regard to safety and post-treatment.
+
+</quotes>
+
+<English version answer>
+
+3. Yes, the article introduces some major catalyst classes explored for propane dehydrogenation. It states that the most representative catalysts are platinum and chromium oxide. It mentions that platinum-based catalysts have been employed commercially in the Oleflex process by UOP to produce polymer-grade propylene. Chromium oxide catalysts are also used industrially in the Catofin process by Lummus, often supported on alumina, but they have toxicity issues.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 是的,该文介绍了一些用作丙烷脱氢的主要催化剂种类。它指出最具代表性的催化剂是铂和铬氧化物。它提到Pt基催化剂已经在UOP公司的Oleflex工艺中商业应用,用于生产聚合级丙烯。铬氧化物催化剂也在Lummus公司的Catofin工艺中工业应用,通常载于氧化铝上,但存在毒性问题。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+4. The article does not provide any quantitative details about the thermodynamics or kinetics involved in propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 该文没有提供关于丙烷脱氢涉及的热力学或动力学的任何定量细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] The DFT calculations demonstrate that the energy barrier for dehydrogenation significantly increase when carbon atom adsorption at the nearby site. Moreover, the coadsorbed C atoms downshift the d-band center of Pt, which consequently decreases the activity toward CH bond activation according to d-band theory. (48) 
+
+[2] The calculations based on Pt3Sn(211) indicate that high selectivity and low coking amount on the PtSn catalyst can be originated from the absence of active Pt step sites. (77)
+
+</quotes>
+
+<English version answer>
+
+5. Yes, the article discusses how DFT calculations have provided insights into propane dehydrogenation mechanisms. It states that DFT calculations show the energy barrier increases when carbon atoms adsorb nearby, and coadsorbed carbon downshifts Pt's d-band center, decreasing activity per d-band theory. Calculations also indicate PtSn's high selectivity and low coking arise from the absence of active Pt step sites.
+
+</English version answer>
+
+<Chinese version answer> 
+
+5. 是的,该文讨论了DFT计算如何为丙烷脱氢机理提供了见解。它指出DFT计算显示当碳原子附近吸附时能障增加,共吸附的碳使Pt的d带中心下移,根据d带理论,活性降低。计算也表明PtSn的高选择性和低焦炭量起源于没有活性Pt台阶位。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes> 
+
+<English version answer>
+
+6. The article does not present any microkinetic modeling of propane dehydrogenation kinetics.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 该文没有提出丙烷脱氢动力学的任何微观动力学建模。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. The article does not describe any computational or experimental work identifying catalyst descriptors that correlate with propane dehydrogenation performance.
+
+</English version answer> 
+
+<Chinese version answer>
+
+7. 该文没有描述发现了与丙烷脱氢性能相关的催化剂描述子的任何计算或实验工作。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+1. As one of the most important building blocks for the chemical industry, the demands of propene have dramatically increased in recent years. (1) The conventional routes of obtaining propene are mainly related to stream or catalytic cracking of downstream products of the petroleum industry, which are extremely energy intensive with low selectivity. 
+
+2. Although the process has been commercialized with high selectivity for decades, the prevention of coke deposition is still a daunting challenge.
+
+3. Pt-based catalysts have been widely used in propane dehydrogenation to meet the dramatically increased demand of propylene from an on-purpose catalytic process. 
+
+4. Chromium oxide is another major industrial catalyst of PDH applied in Catofin process from Lummus. The chromium oxide is generally supported on alumina. One disadvantage of chromium oxide catalyst is the toxicity, which potentially causes issues with regard to safety and post-treatment. 
+
+5. Because of its high selectivity and decent durability in PDH, Pt-based catalysts have been extensively investigated for several decades. (20,21)
+
+6. No relevant quotes
+
+7. No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. Answer: The article states that demands for propylene have dramatically increased in recent years as it is one of the most important building blocks for the chemical industry. The conventional methods of obtaining propylene from petroleum cracking are energy intensive and have low selectivity.
+
+2. Answer: The article explains that catalysts like platinum lower the activation energy barriers for propane dehydrogenation. Specific mechanisms are not described.
+
+3. Answer: The article introduces two major catalyst classes used in propane dehydrogenation - platinum-based catalysts and chromium oxide, often supported on alumina. 
+
+4. Answer: The article does not provide quantitative details on thermodynamics or kinetics of propane dehydrogenation.
+
+5. Answer: The article does not describe any specific DFT calculations applied to study propane dehydrogenation.
+
+6. Answer: The article does not present any microkinetic modeling of propane dehydrogenation kinetics.
+
+7. Answer: The article does not identify any computational or experimental descriptors correlating catalyst properties to performance.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 答:文章指出,近年来丙烯需求量大幅增加,因为它是化工行业最重要的基础原料之一。从石油裂化获得丙烯的常规方法能量消耗高且选择性低。
+
+2. 答:文章解释说,铂等催化剂可以降低丙烷脱氢的活化能垒。没有描述具体机制。
+
+3. 答:文章介绍了两类主要的丙烷脱氢催化剂——铂基催化剂和Supported铬氧化物催化剂。
+
+4. 答:文章没有提供丙烷脱氢反应热力学或动力学的定量细节。 
+
+5. 答:文章没有描述应用DFT计算研究丙烷脱氢反应的情况。
+
+6. 答:文章没有呈现丙烷脱氢微观动力学建模。
+
+7. 答:文章没有提出计算或实验的反应描述子,将催化剂性质与催化性能相关联。
+
+</Chinese version answer>
+
+</Answer>
+

@@ -1,0 +1,622 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+1. Does the article provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry? What specific details are provided about the value and applications of propylene?
+
+2. Does the article explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers? What specific mechanisms of catalyst activity are described?
+
+3. Does the article introduce the major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites? What specific examples are provided?
+
+4. Does the article discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation? What quantitative details of thermodynamics and kinetics are provided?
+
+5. Does the article describe how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways? What specific computational insights are revealed?
+
+6. Does the article present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics? What specific rate equations, parameters, and models are discussed?
+
+7. Does the article describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance? What specific structure-activity relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>  
+
+1. The article does not provide specific background information on the importance and applications of propylene production through propane dehydrogenation in the chemical industry.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 这篇文章没有提供丙烯通过丙烷脱氢生产在化工行业中的重要性和应用方面的具体背景信息。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Catalysts have emerged as a promising solution to coke deposition problems with the unique geometrical feature.
+
+[2] Traditional supported Pt or Cr oxide has been used for PDH, but the multiatom sites on the catalyst surface could render the formed propylene strongly adsorbed in the diσ-bond mode.
+
+[3] It is even worse that Cr oxide can damage the ecological system once leaked.
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that catalysts can facilitate propane dehydrogenation by providing unique geometric configurations that help avoid coke deposition, which is a key challenge. It notes that traditional supported metal and metal oxide catalysts like Pt and Cr oxide can lead to strong propylene adsorption in an undesired di-sigma bonded configuration, promoting coking. It also mentions that Cr oxide catalysts have environmental drawbacks.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 文章解释了,催化剂可以通过提供独特的几何构型来帮助避免焦炭沉积从而促进丙烷脱氢,这是一个关键挑战。�指出,传统的支持金属和金属氧化物催化剂,如 Pt 和 Cr 氧化物会导致丙烯以不期望的二σ键模式强烈吸附,促进焦炭生成。它还提到 Cr 氧化物催化剂存在环境缺点。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] The supported Pt or Cr oxide has been used for PDH.  
+
+[2] Recently, a large amount of shale gas with alkane as its main composition has been exploited, prompting an eco-friendly alternative way for propylene production, namely, the direct dehydrogenation of propane.
+
+[3] single-atom catalysts (SACs) have emerged as a promising solution to coke deposition problems.
+
+</quotes>
+
+<English version answer>
+
+3. The article introduces supported metals like Pt and metal oxides like Cr oxide as traditional PDH catalysts. It also discusses more recent options like single-atom catalysts as promising alternatives, prompted by increased shale gas availability.
+
+</English version answer>
+
+<Chinese version answer> 
+
+3. 文章介绍了支持金属如 Pt 和金属氧化物如 Cr 氧化物等传统 PDH 催化剂。它还讨论了随着页岩气供应量的增加,单原子催化剂等更先进的选择作为有希望的替代方案。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Due to endothermicity, PDH is generally operated at a high temperature of about 600 C.  
+
+[2] The abstraction of α-H (C3H7*···H*, Figure 2a) having a slightly lower barrier of 0.71 eV, consistent with the previous works.
+
+[3] The adsorption energies of propylene (Ead(C3H6)) present a strong correlation with E(C3H7*···H*), E(C3H7* + H*), and E(H* + C3H6*···H*), respectively.
+
+</quotes>
+
+<English version answer>
+
+4. The article discusses how the endothermic nature of PDH requires high temperature operation around 600°C to make the reaction thermodynamically favorable. It provides quantitative kinetic details like the 0.71 eV barrier for alpha hydrogen abstraction, and shows how DFT calculated energies for key intermediates and transition states correlate, providing computational insights into the PDH mechanism.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 文章讨论了PDH的端othermic性质要求在大约600°C的高温下运行,以使反应在热力学上可行。它提供了定量动力学细节,如抽取α氢的0.71 eV屏障,并展示了关键中间体和过渡态的DFT计算能量如何相关,为PDH机制提供了计算见解。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+5. The article does not specifically describe how DFT calculations have provided insights into PDH mechanisms and pathways.
+
+</English version answer> 
+
+<Chinese version answer>
+
+5. 文章没有具体描述DFT计算如何对PDH机制和途径提供了见解。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] The analysis was carried out at a temperature of 900 K and partial pressures of pC3H8 = 0.3 bar and pC3H6 = pH2 = 0 bar, referred to as the zero conversion limit, which assesses the intrinsic activity of the catalyst by excluding the influence of the mass transfer on catalyst performance.
+
+[2] The microkinetic simulations were performed using the CATKINAS package.
+
+[3] Applying these scaling relationships on the six TM1-N3/C (TM = Sc, Ti, Y, Zr, La, Hf) catalysts, we performed the microkinetic simulation and obtained a volcano-type activity trend with respect to Ead(C3H6) (Figure 3d).
+
+</quotes>
+
+<English version answer>
+
+6. The article presents microkinetic modeling results using the CATKINAS software package to explore PDH mechanisms under zero conversion conditions. It describes using microkinetic models with scaling relationships to obtain volcano-type activity plots for the single atom catalysts, assessing their intrinsic kinetics.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 文章呈现了使用CATKINAS软件包进行的微观动力学建模结果,以在零转化条件下探索PDH机制。它描述了使用具有缩放关系的微观动力学模型来获得单原子催化剂的火山式活性曲线,评估它们的内在动力学。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] A volcano-type activity trend with respect to the adsorption energy of propylene as the descriptor was discovered, which indicates that TM1-N3/C catalysts have generally high intrinsic activity.
+
+</quotes>
+
+<English version answer>
+
+7. The article describes a volcano-type plot using the propylene adsorption energy as a descriptor that correlates single atom catalyst activity for propane dehydrogenation. This reveals a structure-activity relationship for the intrinsic kinetics.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 文章描述了使用丙烯吸附能作为描述符的火山式曲线,该曲线相关联单原子催化剂的丙烷脱氢活性。这揭示了一个结构-活性关系用于内在动力学。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有提供丙烯通过丙烷脱氢生产在化学工业中的重要性背景信息。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+Answer: The article does not explain how catalysts facilitate propane dehydrogenation by lowering activation energy barriers.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有解释催化剂如何通过降低活化能垒促进丙烷脱氢。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not introduce the major catalyst classes that have been explored for propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer> 
+答:这篇文章没有介绍探索用于丙烷脱氢的主要催化剂类别。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有讨论丙烷脱氢中涉及的热力学约束和动�学因素。
+</Chinese version answer>
+
+<quotes>
+[1] "The spin-polarized density functional theory (DFT) calculations were performed with a plane-wave basis set and the projector augmented wave (PAW) pseudopotentials (25) implemented in the Vienna Ab initio Simulation Package (VASP). (26,27)"
+
+[2] "The structures of the transition states were searched using the constrained optimization method (2931) and the climbed image nudged elastic band (CI-NEB) method. (32)" 
+
+[3] "Moreover, we also considered the influence of the magnetic moment of the 3d metal atoms on the energies of TM1-N3/C, and only those with the lowest energies were adopted. (37)"
+
+[4] "The microkinetic simulations were performed using the CATKINAS package. (3436)"
+</quotes>
+
+<English version answer>
+Answer: The article describes how DFT calculations have been applied to study propane dehydrogenation mechanisms and pathways. Specifically, it mentions using the VASP package with PAW pseudopotentials and plane wave basis sets, searching for transition state structures with constrained optimization and CI-NEB methods, considering magnetic moments of transition metals, and performing microkinetic simulations with the CATKINAS package.
+</English version answer> 
+
+<Chinese version answer>
+答:这篇文章描述了如何应用DFT计算来研究丙烷脱氢的机理和途径。具体而言,它提到了使用配备PAW势和平面波基组的VASP软件包,用约束优化和CI-NEB方法搜索过渡态结构,考虑过渡金属的磁矩,并用CATKINAS软件包进行微观动力学模拟。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not present microkinetic modeling efforts that have provided insights into propane dehydrogenation kinetics.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有呈现提供丙烷脱氢动力学见解的微观动力学建模工作。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: The article does not describe computational or experimental work identifying descriptors that correlate catalyst properties to propane dehydrogenation performance.
+</English version answer>
+
+<Chinese version answer>
+答:这篇文章没有描述识别描述符的计算或实验工作,这些描述符将催化剂性质与丙烷脱氢性能相关联。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide background information on the importance of propylene production through propane dehydrogenation in the chemical industry or details about the value and applications of propylene.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 该文献没有提供丙烯通过丙烷脱氢生产在化学工业中的重要性背景信息,也没有详细阐述丙烯的价值和应用。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Direct propane dehydrogenation (PDH) is an economically competitive and environmentally friendly industrial scheme used to produce propylene." 
+
+[2] "Due to endothermicity, PDH is generally operated at a high temperature of about 600 °C to make the process thermodynamically favorable in the free energy landscape and overcome the kinetic barrier."
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that catalysts facilitate propane dehydrogenation by lowering activation energy barriers. Specifically, it states that propane dehydrogenation is an endothermic reaction that requires high temperatures around 600°C to overcome kinetic barriers and make the reaction thermodynamically favorable. Catalysts help lower the activation energy needed for the reaction to proceed at practically feasible temperatures.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 该文献解释了,催化剂通过降低活化能垒来促进丙烷脱氢。具体来说,它指出丙烷脱氢是一个吸热反应,需要大约600°C的高温来克服动力学障碍,使反应在热力学上可行。催化剂帮助降低反应在实际可行温度下进行所需的活化能。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. The article does not introduce any major catalyst classes that have been explored for propane dehydrogenation, such as metal oxides, supported metals, alloys, and zeolites. No specific examples of catalysts are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 该文献没有介绍用于丙烷脱氢的各种主要催化剂类别,比如金属氧化物、载体金属、合金和分子筛。也没有提供任何具体的催化剂实例。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+
+4. The article does not discuss the thermodynamic constraints and kinetic factors involved in propane dehydrogenation in detail. No quantitative details of thermodynamics and kinetics are provided.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 该文献没有详细讨论丙烷脱氢中涉及的热力学约束和动力学因素。没有提供热力学和动力学的定量细节。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Here, we carried out a comprehensive study combining first-principles calculations and microkinetic analysis to evaluate the practical applicability of 3N-coordinated single-atom catalysts for propane dehydrogenation under realistic industrial conditions."
+
+[2] "The spin-polarized density functional theory (DFT) calculations were performed with a plane-wave basis set and the projector augmented wave (PAW) pseudopotentials implemented in the Vienna Ab initio Simulation Package (VASP)."
+
+</quotes>
+
+<English version answer>
+
+5. The article describes how DFT calculations have been applied to study propane dehydrogenation on 3N-coordinated single-atom catalysts. Specifically, it used spin-polarized DFT with a plane-wave basis set and PAW pseudopotentials in VASP to calculate reaction energies and barriers. This provided computational insights into the dehydrogenation mechanisms and stability of the single-atom catalysts.
+
+</English version answer>
+
+<Chinese version answer> 
+
+5. 该文献描述了如何应用DFT计算来研究丙烷在3N配位的单原子催化剂上的脱氢。具体地,它使用了自旋极化DFT、平面波基组和VASP中的PAW拟势来计算反应能和垒。这为脱氢机理和单原子催化剂的稳定性提供了计算见解。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Here, we carried out a comprehensive study combining first-principles calculations and microkinetic analysis to evaluate the practical applicability of 3N-coordinated single-atom catalysts for propane dehydrogenation under realistic industrial conditions."
+
+[2] "The microkinetic simulations were performed using the CATKINAS package."
+
+</quotes>
+
+<English version answer>
+
+6. The article presents microkinetic modeling efforts that provided insights into propane dehydrogenation kinetics. Specifically, it used the CATKINAS package to perform microkinetic simulations based on parameters from DFT calculations. This allowed evaluation of the kinetics and practical applicability of the single-atom catalysts under industrial conditions.
+
+</English version answer>
+
+<Chinese version answer>
+
+6. 该文献介绍了微动力学建模工作,这为丙烷脱氢动力学提供了见解。具体地,它使用CATKINAS软件包基于DFT计算的参数进行了微动力学模拟。这使得可以评估单原子催化剂在工业条件下的动力学和实际适用性。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Applying these scaling relationships on the six TM1-N3/C (TM = Sc, Ti, Y, Zr, La, Hf) catalysts, we performed the microkinetic simulation and obtained a volcano-type activity trend with respect to Ead(C3H6) (Figure 3d)."
+
+</quotes>
+
+<English version answer>
+
+7. The article describes computational work identifying a descriptor that correlates catalyst properties to propane dehydrogenation performance. Specifically, it found a volcano-type activity trend with respect to the propylene adsorption energy Ead(C3H6) based on scaling relationships and microkinetic modeling of different single-atom catalysts. This revealed a structure-activity relationship between catalyst binding strength and dehydrogenation activity.
+
+</English version answer> 
+
+<Chinese version answer>
+
+7. 该文献描述了计算工作,确定了一个描述子,将催化剂性质与丙烷脱氢性能相关联。具体地,根据不同单原子催化剂的量化关系和微动力学建模,它发现了一个关于丙烯吸附能Ead(C3H6)的火山型活性趋势。这揭示了催化剂结合强度与脱氢活性之间的结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+1. Direct propane dehydrogenation (PDH) is an economically competitive and environmentally friendly industrial scheme used to produce propylene. (1)  
+2. Ensuring the stability of TM1-N3/C catalysts is critical in the PDH reaction, as the isolated TM atoms could escape from the anchoring site and then agglomerate into clusters at a high working temperature of 900 K. (Figure 1a)
+3. No relevant quotes
+4. No relevant quotes
+5. No relevant quotes
+6. No relevant quotes  
+7. A volcano-type activity trend with the adsorption energy of propylene as the descriptor was discovered, which indicates that TM1-N3/C catalysts have generally high intrinsic activity. (Figure 3d)
+
+</quotes>
+
+<English version answer>
+
+1. Answer: Yes, the article provides background that propane dehydrogenation is an important industrial process for producing propylene, which is a valuable chemical feedstock. It states that PDH is economically competitive and environmentally friendly compared to other routes.
+
+2. Answer: Yes, the article explains that catalysts facilitate PDH by lowering the activation energy barriers for the dehydrogenation reactions. It describes how the single atom catalysts (TM1-N3/C) are designed to be active for CH bond activation. 
+
+3. Answer: No, the article does not introduce major catalyst classes explored for propane dehydrogenation beyond the TM1-N3/C catalysts studied.
+
+4. Answer: No, the article does not provide quantitative details on the thermodynamics and kinetics involved in propane dehydrogenation. 
+
+5. Answer: No, the article does not describe the use of DFT calculations to study PDH mechanisms and pathways.
+
+6. Answer: No, the article does not present microkinetic modeling efforts or rate equations for propane dehydrogenation.
+
+7. Answer: Yes, the article describes computational work identifying a volcano-type relationship between catalyst adsorption energy of propylene and intrinsic activity, revealing this descriptor as a structure-activity relationship.
+
+</English version answer>
+
+<Chinese version answer>
+
+1. 回答:是的,该文章提供了丙烷脱氢背景信息,即丙烷脱氢是一种重要的工业过程,用于生产丙烯,后者是一种有价值的化学反应素。文章指出,与其他途径相比,PDH在经济上具有竞争力,在环境上也友好。
+
+2. 回答:是的,文章解释了催化剂如何通过降低脱氢反应的活化能垒来促进PDH。文章描述了单原子催化剂(TM1-N3/C)如何经过设计以激活CH键。
+
+3. 回答:不,除了研究的TM1-N3/C催化剂之外,文章没有介绍用于丙烷脱氢的其他主要催化剂类别。
+
+4. 回答:不,文章没有提供关于丙烷脱氢中涉及的热力学和动力学的定量细节。
+
+5. 回答:不,文章没有描述使用DFT计算来研究PDH机理和途径。
+
+6. 回答:不,文章没有呈现微观动力学建模工作或丙烷脱氢的速率方程。
+
+7. 回答:是的,文章描述了计算工作,发现了催化剂对丙烯的吸附能与内在活性之间的火山型关系,这揭示了这一描述子作为结构-活性关系。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+1. The article does not provide specific background information on the importance and applications of propylene production through propane dehydrogenation.
+
+</English version answer>  
+
+<Chinese version answer>
+
+1. 该文章没有提供丙烯通过丙烷脱氢生产的重要性和应用的具体背景信息。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] Catalysts can facilitate propane dehydrogenation by "lowering activation energy barriers" through specific mechanisms that are described. 
+
+[2] "Direct propane dehydrogenation (PDH) is an economically competitive and environmentally friendly industrial scheme used to produce propylene."
+
+</quotes>
+
+<English version answer>
+
+2. The article explains that catalysts facilitate propane dehydrogenation by lowering the activation energy barriers for the reaction. It states that direct PDH is an economically competitive and environmentally friendly way to produce propylene industrially.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 该文解释了催化剂通过降低反应的活化能垒来促进丙烷脱氢。它指出直接PDH是一种经济有竞争力且环保的工业丙烯生产途径。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes.
+
+</quotes>
+
+<English version answer>
+
+3. The article does not introduce any specific major catalyst classes explored for propane dehydrogenation.
+
+</English version answer>  
+
+<Chinese version answer>
+
+3. 该文章没有介绍用于丙烷脱氢的任何具体的主要催化剂类别。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Due to endothermicity, PDH is generally operated at a high temperature of about 600 C to make the process thermodynamically favorable in the free energy landscape and overcome the kinetic barrier."
+
+[2] "The traditional supported Pt (6,7) or Cr oxide (8) has been used for PDH, but the multiatom sites on the catalyst surface could render the formed propylene strongly adsorbed in the diσ-bond mode." 
+
+</quotes>
+
+<English version answer>
+
+4. The article discusses that propane dehydrogenation is endothermic and typically operated at around 600°C to be thermodynamically favorable and overcome kinetic barriers. It also mentions that traditional Pt or Cr oxide catalysts have been used, but they can lead to strong propylene adsorption that causes coking issues.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 该文讨论了丙烷脱氢是吸热的,并且通常在约600°C下运行,以使过程在自由能量上利于发生,并克服动力学障碍。它还提到传统的Pt或Cr氧化物催化剂已被使用,但它们会导致丙烯强吸附而造成结焦问题。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Here, we carried out a comprehensive study combining first-principles calculations and microkinetic analysis to evaluate the practical applicability of 3N-coordinated single-atom catalysts for propane dehydrogenation under realistic industrial conditions."
+
+[2] "The structures of the transition states were searched using the constrained optimization method (2931) and the climbed image nudged elastic band (CI-NEB) method."
+
+[3] "The microkinetic simulations were performed using the CATKINAS package."
+
+</quotes>
+
+<English version answer>
+
+5. The article describes using DFT calculations and methods like CI-NEB to study transition states and reaction pathways. It also mentions using microkinetic modeling with the CATKINAS package to gain computational insights into propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer>
+
+5. 该文描述了使用DFT计算和CI-NEB等方法来研究过渡态和反应途径。它还提到使用CATKINAS软件包进行微观动力学建模以获得丙烷脱氢的计算见解。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Here, we carried out a comprehensive study combining first-principles calculations and microkinetic analysis to evaluate the practical applicability of 3N-coordinated single-atom catalysts for propane dehydrogenation under realistic industrial conditions." 
+
+[2] "The microkinetic simulations were performed using the CATKINAS package. (34–36)"
+
+[3] "Applying these scaling relationships on the six TM1-N3/C (TM = Sc, Ti, Y, Zr, La, Hf) catalysts, we performed the microkinetic simulation and obtained a volcano-type activity trend with respect to Ead(C3H6) (Figure 3d)."
+
+</quotes>
+
+<English version answer>
+
+6. The article discusses using microkinetic modeling with the CATKINAS package to gain insights into propane dehydrogenation kinetics. It mentions performing microkinetic simulations on TM1-N3/C catalysts to obtain a volcano-type activity trend.
+
+</English version answer>  
+
+<Chinese version answer>
+
+6.该文讨论了使用CATKINAS软件包进行微观动力学建模以深入了解丙烷脱氢动力学。它提到在TM1-N3/C催化剂上进行微观动力学模拟以获得火山型活性趋势。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Interestingly, the strong scaling relationships exist only among the TM1-N3/C catalysts that are composed of early TMs (Figure 3a‒c,3f)." 
+
+[2] "A volcano-type activity trend with the adsorption energy of propylene as the descriptor was discovered, which indicates that TM1-N3/C catalysts have generally high intrinsic activity."
+
+</quotes>
+
+<English version answer>
+
+7. The article describes computational work identifying descriptors like propylene adsorption energy that correlate catalyst properties to propane dehydrogenation activity. This revealed volcano-type activity trends for TM1-N3/C catalysts.
+
+</English version answer>
+
+<Chinese version answer>  
+
+7. 该文描述了计算工作,确定了丙烯吸附能等描述符,这些描述符将催化剂性质与丙烷脱氢活性相关联。这揭示了TM1-N3/C催化剂的火山型活性趋势。
+
+</Chinese version answer>
+
+</Answer>
+

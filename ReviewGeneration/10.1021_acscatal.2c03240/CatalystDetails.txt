@@ -1,0 +1,135 @@
+ Based on the details in the document, it is related to propane dehydrogenation.
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>Pt-Sn/Al2O3</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+					<Element>Sn</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>CrOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Atomically dispersed Pt</Name>
+				<Type>Single Atom</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>
+					15-45%
+				</ConversionRate>
+				<Selectivity>
+					>93%
+				</Selectivity>
+				<Stability>
+					Superior
+				</Stability>
+				<DeactivationRates>
+					<Rate>0.021 h^-1</Rate>
+					<Rate>0.017 h^-1</Rate>
+					<Rate>0.012 h^-1</Rate>
+				</DeactivationRates>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Ni NPs/Al2O3</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Ni</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>
+					89%
+				</ConversionRate>
+				<Selectivity>
+					65%
+				</Selectivity>
+				<Stability>
+					Poor
+				</Stability>
+				<DeactivationRates>
+					<Rate>0.427 h^-1</Rate>
+				</DeactivationRates>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Ni(II) single sites</Name>
+				<Type>Single Atom</Type>
+				<ActiveSpeciesElements>
+					<Element>Ni</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>
+					15-45%
+				</ConversionRate>
+				<Selectivity>
+					>93%
+				</Selectivity>
+				<Stability>
+					Superior
+				</Stability>
+				<DeactivationRates>
+					<Rate>0.021 h^-1</Rate>
+					<Rate>0.017 h^-1</Rate>
+					<Rate>0.012 h^-1</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>
+					550-600°C
+				</ReactionTemperature>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:N2=1:4</Ratio>
+				</FeedCompositionAndRatios>
+				<CatalystLoadingOrGHSV>
+					0.3 h^-1 WHSV of C3H8
+				</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>Ni(II) single sites</Name>
+				<Type>Single Atom</Type>
+				<ActiveSpeciesElements>
+					<Element>Ni</Element>
+				</ActiveSpeciesElements>
+				<ConversionRate>
+					15-45%
+				</ConversionRate>
+				<Selectivity>
+					>93%
+				</Selectivity>
+				<Stability>
+					Superior
+				</Stability>
+				<DeactivationRates>
+					<Rate>0.021 h^-1</Rate>
+					<Rate>0.017 h^-1</Rate>
+					<Rate>0.012 h^-1</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>
+					550-600°C
+				</ReactionTemperature>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:N2=1:4</Ratio>
+				</FeedCompositionAndRatios>
+				<CatalystLoadingOrGHSV>
+					0.3 h^-1 WHSV of C3H8
+				</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

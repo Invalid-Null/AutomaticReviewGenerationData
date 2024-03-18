@@ -1,0 +1,82 @@
+ Based on the details in the document, this is related to propane dehydrogenation.
+
+Here are the key details extracted:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>GaPt-SCALMS on Al2O3</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>11.4%</ConversionRate>
+				<Selectivity>97.0%</Selectivity>
+				<DeactivationRates>
+					<Rate>Second-order decay</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>550 째C</ReactionTemperature>
+				<CatalystLoadingOrGHSV>4900 mLgas gCat.bed-1 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>GaPt-SCALMS on SiO2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>11.4%</ConversionRate> 
+				<Selectivity>97.1%</Selectivity>
+				<DeactivationRates>
+					<Rate>Second-order decay</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>550 째C</ReactionTemperature>
+				<CatalystLoadingOrGHSV>4900 mLgas gCat.bed-1 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>GaPt-SCALMS on SiC</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Carbide</SupportMaterial>
+				<ConversionRate>14.1%</ConversionRate>
+				<Selectivity>98.0%</Selectivity>
+				<DeactivationRates>
+					<Rate>Second-order decay</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>550 째C</ReactionTemperature>
+				<CatalystLoadingOrGHSV>4900 mLgas gCat.bed-1 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>GaPt-SCALMS on SiC</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Ga</Element>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Carbide</SupportMaterial>
+				<ConversionRate>14.1%</ConversionRate>
+				<Selectivity>98.0%</Selectivity>
+				<DeactivationRates>
+					<Rate>Second-order decay</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>550 째C</ReactionTemperature>
+				<CatalystLoadingOrGHSV>4900 mLgas gCat.bed-1 h-1</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>
+
+The GaPt-SCALMS on SiC catalyst stands out as the main contribution in the document based on having the highest conversion rate and selectivity at 14.1% and 98.0% respectively. The silicon carbide support provides good activity while minimizing side reactions and coking compared to alumina and silica supports.

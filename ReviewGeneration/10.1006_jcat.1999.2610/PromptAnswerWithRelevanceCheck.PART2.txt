@@ -1,0 +1,535 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses on Pt/Al2O3 and PtSn/Al2O3 catalysts.
+</English version answer>
+
+<Chinese version answer>
+Answer: 否,该文并没有比较金属和氧化支持金属催化剂的选择性曲线。它关注 Pt/Al2O3 和 PtSn/Al2O3 催化剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+Answer: No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga or Pt-Zn for propane dehydrogenation. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts.
+</English version answer>
+
+<Chinese version answer>
+Answer: 否,该文没有评估像 Pt-Sn、Pt-Ga 或 Pt-Zn 这样的铂合金催化剂用于丙烷脱氢。它关注庚烷在 Pt/Al2O3 和 PtSn/Al2O3 催化剂上的重整。
+</Chinese version answer>
+
+<quotes>
+[1] "Electronic effects of added chlorine on metal catalysis were not important"
+
+[2] "Tin also induced reproducibility of catalytic behaviour for Cl-free catalysts, but the presence of both Sn and Cl showed additional effects due to the promotion by chlorine of greater intimacy between Sn and Pt in reduced catalysts."
+
+[3] "The results are discussed in terms of Pt site character, and geometric and electronic effects of Sn, Cl, and coke on catalyst structure and performance."
+</quotes>
+
+<English version answer>
+Answer: Yes, the article investigates electronic and geometric effects of the secondary metal Sn in PtSn bimetallic catalysts. It states that electronic effects of added chlorine were not important, but Sn promoted reproducible behavior, while both Sn and Cl together showed additional effects by promoting more intimacy between the metals. The results are discussed in terms of geometric and electronic effects of Sn and Cl on catalyst performance.
+</English version answer>
+
+<Chinese version answer>
+Answer: 是的,该文探究了二元 PtSn 催化剂中 Sn 的电子和几何效应。它指出,添加的氯化物电子效应不重要,但 Sn 促进了可重复的行为,而 Sn 和 Cl 一起显示出额外效应,通过促进两种金属之间更密切的亲和力。结果是从 Sn 和 Cl 对催化剂性能的几何和电子效应角度来讨论的。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. It focuses on Sn and Cl effects on Pt/Al2O3 and PtSn/Al2O3 catalysts.
+</English version answer>
+
+<Chinese version answer>
+Answer: 否,该文没有探索像 Re 或 Mn 这样的亚表面促进剂在双金属和合金催化剂中的应用以调整选择性。它关注 Sn 和 Cl 对 Pt/Al2O3 和 PtSn/Al2O3 催化剂的影响。  
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. It focuses on individual effects of Sn and Cl on Pt/Al2O3 and PtSn/Al2O3 catalysts.
+</English version answer>
+
+<Chinese version answer>
+Answer: 否,该文没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于配位ensemble 和/或配体效应。它关注 Sn 和 Cl 对 Pt/Al2O3 和 PtSn/Al2O3 催化剂的个别影响。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not evaluate any zeolite supports like MFI, FER or BEA structures for propane dehydrogenation catalysts. It focuses on Pt/Al2O3 and PtSn/Al2O3 catalysts with an alumina support.
+</English version answer>
+
+<Chinese version answer> 
+Answer: 否,该文没有评估任何 MFI、FER 或 BEA 结构的沸石支持用于丙烷脱氢催化剂。它关注铝矾土支持的 Pt/Al2O3 和 PtSn/Al2O3 催化剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. It focuses on Pt/Al2O3 and PtSn/Al2O3 catalysts with an alumina support.
+</English version answer>
+
+<Chinese version answer>
+Answer: 否,该文没有研究调整沸石 Si/Al 比或引入介孔对丙烷脱氢催化剂性能的影响。它关注铝矾土支持的 Pt/Al2O3 和 PtSn/Al2O3 催化剂。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses on reforming of heptane over Pt/Al2O3 and PtSn/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+1. 这篇文章没有比较金属与氧化支持金属催化剂的选择性配置文件。它集中在Pt/Al2O3和PtSn/Al2O3催化剂上的庚烷重整上。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+2. No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+2. 这篇文章没有评估任何像Pt-Sn、Pt-Ga、Pt-Zn这样的Pt合金催化剂来进行丙烷脱氢。它集中在Pt/Al2O3和PtSn/Al2O3催化剂上的庚烷重整上。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not specifically investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>  
+3. 不,这篇文章没有详细研究双金属和合金催化剂中次要金属的电子和几何效应。它集中在Pt/Al2O3和PtSn/Al2O3催化剂上的庚烷重整上。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts without subsurface promoters.
+
+</English version answer>
+
+<Chinese version answer>
+4. 不,这篇文章没有探索像Re或Mn这样的双金属和合金催化剂中的次表面促进剂来调整选择性。它集中在没有次表面促进剂的Pt/Al2O3和PtSn/Al2O3催化剂上的庚烷重整上。  
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts.
+
+</English version answer>  
+
+<Chinese version answer>
+5. 不,这篇文章没有描述双金属或合金催化剂中的金属之间的任何协同效应,这些效应可归因于集合体和/或配体效应。它集中在Pt/Al2O3和PtSn/Al2O3催化剂上的庚烷重整上。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+6. No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts using alumina support.
+
+</English version answer>
+
+<Chinese version answer>
+6. 不,这篇文章没有评估任何像MFI、FER或BEA结构这样的分子筛支持体用于丙烷脱氢催化剂。它集中在使用氧化铝支持体的Pt/Al2O3和PtSn/Al2O3催化剂上的庚烷重整上。  
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts using alumina support without discussing zeolite properties.  
+
+</English version answer>
+
+
+<Chinese version answer>
+7. 不,这篇文章没有研究调整分子筛Si/Al比或引入介孔对丙烷脱氢催化剂性能的影响。它集中在使用氧化铝支持体的Pt/Al2O3和PtSn/Al2O3催化剂上的庚烷重整上,没有讨论分子筛的性质。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses on chlorine-free Pt/Al2O3 and PtSn/Al2O3 reforming catalysts.
+</English version answer>
+
+<Chinese version answer>
+1. 本文没有比较金属和氧化的支持金属催化剂的选择性细分。它侧重于无氯的Pt/Al2O3和PtSn/Al2O3重整催化剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+2. No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga or Pt-Zn for propane dehydrogenation. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts.
+</English version answer>
+
+<Chinese version answer>
+2. 本文没有评估任何Pt合金催化剂,如Pt-Sn、Pt-Ga或Pt-Zn用于丙烷脱氢。它集中在Pt/Al2O3和PtSn/Al2O3催化剂上的庚烷重整。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not specifically investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It focuses on the effects of adding tin and chlorine to Pt/Al2O3 reforming catalysts.
+</English version answer>
+
+<Chinese version answer>
+3. 本文没有专门研究双金属和合金催化剂中第二金属的电子和几何效应。它着重于向Pt/Al2O3重整催化剂中添加锡和氯的效果。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts. It focuses solely on Pt/Al2O3 and PtSn/Al2O3 reforming catalysts with and without added chlorine.
+</English version answer>
+
+<Chinese version answer>  
+4. 本文没有探索在双金属和合金催化剂中使用Re或Mn等浅层促进剂。它仅关注有无添加氯的Pt/Al2O3和PtSn/Al2O3重整催化剂。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts attributed to ensemble and/or ligand effects. It focuses on the individual effects of adding tin and chlorine to Pt/Al2O3 reforming catalysts.
+</English version answer>
+
+<Chinese version answer>
+5. 本文没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于集合体和/或配体效应。它关注向Pt/Al2O3重整催化剂中添加锡和氯的单独效果。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+6. No, the article does not evaluate any zeolite supports like MFI, FER or BEA structures for propane dehydrogenation catalysts. It focuses solely on Pt/Al2O3 and PtSn/Al2O3 reforming catalysts, where Al2O3 is the support.
+</English version answer>
+
+<Chinese version answer>  
+6.本文没有评估任何分子筛支持,如MFI、FER或BEA结构用于丙烷脱氢催化剂。它仅关注Pt/Al2O3和PtSn/Al2O3重整催化剂,其中Al2O3是载体。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity. It focuses solely on Pt/Al2O3 and PtSn/Al2O3 reforming catalysts, where the support is Al2O3 not a zeolite.
+</English version answer>
+
+<Chinese version answer>
+7. 本文没有研究调节分子筛Si/Al比或掺入介孔的效果。它仅关注Pt/Al2O3和PtSn/Al2O3重整催化剂,其中载体是Al2O3而不是分子筛。  
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses on Pt/Al2O3 and PtSn/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+1. 否,本文没有比较金属和氧化支持金属催化剂的选择性配置文件。它聚焦于Pt/Al2O3和PtSn/Al2O3催化剂。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+2. No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga or Pt-Zn for propane dehydrogenation. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+2. 否,本文没有评估任何Pt合金催化剂,像Pt-Sn、Pt-Ga或Pt-Zn,用于丙烷脱氢。它聚焦于Pt/Al2O3 和PtSn/Al2O3 催化剂上的庚烷重整。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not specifically investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It focuses on the effects of adding Sn and Cl to Pt/Al2O3 catalysts for heptane reforming.
+
+</English version answer>
+
+<Chinese version answer>
+3. 否,本文没有具体研究双金属和合金催化剂中次要金属的电子和几何效应。它聚焦于向Pt/Al2O3催化剂添加Sn和Cl用于庚烷重整的效果。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. It focuses solely on Pt, Sn and Cl effects on Pt/Al2O3 and PtSn/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+4. 否,本文没有探索在双金属和合金催化剂中使用Re或Mn等下层促进剂来调节选择性。它仅聚焦于Pt、Sn和Cl对Pt/Al2O3和PtSn/Al2O3催化剂的影响。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts attributed to ensemble and/or ligand effects. It focuses on the effects of adding Sn and Cl to Pt/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+5. 否,本文没有描述双金属或合金催化剂中金属之间的任何协同效应,归因于配体和/或配体效应。它聚焦于向Pt/Al2O3催化剂添加Sn和Cl的效果。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. No, the article does not evaluate any zeolite supports like MFI, FER or BEA structures for propane dehydrogenation catalysts. It focuses solely on Pt/Al2O3 and PtSn/Al2O3 catalysts with alumina support.
+
+</English version answer>
+
+<Chinese version answer>  
+6. 否,本文没有评估任何分子筛支撑体,像MFI、FER或BEA结构,用于丙烷脱氢催化剂。它仅聚焦于具有氧化铝支撑的Pt/Al2O3和PtSn/Al2O3催化剂。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. It focuses solely on Pt/Al2O3 and PtSn/Al2O3 catalysts with alumina support.
+
+</English version answer>
+
+<Chinese version answer>
+7. 否,本文没有研究调节分子筛Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。它仅聚焦于具有氧化铝支撑的Pt/Al2O3和PtSn/Al2O3催化剂。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses on the effects of catalyst regeneration methods involving chlorine on heptane reforming reactions over Pt/Al2O3 and PtSn/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+1. 本文没有比较金属与氧化支持金属催化剂的选择性简介。它集中在利用氯进行催化剂再生的方法对氧化铂/氧化铝和氧化铂锡/氧化铝催化剂的庚烷重整反应的影响。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer> 
+2. No, the article does not evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga or Pt-Zn for propane dehydrogenation. It focuses on heptane reforming over Pt/Al2O3 and PtSn/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+2. 本文没有评估用于丙烷脱氢的铂合金催化剂,如Pt-Sn、Pt-Ga或Pt-Zn。它集中在氧化铂/氧化铝和氧化铂锡/氧化铝催化剂上的庚烷重整。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+3. No, the article does not specifically investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It explores the effects of adding tin and chlorine to Pt/Al2O3 catalysts on heptane reforming performance.
+
+</English version answer>
+
+<Chinese version answer>
+3. 本文没有具体研究双金属和合金催化剂中次要金属的电子和几何效应。它探讨了向Pt/Al2O3催化剂中添加锡和氯对庚烷重整性能的影响。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. It focuses on the effects of tin and chlorine addition to Pt/Al2O3 catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+4. 本文没有探讨在双金属和合金催化剂中使用Re或Mn等亚表面助剂来调节选择性。它集中在向Pt/Al2O3催化剂中添加锡和氯的影响。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. It focuses on the effects of adding tin and chlorine to Pt/Al2O3 catalysts.
+
+</English version answer> 
+
+<Chinese version answer>
+5. 本文没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于集团和/或配体效应。它集中在向Pt/Al2O3催化剂中添加锡和氯的影响。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. No, the article does not evaluate any zeolite supports like MFI, FER or BEA structures for propane dehydrogenation catalysts. It focuses on Pt/Al2O3 and PtSn/Al2O3 catalysts supported on alumina.
+
+</English version answer>
+
+<Chinese version answer>
+6. 本文没有评估用于丙烷脱氢催化剂的任何分子筛支持,如MFI、FER或BEA结构。它集中在氧化铝支持的Pt/Al2O3和PtSn/Al2O3催化剂。
+
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. It focuses on Pt/Al2O3 and PtSn/Al2O3 catalysts supported on alumina.
+
+</English version answer>
+
+<Chinese version answer>
+7. 本文没有研究调节分子筛Si/Al比或加入介孔对丙烷脱氢催化剂性能的影响。它集中在氧化铝支持的Pt/Al2O3和PtSn/Al2O3催化剂。
+
+</Chinese version answer>
+
+</Answer>
+

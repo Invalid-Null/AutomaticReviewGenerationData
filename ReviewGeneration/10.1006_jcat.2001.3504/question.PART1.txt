@@ -1,0 +1,86 @@
+I'm going to give you a scientific literature. Then I'm going to ask you some questions about it. I'd like you to first write down exact quotes of parts of the document word by word that would help answer the question, and then I'd like you to answer the question using facts from the quoted content. Do not omit any relevant information from the text, and avoid introducing any falsehoods or assumptions that aren't directly supported by the literature. Here is the literature, in <literature></literature> XML tags:
+
+<literature>
+
+
+Deuterium Isotopic Tracer Studies of Thiophene Desulfurization Pathways Using Propane or Dihydrogen as Co-reactants
+Author links open overlay panelWei Li, Sara Y. Yu, Enrique Iglesia 1
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1006/jcat.2001.3504
+Get rights and content
+Abstract
+Isotopically labeled reactants (D2 and C3D8) were used in order to probe H2S formation pathways during thiophene desulfurization on Co/H-ZSM5 at 773 K using H2 or propane as co-reactants. With D2/C4H4S or C3D8/C4H4S reactants, both D and H were present in the hydrogen sulfide formed, suggesting that desulfurization can occur via both direct thiophene decomposition with intramolecular hydrogen transfer and deuterium addition from D2 or C3D8. Thiophene, however, becomes readily deuterated via rapid exchange with D-containing intermediates formed from D2 or C3D8, suggesting that thiophene protonation-deprotonation steps are fast. These isotopic equilibration processes prevent a definitive assessment of the contributions of these two pathways to hydrogen sulfide formation. The D-content in hydrogen sulfide and in hydrocarbons are higher with C3D8/C4H4S than with D2/C4H4S reactants, indicating that propane is more effective than dihydrogen as a source of hydrogen for desulfurization reaction. C3H8/C4H4S and C3D8/C4H4S reactants gave similar reactions rates for hydrocarbon formation, suggesting that CH bond activation steps do not limit hydrocarbon formation rates. A normal kinetic isotope effect was observed for thiophene desulfurization, indicating that the abstraction of fragments from propane-derived intermediates for reactions with thiophene is more difficult for deuterated intermediates. A comparison of thiophene desulfurization rates with C3H8/D2/C4H4S, C3H8/C4H4S, and D2/C4H4S mixtures confirmed that propane is a more effective source of hydrogen than H2. The deuterium content in all products formed from C3H8/D2/C4H4S mixtures was lower than in products formed from C3H8/D2 reactants. These findings suggest that thiophene inhibits the hydrogen adsorptiondesorption steps responsible for the incorporation of D-atoms into adsorbed intermediates from D2 and for the desorption of dihydrogen during propane reactions.
+
+
+</literature>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+
+8. Does the article evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation? What specific examples, data, and insights are provided?
+9. Does the article investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance? What specific examples and relationships are revealed?
+10. Does the article propose mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts? What specific reaction steps, intermediates, active sites are described?
+11. Does the article explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation? What specific examples and insights into activity and selectivity modulation are provided?
+12. Does the article evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation? What specific data, characterizations and insights are provided?
+13. Does the article investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts? What specific examples and structure-function relationships are revealed?
+14. Does the article propose mechanistic reaction pathways for propane dehydrogenation over the studied supported metal catalysts? What specific steps, intermediates, and active sites are described?
+
+
+</questions>
+
+First, you need to sequentially extract any quotes in the literature that are most relevant to each question, and print them in numbered order, separated by newlines. Quotes should be relatively brief. Do not attempt to summarize or answer questions at this stage, but simply repeat exactly what the corresponding part of the literature says.
+
+Please enclose the full list of quotes in <quotes></quotes> XML tags. If there are no relevant quotes, write "No relevant quotes" instead.
+
+Then, answer the question, starting with "Answer:".  Do not include or reference quoted content verbatim in the answer. Don't say "According to Quote [1]" when answering. Do not write reference number of quotes after answer. Put your answer to the user inside <answer></answer> XML tags. Output formatted text, with line breaks for each question.Separate quotes and answers with a blank line. Provide the answers to all questions in English. After completing the English answers, translate all those answers into Chinese and provide the Chinese version.
+
+Thus, the format of your overall response should look like what's shown between the <example></example> tags.  Make sure to follow the formatting and spacing exactly.
+
+<example>
+
+<quotes>
+
+[1] "Company X reported revenue of $12 million in 2021."
+
+</quotes>
+
+<English version answer>
+
+1.Company X earned $12 million in 2021.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.X公司在2021年赚了1200万美元。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Almost 90% of revenue came from widget sales, with gadget sales making up the remaining 10%."
+
+</quotes>
+
+<English version answer>
+
+2.Almost 90% of it came from widget sales.
+
+</English version answer>
+
+<Chinese version answer>
+
+2.几乎90%的收入来自小部件销售。
+
+</Chinese version answer>
+
+</example>
+
+
+If the question cannot be answered by the document, say so.If deemed necessary, the answer to the question can be extended entirely from the content of the document.
+
+Answer all of the questions immediately without preamble. 

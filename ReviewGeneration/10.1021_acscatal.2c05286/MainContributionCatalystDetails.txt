@@ -1,0 +1,35 @@
+ Based on the details in the document, this is indeed relevant to propane dehydrogenation. The main catalyst contribution is:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<MainContribution>
+			<Catalyst>
+				<Name>5 wt% Cr/Ce0.2Zr0.8O2</Name>  
+				<Type>Metal Oxide</Type>
+				<CompositionElements>
+					<Element>Cr</Element>
+					<Element>Ce</Element>
+					<Element>Zr</Element>
+				</CompositionElements>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Cerium-stabilized zirconia</SupportMaterial>
+				<ConversionRate>62.6%</ConversionRate>
+				<Selectivity>79.4%</Selectivity>
+				<Stability>More stable compared to pure ZrO2 support</Stability>
+				<DeactivationRates>
+					<Rate>48% after 2 hours</Rate> 
+				</DeactivationRates>
+				<PropyleneYield>49.7%</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8:CO2:Ar = 1:2:37</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>20 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>0.2 g catalyst</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

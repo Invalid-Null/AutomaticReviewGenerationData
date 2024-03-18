@@ -1,0 +1,38 @@
+ <output>
+	<Relevance>
+		Yes
+	</Relevance>
+	<IfRelevant>
+		<MainContribution>
+			<Catalyst>
+				<Name>VOx/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<CompositionElements>
+					<Element>V</Element> 
+				</CompositionElements>
+				<ActiveSpeciesElements>
+					<Element>V</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>6-7%</ConversionRate> 
+				<Selectivity>90%</Selectivity>
+				<Stability>Deactivates due to coking</Stability>
+				<DeactivationRates>
+					<Rate>7-fold drop in 1st hour of TOS</Rate>
+				</DeactivationRates>
+				<PropaneProductionRate>1.2 mol/h/kgcat</PropaneProductionRate>
+				<PropyleneYield>1.2 mol/h/kgcat</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>25% propane</Ratio>
+					<Ratio>25% CO2</Ratio>
+				</FeedCompositionAndRatios>  
+				<PropanePartialPressure>47 kPa</PropanePartialPressure>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>10 NmL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>WHSV = 1.5 gpropane/gcat/h</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>
+
+Based on the details provided in the XML, the VOx/Al2O3 catalyst seems promising for propane dehydrogenation to propylene, with 90% selectivity and reasonable activity. The main issue is deactivation by coking, which needs to be mitigated. Overall, VOx/Al2O3 appears to be an interesting candidate for further development and optimization as a direct mechanism catalyst for this reaction.

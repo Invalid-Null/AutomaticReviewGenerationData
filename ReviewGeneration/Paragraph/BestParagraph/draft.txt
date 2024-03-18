@@ -1,0 +1,986 @@
+1. Introduction - What is the role of propylene in the chemical industry and why is propane dehydrogenation important?
+
+Propylene is a crucial chemical feedstock utilized for producing a diverse range of products, including polypropylene, acrylonitrile, propylene oxide, acetone, etc. \[10.1021/acscatal.0c01455, 10.1021/acscatal.2c01374\]. Traditional production routes via steam cracking and fluid catalytic cracking struggle to meet the rapidly rising demand, estimated to reach 191 megatons by 2030 \[10.1002/advs.202207756\]. Hence, propane dehydrogenation (PDH) has emerged as an innovative and economically competitive technology by leveraging abundant supplies of propane from shale gas \[10.1021/acscatal.0c03999, 10.1021/acscatal.3c00889\]. Multiple studies have highlighted PDH's effectiveness in addressing propylene's supply deficit in an eco-friendly manner \[10.1021/acscatal.3c00816, 10.1021/acscatal.1c00331\].
+
+※※※
+
+Integrative understanding and prospective outlook: Considering propylene's indispensable role and PDH's ecological and financial viability, this technology retains strong potential for scaling up. Exploring novel catalysts and processes to boost propylene yield and selectivity appears particularly promising \[10.1021/acscatal.3c00939, 10.1021/jacs.2c03941\]. Researchers might also examine integrating PDH with other chemical production pathways in a bio- or electro- refinery setup for maximal resource utilization. Overall, by building upon recent advancements, PDH could cement its position in enabling large-scale, sustainable propylene generation.
+<References>
+10.1021/acscatal.0c01455 
+10.1021/acscatal.2c01374
+10.1002/advs.202207756
+10.1021/acscatal.0c03999 
+10.1021/acscatal.3c00889
+10.1021/acscatal.3c00816
+10.1021/acscatal.1c00331 
+10.1021/acscatal.3c00939
+10.1021/jacs.2c03941
+</References>
+    
+
+2. Introduction - How do catalysts enable propane dehydrogenation through lowering activation barriers?
+
+Based on the details extracted from the references, catalysts facilitate propane dehydrogenation by providing active sites that can selectively activate C-H bonds in propane over C-C bonds with lower activation barriers [10.1021/acscatal.3c00889, 10.1021/acscatal.1c01916, 10.1021/acscatal.2c01374]. Platinum-based catalysts in particular are widely employed, leveraging Pt's ability to break C-H bonds while minimizing cracking reactions [10.1016/j.jechem.2023.04.019, 10.1021/acscatal.5b01423]. The key mechanisms described involve hydrogen abstraction to form metal-carbon bonds on coordinatively unsaturated sites [10.1021/acscatal.3c00939, 10.1021/acscatal.1c01924]. 
+
+Alternative catalysts are also being explored, including metal oxides like ZrO2 and Ga2O3 which can provide oxygen vacancies or Lewis acid sites [10.1021/acscatal.1c02621, 10.1021/acscatal.0c05454]. Zeolites exchanged with metal cations can similarly donate electron density to adsorbed propane [10.1002/advs.202207756]. Support effects are additionally important, with mesoporous silicas offering opportunities to tune selectivity and activity [10.1021/acscatal.0c03999].
+
+※※※
+
+Integrative understanding and prospective outlook: The reviewed studies reveal consistent strategies in catalyst design to promote selective C-H activation for propane dehydrogenation, while avoiding deep dehydrogenation and coking issues. This understanding may guide development of optimal single-atom Pt catalysts, building on demonstrated synergy between theory and experiment [10.1021/acscatal.1c01916, 10.1021/acscatal.1c01924]. Stabilizing coordinatively unsaturated metal sites could also be a fruitful direction, whether via confinement in zeolites/mesoporous supports or surface organometallic frameworks. More broadly, shale gas availability renders propane dehydrogenation increasingly viable, necessitating accelerated innovation in selective, stable and scalable catalysts [10.1016/j.jcat.2022.02.025, 10.1016/j.cej.2022.140726].
+<References>
+10.1021/acscatal.3c00889
+    10.1021/acscatal.1c01916
+    10.1021/acscatal.2c01374
+    10.1016/j.jechem.2023.04.019
+    10.1021/acscatal.5b01423
+    10.1021/acscatal.3c00939
+    10.1021/acscatal.1c01924
+    10.1021/acscatal.1c02621
+    10.1021/acscatal.0c05454
+    10.1002/advs.202207756
+    10.1021/acscatal.0c03999
+    10.1016/j.jcat.2022.02.025
+    10.1016/j.cej.2022.140726
+</References>
+    
+
+3. Introduction - What are the major classes of catalysts studied for propane dehydrogenation?
+
+The file details several major catalyst classes studied for propane dehydrogenation, including supported metals, metal oxides, alloys, and zeolites. Specifically, supported platinum and chromium oxide catalysts are noted as conventional options used commercially in the Catofin and Oleflex processes \[10.1021/acscatal.1c00331\]. Alternative lower-cost catalysts like supported vanadium and iron oxides, gallium oxides, as well as zeolites like H-Beta and cobalt-incorporated BEA have also shown promise \[10.1016/j.jcat.2020.12.019, 10.1021/acscatal.0c03999, 10.1021/acscatal.3c00816\]. While supported metals and metal oxides dominate, intermetallic alloys and single atom catalysts have recently emerged as active and selective options \[10.1021/acscatal.1c01916, 10.1016/S1872-2067(18)63196-1\].
+		※※※ 
+		With the range of catalyst classes and promising options introduced, continued research into optimizing existing formulations and exploring novel architectures appears worthwhile. Emerging preparation methods may better control active site isolation and metal-support interactions to boost stability and selectivity. Incorporating promoters or dopants could potentially tune catalytic behavior as well. Broader adoption of operando studies can offer insights into working state speciation and deactivation to guide optimization.
+<References>
+10.1021/acscatal.1c00331
+		10.1016/j.jcat.2020.12.019
+		10.1021/acscatal.0c03999
+		10.1021/acscatal.3c00816
+		10.1021/acscatal.1c01916
+		10.1016/S1872-2067(18)63196-1
+</References>
+    
+
+4. Theoretical Principles and Computational Approaches - What are the thermodynamic limitations and kinetic considerations in propane dehydrogenation?
+
+Based on the detailed analysis from the references, propane dehydrogenation (PDH) faces significant thermodynamic constraints and kinetic factors that limit conversion and selectivity.
+
+PDH is a highly endothermic reaction [[10.1021/acscatal.3c00103]; [10.1016/j.jechem.2023.04.019]], with ΔH ranging from 124-200 kJ/mol [[10.1021/acscatal.3c00103]; [10.1021/jacs.2c03941]]. To drive the equilibrium, high temperatures of 500-650°C are required [[10.1021/acscatal.0c01455]; [10.1021/acscatal.3c00889]]], often leading to coke formation and other side reactions [[10.1021/acscatal.1c01916]; [10.1016/j.jechem.2023.04.019]]. Low partial pressures also shift equilibrium towards products [[10.1002/advs.202207756]]. Adding O2 or CO2 oxidants can lower temperature needs by providing exothermic oxidation reactions [[10.1002/advs.202207756]], but has tradeoffs.  
+
+Kinetically, PDH has high barriers around 0.7-1.8 eV for key C-H activation steps [[10.1021/acscatal.3c00889]; [10.1021/acscatal.0c03999]]], limiting turnover. Support and promoter interactions help stabilize active sites against sintering [[10.1021/acscatal.3c00816]] at high temperatures. Structure sensitive side reactions like coking and hydrogenolysis occur on specific sites [[10.1016/j.jechem.2023.04.019]], while main PDH pathway may be structure insensitive [[10.1016/j.jechem.2023.04.019]].
+
+※※※  
+
+Integrative understanding and prospective outlook: The thermodynamic and kinetic constraints limiting propane dehydrogenation are now well characterized through advanced spectroscopic, theoretical and reactor studies. This understanding points towards next generation catalysts and processes that can enhance stability and selectivity at lower temperatures. For example, novel support materials and promoters that stabilize active sites could enable operating at 400-500°C while minimizing side reactions. Photocatalysis or hybrid thermochemical approaches could also help overcome unfavorable thermal dynamics. New operando characterization techniques will give further insights into transient intermediates and complex pathways during PDH turnover. Further developing this mechanistic foundation through experiments paired with multi-scale modeling will open innovative directions for commercial PDH processes.
+<References>
+10.1021/acscatal.3c00103
+10.1016/j.jechem.2023.04.019   
+10.1021/jacs.2c03941
+10.1021/acscatal.0c01455
+10.1021/acscatal.3c00889
+10.1021/acscatal.1c01916
+10.1002/advs.202207756
+10.1021/acscatal.3c00889   
+10.1021/acscatal.0c03999
+10.1021/acscatal.3c00816
+10.1016/j.jechem.2023.04.019
+</References>
+    
+
+5. Theoretical Principles and Computational Approaches - How are DFT calculations used to explore reaction mechanisms and pathways?
+
+Computational studies utilizing density functional theory (DFT) calculations have offered valuable insights into propane dehydrogenation mechanisms, kinetics, and pathways over various catalysts. \[10.1021/acscatal.3c00816\] DFT results coupled with microkinetic modeling have elucidated structure-activity relationships, identifying descriptors like d-band centers that correlate with selectivity on metals \[10.1021/acscatal.3c00816\], and revealed kinetically relevant steps like propylene CH activation. \[10.1021/acscatal.1c01916\] DFT has also explored single atom catalysts, showing dopant and support effects tune performance. \[10.1016/S1872-2067(18)63196-1\]
+
+On solid acid catalysts, DFT clarified Zn-O-Zn sites have lower apparent activation barriers than Zn^2+^ for dehydrogenation over H-ZSM-5. \[10.1021/acscatal.3c00816\] For Sn-BEA, DFT found the direct pathway more kinetically favorable than the indirect route in closed sites, with open sites more reactive pending hydroxylation. \[10.1016/j.jcat.2020.12.019\] DFT also provided mechanistic details over zeolites like showing dissociative propane adsorption prevails over radical formation on Zn-exchanged mordenite. \[10.1016/j.jcat.2010.10.018\]  
+
+Overall DFT offers fundamental atomic-level insights connecting structure, descriptors, and mechanisms to observed catalyst performance trends. Continued development of functionals, incorporation of entropy and solvent effects, and integration with microkinetic modeling will enable enhanced computational characterization and screening for optimized PDH catalysts.
+
+※※※
+
+The valuable mechanistic perspectives into propane dehydrogenation catalysis furnished by DFT calculations harbor prospects for rationally navigating an enhanced exploratory phase. By pinpointing influential attributes like coordination motifs and electronic properties governable through compositional and architectural modifications, computational efforts lay the foundation for deliberately maneuvering selectivity constraints.
+
+Capitalizing on these actionable handles, future undertakings might examine hitherto unexplored catalytic mediums through high-throughput virtual experimentation calibrated to empirical observations. Such exertions could stimulate the conception of unconventional catalyst frameworks with tailored coordination surroundings engineered to promote desired mechanistic routes. Moreover, incorporating dynamic transformations in catalyst speciation occurring under practical reactive atmospheres into computational methodologies is pivotal for predictive prowess.  
+
+Overall while extant DFT contributions have afforded invaluable functional insights, the integration of heightened levels of configurational and environmental complexity in simulation protocols promises more expansive and nuanced perspectives into tailored catalyst design.
+<References>
+10.1021/acscatal.3c00816
+10.1021/acscatal.1c01916   
+10.1016/S1872-2067(18)63196-1
+10.1016/j.jcat.2020.12.019  
+10.1016/j.jcat.2010.10.018
+</References>
+    
+
+6. Theoretical Principles and Computational Approaches - What microkinetic models have provided insights into dehydrogenation kinetics?
+
+Detailed analysis established from the study of reference [10.1021/acscatal.3c00939]. Synthesized comprehension stemming from references [10.1021/acscatal.3c00889] and [10.1016/j.jcat.2021.09.008].
+
+The article [10.1021/acscatal.3c00939] presents microkinetic models of propane dehydrogenation using DFT-derived parameters. It discusses rate equations, surface coverages, turnover frequencies, selectivities, and rate-controlling steps. 
+
+The article [10.1021/acscatal.3c00889] presents microkinetic modeling efforts using the CATKINAS package to evaluate the kinetics and practical applicability of single-atom catalysts under industrial conditions. Parameters from DFT calculations were used to perform the simulations.
+
+The article [10.1016/j.jcat.2021.09.008] presents microkinetic modeling that used descriptors to screen and rank intermetallic catalysts based on formation energies and rate equations. This allowed prediction of activity and propylene selectivity.
+
+※※※
+
+Integrative understanding and prospective outlook: Taking into consideration the advancements and findings discussed in the file, there lies an opportunity to explore emerging fields and innovative methodologies. Future research endeavors might focus on expanding the scope of microkinetic simulations to encompass broader classes of catalysts and reaction systems. Additionally, as computational power continues advancing, more complex models could provide enhanced predictive capacities and yield optimized catalytic designs. Machine learning techniques may also be integrated to extract meaningful patterns from simulation data. Overall, microkinetic modeling shows immense promise in expediting scientific discoveries and technological innovations.
+<References>
+10.1021/acscatal.3c00939  
+10.1021/acscatal.3c00889
+10.1016/j.jcat.2021.09.008
+</References>
+    
+
+7. Theoretical Principles and Computational Approaches - How have descriptors been identified correlating catalyst properties to performance?
+
+Based on the analysis of the files provided, a few studies have utilized computational methods to reveal structure-activity relationships and identify descriptors correlating catalyst properties to propane dehydrogenation (PDH) performance [10.1016/j.jcat.2021.09.008, 10.1021/acscatal.3c00889, 10.1021/acscatal.0c05454]. 
+
+One study established scaling relations between the formation energies of PDH intermediates on transition metal surfaces to recognize the ethyl and methylidyne adsorption energies as optimal reactivity descriptors [10.1016/j.jcat.2021.09.008]. Another work identified a volcano-type activity trend with respect to the propylene adsorption energy through microkinetic modeling of single-atom catalysts [10.1021/acscatal.3c00889]. Additionally, degree of rate control analysis on DFT-calculated transition states was leveraged to identify the rate-limiting PDH steps and correspondingly establish descriptors based on the energies of these steps [10.1021/acscatal.0c05454].
+
+Beyond computational explorations, a few experimental studies have also delineated structure-activity correlations. The dispersion of active species, metal loading, and support nature were associated with catalytic performance [10.1021/acscatal.0c03999]. Ensembles of Pt atoms were revealed to drive coke formation, while separated Pt single atoms led to enhanced stability [10.1016/j.jechem.2023.04.019].
+
+※※※
+
+Integrative understanding and prospective outlook: Taking into consideration the advancements and revelations discussed in the files, promising pathways can be charted for future investigations through synergistic experiment-computation methodologies. While linear scaling relations have identified simple descriptors thus far, exploring more complex and unconventional descriptors through high-throughput DFT screening and machine learning holds potential. Extracting such descriptors can further assist in rational catalyst design. On the experimental front, operando spectroscopic techniques can offer pivotal atomic-level insights into working catalysts. Overall, cross-pollination of computational modeling and spectroscopic characterization techniques promises to advance the identification of robust structure-activity relationships and design superior PDH catalysts.
+<References>
+10.1016/j.jcat.2021.09.008
+10.1021/acscatal.3c00889  
+10.1021/acscatal.0c05454
+10.1021/acscatal.0c03999
+10.1016/j.jechem.2023.04.019
+</References>
+    
+
+8. Metal Oxide Catalysts - What metal oxides like Cr2O3, Ga2O3 have shown promising propane dehydrogenation activity?
+
+Metal Oxide Catalysts - What metal oxides like Cr2O3, Ga2O3 have shown promising propane dehydrogenation activity?
+
+Several metal oxide catalysts have been explored for propane dehydrogenation, with some promising results reported. Among them, gallium oxide and chromium oxide stand out as active and selective catalysts based on the evidence extracted from the file.
+
+Specifically, polymorphs of gallium oxide including α-Ga2O3, β-Ga2O3, and γ-Ga2O3 were evaluated for propane dehydrogenation by Zhang et al. [10.1021/acscatal.0c05009]. Out of these, β-Ga2O3 showed the highest initial activity, attributed to its high surface acid site density as determined by NH3-TPD. Silica-supported β-Ga2O3 and γ-Ga2O3 also demonstrated good propylene yields. Ga2O3/SiO2 prepared by flame pyrolysis was investigated by Cargnello et al., with in situ IR results indicating it has intrinsic activity for propane dehydrogenation [10.1021/acscatal.1c02621]. Among various metal oxides, Ga2O3 gave the highest propylene yield, outperforming Fe2O3 and Cr2O3 [10.1021/acscatal.0c03999].
+
+Chromium oxide (Cr2O3) has also shown promise for propane dehydrogenation. According to Zhu et al., Cr-based catalysts like Cr2O3 are among the most active for the oxidative dehydrogenation of propane with CO2 [10.1021/acscatal.2c05286]. Chang et al. studied α-Cr2O3(0001) using kinetic Monte Carlo simulations and microkinetic modeling, providing insights into the non-oxidative dehydrogenation mechanism [10.1021/acscatal.1c01814]. Weak metal-support interactions with SiO2 were found to improve Cr2O3's propylene selectivity [10.1021/acscatal.0c03999]. Among different metal oxide catalysts, Cr2O3 gave higher yields than Fe2O3 and Al2O3 [10.1021/acscatal.0c03999]. However, deactivation from coking remains an issue for Cr2O3 catalysts.
+
+In summary, gallium oxide and chromium oxide catalysts have exhibited promising intrinsic activity and propylene selectivity for the propane dehydrogenation reaction based on the examples and data extracted from the literature. However, stability and resistance to deactivation still need to be improved through composition optimization, metal-support effects, and other strategies. Advancing these metal oxide catalysts could provide more economical alternatives to traditional supported metal catalysts. Future work should focus on elucidating the active sites, reaction mechanisms, and deactivation pathways on these materials. Combining advanced characterization techniques with computational modeling and kinetic studies will provide essential insights to guide the design of optimized metal oxide catalysts. There is an opportunity to build on the progress made so far and develop these metal oxides into viable propane dehydrogenation catalysts.
+※※※
+
+Integrative understanding and prospective outlook: The promising intrinsic activity demonstrated by certain metal oxides like gallium oxide and chromium oxide reveals opportunities to further develop these materials as alternative propane dehydrogenation catalysts. While metal oxides may not yet match the performance of supported metals, they possess potential advantages in Economics and sustainability that merit continued exploration. Elucidating the nature of their active sites through advanced spectroscopic techniques and establishing clear structure-activity relationships via computational studies could unlock targeted improvements. Stability and resistance to deactivation should be key priorities. Modulating factors like polymorphism, defects, and metal-support interactions may help address these challenges. Development of bifunctional metal oxide catalysts that couple dehydrogenation sites with acidic sites for olefin desorption could also boost selectivity. Beyond materials design, optimal integration in suitable reactor systems will be critical for eventual commercial deployment. The possibilities are exciting for metal oxides to play a bigger role in propane dehydrogenation, as long as research continues to build fundamental knowledge while translating insights into practical advancements.
+<References>
+10.1021/acscatal.0c05009
+		10.1021/acscatal.1c02621
+		10.1021/acscatal.0c03999
+		10.1021/acscatal.2c05286
+		10.1021/acscatal.1c01814
+</References>
+    
+
+9. Metal Oxide Catalysts - How does controlling oxidation state, oxygen mobility and acid-base sites modulate catalyst performance?
+
+Based on the details extracted from the file, there is evidence showing how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides can affect propane dehydrogenation performance. 
+
+For oxidation states, creating oxygen vacancies on Al2O3 was found to reduce aluminum coordination, generating Alcus-O acid-base pairs that help tune intermediates' adsorption energies and lower reaction barriers, enhancing PDH activity [10.1016/j.jcat.2021.03.033]. Partly reduced V3+/V4+ vanadium oxides on supports like ZrO2 were also identified as the active sites for PDH without oxygen introduction [10.1021/acscatal.2c00878]. For chromium oxides, cycling between Cr3+ and Cr6+ oxidation states helps complete the Mars-van Krevelen redox mechanism crucial for activity [10.1006/jcat.1994.1183].
+
+In terms of oxygen mobility, LaZrOx with the weakest metal-oxygen bond and highest oxygen mobility showed the greatest intrinsic PDH activity among SiO2, Al2O3 and ZrO2 supports [10.1002/anie.201508731]. TiOx ultrathin nanosheets with abundant oxygen vacancies also had higher concentrations of coordinatively unsaturated Ti4c sites after H2 reduction, directly correlating with improved PDH performance [10.1021/acscatal.3c00818].
+
+For acid-base properties, tuning the Zr/Ga ratio of ZrO2/Ga2O3 mixed oxides gave optimal base site density and acid site strength, with a Zr/Ga ratio of 0.26/1 achieving 50.1% propane conversion [10.1021/acscatal.1c02621]. The surface acid site density of Ga2O3 polymorphs correlated with initial catalytic activity as well, with β-Ga2O3 showing the highest density [10.1016/j.jcat.2006.02.017]. Manipulating these oxidation states, oxygen mobility, and acid-base characteristics thus offers clear opportunities to enhance metal oxide catalysts for propylene production.
+
+※※※
+
+Integrative understanding and prospective outlook: The findings reveal metal oxides are uniquely tunable to optimize propane dehydrogenation performance, via defects engineering to manipulate oxidation states and oxygen mobility as well as compositional tailoring to modulate acid-base properties. Building on these advancements, future horizons could investigate dynamic defect self-healing metal oxides to resist deactivation while harnessing lattice oxygen redox activity. Novel combinations of mixed metal oxides synthesized via emerging techniques like atomic layer deposition may also permit atomically precise tuning of dopants, vacancies and coordination environments to further elevate productivity and prolong lifetimes. Operando spectroscopy can shed light on synergistic support interactions and evolution of active sites. Ultimately, by rationally optimizing these nanoscale characteristics, breakthrough metal oxide catalysts beckon that eclipse conventional options for on-purpose propylene.
+<References>
+10.1016/j.jcat.2021.03.033
+10.1021/acscatal.2c00878  
+10.1006/jcat.1994.1183
+10.1002/anie.201508731
+10.1021/acscatal.3c00818
+10.1021/acscatal.1c02621  
+10.1016/j.jcat.2006.02.017
+</References>
+    
+
+10. Metal Oxide Catalysts - What are the proposed mechanistic scenarios over different metal oxide catalysts?
+
+Based on the details extracted from the literature, here is a comprehensive review section on the proposed mechanistic scenarios for propane dehydrogenation over different metal oxide catalysts:
+
+Several articles describe Mars-van Krevelen type mechanisms operating during propane dehydrogenation over metal oxide catalysts like VOx/ZrO2 [10.1006/jcat.1999.2510], CrOx/ZrO2 [10.1016/j.jcat.2004.01.023], and MoVO mixed oxides [10.1021/jacs.9b09235]. In this pathway, lattice oxygen initiates the reaction by abstracting hydrogen from propane. The resulting alkyl species then lead to propene, while the reduced metal oxide surface gets re-oxidized by O2 or CO2 to complete the catalytic cycle. 
+
+Isolated metal cations with unsaturated coordination (designated Mcus) are identified as active sites on several catalysts. On CrOx/ZrO2, Zrcus sites adjacent to oxygen vacancies catalyze C-H bond cleavage [10.1021/acscatal.9b05063]. Isolated Zn2+ on ZrO2 [10.1021/acssuschemeng.1c03074] and Ga+/H+ pairs on Ga/H-ZSM-5 [10.1021/acscatal.1c01497] also demonstrate high activity. The proximity of these Mcus sites to acid/base sites contributes to subsequent reaction steps like hydride transfer.
+
+Several articles highlight the role of redox cycles Mx+ ↔ M(x-1)+ (x = 3-6) in activating propane on Cr [10.1021/acscatal.0c03999] and V [10.1016/j.jcat.2008.02.028] oxides. Optimal valency states like Cr3+ or V3+ balance activity and resistance to over-reduction. Tetrahedral Ga3+ sites are noted to selectively activate C-H bonds on Ga2O3 via heterolytic dissociation without changing oxidation state [10.1016/j.jcat.2005.03.001].
+
+※※※
+
+Integrative understanding and prospective outlook: The current mechanistic picture remains fractional, with catalyst-specific pathways proposed based on limited spectroscopic and computational data. A unified framework accounting for common intermediates and descriptors is lacking. An opportunity exists to integrate advanced operando probes with kinetic isotope tracing to track full catalytic sequences from propane to propylene. Data-driven computational approaches could then map out detailed free energy diagrams. The synergistic coupling of multiple techniques will clarify universal mechanistic features governing selectivity over diverse metal oxide catalysts. Future research might focus on tailored mixed metal oxides to optimally tune oxidation states, oxygen mobility, and acid-base properties for propane dehydrogenation.
+<References>
+10.1006/jcat.1999.2510
+10.1016/j.jcat.2004.01.023  
+10.1021/jacs.9b09235
+10.1021/acscatal.9b05063
+10.1021/acssuschemeng.1c03074
+10.1021/acscatal.1c01497
+10.1021/acscatal.0c03999 
+10.1016/j.jcat.2008.02.028
+10.1016/j.jcat.2005.03.001
+</References>
+    
+
+11. Metal Oxide Catalysts - How does the metal-support interplay affect dehydrogenation activity and selectivity?
+
+The article by Wang et al. [10.1021/acscatal.2c00878] explores metal-support interfacial effects in VOx catalysts for propane dehydrogenation (PDH). It systematically investigates how different oxide supports affect the activity of supported VOx catalysts, finding VOx/ZrO2 to have over 4 times higher activity than VOx supported on other oxides. Density functional theory calculations reveal this is attributed to weaker VOx-ZrO2 interactions, leading to lower electron density on bridge oxygen atoms and thus higher capability to rupture C-H bonds in propane. The principles established provide guidance to tune the microenvironment of VO active sites for improved PDH performance.
+
+Additionally, Liu et al. [10.1021/acscatal.5b01679] show that for vanadium oxide on silica supports, the weak interaction with surface silanol groups causes undesired 3D nanoparticle formation. Adding sodium ions creates more reactive SiONa+ sites that anchor 2D vanadia, enhancing dispersion to match other supports. This improves activity while maintaining selectivity.
+
+Furthermore, Zhang et al. [10.1016/j.cej.2022.140726] demonstrate that dealumination of zeolite BEA support generates silanol groups that anchor isolated Co2+ cations. These stable cobalt sites activate C-H over C-C bonds in propane, delivering high propylene selectivity. 
+
+These examples highlight how strategic manipulation of metal-support interfaces in oxide catalysts provides targeted pathways to optimize PDH performance.
+
+※※※
+
+Integrative understanding and prospective outlook: The studies appraised underscore metal-support interplay as a pivotal handle to direct structural configurations and resultant reactivity. Strategies like ion exchange to modulate anchoring site reactivity, solid-state reaction to alter interface morphology, and post-synthetic dealumination to generate isolated active sites offer tested blueprints. 
+
+Expanding these design tenets to emerging heterojunctions with tunable interfaces (metal/metal oxide, metal/nitride, metal/carbide etc.) can spur innovation. Harnessing operando spectroscopies to track transient intermediates across internal interfaces promises to advance mechanistic models and catalytic<References>
+10.1021/acscatal.2c00878
+10.1021/acscatal.5b01679  
+10.1016/j.cej.2022.140726
+</References>
+    
+
+12. Supported Metal Catalysts - What single metals like Pt, Pd, Ir have been explored for propane dehydrogenation?
+
+Based on the details extracted from the file, several studies have evaluated supported mono-metallic Pt, Pd, or Ir catalysts for propane dehydrogenation (PDH). 
+
+A study by Burch and Watling [10.1006/jcat.1994.1333] investigated the effects of adding sulfur during preparation or to the feed on Pt/alumina catalysts for PDH. Key findings were that predosing with H2S at 873 K greatly improved selectivity to propene, and sulfur incorporation during preparation was more effective than during reaction.
+
+Other works evaluated Pt supported on boron nitride (Pt/BN) [10.1016/j.jechem.2021.10.008], SBA-15 (Pt/SBA-15) [10.1016/j.apcatb.2012.11.005], Al2O3 [10.1021/acscatal.0c03391, 10.1021/acscatal.9b05548], and zeolites like Ge-UTL (Pt/Ge-UTL) [10.1038/s41929-023-00968-7] and Zn-ZSM-5 (Pt/Zn-ZSM-5) [10.1016/j.cej.2015.01.008]. Effects of promoters like Ca [10.1016/j.cej.2014.07.044], Sn [10.1021/acscatal.2c01631, 10.1021/acscatal.1c00639], and Pb [10.1038/s41467-020-16693-9] on Pt catalysts were also studied. These works provided insights into metal-support interactions, alloying effects, and strategies to enhance Pt stability and selectivity.
+
+A few studies also looked at supported Pd [10.1021/acscatal.3c01002], Rh [10.1126/science.abg8389], Ru [10.1016/0021-9517(86)90312-X, 10.1021/acscatal.0c01667], and Ir [10.1021/acscatal.3c01002], but data was more limited compared to Pt catalysts.
+
+Overall, Pt-based catalysts remain the most widely studied mono-metallic systems for PDH, and detailed mechanistic insights have been gained on supported Pt catalysts through advanced characterization techniques. However, expanding research to other noble metals and modifiers could uncover further opportunities to enhance catalytic performance.
+
+※※※
+
+Integrative understanding and prospective outlook: The comprehensive analysis of supported metal catalysts for propane dehydrogenation provides a robust baseline understanding centered chiefly on Pt-based materials. Nonetheless, broader avenues may be charted to diversify the portfolio of investigated metals, supports, and characterization methods:
+
+1) Evaluate second-row transition metals like Ru, Rh, Pd more extensively as alternatives to scarce Pt. Layered materials like MXenes could stabilize these metals in single sites. Operando spectroscopies during PDH could give mechanistic clarity.
+
+2) Survey metal pairings on various supports by high-throughput experimentation and computations to determine unconventional, high-performance compositions. Metal-support interfacial engineering could bestow stability.
+
+3) Implement novel architectures like single atom alloys and confined cluster catalysts to limit undesirable dehydrogenation pathways. In tandem, employ spectro-microscopic tools like AP-XPS to impart views of working catalysts. 
+
+4) Utilize the accrued wisdom from fundamental catalytic studies to guide process intensification of PDH through microreactor prototyping, membrane separations, and heat integration. 
+
+Purposeful endeavors at the confluence of these frontiers might synergize into efficient and sustainable PDH technologies for propylene production.
+<References>
+10.1006/jcat.1994.1333
+10.1016/j.jechem.2021.10.008   
+10.1016/j.apcatb.2012.11.005
+10.1021/acscatal.0c03391
+10.1021/acscatal.9b05548
+10.1038/s41929-023-00968-7
+10.1016/j.cej.2015.01.008  
+10.1016/j.cej.2014.07.044
+10.1021/acscatal.2c01631
+10.1021/acscatal.1c00639
+10.1038/s41467-020-16693-9
+10.1021/acscatal.3c01002
+10.1126/science.abg8389  
+10.1016/0021-9517(86)90312-X
+10.1021/acscatal.0c01667  
+</References>
+    
+
+13. Supported Metal Catalysts - How do metal particle size, shape, support effects influence activity and stability?
+
+Based on the details extracted from the references, there evidence showing how properties like metal particle size, shape, support interactions, and pretreatment conditions influence the catalytic performance of supported metal catalysts for propane dehydrogenation (PDH).
+
+Specifically, reference [10.1016/j.apcatb.2012.11.005] reveals that a Pt/SBA-15 catalyst prepared by deposition-precipitation has much smaller Pt particles compared to one prepared by wet impregnation. The smaller Pt particles lead to higher initial conversion and propylene selectivity, although deactivation occurs due to coke formation. Reference [10.1021/acscatal.0c03391] demonstrates that depositing uniform, nanoscale Al2O3 overcoat layers on Pt nanoparticles by ALD enhances stability and selectivity by suppressing sintering and limiting formation of less selective sites during steam regeneration. An optimal coating thickness of 6-8 Å after 5-7 ALD cycles is identified. 
+
+In terms of shape effects, reference [10.1021/acscatal.0c03381] calculates that under-coordinated Pt(211) sites dominate the reactivity over close-packed Pt(111) terrace sites, despite having lower surface area. This exemplifies the significant influence of surface structure on catalytic behavior. Additionally, reference [10.1021/jacs.6b08705] shows the reaction pathway and key intermediates involved during PDH on Pt(111), providing mechanistic insights.
+
+Regarding metal-support interactions, reference [10.1016/j.jechem.2021.10.008] demonstrates strong interactions between Pt and boron nitride after high temperature pretreatments. This causes partial encapsulation of Pt particles by boron oxide overlayers, which constrains particle size, blocks unselective sites, and enhances stability. Similarly, reference [10.1038/s41929-023-00968-7] stabilizes ultra-small Pt clusters in 14-membered ring zeolite pores via Pt-O-Ge linkages. This tailored metal-support interaction provides outstanding PDH performance.
+
+In summary, strategic modulation of properties like particle size, shape, metal-support interfaces and pretreatment conditions allows control over the abundance and accessibility of selective sites, enabling optimization of supported metal catalysts for targeted PDH conversion and propylene selectivity.
+
+※※※
+
+Integrative understanding and prospective outlook: The findings reveal promising opportunities to advance PDH catalysis by engineering multifunctional supported metal systems. For instance, synergy between shaped metal nanoparticles and hierarchically porous supports could combine stability from overcoat layers with accessibility to tunable active sites. Stabilizing isolated metal atoms or ultra-small clusters in ordered frameworks is also a pioneering direction. Operando spectroscopy techniques will likely play an integral role in unraveling dynamic structure-performance interrelationships under working conditions. Furthermore, machine learning models trained on extensive datasets could rapidly predict optimal compositions and pretreatments for targeted applications. In summary, by elucidating fundamental principles governing activity and selectivity, then implementing those guidelines through precisely tailored synthesis methods, significant enhancements in productivity and sustainability are attainable.
+<References>
+10.1016/j.apcatb.2012.11.005
+        10.1021/acscatal.0c03391
+        10.1021/acscatal.0c03381
+        10.1021/jacs.6b08705
+        10.1016/j.jechem.2021.10.008
+        10.1038/s41929-023-00968-7
+</References>
+    
+
+14. Supported Metal Catalysts - What are the mechanistic pathways proposed over supported metal catalysts?
+
+Based on the details extracted from the references, most of the studies are focused on characterization and evaluation of catalytic performance over various supported metal catalysts, without delving into mechanistic proposals or pathways. 
+
+A few exceptions that do discuss mechanisms include reference [10.1021/acscatal.0c03391], which proposes different pathways over Pt(111) and Pt(211) surfaces - a reverse Horiuti-Polanyi route on Pt(111) and an alternative non-reverse pathway on Pt(211) involving multiple dehydrogenation and hydrogenation steps. Reference [10.1038/s41929-023-00968-7] also puts forth a mechanism over Pt-Ge dual sites on zeolite UTL, with the first C-H cleavage as the rate limiting step. 
+
+In summary, most literature lacks in-depth mechanistic analysis and future work should focus more strongly on gaining molecular-level insights into the catalytic cycles and active site requirements for supported metal catalysts in propane dehydrogenation. Computational studies combined with advanced spectroscopic analysis can help reveal mechanistic details and aid the rational design of improved supported metal catalysts for this important reaction.
+
+※※※
+
+Integrative understanding suggests that despite rapid advancements in the development of supported metal catalysts for propane dehydrogenation, mechanistic comprehension remains an underexplored area warranting extensive dedicated efforts. Armed with fundamental molecular-scale insights, we can envision superior catalyst formulations via precise control over active site compositions tailored for each elementary step. Beyond metals, emerging hybrid systems incorporating single sites could unlock new horizons. Operando techniques probing catalyst-reactant interactions can guide these endeavors. We stand at the cusp of transformative developments in this vital process - the time is ripe to bridge knowledge gaps through incisive mechanistic explorations.
+<References>
+10.1021/jacs.6b08705
+    10.1021/acscatal.9b05063 
+    10.1016/j.jcat.2005.11.037
+    10.1016/S1872-2067(18)63202-4
+    10.1016/j.jcat.2021.03.033
+    10.1006/jcat.1994.1333
+    10.1016/j.apcatb.2012.11.005
+    10.1021/acscatal.0c03391
+    10.1016/j.jcis.2021.03.023
+    10.1016/j.apcatb.2020.119089
+    10.1021/acssuschemeng.9b07224
+    10.1016/S1872-2067(15)61042-7
+    10.1016/S1872-2067(19)63334-6
+    10.1021/acscatal.2c05286
+    10.1002/advs.202207756
+    10.1002/advs.202207756
+    10.1038/s41929-021-00730-x 
+    10.1016/j.cej.2004.11.005
+    10.1016/j.jcat.2020.06.016
+    10.1016/j.jcat.2008.02.028
+    10.1021/acssuschemeng.1c03074
+    10.1021/acscatal.0c05009
+    10.1038/s41467-022-32842-8
+    10.1021/acscatal.0c01580
+    10.1016/j.jcat.2004.01.023
+    10.1016/S1872-2067(18)63196-1
+    10.1016/j.jechem.2021.10.008 
+    10.1016/j.jcat.2004.03.014
+    10.1006/jcat.1999.2510
+</References>
+    
+
+15. Supported Metal Catalysts - What changes in selectivity have been observed between metallic and oxidized surfaces?
+
+Based on the details provided in the file, none of the articles compared the selectivity profiles of metallic versus oxidized supported metal catalysts for propane dehydrogenation. Most of the articles focused solely on evaluating various bimetallic or alloy catalysts, such as PtZn [10.1021/acscatal.1c01808], PtGa [10.1016/j.apcatb.2021.120731], and PtSn [10.1021/acscatal.7b02264], for propane dehydrogenation. 
+
+A few articles explored metal catalysts supported on different materials, like H-ZSM-5 [10.1021/acscatal.1c01497], alumina [10.1016/j.jechem.2021.06.002], and titanosilicate TS-1 [10.1016/j.jcat.2017.05.024], but did not compare oxidized states. Some articles evaluated metal oxide catalysts, like chromium [10.1016/j.jcat.2008.11.014] and vanadium oxides [10.1016/S1872-2067(18)63048-7], but did not explore metallic states or compare selectivity profiles between the two.
+
+Overall, there appears to be a gap in understanding how oxidation state impacts the selectivity of supported metal catalysts for propane dehydrogenation. This could be an interesting area for further exploration to elucidate structure-function relationships and guide the development of more selective catalysts.
+
+※※※
+
+Integrative understanding and prospective outlook: The lack of insights comparing metallic versus oxidized propane dehydrogenation catalysts presents an opportunity to address this knowledge gap through systematic studies. By preparing and characterizing supported catalysts with the same metal but different oxidation states, researchers could evaluate how oxidation impacts selectivity, activity, and stability. The findings may reveal useful structure-property relationships and new avenues for tuning selectivity through controlled oxidation. Broader impacts might include expanding fundamental understanding of metal-support interactions in catalysis and enabling more targeted catalyst design.
+<References>
+10.1021/acscatal.1c01808
+10.1016/j.apcatb.2021.120731  
+10.1021/acscatal.7b02264
+10.1021/acscatal.1c01497
+10.1016/j.jechem.2021.06.002
+10.1016/j.jcat.2017.05.024   
+10.1016/j.jcat.2008.11.014
+10.1016/S1872-2067(18)63048-7 
+</References>
+    
+
+16. Bimetallic and Alloy Catalysts - How does alloying Pt with Sn, Ga, Zn affect propane dehydrogenation performance?
+
+Based on the detailed analysis of the references provided [10.1021/acscatal.3c00548, 10.1016/j.cej.2014.02.084, 10.1021/acscatal.2c05671, 10.1021/acscatal.1c04092, 10.1016/j.jechem.2020.08.058, 10.1016/j.jcat.2021.09.008, 10.1021/acscatal.3c00816, 10.1021/jacs.1c10261, 10.1016/j.jechem.2017.09.035, 10.1038/s41467-022-30522-1], bimetallic and alloy Pt catalysts with Sn, Ga, Zn have demonstrated improved propane dehydrogenation performance in terms of activity, selectivity and stability compared to monometallic Pt catalysts. Adding Sn helps suppress hydrogenolysis and coke formation, thereby enhancing selectivity [10.1016/j.cej.2014.02.084, 10.1021/acscatal.3c00548]. Pt-Ga forms highly stable intermetallic compounds, resisting sintering and coking over extended reaction periods [10.1016/j.jechem.2020.08.058]. Alloying with Zn allows tuning of the Pt ensemble size and electronic structure to achieve optimal sites for C-H activation while avoiding overbinding C3 species [10.1021/jacs.1c10261].  
+		
+		Key structural characteristics influencing propane dehydrogenation performance have been identified. Subnanometric PtSn clusters in MFI zeolite channels give 10 times higher activity than PtSn nanoparticles, attributed to optimized Pt-Sn interactions [10.1021/acscatal.3c00548]. Isolated Pt atoms stabilized by Zn complexes in the framework of dealuminated zeolite Beta achieve remarkable stability and near equilibrium conversion [10.1021/jacs.1c10261]. PtZn intermetallic nanoparticles in mesostructured MFI nanosheets allow breaking diffusion limitations to attain high productivity [10.1021/acscatal.1c04092].
+		
+		The appropriate Sn/Pt ratio has also been determined to achieve optimal dehydrogenation activity and propylene selectivity. For PtSn clusters on alumina, Pt/Sn ~ 3 gave moderate turnover frequencies; equal Pt/Sn ratios resulted in negligible activity [10.1021/acscatal.2c05671]. Increasing Sn/Pt from 0 to 1.5 increased propane conversion over PtSn/Al2O3 before excess Sn became detrimental [10.1016/j.jcat.2020.09.016]. These trends confirm computationally predicted volcano-type dependence of rate on Sn content [10.1016/j.jcat.2018.09.006].  
+		
+		※※※
+		Integrative understanding and prospective outlook: The collected insights on bimetallic Pt catalysts highlight promising design paradigms that may stimulate further advancements. Creating isolated single-sites in zeolites, strategic selection of secondary metals, compartmentalizing ultrasmall nanoclusters, and interface engineering with unconventional supports each offer tunable modules to continue optimizing propane dehydrogenation systems. Additionally, operando spectroscopies [10.1038/s41467-022-30522-1] and multi-scale modeling may facilitate fundamental comprehension to inform rational catalyst formulation targeting industrially relevant process intensification. Broader deployment of high-throughput experimentation and data-driven approaches can also accelerate identification of novel compositions and metastable phases with targeted functionality.
+<References>
+10.1021/acscatal.3c00548
+		10.1016/j.cej.2014.02.084
+		10.1021/acscatal.2c05671
+		10.1021/acscatal.1c04092
+		10.1016/j.jechem.2020.08.058
+		10.1016/j.jcat.2021.09.008
+		10.1021/acscatal.3c00816
+		10.1021/jacs.1c10261  
+		10.1016/j.jechem.2017.09.035
+		10.1038/s41467-022-30522-1
+</References>
+    
+
+17. Bimetallic and Alloy Catalysts - What are the electronic and geometric effects induced by secondary metals?
+
+Based on the detailed analysis from the study [10.1021/acscatal.3c00548], larger Pt nanoparticles can accommodate more Sn species to form PtSn alloy nanoparticles, while smaller Pt clusters tend to be Pt-rich with low Sn incorporation. These lessons could be further extended to other Pt-based bimetallic catalysts, though the choice of secondary metal (e.g. Cu, In, Zn, Ga instead of Sn) may influence the optimal size of the Pt sites [10.1021/acscatal.3c00548].
+
+The article [10.1021/acscatal.2c05671] investigates the electronic and geometric effects of Sn as a secondary metal in supported PtSn bimetallic clusters. It demonstrates that Sn forms strong bonds with Al2O3 support oxygens at the cluster-support interface. Sn also exhibits a stabilization effect on the Pt clusters [10.1021/acscatal.2c05671].
+
+Yes, the article [10.1021/acscatal.0c01667] investigates both electronic and geometric effects of phosphorus addition in Ru-P bimetallic catalysts. Increasing the P content is shown to reduce the Ru ensemble size, decreasing the hydrogenolysis rate (geometric effect). Ru-P bond formation also shifts the Ru XPS and XANES spectra to higher energies, suggesting decreased Ru 4d orbital energies that weaken metal-adsorbate bonds (electronic effect) [10.1021/acscatal.0c01667].
+
+The article [10.1038/s41467-018-07502-5] investigates electronic and geometric effects of Ti and Nb as secondary metals in Pt-Ti and Pt-Nb bimetallic catalysts formed by reactive metal support interaction with MXene supports. It shows ordered intermetallic nanoparticles can be formed that are not possible with traditional oxide or carbide supports. The different MXene compositions allow tuning of the catalyst properties and performance [10.1038/s41467-018-07502-5]. 
+
+Yes, the article [10.1016/j.jcis.2021.02.129] investigates electronic effects of the secondary metal Ga in GaPt bimetallic catalysts using XPS and IR data. The results indicate electron donation from Ga leading to a higher electron density on Pt sites due to GaPt alloy formation, improving catalytic performance [10.1016/j.jcis.2021.02.129].
+
+※※※
+
+Integrative understanding and prospective outlook: Taking into consideration the advancements and findings discussed in the file, there lies an opportunity to explore emerging fields and innovative methodologies. Future research endeavors might focus on:
+
+1) Developing novel model bimetallic systems through the integration of earth-abundant metals and cost-effective supports to unlock economic viability at scale  
+
+2) Harnessing operando spectroscopic techniques coupled with imaging and tomography methods to gain deeper insights into working catalysts in real-world reactors  
+
+3) Leveraging machine learning and artificial intelligence paradigms for accelerated screening and discovery of optimal bimetallic compositions and nanostructures  
+
+4) Expanding the fundamental understanding developed with propane dehydrogenation systems towards other reactions of industrial relevance like methane activation, biomass conversion etc.
+
+By continuing to push the frontiers of knowledge surrounding bimetallic catalyst design principles and structure-performance interlinks, transformative solutions may emerge that can address grand challenges.
+<References>
+10.1021/acscatal.3c00548
+    10.1021/acscatal.2c05671
+    10.1021/acscatal.0c01667
+    10.1038/s41467-018-07502-5
+    10.1016/j.jcis.2021.02.129
+</References>
+    
+
+18. Bimetallic and Alloy Catalysts - How does subsurface tuning using promoters like Re, Mn optimize selectivity?
+
+The file reveals that none of the articles explored the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity during propane dehydrogenation. No specific examples or data were provided across the various studies analyzed [10.1021/acscatal.3c00548, 10.1016/j.cej.2014.02.084, 10.1021/acscatal.2c05671, 10.1021/acscatal.2c00642, 10.1021/acscatal.0c01667, 10.1002/anie.201805150, 10.1021/es301323, 10.1016/j.jcat.2020.12.019, 10.1038/s41467-018-07502-5, 10.1016/j.jcis.2021.02.129, 10.1021/acssuschemeng.1c03074, 10.1021/acscatal.2c05042, 10.1002/anie.201507119, 10.1021/acscatal.0c01554, 10.1006/jcat.2000.2910, 10.1038/s41929-020-0472-7, 10.1006/jcat.1996.0001, 10.1021/acscatal.1c04092, 10.1016/j.jechem.2021.04.034, 10.1021/acscatal.3c00103, 10.1038/s41565-023-01344-z, 10.1021/jacs.8b05378, 10.1021/acscatal.2c04889, 10.1021/acscatal.5b01423, 10.1021/jacs.1c10261, 10.1016/j.jechem.2017.09.035, 10.1021/acscatal.1c05921].
+
+However, one study [10.1021/jacs.8b08162] did analyze the use of subsurface Mn promoter in Pt3Mn bimetallic catalysts for propane dehydrogenation. The subsurface Mn layer was shown to significantly improve selectivity over Pt catalysts alone by altering the surface chemistry and adsorption properties. Kinetic models were also developed to elucidate the role of the distinct subsurface layers in modifying selectivity. Overall, this highlights the promise of tuning subsurface promoters and composition to optimize catalytic performance.
+
+※※※
+
+Integrative understanding and prospective outlook: The analyses reveal a gap in exploring subsurface promoter effects during propane dehydrogenation over bimetallic and alloy catalysts. While one study showed promise for subsurface Mn in Pt3Mn catalysts, several open questions remain regarding optimal subsurface tuning using other promoters like Re as well as different bimetallic combinations and structures. Advancing microscopic characterization techniques and kinetic modeling methodologies can further shed light on subsurface phenomenon. There are rich opportunities to systematically vary subsurface layers and probe the impacts on selectivity trends. Such endeavors can unravel novel pathways to rationally design superior catalysts by harnessing subsurface promoter functionalities.
+<References>
+10.1021/acscatal.3c00548
+10.1016/j.cej.2014.02.084  
+10.1021/acscatal.2c05671
+10.1021/acscatal.2c00642
+10.1021/acscatal.0c01667
+10.1002/anie.201805150
+10.1021/es301323
+10.1016/j.jcat.2020.12.019
+10.1038/s41467-018-07502-5
+10.1016/j.jcis.2021.02.129
+10.1021/acssuschemeng.1c03074
+10.1021/acscatal.2c05042
+10.1002/anie.201507119 
+10.1021/acscatal.0c01554
+10.1006/jcat.2000.2910
+10.1038/s41929-020-0472-7
+10.1006/jcat.1996.0001
+10.1021/acscatal.1c04092
+10.1016/j.jechem.2021.04.034
+10.1021/acscatal.3c00103  
+10.1038/s41565-023-01344-z
+10.1021/jacs.8b05378
+10.1021/acscatal.2c04889
+10.1021/acscatal.5b01423
+10.1021/jacs.1c10261
+10.1016/j.jechem.2017.09.035
+10.1021/acscatal.1c05921
+10.1021/jacs.8b08162
+</References>
+    
+
+19. Bimetallic and Alloy Catalysts - What are the synergistic effects between metals ascribed to ensemble and ligand effects?
+
+Based on the detailed analysis from the references, there are a few examples that demonstrate synergistic effects between metals in bimetallic and alloy propane dehydrogenation catalysts, attributed to ensemble and ligand effects [10.1021/acscatal.0c01667, 10.1021/acscatal.0c01554, 10.1038/s41929-020-0472-7, 10.1016/j.jcat.2020.02.019, 10.1016/j.chempr.2023.07.002, 10.1021/acscatal.1c01808].  
+
+Specifically, the Ru-P catalysts showed smaller Ru ensemble size and isolated Ru atoms due to the increasing P content, which decreased the hydrogenolysis rate [10.1021/acscatal.0c01667]. The PtIn2 nanoparticles displayed the largest perturbation in Pt XANES energy and geometric changes, resulting in the highest activity and stability [10.1021/acscatal.0c01554]. The subnanometric Pt-Sn clusters in zeolites had different geometric and electronic structures compared to Pt-Sn nanoparticles, leading to unique reactivity [10.1038/s41929-020-0472-7].  
+
+In general, adding a secondary metal can physically break down the large ensembles on Pt responsible for side reactions and alter the electronic environment to facilitate desired product desorption [10.1016/j.jcat.2020.02.019, 10.1016/j.chempr.2023.07.002]. For example, alloying Pt with Zn isolates Pt sites and modifies selectivity [10.1016/j.chempr.2023.07.002], while Sn addition changes the electron density of Pt atoms [10.1016/j.jcat.2020.02.019].
+
+※※※
+
+Integrative understanding and prospective outlook: The examples discussed demonstrate encouraging progress in elucidating and exploiting synergistic ensemble and ligand effects to advance bimetallic propane dehydrogenation catalysts. However, most studies have focused on traditional Pt-based catalysts. An opportunity exists to explore novel bimetallic combinations by harnessing high-throughput computational screening and state-of-the-art characterization techniques.  
+
+Attention could also turn to affordable transition metals and systematic investigations of ternary combinations. Overall, continued efforts to unravel the intricate interplay between geometric and electronic factors governing selectivity and stability will be instrumental to break new ground.
+<References>
+10.1021/acscatal.0c01667
+        10.1021/acscatal.0c01554
+        10.1038/s41929-020-0472-7
+        10.1016/j.jcat.2020.02.019
+        10.1016/j.chempr.2023.07.002
+</References>
+    
+
+20. Zeolites and Mesoporous Supports - What zeolite topologies like MFI, FER, BEA have shown promise as supports?
+
+Zeolites and Mesoporous Supports - What zeolite topologies like MFI, FER, BEA have shown promise as supports?
+
+Based on the detailed analysis from the provided references, several zeolite topologies have shown promise as supports for propane dehydrogenation (PDH) catalysts:
+
+MFI Zeolite 
+The purely siliceous MFI zeolite silicalite-1 provides an ideal support to anchor highly dispersed subnanometric PtSn clusters in the sinusoidal 10R channels, leading to outstanding PDH performance with 45.3% propane conversion and 99% propylene selectivity [10.1016/j.jcat.2020.02.019]. Its hierarchical micro-/mesoporous analog allows PtLa intermetallic nanoparticles to exhibit high initial activity (~40% conversion) and exceptional 30-day stability with &lt;10% deactivation [10.1038/s41586-020-2671-4]. Ferrosilicalite-1 (Fe-S-1-n) stabilizes isolated Pt atoms bonded to Si-O-Fe sites, boosting selectivity [10.1021/acscatal.2c05042]. Mesoporous MFI nanosheets strongly confine PtZn alloys, conferring remarkable durability [10.1021/acscatal.1c01808].
+
+BEA Zeolite  
+Sn-modified zeolite Beta (Sn-Beta) efficiently anchors isolated Pt atoms within Zn nests inside dealuminated BEA pores. The resulting single sites catalyze PDH with 90% propylene selectivity near equilibrium conversion [10.1021/jacs.1c10261]. Pt stabilized on isolated Sn sites in the Beta framework also demonstrates excellent catalytic performance [10.1021/acscatal.9b03527]. The Beta topology contributes a confinement effect to enhance PtSn particle dispersion [10.1021/acscatal.3c00548].
+
+Other Zeolites
+Chabazite zeolite (CHA) isolates extra-framework Ga+ active sites to achieve 96% propylene selectivity, albeit with some deactivation over time [10.1021/jacs.2c03941]. Titanosilicate TS-1 possesses weaker acid sites, improving propane conversion and catalyst stability [10.1016/j.jcat.2017.05.024]. 
+
+In summary, MFI and BEA zeolites have shown particular promise as PDH catalyst supports owing to properties like strong metal confinement, acid site isolation, and hierarchical porosity. However, opportunities exist to explore emerging zeolite and mesoporous architectures to further advance catalytic performance.     
+
+※※※
+Integrative understanding and prospective outlook: Considering the advancements reviewed in anchoring isolated metal sites and stabilizing subnanometric clusters on zeolites, future research might integrate cutting-edge support materials like phosphorus-modified zeolites and hierarchical metallorganic frameworks. Combined with novel in-situ characterization techniques, these next-generation supports could offer new insights into active site speciation and reaction mechanisms. Machine learning methods additionally show potential for accelerating the optimization of zeolite composition, porosity, acidity, and metal pairing. Advancing support design through these innovative directions could enable breakthroughs in commercial propane dehydrogenation.
+<References>
+10.1016/j.jcat.2020.02.019  
+10.1021/acscatal.2c05042
+10.1021/jacs.1c10261
+10.1021/acscatal.1c01808
+10.1016/j.jcat.2017.05.024
+10.1021/jacs.2c03941
+10.1038/s41586-020-2671-4  
+10.1021/acscatal.9b03527
+10.1021/acscatal.3c00548
+</References>
+    
+
+21. Zeolites and Mesoporous Supports - How does modulating Si/Al ratio and introducing mesoporosity impact performance?
+
+        Additionally, the study with DOI [10.1021/jacs.2c03941] evaluates propane dehydrogenation over CHA zeolites with varying Si/Al ratios of 5, 12 and 25. It demonstrates that extra-framework Ga+ sites are formed regardless of Si/Al ratio. While reaction rates decrease over time, propylene selectivity remains stable at 96% when the Ga/Al ratio is properly tuned.
+        
+        Furthermore, the research published in [10.1016/j.jcat.2017.05.024] explores the effects of tuning TS-1 crystal size from 100 nm to 5.7 μm. Smaller sizes introduce mesoporosity, improving diffusion and avoiding coking. This significantly enhances conversion, selectivity and catalyst lifetime. 
+        
+        Finally, the article with DOI [10.1021/acscatal.1c01808] investigates mesoporous MFI zeolites. The mesoporous structure and abundant silanol groups are shown to facilitate intermetallic alloy nanoparticle formation.
+
+        ※※※
+
+        Integrative understanding and prospective outlook: The examined studies reveal promising directions in tuning zeolite properties to enhance propane dehydrogenation performance. Strategies like mesoporosity incorporation, crystal size reduction, and dealumination demonstrate clear structure-function relationships in improving selectivity, conversion, and stability. 
+        
+        Future research might explore combining these strategies to optimize multifunctional zeolite catalysts. For example, nanostructured mesoporous zeolites with optimized acidity could balance activity, selectivity and longevity. High-throughput computational screening could accelerate identification of optimal zeolite topologies, compositions and textures. Operando spectroscopy and microscopy could provide fundamental insights to guide rational design. Cross-laboratory collaborative efforts, coupled with industry partnerships and pilot-scale testing, can facilitate translation of promising laboratory developments into commercial implementations.
+        <References>
+        10.1021/acscatal.3c00816
+        10.1021/jacs.2c03941   
+        10.1016/j.jcat.2017.05.024
+        10.1021/acscatal.1c01808
+        </References>
+    
+
+22. Zeolites and Mesoporous Supports - What techniques enable synthesizing isolated single sites in zeolites?
+
+Based on the in-depth details extracted from the files, a few notable techniques enable synthesizing isolated single metal sites in zeolitic supports for propane dehydrogenation (PDH) catalysts:
+
+Dealumination of zeolites like beta or ZSM-5 creates vacant lattice sites and hydroxyl nests that can anchor isolated metal species. The study [10.1021/acscatal.3c00103] discusses dealuminating zeolite beta with nitric acid, then stabilizing single cobalt sites within the generated hydroxyl nests. Similarly, atomically dispersed platinum anchored to silanol groups in dealuminated zeolite BEA exhibits activity and stability for PDH [10.1021/acscatal.2c01631].
+
+Direct hydrothermal zeolite synthesis with metal-ligand precursors facilitates building isolated metal sites into the framework. [10.1016/j.jechem.2021.04.034] exemplifies trapping zinc cations coordinated to ethylenediamine within the micropores of silicalite-1. Additives like Cu enhance the formation of exclusively isolated zinc sites in S-1, verified by EXAFS [10.1021/acscatal.2c00928].
+
+High-temperature hydrogen reduction converts species like zinc methyl and zinc hydroxide in the pores of ZSM-5 into isolated Zn^2+ stabilized at cation sites [10.1021/cs200441e]. Ga-CHA needs 700°C reduction to form tetrahedrally coordinated, single Ga+ sites reactive for alkane activation [10.1021/jacs.2c03941].
+
+Advanced microscopy and spectroscopy techniques clearly verify the structure of isolated metal sites. Scanning transmission electron microscopy elucidates the location of single platinum atoms anchored to framework germanium in dealuminated zeolite UTL [10.1038/s41929-023-00968-7]. X-ray absorption fine structure spectra in [10.1021/acscatal.2c00928] confirms Cu addition creates exclusively isolated zinc sites in S-1.
+
+※※※
+
+Integrative understanding and prospective outlook: The examined literature reveals remarkable progress in synthesizing isolated single sites like Ga+, Zn2+, Co2+, and Pt within zeolite pores, anchored to vacancies or heteroatoms in dealuminated or germanosilicate supports. Combined characterization unambiguously verifies location, coordination, and structure. However, some catalysts still show limited stability. Future single site zeolite catalyst designs could explore:
+
+1) Novel hydrothermal zeolite compositions with customized site isolation and improved stability under propane dehydrogenation conditions. For example, optimizing framework Zr content may help strongly anchor extra-framework Ga while resisting dealumination.
+
+2) Enhanced pore confinement effects by using zeolites with smaller pore dimensions like CHA. This restricts mobility and agglomeration of metal ions.
+
+3) Coupling isolated metal sites with proximate noble metal clusters for tuned bifunctionality without compromising single site integrity and product selectivity.
+
+Overall, opportunities abound for engineering high-performance solid catalysts via persisting innovations in zeolite synthesis methodology and nanoscale metal installation techniques. More discoveries undoubtedly lie ahead through interdisciplinary cooperation between zeolite chemists and spectroscopy/microscopy specialists.
+<References>
+    10.1021/acscatal.3c00103
+    10.1021/acscatal.2c01631
+    10.1016/j.jechem.2021.04.034
+    10.1021/acscatal.2c00928
+    10.1021/cs200441e
+    10.1021/jacs.2c03941
+    10.1038/s41929-023-00968-7
+</References>
+    
+
+23. Zeolites and Mesoporous Supports - How does the encapsulation of metals in zeolites enhance stability?
+
+Based on the detailed analysis from the references provided [10.1016/j.cej.2022.140726], [10.1038/s41929-023-00968-7], [10.1038/s41929-023-00974-9], [10.1038/nmat4757], and [10.1021/acscatal.3c00816], zeolites and mesoporous materials have shown promise as supports for encapsulating metal species to enhance the stability of propane dehydrogenation (PDH) catalysts. 
+
+Several key examples demonstrate that strategically localizing metal clusters like platinum or encapsulating sub-nanometric bimetallics within zeolite pores and channels prevents agglomeration and sintering during high temperature PDH conditions or regeneration cycles:
+
+- Co species anchored on BEA-type zeolites exhibited no deactivation over 8 reaction-regeneration PDH cycles, enabled by the confinement effect stabilizing metal clusters [10.1016/j.cej.2022.140726]. 
+
+- Pt anchored on germanium sites in UTL-type zeolites maintained exceptional stability for over 4000 hours of PDH, attributed to Pt-O-Ge bonding interactions localizing platinum [10.1038/s41929-023-00968-7].
+
+- Sub-nanometric PtSn species regioselectively positioned inside MFI-type zeolites preserved cycle stability for at least 3 PDH cycles without changes in cluster size or deactivation [10.1038/s41929-020-0472-7].
+
+- Encapsulating platinum inside the micropores of MCM-22 zeolite prevented agglomeration after extreme oxidation-reduction treatments at 650°C. The encapsulated catalyst retained 90% initial PDH activity after 5 cycles while a conventional impregnated catalyst lost over 40% [10.1038/nmat4757].
+
+In summary, strategic zeolite encapsulation techniques emerge as a promising approach to enhance metal dispersion and stabilization for long-term PDH operation. Anchoring guest metals on zeolite sites or confinement within micropores mitigates sintering processes to maintain active sites and initial activity over repeated use. Further developments in zeolite composites and mesoporous architectures may unlock additional opportunities for next-generation encapsulation methods.
+
+※※※
+
+Integrative understanding and prospective outlook: Capitalizing on recent advancements in localization of ultra-small metal clusters and single-sites within zeolite matrices, future endeavors could implement multi-scale characterization techniques to optimize synthetic parameters for desired active site geometries tailored to high-temperature reactions. For example, applying operando spectroscopy under simulated reaction environments may inform precursor design and strategy for directed zeolite crystallization methodologies that regioselectively trap guest metals with targeted coordination. Furthermore, hybrid zeolite composites with secondary stabilization effects could produce synergies enabling operation above current thermal limitations. Ultimately, continued innovation in strategic zeolite construction provides a foundation to enhance PDH catalyst resilience while judiciously balancing constraints like mass transport limitations.
+<References>
+10.1016/j.cej.2022.140726  
+    10.1038/s41929-023-00968-7
+    10.1038/s41929-023-00974-9
+    10.1038/nmat4757
+    10.1021/acscatal.3c00816
+</References>
+    
+
+24. Catalyst Synthesis and Characterization - What preparation methods have enabled optimizing active phase dispersion?
+
+Here is a comprehensive review section on propane dehydrogenation catalysts, emphasizing methods for optimizing active phase dispersion:
+
+Catalyst Synthesis and Characterization - What preparation methods have enabled optimizing active phase dispersion?
+
+Numerous studies have developed advanced catalyst preparation strategies aimed at optimizing the dispersion of active phase species for enhanced propane dehydrogenation performance. Methods like vacuum impregnation [10.1016/j.cej.2022.140726] and incorporation of metals during zeolite hydrothermal synthesis [10.1021/acscatal.3c00728] can improve dispersion by tuning interactions with the support. Dealuminated zeolites and ordered mesoporous materials provide open frameworks and high surface areas to disperse and stabilize isolated sites [10.1016/j.jcat.2008.11.014, 10.1016/S1872-2067(19)63360-7]. Surface organometallic chemistry enables precisely grafting metals onto supports through strong metal-oxygen-support bonds [10.1021/acscatal.3c00103]. Other strategies include colloidal [10.1016/j.jcat.2018.09.006] and dendrimer-encapsulated nanoparticle synthesis [10.1021/cr5002436], atomic layer deposition [10.1016/j.jcat.2005.01.005], and stabilization in microporous zeolites [10.1002/anie.201805150].
+
+In situ spectroscopy techniques like XAFS, XPS, IR, and DRIFTS have elucidated changes in metal speciation during preparation steps like impregnation [10.1021/acscatal.2c00928, 10.1021/jacs.2c03941], allowing optimization of parameters impacting dispersion. Characterization methods like HAADF-STEM imaging confirm isolation and morphology of active sites.
+
+※※※ Integrative understanding and prospective outlook ※※※  
+
+The works surveyed showcase remarkable progress in synthesizing propane dehydrogenation catalysts with uniform and thermally resilient active phases. Key achievements include stabilizing isolated metal sites, crafting bimetallic alloys, and confining ultra-small clusters - enabled by emergent characterization tools providing atomic-scale precision. 
+
+Future horizons may integrate these advances with other burgeoning techniques like additive manufacturing to architect dehydrogenation catalysts bespoke to process intensification and modularization. Cross-linking developments in operando mechanistic elucidation with high-throughput computaional screening could further accelerate optimized catalyst discovery. Broader adoption of earth-abundant substitutes may enhance economic viability. Ultimately, transformative propane dehydrogenation systems seamlessly fused with renewable power and carbon capture provide fertile ground for multifaceted innovation.
+<References>
+10.1016/j.cej.2022.140726
+    10.1021/acscatal.3c00728
+    10.1016/j.jcat.2008.11.014 
+    10.1016/S1872-2067(19)63360-7
+    10.1021/acscatal.3c00103
+    10.1016/j.jcat.2018.09.006
+    10.1021/cr5002436
+    10.1016/j.jcat.2005.01.005
+    10.1002/anie.201805150
+    10.1021/acscatal.2c00928
+    10.1021/jacs.2c03941
+</References>
+    
+
+25. Catalyst Synthesis and Characterization - How have in-situ techniques provided insights into working catalysts?
+
+Based on the details extracted from the file, several articles utilize in-situ characterization techniques to study working propane dehydrogenation catalysts and gain insights into the nature of active sites and changes occurring during reaction.
+
+One article uses in-situ DRIFTS and temperature programmed desorption with MS detection to probe propylene adsorption modes on cobalt catalysts, revealing how silicon modification impacts propylene interaction [10.1016/j.jcat.2020.12.021]. Another combines pulse titration experiments with quantitative in-situ FTIR to determine the identity and density of active gallium species in Ga/H-ZSM-5 catalysts during propane dehydrogenation [10.1021/acscatal.1c05724]. Synchrotron-based in-situ XAS at the Zn K-edge distinguishes binuclear ZnOx species on silicalite-1 from 3D ZnOx clusters formed in-situ on deAl beta during reaction [10.1021/acscatal.2c05704]. In-situ Raman spectroscopy and online MS enables identification of a VOx-C3H5 intermediate species and determination of rate-limiting H2 formation over VOx/HMS catalysts [10.1016/j.jcat.2022.07.017].
+
+Other examples utilize combined in-situ UV-Vis/Raman spectroscopy with XANES and EXAFS to correlate changes in chromium oxidation states with propane dehydrogenation activity and deactivation over time [10.1021/cr5002436]. In-situ FTIR reveals transformation of inactive zinc hydroxide species into active zinc hydride sites during propane dehydrogenation induction periods over ZnO/SBA-15 [10.1021/acscatal.2c00928]. And a study combining GC measurements with in-situ XRD and DRIFTS elucidates changes in product distribution, phase transitions of vanadium oxides, and surface species during time-on-stream [10.1021/acscatal.8b04701].
+
+The diversity of in-situ techniques provides detailed insights into working catalysts spanning from bulk to surface and even identifies specific active sites in some cases. Advancements in characterization capabilities now allow tracking catalyst structural dynamics from the molecular level up. While most studies have focused on simpler lab systems, adoption of these operando methods for online monitoring in industrial reactors could facilitate better process control and mechanistic-driven optimization.
+
+※※※
+
+Integrative understanding and prospective outlook: Taking into consideration the advancements and findings discussed in the references, there lies an opportunity to explore emerging fields and innovative methodologies. Future research endeavors might focus on bridging multimodal in-situ characterizations with kinetic and computational modeling to achieve enhanced structure-activity-stability correlations. And while great progress has been made identifying active sites in model catalysts, new surface-sensitive techniques could help unravel the complex synergies between various sites in industrial formulations operating under real conditions over extended periods.
+
+As single-atom and cluster catalysis gains more traction, adoption of cutting-edge electron microscopies and spectroscopies that push detection limits could uncover unprecedented details related to these unique structures. Expanding in-situ cells to better mimic reactor flows and stresses can also expose new deactivation mechanisms. And harnessing machine learning for data-driven spectral fitting and mechanism discrimination may extract deeper insights from the wealth of in-situ information. Ultimately the goal is to attain sufficient understanding to rationally design and optimize catalytic systems in an accelerated manner.
+<References>
+10.1016/j.jcat.2020.12.021
+    10.1021/acscatal.1c05724
+    10.1021/acscatal.2c05704
+    10.1016/j.jcat.2022.07.017
+    10.1021/cr5002436
+    10.1021/acscatal.2c00928 
+    10.1021/acscatal.8b04701
+</References>
+    
+
+26. Catalyst Synthesis and Characterization - What advanced microscopy methods have revealed metal-support interfacial sites?
+
+Based on the details extracted from the file, advanced microscopy techniques have revealed crucial insights into metal-support interfacial sites in propane dehydrogenation catalysts. 
+
+Specific examples demonstrate the power of techniques like AC-HAADF-STEM, iDPC-STEM, and EDS mapping to directly visualize isolated metal atoms, clusters, and nanoparticles anchored to supports like zeolites and mesoporous oxides [10.1021/jacs.2c02636, 10.1038/s41929-023-00968-7, 10.1021/acscatal.1c04092]. Imaging paired with elemental analysis maps the spatial distribution and morphology of active phases, tracking changes through synthesis, pretreatment, and cycling [10.1016/S1872-2067(23)64402-X, 10.1021/acscatal.1c02553, 10.1021/acscatal.3c00816]. Quantitative image analysis takes this further by enabling statistics on dispersed site percentages and sizes [10.1038/s41929-020-0472-7]. Atomic-scale views reveal distinct facets and precise locations within micropores and channels, directly correlating structure with performance [10.1038/nmat4757, 10.1016/j.chempr.2020.10.008]. Through operando capabilities, microscopy monitors dynamic restructuring and component interactions during reactions [10.1021/acscatal.2c05042].
+
+※※※
+
+Integrative understanding and prospective outlook: The microscopy findings showcase remarkable control in crafting isolated and anchored sites, persisting even after high-temperature treatments. However, questions remain on extending this thermal resilience to industrially-relevant reaction environments. While images probe near-surface regions, bulk probes like XAS assess deeper layers. Correlating both views will clarify origins of deactivation. Expanding microscopy to tilted, tomographic acquisition adds 3D context. Operando cells visualizing working catalysts under process conditions, paired with spectroscopy and diffraction, will uncover functionality-structure interdependencies. Integrating theory and simulations to interpret observed motifs offers mechanistic foundations for rational design. Steady improvements in resolution, sensitivity, and automation provide grounds for optimism in unraveling metal-support interfacial complexities through advanced imaging.
+<References>
+10.1021/jacs.2c02636
+10.1038/s41929-023-00968-7 
+10.1021/acscatal.1c04092
+10.1016/S1872-2067(23)64402-X
+10.1021/acscatal.1c02553
+10.1021/acscatal.3c00816
+10.1038/s41929-020-0472-7 
+10.1038/nmat4757
+10.1016/j.chempr.2020.10.008 
+10.1021/acscatal.2c05042
+</References>
+    
+
+27. Catalyst Synthesis and Characterization - How have X-ray techniques elucidated oxidation states during catalysis?
+
+Based on the detailed analysis from the references provided in the file [10.1016/j.cej.2022.140726], X-ray absorption spectroscopy (XAS) experiments, including X-ray absorption near edge structure (XANES) and extended X-ray absorption fine structure (EXAFS), were performed to probe oxidation state changes during propane dehydrogenation catalysis. The experiments were conducted at a synchrotron radiation facility on fresh and spent Co@Si-BEA catalysts. According to the FT-EXAFS and WT-EXAFS spectra of the spent catalyst, there was still a single signal corresponding to the first shell Co-O bond with an almost unchanged coordination environment (CN = 5.7 ± 0.3), confirming that the incorporated Co2+ cations acting as predominant Co active sites were structurally stable against the reaction [10.1016/j.cej.2022.140726].
+
+Additional insights into changes in oxidation states were provided by references [10.1021/acscatal.3c00939] and [10.1021/acscatal.3c00728] which showed no X-ray based analysis of oxidation changes during propane dehydrogenation catalysis. Rather, computational modeling and catalyst testing methods were utilized. 
+
+Further evidence of utilizing synchrotron X-ray radiation to probe metal species during propane dehydrogenation was furnished by [10.1002/advs.202207756]. In situ XANES experiments illustrated how Ga species migrate into zeolite pores upon H2 reduction. And quantitative pulse titration verified divalent Ga2O2^2+ as the precursor to active GaHx sites.
+
+※※※
+
+Integrative understanding and prospective outlook: Taking into consideration the advancements and findings discussed in the file, synchrotron radiation sources enable operando and in-situ probing of catalytic systems under actual reaction environments. Building on existing capabilities, future endeavors could incorporate machine learning for automated analysis of vast data streams. And push towards compact X-ray setups interfaced directly with bench-scale reactors in academic laboratories. Broader adoption necessitates standardized protocols and shared data formats. Understanding dynamic transformations in oxidation states and coordination geometries remains vital for rational catalyst design.
+<References>
+10.1016/j.cej.2022.140726
+    10.1021/acscatal.3c00939
+    10.1021/acscatal.3c00728
+    10.1002/advs.202207756
+</References>
+    
+
+28. Reactors and Process Considerations - What fixed bed, fluidized bed, and membrane reactor configurations have been explored?
+
+Based on the detailed analysis of the references provided, most of the articles do not evaluate different reactor types for propane dehydrogenation. The majority of studies focus on catalyst synthesis, characterization, and testing using fixed bed reactors. 
+
+A few references provide some insights on reactor types:
+
+- Reference [10.1016/j.cej.2004.11.005] discusses commercially available reactors like Oleflex, Houdry Catofin, Phillips STAR, and Linde processes as well as two-zone fluidized bed reactors (TZFBR) and internal circulating fluidized bed reactors (ICFBR) for propane dehydrogenation over Cr2O3/Al2O3 catalysts. Performance comparisons are made between TZFBR, ICFBR and other configurations.  
+
+- Reference [10.1016/S1383-5866(01)00085-5] evaluates silica membrane reactors to improve propene yields by selective hydrogen removal during propane dehydrogenation. Results show higher yields than fixed beds but faster catalyst deactivation.
+
+- Reference [10.1016/j.cej.2009.06.037] combines two-zone fluidized bed reactors (TZFBR) with Pd membrane reactors for the first time. The membrane increased conversion but also coking rates over PtSn/Al2O3 catalysts.
+
+Overall, most studies utilize fixed bed reactors with only a few examples of fluidized beds and membrane reactors for propane dehydrogenation found in the literature. Opportunities likely exist to further explore the performance of these and other novel reactor configurations.
+
+※※※
+
+Integrative understanding and prospective outlook: The findings reveal fixed bed reactors remain the dominant choice for propane dehydrogenation, while some initial forays have been made applying fluidized beds and membranes. Considering these advancements, future undertakings might focus on optimization of multi-zone fluidized beds and selective membranes tailored for propane feeds to address issues like faster deactivation. Moreover, intensified continuous flow reactors with precise tuning of heat and mass transfer could be rewarding. Broader horizons may also emerge from transplantation of propane dehydrogenation into emerging areas like photo-/electro-catalysis.
+<References>
+10.1016/j.cej.2004.11.005  
+10.1016/S1383-5866(01)00085-5
+10.1016/j.cej.2009.06.037
+</References>
+    
+
+29. Reactors and Process Considerations - How can process intensification concepts be applied to propane dehydrogenation?
+
+Based on the analysis of the provided references, it is evident that the articles do not discuss process intensification approaches that can be applied to propane dehydrogenation [10.1016/j.jcat.2020.06.016, 10.1021/acscatal.3c00103, 10.1016/j.jcat.2021.09.008, 10.1038/s41929-022-00885-1, 10.1021/acscatal.0c05711, 10.1021/acscatal.1c02621, 10.1016/j.jcat.2008.01.030, 10.1016/S1872-2067(19)63369-3, 10.1021/acscatal.1c01814, 10.1016/j.cej.2017.05.058, 10.1021/acscatal.1c05724, 10.1021/acscatal.1c00331, 10.1021/cr5002436, 10.1016/S1872-2067(23)64402-X, 10.1021/acscatal.2c05042, 10.1016/j.jcat.2004.02.005, 10.1016/j.cej.2007.11.009, 10.1016/j.jcat.2020.09.016, 10.1021/acscatal.3c00816, 10.1038/s41929-020-0472-7, 10.1016/j.jcat.2014.10.018, 10.1016/j.jcat.2008.11.014, 10.1016/j.cej.2020.126656, 10.1016/j.jcat.2017.12.004]. The articles predominantly concentrate on catalyst design, characterization, and evaluation to enhance propane dehydrogenation performance.
+
+※※※
+
+Integrative understanding and prospective outlook: The thorough investigation divulges that existing literature on propane dehydrogenation is heavily centered around incremental advancements in catalyst formulation and structured evolution. However, there appears to be promising opportunities in implementing process intensification techniques to radically transform the overall system dynamics and efficiency. Future undertakings could emphasize intensified reactor configurations, advanced separation methods and process integration to considerably improve productivity and economics. Moreover, the fusion of process and catalyst innovations could herald a new generation of ultra-compact, agile and productive propane dehydrogenation plants.
+<References>
+10.1016/j.jcat.2020.06.016
+10.1021/acscatal.3c00103
+10.1016/j.jcat.2021.09.008   
+10.1038/s41929-022-00885-1
+10.1021/acscatal.0c05711
+10.1021/acscatal.1c02621
+10.1016/j.jcat.2008.01.030
+10.1016/S1872-2067(19)63369-3
+10.1021/acscatal.1c01814
+10.1016/j.cej.2017.05.058
+10.1021/acscatal.1c05724
+10.1021/acscatal.1c00331
+10.1021/cr5002436
+10.1016/S1872-2067(23)64402-X
+10.1021/acscatal.2c05042   
+10.1016/j.jcat.2004.02.005
+10.1016/j.cej.2007.11.009
+10.1016/j.jcat.2020.09.016
+10.1021/acscatal.3c00816
+10.1038/s41929-020-0472-7
+10.1016/j.jcat.2014.10.018
+10.1016/j.jcat.2008.11.014
+10.1016/j.cej.2020.126656
+10.1016/j.jcat.2017.12.004  
+</References>
+    
+
+30. Reactors and Process Considerations - What are the techno-economic factors governing process viability?
+
+Based on the details extracted from the references, none of the articles analyze techno-economic factors affecting the viability of propane dehydrogenation processes. The articles are focused on fundamental catalyst design, characterization, and performance evaluation rather than quantitative process economics analysis. 
+
+Specifically, reference [10.1016/j.jcat.2020.06.016] is focused only on catalyst performance with no techno-economic analysis. Reference [10.1021/acscatal.3c00103] is focused on catalyst design and performance. Similarly, references [10.1016/j.jcat.2021.09.008], [10.1038/s41929-022-00885-1], [10.1021/acscatal.0c05711], [10.1021/acscatal.1c02621], [10.1016/j.jcat.2008.01.030], [10.1016/S1872-2067(19)63369-3], [10.1021/acscatal.1c01814], [10.1016/j.cej.2017.05.058], [10.1021/acscatal.1c05724], [10.1021/acscatal.1c00331], [10.1021/cr5002436], [10.1016/S1872-2067(23)64402-X], [10.1021/acscatal.2c05042], [10.1016/j.jcat.2004.02.005], [10.1016/j.cej.2007.11.009], [10.1016/j.jcat.2020.09.016], [10.1021/acscatal.3c00816], [10.1038/s41929-020-0472-7], [10.1016/j.jcat.2014.10.018], [10.1016/j.jcat.2008.11.014], [10.1016/j.cej.2020.126656], and [10.1016/j.jcat.2017.12.004] do not analyze techno-economic viability factors.
+
+In summary, the references are scientific studies on catalyst and process fundamentals rather than techno-economic analyses. This presents an opportunity to conduct in-depth viability assessments for propane dehydrogenation processes to translate the catalytic advancements into practical applications.
+
+※※※
+
+Integrative understanding and prospective outlook: The reviewed literature establishes profound insights into propane dehydrogenation catalyst design and performance. However, translating these advancements into commercially viable processes necessitates quantitative economic feasibility analysis. Future undertakings could focus on conducting holistic techno-economic evaluations of emerging propane dehydrogenation routes, incorporating cutting-edge catalytic findings within practicable process configurations. Computationally modeling integrated processes under flexible conditions would elucidate optimum pathways for balanced technical and economic performance. Ultimately, synergizing catalytic innovation with process systems optimization will drive propane dehydrogenation technologies from the laboratory toward widespread adoption.
+<References>
+10.1016/j.jcat.2020.06.016
+10.1021/acscatal.3c00103  
+10.1016/j.jcat.2021.09.008
+10.1038/s41929-022-00885-1
+10.1021/acscatal.0c05711
+10.1021/acscatal.1c02621
+10.1016/j.jcat.2008.01.030  
+10.1016/S1872-2067(19)63369-3
+10.1021/acscatal.1c01814
+10.1016/j.cej.2017.05.058
+10.1021/acscatal.1c05724 
+10.1021/acscatal.1c00331
+10.1021/cr5002436
+10.1016/S1872-2067(23)64402-X  
+10.1021/acscatal.2c05042
+10.1016/j.jcat.2004.02.005
+10.1016/j.cej.2007.11.009
+10.1016/j.jcat.2020.09.016  
+10.1021/acscatal.3c00816
+10.1038/s41929-020-0472-7
+10.1016/j.jcat.2014.10.018
+10.1016/j.jcat.2008.11.014
+10.1016/j.cej.2020.126656
+10.1016/j.jcat.2017.12.004
+</References>
+    
+
+31. Reactors and Process Considerations - What safety considerations exist regarding flammability and explosions?
+
+The examined literature [10.1016/j.jcat.2020.06.016, 10.1021/acscatal.3c00103, 10.1016/j.jcat.2021.09.008, 10.1038/s41929-022-00885-1, 10.1021/acscatal.0c05711, 10.1021/acscatal.1c02621, 10.1016/j.jcat.2008.01.030, 10.1016/S1872-2067(19)63369-3, 10.1021/acscatal.1c01814, 10.1016/j.cej.2017.05.058, 10.1021/acscatal.1c05724, 10.1021/acscatal.1c00331, 10.1021/cr5002436, 10.1016/S1872-2067(23)64402-X, 10.1021/acscatal.2c05042, 10.1016/j.jcat.2004.02.005, 10.1016/j.cej.2007.11.009, 10.1016/j.jcat.2020.09.016, 10.1021/acscatal.3c00816, 10.1038/s41929-020-0472-7, 10.1016/j.jcat.2014.10.018, 10.1016/j.jcat.2008.11.014, 10.1016/j.cej.2020.126656, 10.1016/j.jcat.2017.12.004] did not examine safety considerations like flammability and explosion hazards pertaining to propane dehydrogenation. The research was focused on catalyst design, characterization, and evaluation without delving into process safety factors.
+		※※※
+		Integrative understanding and prospective outlook: Despite the lack of direct investigation into safety issues thus far, propane dehydrogenation systems warrant careful appraisal of flammability and detonation risks owing to the involvement of hydrocarbon feeds and intermediates. As this field advances further, developing rigorous protocols to preclude runaway reactions and contain explosions will be imperative. Future undertakings could explore inheriting perspectives from analogous processes in the oil refining and petrochemical industries to enact preemptive measures against accidents. On the catalyst development front, crafting stable and selective single-atom site catalysts with optimized heat management could mitigate safety issues. Overall, consolidating process safety knowledge from adjacent domains alongside innovating upon catalyst and reactor fundamentals appears to be a prudent pathway.
+<References>
+10.1016/j.jcat.2020.06.016
+		10.1021/acscatal.3c00103
+		10.1016/j.jcat.2021.09.008
+		10.1038/s41929-022-00885-1
+		10.1021/acscatal.0c05711
+		10.1021/acscatal.1c02621
+		10.1016/j.jcat.2008.01.030
+		10.1016/S1872-2067(19)63369-3
+		10.1021/acscatal.1c01814
+		10.1016/j.cej.2017.05.058
+		10.1021/acscatal.1c05724 
+		10.1021/acscatal.1c00331
+		10.1021/cr5002436
+		10.1016/S1872-2067(23)64402-X
+		10.1021/acscatal.2c05042
+		10.1016/j.jcat.2004.02.005
+		10.1016/j.cej.2007.11.009
+		10.1016/j.jcat.2020.09.016
+		10.1021/acscatal.3c00816
+		10.1038/s41929-020-0472-7
+		10.1016/j.jcat.2014.10.018
+		10.1016/j.jcat.2008.11.014
+		10.1016/j.cej.2020.126656
+		10.1016/j.jcat.2017.12.004
+</References>
+    
+
+32. Conclusion and Future Outlook - What challenges and gaps in knowledge need to be addressed moving forward?
+
+Based on the details provided in the file, several articles highlight remaining challenges and knowledge gaps in propane dehydrogenation catalysis research. 
+
+One major challenge summarized is the need to develop alternative catalyst to replace expensive platinum-based industrial catalysts, which is noted as a long-term goal for propane dehydrogenation [10.1038/s41929-022-00885-1]. Related to this, exploring non-precious metal molecular sieve catalysts is identified as an area needing further work [10.1021/acscatal.3c00816].
+
+In terms of specific catalyst components, the identity and structure of the most active chromium [10.1016/j.jcat.2008.11.014] and gallium [10.1021/acscatal.1c05724] species is noted as still unclear and controversial, requiring further characterization and definitive evidence. Additionally, understanding the effects of promoters like oxygen vacancies on catalyst performance represents a gap [10.1021/acscatal.1c02621]. 
+
+Several articles also highlight the need to address catalyst deactivation issues such as coking [10.1016/j.jcat.2004.02.005] and thermal deactivation [10.1021/acscatal.3c00103], in order to improve stability. Exploring single atom and confined cluster architectures is suggested as a potential approach here [10.1021/acscatal.1c00331].
+
+From a process standpoint, the need for more energy efficient propane dehydrogenation technologies is emphasized [10.1021/cr5002436], potentially through computational screening of active sites and reactions [10.1021/acscatal.3c00816]. Overcoming equilibrium limitations and minimizing undesired side reactions are also noted [10.1021/cr5002436] as directions for advancement.
+
+Overall, key gaps center on definitive identification of active sites, addressing stability and deactivation problems, replacing expensive metals, improving energy efficiency, and leveraging computational methods - with plenty of room remaining to enhance current commercial technologies.
+
+※※※
+
+Integrative understanding and prospective outlook: Considering the advancements covered in the source material, promising pathways forward involve embracing emerging in-situ characterization techniques like ambient pressure X-ray photoelectron spectroscopy to probe working catalysts, leveraging high throughput experimentation and machine learning to rapidly screen new compositions, and adopting multiscale modeling frameworks linking density functional theory calculations to reactor simulations. 
+
+On the materials front, single atom alloy catalysts in optimized zeolite and metal organic framework architectures could overcome limitations around active site identification, stability, and reliance on scarce platinum group metals. Operando spectroscopy, electron microscopy, and X-ray absorption fine structure mapping will likely play pivotal roles in elucidating structure-performance links across length scales during functioning.
+
+Meanwhile, microwave-assisted microreactor and molten salt mediated processes merit exploration as potentially more selective and energy efficient reaction media. Reaction kinetics and network modeling incorporating spectator species may uncover hidden handles for nudging equilibria and circumventing sequential side reactions.
+
+Altogether, cross-pollination across inorganic materials discovery, advanced characterization, computational modeling, microprocess intensification, and systems optimization holds exciting promise for tackling long standing propane dehydrogenation catalysis roadblocks - with economic and sustainability incentives further stoking momentum.
+<References>
+10.1016/j.jcat.2020.06.016
+10.1021/acscatal.3c00103  
+10.1016/j.jcat.2021.09.008
+10.1038/s41929-022-00885-1
+10.1021/acscatal.0c05711
+10.1021/acscatal.1c02621
+10.1016/j.jcat.2008.01.030  
+10.1016/S1872-2067(19)63369-3
+10.1021/acscatal.1c01814
+10.1016/j.cej.2017.05.058
+10.1021/acscatal.1c05724
+10.1021/acscatal.1c00331
+10.1021/cr5002436
+10.1016/S1872-2067(23)64402-X    
+10.1021/acscatal.2c05042
+10.1016/j.jcat.2004.02.005
+10.1016/j.cej.2007.11.009
+10.1016/j.jcat.2020.09.016
+10.1021/acscatal.3c00816 
+10.1038/s41929-020-0472-7
+10.1016/j.jcat.2014.10.018
+10.1016/j.jcat.2008.11.014  
+10.1016/j.cej.2020.126656  
+10.1016/j.jcat.2017.12.004
+</References>
+    
+
+33. Conclusion and Future Outlook - How can high-throughput computations accelerate catalyst screening?
+
+A recent study utilized a descriptor-based microkinetic analysis approach combined with DFT calculations to rapidly screen potential intermetallic compound catalysts for propane dehydrogenation (PDH) [10.1016/j.jcat.2021.09.008]. By considering both terrace and step sites, over 2000 catalyst candidates were assessed. This high-throughput computational screening identified inexpensive and eco-friendly Fe-Ga intermetallics as promising PDH catalysts. Additional works have started leveraging machine learning to accelerate screening and design of metallic heterogeneous catalysts. With databases of computed descriptors continuing to grow, data-driven strategies can efficiently navigate vast materials spaces [10.1021/acscatal.0c05711]. Further expansion of this framework to screen trimetallic alloys may uncover even more active and selective PDH catalysts.  
+※※※
+Integrative understanding and prospective outlook: The discussed advancements in high-throughput computational catalyst screening are poised to transform the PDH field. Rapid assessments of thousands of candidates using descriptors and machine learning models can guide experimental validation toward the most promising catalyst formulations. Moving forward, integration of multi-fidelity models, uncertainty quantification, and autonomous experimentation into the computational workflow could further enhance the rate and reliability of discoveries. Broader adoption of these techniques beyond metals to screen novel supports, additives, and processing methods may unravel generalizable design principles for superior PDH catalysts.
+<References>
+10.1016/j.jcat.2021.09.008
+    10.1021/acscatal.0c05711
+</References>
+    
+
+34. Conclusion and Future Outlook - What in-situ characterization capabilities are needed to better understand catalysts?
+
+The study detailed in reference [10.1016/j.jcat.2020.06.016] highlights modifying silica supports using an in-situ emulsion method to decorate silica with MnOx, enabling preparation of highly dispersed Pt-based catalysts for propane dehydrogenation. 
+
+References [10.1021/acscatal.3c00103], [10.1016/j.jcat.2021.09.008], [10.1038/s41929-022-00885-1], [10.1021/acscatal.0c05711], [10.1021/acscatal.1c02621], [10.1016/j.jcat.2008.01.030], [10.1016/S1872-2067(19)63369-3], [10.1021/acscatal.1c01814], [10.1016/j.cej.2017.05.058], [10.1021/acscatal.1c05724], [10.1021/acscatal.1c00331], [10.1016/S1872-2067(23)64402-X], [10.1021/acscatal.2c05042], [10.1016/j.jcat.2004.02.005], [10.1016/j.cej.2007.11.009], [10.1016/j.jcat.2020.09.016], [10.1038/s41929-020-0472-7], [10.1016/j.jcat.2014.10.018], [10.1016/j.jcat.2008.11.014], [10.1016/j.cej.2020.126656], and [10.1016/j.jcat.2017.12.004] do not highlight needs for improved in-situ characterization tools.
+
+Reference [10.1021/cr5002436] identifies opportunities to use time-resolved UV-vis and Raman spectroscopies for in-situ monitoring of industrial chromia-alumina catalysts to improve overall propane dehydrogenation efficiency. 
+
+Reference [10.1021/acscatal.3c00816] highlights needs for advanced in-situ characterization techniques like iDPC-STEM, in-situ spectroscopy, and 2D solid-state NMR to better understand propane dehydrogenation catalysts.
+
+※※※
+
+Integrative understanding and prospective outlook: The examination of propane dehydrogenation catalyst literature reveals sporadic instances calling attention to prospects for advanced in-situ diagnostics. While a majority of studies employ traditional ex-situ methods, emerging techniques like iDPC-STEM, time-resolved optical probes, 2D NMR may unlock deeper insights through real-time tracking of working catalysts. Future undertakings might prioritize developing bespoke analytical assets attuned to revealing transient phenomena governing activity, selectivity and deactivation pathways. Constructing realistic reaction environments within characterization tools could illuminate underlying mechanisms influencing commercial reactors. Multimodal in-situ facilities reconciling views from complementary methods also offer information-rich lenses into catalytic function. Ultimately, breakthroughs in fundamental comprehension hinge upon unlocking new observational capabilities probing catalysts at nanoscopic dimensions while embedded in dynamic reaction settings.
+<References>
+10.1016/j.jcat.2020.06.016
+10.1021/acscatal.3c00103
+10.1016/j.jcat.2021.09.008 
+10.1038/s41929-022-00885-1
+10.1021/acscatal.0c05711
+10.1021/acscatal.1c02621
+10.1016/j.jcat.2008.01.030
+10.1016/S1872-2067(19)63369-3
+10.1021/acscatal.1c01814
+10.1016/j.cej.2017.05.058
+10.1021/acscatal.1c05724  
+10.1021/acscatal.1c00331
+10.1021/cr5002436
+10.1016/S1872-2067(23)64402-X  
+10.1021/acscatal.2c05042
+10.1016/j.jcat.2004.02.005 
+10.1016/j.cej.2007.11.009
+10.1016/j.jcat.2020.09.016
+10.1021/acscatal.3c00816
+10.1038/s41929-020-0472-7
+10.1016/j.jcat.2014.10.018
+10.1016/j.jcat.2008.11.014  
+10.1016/j.cej.2020.126656
+10.1016/j.jcat.2017.12.004
+</References>
+    
+
+35. Conclusion and Future Outlook - What transformational catalyst architectures could provide breakthroughs?
+
+Based on the analysis of the references, the articles generally do not envision potentially transformational catalyst architectures for propane dehydrogenation. Most of the studies focus on incremental improvements to existing catalyst materials and structures [10.1016/j.jcat.2020.06.016, 10.1021/acscatal.3c00103, 10.1016/j.jcat.2021.09.008, 10.1038/s41929-022-00885-1, 10.1021/acscatal.0c05711, 10.1021/acscatal.1c02621, 10.1016/j.jcat.2008.01.030, 10.1016/S1872-2067(19)63369-3, 10.1021/acscatal.1c01814, 10.1016/j.cej.2017.05.058, 10.1021/acscatal.1c05724, 10.1021/cr5002436, 10.1016/S1872-2067(23)64402-X, 10.1021/acscatal.2c05042, 10.1016/j.jcat.2004.02.005, 10.1016/j.cej.2007.11.009, 10.1016/j.jcat.2020.09.016, 10.1021/acscatal.3c00816, 10.1038/s41929-020-0472-7, 10.1016/j.jcat.2014.10.018, 10.1016/j.jcat.2008.11.014, 10.1016/j.cej.2020.126656, 10.1016/j.jcat.2017.12.004].
+
+Only one study proposes new single atom and confined cluster catalyst architectures as potentially transformational ideas that could help minimize coke formation [10.1021/acscatal.1c00331]. Overall, there is a lack of forward-looking discussion and envisioning of new architectures that could lead to transformational breakthroughs in propane dehydrogenation catalysis.
+
+※※※
+
+Integrative understanding and prospective outlook: The current research landscape on propane dehydrogenation catalysis appears heavily focused on incremental improvements rather than transformational innovation. However, the proposal of single atom and confined cluster architectures in one study [10.1021/acscatal.1c00331] highlights the potential of such novel designs to address issues like coke formation. Future efforts could further explore emerging architectures like metal-organic frameworks, covalent organic frameworks and heterogeneous photocatalysts. Combining computational screening with high-throughput experimentation can also accelerate the discovery of unprecedented active sites and motifs. An interdisciplinary approach bridging chemical engineering, materials science, heterogeneous catalysis and computational chemistry may uncover completely new design paradigms and set the foundations for next-generation, transformational propane dehydrogenation systems.
+<References>
+10.1016/j.jcat.2020.06.016
+    10.1021/acscatal.3c00103
+    10.1016/j.jcat.2021.09.008
+    10.1038/s41929-022-00885-1
+    10.1021/acscatal.0c05711
+    10.1021/acscatal.1c02621
+    10.1016/j.jcat.2008.01.030
+    10.1016/S1872-2067(19)63369-3
+    10.1021/acscatal.1c01814
+    10.1016/j.cej.2017.05.058
+    10.1021/acscatal.1c05724
+    10.1021/acscatal.1c00331
+    10.1021/cr5002436
+    10.1016/S1872-2067(23)64402-X 
+    10.1021/acscatal.2c05042
+    10.1016/j.jcat.2004.02.005
+    10.1016/j.cej.2007.11.009
+    10.1016/j.jcat.2020.09.016
+    10.1021/acscatal.3c00816
+    10.1038/s41929-020-0472-7
+    10.1016/j.jcat.2014.10.018
+    10.1016/j.jcat.2008.11.014
+    10.1016/j.cej.2020.126656
+    10.1016/j.jcat.2017.12.004
+</References>
+    
+

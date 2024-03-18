@@ -1,0 +1,94 @@
+I'm going to give you a scientific literature. Then I'm going to ask you some questions about it. I'd like you to first write down exact quotes of parts of the document word by word that would help answer the question, and then I'd like you to answer the question using facts from the quoted content. Do not omit any relevant information from the text, and avoid introducing any falsehoods or assumptions that aren't directly supported by the literature. Here is the literature, in <literature></literature> XML tags:
+
+<literature>
+
+
+Design of a Surface Alloy Catalyst for Steam Reforming
+Abstract
+Detailed studies of elementary chemical processes on well-characterized single crystal surfaces have contributed substantially to the understanding of heterogeneous catalysis. Insight into the structure of surface alloys combined with an understanding of the relation between the surface composition and reactivity is shown to lead directly to new ideas for catalyst design. The feasibility of such an approach is illustrated by the synthesis, characterization, and tests of a highsurface area gold-nickel catalyst for steam reforming.
+Single crystal surfaces have long served as models of the active part of catalysts (1). Examples of catalyst design on the basis of fundamental, surface sciencebased insight are, however, extremely few. Recently, King and co-workers used a surface science approach to suggest new process conditions in which the effectiveness and stability of the usual Pt-based catalyst for the ammonia oxidation process can be markedly improved (2). Here we discuss an example in which the full step has been taken from atomistic surface science studies of model systems to the design of a high surface area alloy catalyst for the steam-reforming process. We present experimental results confirming the suggestion from a combination of scanning tunneling microscopy (STM), molecular beam scattering experiments, and density functional theory (DFT) calculations that Au alloyed into the surface layer of a Ni catalyst should increase the effectiveness of the catalyst in steam reforming.
+In the steam-reforming process, hydrocarbon molecules (mainly CH4) and water are converted into H2 and CO. The usual catalyst for the reaction is based on Ni as the active element (3). The main problem with the reaction is that Ni also catalyzes the formation of graphite. Graphite formation impedes the activity and may eventually lead to a breakdown of the catalyst. One solution to this problem is to selectively poison the catalyst surface by adding H2S to the reactants (4). Adsorbed S poisons the reforming process, but poisons the graphite formation to an even greater extent, so the net effect is an improved catalyst.
+In a number of instances alloys have been shown to have superior catalytic properties (5) compared with elementary metals. In the past, research has focused on the class of binary metal systems that form ordered or random bulk alloys. Members of another class of two-component metal systems do not mix in the bulk. Even such metals may form stable alloys in the outermost surface layer (6,7). The Au/Ni system belongs to this category. The heat of solution of Au in Ni is large and positive (27 kJ/mol). Yet it has been found in STM studies by Nielsen et al. (7) that when Au is added to any of the low index Ni surfaces, an alloy is formed in the first atomic layer (Fig.1). The Ni atoms in the surface layer are undercoordinated compared with the Ni atoms in the bulk. The Au atoms have an electron density that is more extended than that of the Ni atoms. When the Au atoms are alloyed into the surface layer, the neighboring Ni atoms experience a higher electron density or, equivalently, a higher effective coordination number. One can say that the Au atoms that are alloyed into the surface layer help in lowering the Ni surface energy (7).
+The existence of this class of two-component bulk-immiscible metals that form surface alloys allows synthesis of materials in which the properties are changed selectively at the surface.
+It is possible to use Au to modify the reactivity of Ni with respect to the steam-reforming process. As discussed above, two factors determine the suitability of a surface as a catalyst for this process: (i) the ability of the surface to activate hydrocarbon molecules and (ii) the tendency of the surface to bind C and form graphite.
+As a measure of the ability of the surface to activate hydrocarbon molecules, we consider the energy barrier for abstraction of the first H atom from CH4. For pure Ni catalysts, this is the rate-limiting step in the steam-reforming process (8). The effect of Au on the activation barrier was studied both theoretically and experimentally.
+DFT calculations of the dissociation of CH4 were performed by Kratzer et al. (9), who used a Ni slab with varying amounts of Au substituted into the surface layer to describe the surface. The transition state for CH4dissociation on Ni(111) is located with the C atom essentially being on top with respect to a Ni atom, and the process is highly activated (Fig. 2). The reaction path and the finding of a high barrier are both consistent with other calculations of this process based on a cluster model of the surface (10) and with experiment (11). In the DFT calculations, one or two of the nearest neighbors to the Ni atom under the transition state were exchanged for Au (Fig. 2). One Au neighbor increases the barrier for the CH4 dissociation over a Ni atom by 16 kJ/mol, and two Au neighbors increase it by more than twice as much. Dissociation over the Au atom is expected to have a much higher barrier (12).
+The predictions of the DFT calculations were tested experimentally for the same well-defined Ni(111) surface by Holmbladet al. (13). We measured the dissociation probability for CH4 on Ni(111) using molecular beam scattering experiments (Fig. 2). As expected, Au impedes CH4 dissociation. The DFT calculations suggest that the dissociation probability decreases mainly because Ni atoms next to the Au atoms have a higher barrier for dissociation and thus a lower dissociation rate. This can be quantified in the following way (14). From the STM experiments the surface composition is known at any Au coverage, and the number of Ni atoms with zero, one, two, or more Au neighbors can be counted directly. The DFT calculations show how the barrier depends on the number of Au neighbors. From independent beam experiments on clean Ni(111), it can be deduced how the dissociation probability depends on the translational energy and thus on the barrier height. Combining these three pieces of information gives a prediction of the variation of the dissociation probability with Au coverage that compares very well with the experimental one (Fig. 2).
+It is not unexpected that Au added to a Ni surface reduces the ability to dissociate CH4. We have treated the problem in some detail here for two reasons. First, it is important for the discussion below that the effect on the CH4 activation of adding Au is reasonably small. Second, we emphasize that it is possible to predict changes in reactivity based on a knowledge of the surface composition. This strongly vindicates the general approach taken here.
+As a measure of the tendency to form graphite, we consider the stability of adsorbed C on the Ni(111) surface. The probability of nucleation of graphite is determined by the coverage of C that is given by the stability of the adsorbed C atoms. The less stable the adsorbed C, the larger the tendency to react with adsorbed O to form CO and the lower the coverage. DFT calculations of the energy of an adsorbed C atom in the vicinity of a Au atom in a Ni(111) surface were compared with the same energy function on a pure Ni(111) surface (Fig.3) (15). On the pure Ni surface, the most stable adsorption site is the threefold hexagonal close-packed site. The threefold sites next to a Au atom are seen to be completely unstable, and even the threefold sites that are next nearest neighbors to the Au atoms are substantially destabilized.
+The effect of Au on atomic C adsorption is thus considerably stronger than the effect on CH4 activation. In addition, from detailed studies of the effect of S adsorption on CH4activation and graphite formation on pure Ni surfaces and catalysts, we know that the ensemble size needed for CH4 dissociation is smaller than for nucleation of graphite (4). The combined surface science work on the Au-Ni surface alloy therefore suggests the Au-Ni surface alloy to be a less reactive, but more robust, steam-reforming catalyst than pure Ni. It also shows that only a small fraction of Au is required to modify the surface chemical properties of Ni.
+To convert these ideas into a practical industrial catalyst, we must synthesize a Au/Ni catalyst in a high surface area form. The catalyst to be discussed here is a MgAl2O4-supported Ni catalyst (with 16.5 weight % Ni) that has been modified with 0.3 weight % Au.
+To verify that the Au is actually alloyed into the first layer of the Ni catalyst, we examined the structure and composition of the active catalyst by extended x-ray absorption fine structure spectroscopy (EXAFS). The EXAFS spectrum of the bimetallic catalyst was recorded in situ under synthesis conditions to make sure it is the active catalyst that is studied (Fig. 4). Only if we allow for the possibility that Au atoms have Ni neighbors at Ni interatomic distances can we account for the spectrum. Because Au is immiscible in bulk Ni, this demonstrates that Au is alloyed into the Ni surface layer as on the single crystal model systems.
+The steam-reforming activity was measured for the Ni catalyst and for the Au/Ni catalyst for which the EXAFS data are recorded (Fig.5). The only difference between the two samples is in the Au modification. Both samples were first reduced in pure H and subsequently exposed to a diluted n -butane gas at 550C. We used n -butane to test the activity because it gives rise to the most severe graphite formation problems. The n -butane conversion as a function of time on stream starts out at about 99.99%. It is seen that the pure Ni catalyst deactivates rapidly, whereas the conversion for the Au/Ni sample is almost constant. The deactivation is typical of a Ni catalyst under these extreme conditions, and it can be associated with the formation of graphite as seen in, for example, electron microscopy. The Au-containing sample, in contrast, does not produce graphite. This has been checked by independent thermo-gravimetric measurements.
+In conclusion, we are approaching a point where fundamental insight into surface structure and reactivity can be applied directly to the design of new catalysts. By combining several experimental surface science techniques with theory and insight into synthesis and in situ characterization of high surface area catalysts, it has been possible to go beyond our fundamental understanding of the atomic processes involved in catalysis to the design of an improved catalyst for the steam-reforming reaction.
+
+
+</literature>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+
+8. Does the article evaluate any promising metal oxide catalysts like Cr2O3, Pt-Sn, Ga2O3 for propane dehydrogenation? What specific examples, data, and insights are provided?
+9. Does the article investigate how tuning oxidation states, oxygen mobility, and acid-base properties of metal oxides affects propane dehydrogenation performance? What specific examples and relationships are revealed?
+10. Does the article propose mechanistic scenarios for propane dehydrogenation over the studied metal oxide catalysts? What specific reaction steps, intermediates, active sites are described?
+11. Does the article explore metal-support interfacial effects in metal oxide catalysts for propane dehydrogenation? What specific examples and insights into activity and selectivity modulation are provided?
+12. Does the article evaluate any supported mono-metallic catalysts like Pt, Pd or Ir for propane dehydrogenation? What specific data, characterizations and insights are provided?
+13. Does the article investigate how properties like metal particle size, shape, and support interactions affect the performance of supported metal catalysts? What specific examples and structure-function relationships are revealed?
+14. Does the article propose mechanistic reaction pathways for propane dehydrogenation over the studied supported metal catalysts? What specific steps, intermediates, and active sites are described?
+
+
+</questions>
+
+First, you need to sequentially extract any quotes in the literature that are most relevant to each question, and print them in numbered order, separated by newlines. Quotes should be relatively brief. Do not attempt to summarize or answer questions at this stage, but simply repeat exactly what the corresponding part of the literature says.
+
+Please enclose the full list of quotes in <quotes></quotes> XML tags. If there are no relevant quotes, write "No relevant quotes" instead.
+
+Then, answer the question, starting with "Answer:".  Do not include or reference quoted content verbatim in the answer. Don't say "According to Quote [1]" when answering. Do not write reference number of quotes after answer. Put your answer to the user inside <answer></answer> XML tags. Output formatted text, with line breaks for each question.Separate quotes and answers with a blank line. Provide the answers to all questions in English. After completing the English answers, translate all those answers into Chinese and provide the Chinese version.
+
+Thus, the format of your overall response should look like what's shown between the <example></example> tags.  Make sure to follow the formatting and spacing exactly.
+
+<example>
+
+<quotes>
+
+[1] "Company X reported revenue of $12 million in 2021."
+
+</quotes>
+
+<English version answer>
+
+1.Company X earned $12 million in 2021.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.X公司在2021年赚了1200万美元。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Almost 90% of revenue came from widget sales, with gadget sales making up the remaining 10%."
+
+</quotes>
+
+<English version answer>
+
+2.Almost 90% of it came from widget sales.
+
+</English version answer>
+
+<Chinese version answer>
+
+2.几乎90%的收入来自小部件销售。
+
+</Chinese version answer>
+
+</example>
+
+
+If the question cannot be answered by the document, say so.If deemed necessary, the answer to the question can be extended entirely from the content of the document.
+
+Answer all of the questions immediately without preamble. 

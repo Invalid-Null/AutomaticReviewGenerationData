@@ -1,0 +1,101 @@
+ Based on the details provided in the document, this document is related to propane dehydrogenation.
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>c-Pt</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>35%</ConversionRate>
+				<Selectivity>68%</Selectivity>
+				<Stability>Rapid deactivation within 1 hour</Stability>
+				<DeactivationRates>
+					<Rate>35% to 10% in 1 hour</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 cm3/min</InletFlowRate>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>c-Pt3In</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>In</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>36%</ConversionRate>
+				<Selectivity>98%</Selectivity>
+				<Stability>Gradual deactivation from 36% to 33% conversion over 8 hours</Stability>
+				<DeactivationRates>
+					<Rate>36% to 33% over 8 hours</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 cm3/min</InletFlowRate>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>c-Pt3Ga</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Ga</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>47%</ConversionRate>
+				<Selectivity>98%</Selectivity>
+				<Stability>Significant deactivation from 47% to 36% conversion over 9 hours</Stability>
+				<DeactivationRates>
+					<Rate>47% to 36% over 9 hours</Rate>
+				</DeactivationRates>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 cm3/min</InletFlowRate>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>c-PtIn2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>In</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>25%</ConversionRate>
+				<Selectivity>98%</Selectivity>
+				<Stability>Very gradual increase in conversion from 25% to 30% over 9 hours</Stability>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 cm3/min</InletFlowRate>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>c-PtIn2</Name>
+				<Type>Alloy</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>In</Element>
+				</PromoterElements>
+				<SupportMaterial>Silica Oxide</SupportMaterial>
+				<ConversionRate>25%</ConversionRate>
+				<Selectivity>98%</Selectivity>
+				<Stability>Very gradual increase in conversion from 25% to 30% over 9 hours</Stability>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>100 cm3/min</InletFlowRate>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>

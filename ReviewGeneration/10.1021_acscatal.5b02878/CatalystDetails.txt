@@ -1,0 +1,118 @@
+ Based on the details in the document, it is related to propane dehydrogenation.
+
+The document mentions the following catalysts:
+
+<output>
+	<Relevance>Yes</Relevance>
+	<IfRelevant>
+		<CatalystsList>
+			<Catalyst>
+				<Name>ZnO/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Zn</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>22%</ConversionRate>
+				<Selectivity>95%</Selectivity>
+				<Stability>Rapid deactivation</Stability>
+				<DeactivationRates>
+					<Rate>50%</Rate>
+				</DeactivationRates>
+				<PropyleneYield>11.3 mmol/h/gcat</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8/H2 = 1/1</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>50 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>500 mg</CatalystLoadingOrGHSV>
+			</Catalyst>
+
+			<Catalyst>
+				<Name>Pt-ZnO/Al2O3</Name>  
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Zn</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Pt</Element>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>30%</ConversionRate>
+				<Selectivity>95%</Selectivity>
+				<Stability>Much more stable</Stability>
+				<DeactivationRates>
+					<Rate>15%</Rate>
+				</DeactivationRates>
+				<PropyleneYield>16.7 mmol/h/gcat</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8/H2 = 1/1</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>50 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>500 mg</CatalystLoadingOrGHSV>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>0.5% Pt/Al2O3</Name>
+				<Type>Metal</Type>
+				<ActiveSpeciesElements>
+					<Element>Pt</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>52%</ConversionRate>
+				<Selectivity>57%</Selectivity>
+				<Stability>Stable</Stability>
+				<DeactivationRates>
+					<Rate>10%</Rate>
+				</DeactivationRates>
+				<PropyleneYield>18.2 mmol/h/gcat</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8/H2 = 1/1</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>50 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>500 mg</CatalystLoadingOrGHSV>
+			</Catalyst>
+			
+			<Catalyst>
+				<Name>Chromium oxide</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Cr</Element>
+				</ActiveSpeciesElements>
+				<SupportMaterial>N/A</SupportMaterial>
+				<Stability>Severe deactivation</Stability>
+			</Catalyst>
+		</CatalystsList>
+		
+		<MainContribution>
+			<Catalyst>
+				<Name>Pt-ZnO/Al2O3</Name>
+				<Type>Metal Oxide</Type>
+				<ActiveSpeciesElements>
+					<Element>Zn</Element>
+				</ActiveSpeciesElements>
+				<PromoterElements>
+					<Element>Pt</Element>
+				</PromoterElements>
+				<SupportMaterial>Aluminum Oxide</SupportMaterial>
+				<ConversionRate>30%</ConversionRate>
+				<Selectivity>95%</Selectivity>
+				<Stability>Much more stable</Stability>
+				<DeactivationRates>
+					<Rate>15%</Rate>
+				</DeactivationRates>
+				<PropyleneYield>16.7 mmol/h/gcat</PropyleneYield>
+				<FeedCompositionAndRatios>
+					<Ratio>C3H8/H2 = 1/1</Ratio>
+				</FeedCompositionAndRatios>
+				<ReactionTemperature>600°C</ReactionTemperature>
+				<InletFlowRate>50 mL/min</InletFlowRate>
+				<CatalystLoadingOrGHSV>500 mg</CatalystLoadingOrGHSV>
+			</Catalyst>
+		</MainContribution>
+	</IfRelevant>
+</output>
+
+The key scientific contribution of this paper is the Pt-ZnO/Al2O3 catalyst, which shows much higher activity and stability compared to conventional ZnO/Al2O3 catalysts for propane dehydrogenation. The addition of a small amount of Pt significantly improves the catalytic performance of ZnO-based catalysts.

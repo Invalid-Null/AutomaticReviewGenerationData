@@ -1,0 +1,606 @@
+Read the questions and answers provided below. First, critically assess the overall relevance of the answers provided to the set of questions asked.
+
+If, upon your assessment, you find that the answers do not contain information that is relevant to the questions asked, stop your review process immediately and respond with a single sentence: "※※※※※※※The provided answers are not relevant to the questions.※※※※※※※". Do not provide any additional explanation or background information, only this sentence should be given as a response in case of irrelevant answers.
+
+If, however, the answers are relevant to the questions asked, proceed to compile answers for each question according to the instructions below. Ensure to aggregate all the relevant answers from the multiple answer results provided in the document, and organize them sequentially by their order number, compiling the corresponding quotes, English answers, and Chinese answers for each question.
+
+If the provided answers' quotes are not differentiated by question, ensure to break them down and assign the quotes to each respective question, outputting them separately within each question’s section.
+
+To provide a comprehensive review, differentiate the responses into quotes, English answers, and Chinese answers for each question based on the details given in the 'Answer' XML tags. Structure your review using the XML format showcased below if the answers are relevant to the questions asked:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Questions>
+   <Question number="1"> 
+      <Quotes>
+          Quotes for question 1 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 1 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 1
+      </Chinese>
+   </Question>
+   <Question number="2">
+      <Quotes>
+          Quotes for question 2 from all the answer results
+      </Quotes>
+      <English>
+          Aggregated English answer for question 2 from all the answer results
+      </English>
+      <Chinese>
+          所有答案结果中的汇总中文答案 2
+      </Chinese>
+  </Question>
+</Questions>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+15. Does the article compare the selectivity profiles of metallic versus oxidized supported metal catalysts? What specific examples and explanations of selectivity modulation are provided?
+
+16. Does the article evaluate any Pt alloy catalysts like Pt-Sn, Pt-Ga, Pt-Zn for propane dehydrogenation? What specific data, insights into performance modulation are provided?
+
+17. Does the article investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts? What specific examples and structure-function insights are revealed?
+
+18. Does the article explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity? What specific examples and data are provided?
+
+19. Does the article describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects? What specific examples and explanations are provided?
+
+20. Does the article evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts? What specific examples, data, and insights are provided?
+
+21. Does the article investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance? What specific examples and structure-function relationships are revealed?
+
+</questions>
+
+Here are the answer lists, in <Answer></Answer>XML tags:
+<Answer>
+
+ Here are the relevant quotes and answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No specific examples or explanations of selectivity modulation are provided.
+</English version answer>
+
+<Chinese version answer>
+1.本文没有比较金属与氧化物支持金属催化剂的选择性曲线。没有提供具体示例或选择性调控的解释。
+</Chinese version answer>
+
+<quotes>
+[1] PtZn alloy nanoparticle catalyst for propane dehydrogenation was synthesized by simple coimpregnation of Pt(NH3)4(NO3)2 with Zn(NO3)2 onto a mesoporous material
+[2] this mesoporous zeolite-supported PtZn catalyst exhibited high activity and selectivity with remarkably long catalytic lifetime compared with other PtZn catalysts loaded on γ-alumina, MCM-48 mesoporous silica, silica gel, and bulk MFI zeolite.
+[3] Atomic-resolution scanning transmission electron microscopic analysis revealed that the mesoporous zeolite contained finely dispersed Pt1Zn1 intermetallic compound-type alloy nanoparticles, which could effectively suppress catalyst deactivation.
+</quotes>
+
+<English version answer>  
+2. Yes, the article evaluates PtZn alloy catalysts for propane dehydrogenation. It shows that PtZn alloy nanoparticles supported on mesoporous zeolite exhibit high activity, selectivity and long lifetime compared to PtZn catalysts on other supports like alumina, MCM-48, silica gel and bulk MFI zeolite. The PtZn intermetallic nanoparticles are finely dispersed and suppress deactivation.
+</English version answer>
+
+<Chinese version answer>
+2. 是的,本文评估了丙烷脱氢用的PtZn合金催化剂。它展示了负载在介孔沸石上的PtZn合金纳米粒子相比其他载体(如氧化铝、MCM-48、硅胶和块状MFI沸石)上的PtZn催化剂,具有更高的活性、选择性和长的使用寿命。 PtZn互化合金纳米粒子分散性好,抑制脱活。
+</Chinese version answer>
+
+<quotes>
+[1] The incorporation of the second metal can physically break down the large Pt ensembles, which are responsible for hydrogenolysis and coke formation and change the electronic environment of Pt to facilitate propylene desorption and slow down the deactivation process.
+[2] Compared to disordered alloys, the intermetallic alloys having an ordered arrangement of atoms with a specific composition and definite crystal structure can exhibit a greater reduction in Pt ensemble size. 
+[3] In this aspect, the intermetallic alloys showed a significant improvement in the stability of the catalyst.
+</quotes>
+
+<English version answer>
+3. Yes, the article investigates electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It shows that adding a second metal can break down large Pt ensembles to suppress hydrogenolysis and coking, facilitate propylene desorption, and improve stability. Intermetallic alloys with ordered structure and specific composition further reduce Pt ensemble size compared to disordered alloys, greatly improving catalyst stability.
+</English version answer>
+
+<Chinese version answer>
+3. 是的,本文研究了双金属和合金催化剂中第二金属的电子和几何效应。它表明添加第二金属可以打断大的Pt聚集体,抑制氢解和炭化,促进丙烯脱附,提高稳定性。与无序合金相比,有序结构和特定组成的互化合金进一步减小Pt聚集体的大小,极大地提高了催化剂的稳定性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>  
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No specific examples or data are provided.
+</English version answer>
+
+<Chinese version answer>
+4. 否,本文没有探讨在双金属和合金催化剂中使用Re或Mn等次表面助剂来调节选择性。没有提供具体的示例或数据。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+5. No, the article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+</English version answer>
+
+<Chinese version answer>  
+5. 否,本文没有描述双金属或合金催化剂中的金属之间的协同效应,也没有归因于配体效应和/或集聚体效应。没有提供具体的示例或解释。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+6. No, the article does not evaluate any zeolite supports like MFI, FER, or BEA structures for propane dehydrogenation catalysts. No specific examples, data, or insights are provided.
+</English version answer>
+
+<Chinese version answer>
+6. 否,本文没有评估任何沸石支持体,如 MFI、FER 或 BEA 结构,用于丙烷脱氢催化剂。没有提供具体的示例、数据或见解。
+</Chinese version answer>
+
+<quotes>
+[1] Recently, our group demonstrated an effective synthesis strategy for Pt-rare earth element (REE) intermetallic alloys in the form of small nanoparticles using ahierarchically micro-mesoporous MFI zeolite as a support material.
+[2] In the present work, we extend the concept of the silanol nest-assisted intermetallic alloy formation to show that isolated silanol groups on the surface of mesoporous zeolite can also promote intermetallic alloy formation between Pt and more easily reducible metal elements.
+</quotes>
+
+<English version answer>  
+7. Yes, the article investigates the effects of incorporating mesoporosity in zeolite supports on propane dehydrogenation catalyst performance. It shows that isolated silanol groups on the surface of mesoporous MFI zeolite can promote intermetallic alloy formation between Pt and easily reducible metals like Zn, leading to improved catalyst stability compared to microporous zeolite.
+</English version answer>
+
+<Chinese version answer>
+7. 是的,本文研究了在沸石支持体中掺入介孔性对丙烷脱氢催化剂性能的影响。它表明,介孔 MFI 沸石表面的隔离硅醇基团可以促进 Pt 与易还原金属(如 Zn)之间的互化合金形成,从而提高催化剂的稳定性,相比仅具有微孔的沸石。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. Answer: No, the article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. It focuses on bimetallic Pt alloy catalysts.
+</English version answer>
+
+<Chinese version answer>
+1. 回答:不,这篇文章没有比较金属和氧化支持金属催化剂的选择性曲线。它集中在双金属Pt合金催化剂上。
+</Chinese version answer>
+
+<quotes>
+[1] "In this regard, we examined whether intermetallic compound-type alloys can be formed when Pt and Ga are loaded on MZ." 
+
+[2] "The promotional effect by the second metal addition to Pt has been reported to dramatically increase when intermetallic compound-type alloy nanoparticles are formed."
+
+[3] "A PtZn alloy nanoparticle catalyst for propane dehydrogenation was synthesized by simple coimpregnation of Pt(NH3)4(NO3)2 with Zn(NO3)2 onto a mesoporous material"
+
+[4] "This mesoporous zeolite-supported PtZn catalyst exhibited high activity and selectivity with remarkably long catalytic lifetime compared with other PtZn catalysts loaded on γ-alumina, MCM-48 mesoporous silica, silica gel, and bulk MFI zeolite."
+
+[5] "The Pt1Zn1 intermetallic alloy catalyst supported on mesoporous zeolite exhibited outstanding catalytic durability, which was the highest among those of the reported Pt-based alloy catalysts to the best of our knowledge."
+</quotes>
+
+<English version answer>  
+2. Answer: Yes, the article evaluates PtZn, PtGa, and PtIn alloy catalysts for propane dehydrogenation. It shows that PtZn, PtGa, and PtIn intermetallic alloy nanoparticles supported on mesoporous zeolite exhibit much higher activity and stability compared to Pt alone or PtZn, PtGa, PtIn supported on other materials like alumina, bulk zeolite, silica gel, and MCM-48. The mesoporous zeolite-supported PtZn catalyst showed the highest durability among reported Pt catalysts.
+</English version answer>
+
+<Chinese version answer>
+2. 回答:是的,这篇文章评估了PtZn、PtGa和PtIn合金催化剂用于丙烷脱氢。它表明PtZn、PtGa和PtIn互化合金纳米粒子支撑在介孔硅酸盐上比Pt单独或PtZn、PtGa、PtIn支撑在其他材料比如氧化铝、块状沸石、二氧化硅凝胶和MCM-48上具有更高的活性和稳定性。介孔硅酸盐支撑的PtZn催化剂表现出比报道的Pt催化剂更高的稳定性。
+</Chinese version answer>
+
+<quotes>
+[1] "The incorporation of the second metal can physically break down the large Pt ensembles, which are responsible for hydrogenolysis and coke formation and change the electronic environment of Pt to facilitate propylene desorption and slow down the deactivation process."
+
+[2] "Compared to disordered alloys, the intermetallic alloys having an ordered arrangement of atoms with a specific composition and definite crystal structure can exhibit a greater reduction in Pt ensemble size."
+
+[3] "Moreover, the crystalline structure of these alloys provides an enhancement in thermal stability compared to single atom or metal cluster catalysts."
+</quotes>
+
+<English version answer>
+3. Answer: Yes, the article investigates electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It explains that the second metal breaks down large Pt ensembles to reduce coking, alters the electronic environment to improve selectivity, and the ordered intermetallic structure provides thermal stability compared to single atoms.
+</English version answer> 
+
+<Chinese version answer>  
+3. 回答:是的,这篇文章研究了双金属和合金催化剂中第二金属的电子和几何效应。它解释了第二金属打断大的Pt集合体以减少炭化,改变电子环境以提高选择性,并且有序的互化金属结构提供了与单原子相比更高的热稳定性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. Answer: No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts.
+</English version answer>
+
+<Chinese version answer>  
+4. 回答:不,这篇文章没有探讨像Re或Mn这样的双金属和合金催化剂中使用表面下促进剂。
+</Chinese version answer>
+
+<quotes>
+[1] "The promotional effect by the second metal addition to Pt has been reported to dramatically increase when intermetallic compound-type alloy nanoparticles are formed."
+
+[2] "Compared to disordered alloys, the intermetallic alloys having an ordered arrangement of atoms with a specific composition and definite crystal structure can exhibit a greater reduction in Pt ensemble size." 
+
+[3] "The incorporation of the second metal can physically break down the large Pt ensembles, which are responsible for hydrogenolysis and coke formation and change the electronic environment of Pt to facilitate propylene desorption and slow down the deactivation process."
+</quotes>
+
+<English version answer>
+5. Answer: Yes, the article describes ensemble and ligand effects as synergistic effects between metals in bimetallic and alloy catalysts. It explains that the second metal breaks down large Pt ensembles and modifies the electronic environment around Pt atoms.
+</English version answer>
+
+<Chinese version answer>
+5. 回答:是的,这篇文章将集合体效应和配体效应描述为双金属和合金催化剂中的协同效应。它解释说第二金属打破大的Pt集合体,并改变Pt原子周围的电子环境。
+</Chinese version answer>
+
+<quotes>
+[1] "In the case of the 1 wt % Pt and 1 wt % Zn supported on BZ catalyst (hereafter denoted as 1Pt1Zn/BZ), which has the same zeolite framework as the 1Pt1Zn/MZ catalyst, the initial catalytic activity was only about 8% and exhibited a rapid deactivation behavior."
+
+[2] "This is attributed to the poor dispersion of PtZn alloy nanoparticles resulting from the solely microporous structure of BZ."
+</quotes>
+
+<English version answer>  
+6. Answer: Yes, the article evaluates the MFI zeolite structure as a support for propane dehydrogenation catalysts. It shows that a microporous MFI zeolite results in poor dispersion and rapid deactivation compared to a mesoporous MFI zeolite support.
+</English version answer>
+
+<Chinese version answer>
+6. 回答:是的,这篇文章评估了MFI沸石结构作为丙烷脱氢催化剂的支撑体。它表明,与介孔MFI沸石支撑体相比,微孔MFI沸石导致差的分散性和快速失活。
+</Chinese version answer>
+
+<quotes> 
+No relevant quotes
+</quotes>
+
+<English version answer>
+7. Answer: No, the article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance.
+</English version answer>  
+
+<Chinese version answer>
+7. 回答:不,这篇文章没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+[1] "Propylene is one of the most important building blocks in the petrochemical industry used for the synthesis of a wide range of valuable chemicals and polymers."
+
+</quotes>
+
+<English version answer>
+
+1. The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts.
+
+</English version answer> 
+
+<Chinese version answer>
+
+1. 该文章没有比较金属和氧化支持金属催化剂的选择性配置文件。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Recently, our group demonstrated an effective synthesis strategy for Pt-rare earth element (REE) intermetallic alloys in the form of small nanoparticles using a hierarchically micro-mesoporous MFI zeolite as a support material." 
+
+[2] "In the present work, we extend the concept of the silanol nest-assisted intermetallic alloy formation to show that isolated silanol groups on the surface of mesoporous zeolite can also promote intermetallic alloy formation between Pt and more easily reducible metal elements."
+
+[3] "In this regard, we examined whether intermetallic compound-type alloys can be formed when Pt and Ga are loaded on MZ."
+
+[4] "The PtGa supported on MZ catalyst (hereafter denoted as 1Pt1Ga/MZ) was prepared by supporting 1 wt % Pt and 1 wt % Ga using Pt(NH3)4(NO3)2 and Ga(NO3)3·xH2O as the precursors and following the same metal loading procedure for 1Pt1Zn/MZ."
+
+[5] "In addition, as shown in Figure 5e, the distance between the two Pt columns matched well with the reported lattice spacing of the Pt3Ga1 alloy along the [001] direction."
+
+[6] "Such a trend was also observed in the case of the PtIn supported catalysts, which were prepared in the same manner using Pt(NH3)4(NO3)2 and In(NO3)3·xH2O as precursors, as shown in Figure S16."
+
+</quotes>
+
+<English version answer>
+
+2. Yes, the article evaluates Pt-Zn, Pt-Ga, and Pt-In alloy catalysts for propane dehydrogenation. It provides data on the atomic structure, morphology, and catalytic performance of Pt-Zn, Pt-Ga, and Pt-In intermetallic nanoparticles supported on mesoporous zeolite. The article shows these intermetallic alloy nanoparticles exhibit high activity, selectivity, and stability for propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer>
+
+2. 是的,该文评估了Pt-Zn、Pt-Ga 和 Pt-In合金催化剂用于丙烷脱氢。它提供了supported在介孔硅酸盐上的Pt-Zn、Pt-Ga 和 Pt-In 互化物纳米粒子的原子结构、形态和催化性能的数据。该文章表明这些互化物合金纳米粒子表现出高活性、选择性和丙烷脱氢稳定性。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+3. The article does not investigate electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts.
+
+</English version answer>
+
+<Chinese version answer>
+
+3. 该文章没有研究双金属和合金催化剂中次要金属的电子和几何效应。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer> 
+
+4. The article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity.
+
+</English version answer>
+
+<Chinese version answer>
+
+4. 该文章没有探讨在双金属和合金催化剂中使用Re或Mn等次表面促进剂来调节选择性。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+5. The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects.
+
+</English version answer> 
+
+<Chinese version answer>
+
+5. 该文章没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于集团和/或配体效应。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "In this regard, we examined whether intermetallic compound-type alloys can be formed when Pt and Ga are loaded on MZ."
+
+[2] "Such a trend was also observed in the case of the PtIn supported catalysts, which were prepared in the same manner using Pt(NH3)4(NO3)2 and In(NO3)3·xH2O as precursors, as shown in Figure S16." 
+
+</quotes>
+
+<English version answer>
+
+6. Yes, the article evaluates MFI zeolite support for propane dehydrogenation catalysts. It shows Pt-Zn, Pt-Ga, and Pt-In intermetallic nanoparticles supported on MFI zeolite exhibit high activity and stability for propane dehydrogenation.
+
+</English version answer>
+
+<Chinese version answer> 
+
+6. 是的,该文章评估了MFI沸石支持的丙烷脱氢催化剂。它表明supported在MFI沸石上的Pt-Zn、Pt-Ga和Pt-In互化物纳米粒子表现出高活性和丙烷脱氢稳定性。
+
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+
+7. The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance.
+
+</English version answer>
+
+<Chinese version answer>
+
+7. 该文章没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢催化剂性能的影响。
+
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ Here are the relevant quotes and answers:
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+1. The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts.
+</English version answer>
+
+<Chinese version answer>
+1. 该文并没有比较金属和氧化金属载体催化剂的选择性谱。
+</Chinese version answer>
+
+<quotes>
+[1] A PtZn alloy nanoparticle catalyst for propane dehydrogenation was synthesized by simple coimpregnation of Pt(NH3)4(NO3)2 with Zn(NO3)2 onto a mesoporous material, which was built with siliceous MFI zeolite nanosheets. 
+[2] Compared to disordered alloys, the intermetallic alloys having an ordered arrangement of atoms with a specific composition and definite crystal structure can exhibit a greater reduction in Pt ensemble size. Moreover, the crystalline structure of these alloys provides an enhancement in thermal stability compared to single atom or metal cluster catalysts.
+[3] The PtZn/mesoporous zeolite catalyst with metal loadings of 0.7 wt % Pt and 0.7 wt % Zn lasted for more than 20 days before the propane conversion decreased to half of its initial value. In comparison, other PtZn catalysts were deactivated almost completely within a few days.
+</quotes>
+
+<English version answer>
+2. Yes, the article evaluates PtZn alloy catalysts for propane dehydrogenation. It shows that a PtZn intermetallic alloy supported on mesoporous zeolite exhibits much higher durability compared to PtZn alloys on other supports like alumina. The ordered intermetallic structure provides enhanced thermal stability and reduces the Pt ensemble size.
+</English version answer>
+
+<Chinese version answer>
+2. 是的,该文评价了PtZn合金催化剂用于丙烷脱氢。它展示了负载在介孔硅酸盐沸石上的PtZn间化合物合金比负载在其他载体如氧化铝上的PtZn合金具有更高的稳定性。 有序的间化合物结构提供了增强的热稳定性并减小�Pt的团簇大小。
+</Chinese version answer>
+
+<quotes>
+[1] Compared to disordered alloys, the intermetallic alloys having an ordered arrangement of atoms with a specific composition and definite crystal structure can exhibit a greater reduction in Pt ensemble size. 
+[2] The promotional effect by the second metal addition to Pt has been reported to dramatically increase when intermetallic compound-type alloy nanoparticles are formed.
+[3] The atomic-resolution HAADF-STEM analysis revealed that the mesoporous zeolite contained finely dispersed Pt1Zn1 intermetallic compound-type alloy nanoparticles, which could effectively suppress catalyst deactivation.
+</quotes>
+
+<English version answer>
+3. Yes, the article investigates electronic and geometric effects of the secondary metal Zn in the PtZn bimetallic alloy catalyst. It shows the intermetallic compound structure reduces the Pt ensemble size and enhances thermal stability compared to disordered alloys, leading to improved durability.
+</English version answer>
+
+<Chinese version answer>
+3. 是的,该文调查了PtZn双金属合金催化剂中次级金属Zn的电子和几何效应。它展示间化合物结构相比无序合金减小了Pt的团簇大小并提高了热稳定性,导致改进的稳定性。
+</Chinese version answer>
+
+<quotes>
+No relevant quotes
+</quotes>
+
+<English version answer>
+4. No, the article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts.
+</English version answer> 
+
+<Chinese version answer>
+4. 否,该文没有探索像Re或Mn等体下促进剂在双金属和合金催化剂中的应用。
+</Chinese version answer>
+
+<quotes>
+[1] The promotional effect by the second metal addition to Pt has been reported to dramatically increase when intermetallic compound-type alloy nanoparticles are formed.
+[2] The incorporation of the second metal can physically break down the large Pt ensembles, which are responsible for hydrogenolysis and coke formation and change the electronic environment of Pt to facilitate propylene desorption and slow down the deactivation process.
+</quotes>
+
+<English version answer>
+5. Yes, the article describes synergistic effects between Pt and Zn metals in the bimetallic alloy catalyst. It states that Zn addition breaks down the Pt ensemble size and changes the electronic environment to facilitate propylene desorption, which slows down deactivation.
+</English version answer>
+
+<Chinese version answer>
+5. 是的,该文描述了Pt和Zn在双金属合金催化剂中的协同效应。它指出Zn的添加打破了Pt的团簇大小并改变了电子环境以促进丙烯的解吸,这减缓了失活。
+</Chinese version answer>
+
+<quotes>
+[1] A PtZn alloy nanoparticle catalyst for propane dehydrogenation was synthesized by simple coimpregnation of Pt(NH3)4(NO3)2 with Zn(NO3)2 onto a mesoporous material, which was built with siliceous MFI zeolite nanosheets.
+[2] The PtZn/mesoporous zeolite catalyst with metal loadings of 0.7 wt % Pt and 0.7 wt % Zn lasted for more than 20 days before the propane conversion decreased to half of its initial value. 
+
+</quotes>
+
+<English version answer>
+6. Yes, the article evaluates MFI zeolite as a support for propane dehydrogenation catalysts. It shows a PtZn alloy supported on mesoporous MFI zeolite exhibits high activity and stability for over 20 days.
+</English version answer>
+
+<Chinese version answer> 
+6. 是的,该文评价了MFI沸石作为丙烷脱氢催化剂的载体。它展示了负载在介孔MFI沸石上的PtZn合金表现出高活性和超过20天的稳定性。
+</Chinese version answer>
+
+<quotes>
+[1] A PtZn alloy nanoparticle catalyst for propane dehydrogenation was synthesized by simple coimpregnation of Pt(NH3)4(NO3)2 with Zn(NO3)2 onto a mesoporous material, which was built with siliceous MFI zeolite nanosheets.  
+[2] The mesoporous structure and the surface silanol groups of the MFI zeolite are suggested to play an important role in promoting the formation of intermetallic alloy nanoparticles.
+</quotes>
+
+<English version answer>
+7. Yes, the article investigates the effects of incorporating mesoporosity into MFI zeolite on propane dehydrogenation catalyst performance. It shows the mesoporous structure and silanol groups of MFI zeolite promote intermetallic alloy formation, leading to high activity and stability.
+</English version answer>
+
+<Chinese version answer>
+7. 是的,该文调查了向MFI沸石引入介孔的效果对丙烷脱氢催化剂性能的影响。它展示MFI沸石的介孔结构和硅醇基团促进了间化合物合金的形成,导致了高活性和稳定性。
+</Chinese version answer>
+
+</Answer>
+<Answer>
+ <quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+Answer: The article does not compare the selectivity profiles of metallic versus oxidized supported metal catalysts. No examples or explanations of selectivity modulation are provided.
+</English version answer>
+
+<Chinese version answer>
+Answer: 这篇文章没有比较金属和氧化物载体金属催化剂的选择性配置文件。没有提供选择性调控的例子或解释。
+</Chinese version answer>
+
+<quotes>
+
+[1] A PtZn alloy nanoparticle catalyst for propane dehydrogenation was synthesized by simple coimpregnation of Pt(NH3)4(NO3)2 with Zn(NO3)2 onto a mesoporous material, which was built with siliceous MFI zeolite nanosheets. 
+
+[2] This mesoporous zeolite-supported PtZn catalyst exhibited high activity and selectivity with remarkably long catalytic lifetime compared with other PtZn catalysts loaded on γ-alumina, MCM-48 mesoporous silica, silica gel, and bulk MFI zeolite.
+
+[3] Atomic-resolution scanning transmission electron microscopic analysis revealed that the mesoporous zeolite contained finely dispersed Pt1Zn1 intermetallic compound-type alloy nanoparticles, which could effectively suppress catalyst deactivation.
+
+</quotes>
+
+<English version answer>
+Answer: Yes, the article evaluates PtZn alloy catalysts for propane dehydrogenation. It synthesizes a PtZn alloy nanoparticle catalyst on a mesoporous zeolite support and shows it has high activity, selectivity and long lifetime compared to PtZn catalysts on other supports like alumina, MCM-48, silica gel, and bulk MFI zeolite. STEM analysis revealed the catalyst contained finely dispersed Pt1Zn1 intermetallic nanoparticles.
+</English version answer>
+
+<Chinese version answer>
+Answer: 是的,这篇文章评估了PtZn合金催化剂用于丙烷脱氢反应。它在介孔硅酸盐载体上合成了PtZn合金纳米粒子催化剂,并显示与氧化铝、MCM-48、硅胶和大孔MFI沸石等其他载体上的PtZn催化剂相比,它具有高活性、选择性和长期稳定性。 STEM分析显示该催化剂包含高度分散的Pt1Zn1互化合物纳米粒子。
+</Chinese version answer>
+
+<quotes>
+
+[1] The incorporation of the second metal can physically break down the large Pt ensembles, which are responsible for hydrogenolysis and coke formation and change the electronic environment of Pt to facilitate propylene desorption and slow down the deactivation process.
+
+[2] Compared to disordered alloys, the intermetallic alloys having an ordered arrangement of atoms with a specific composition and definite crystal structure can exhibit a greater reduction in Pt ensemble size.
+
+[3] Moreover, the crystalline structure of these alloys provides an enhancement in thermal stability compared to single atom or metal cluster catalysts.
+
+[4] In this aspect, the intermetallic alloys showed a significant improvement in the stability of the catalyst.
+
+</quotes>
+
+<English version answer>
+Answer: Yes, the article investigates electronic and geometric effects of the secondary metal in bimetallic and alloy catalysts. It explains that adding a second metal can break down large Pt ensembles responsible for side reactions and coking, and modify the electronic environment of Pt to improve propylene desorption and stability. It also shows intermetallic alloys with ordered crystal structures can decrease Pt ensemble size more than disordered alloys, and have enhanced thermal stability over single atoms or clusters. Thus intermetallic alloys significantly improve catalyst stability.
+</English version answer>
+
+<Chinese version answer>
+Answer: 是的,这篇文章研究了双金属和合金催化剂中第二金属的电子和几何效应。它解释了添加第二种金属可以打破负责副反应和炭化的大的Pt聚集体,并调节Pt的电子环境以改善丙烯脱附和稳定性。它还表明,有序晶体结构的互化合物合金可以比无序合金更有效地减小Pt聚集体大小,并且与单原子或簇相比具有增强的热稳定性。因此,互化合物合金可以显著改善催化剂的稳定性。
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+Answer: The article does not explore the use of subsurface promoters like Re or Mn in bimetallic and alloy catalysts to tune selectivity. No examples or data are provided.
+</English version answer>
+
+<Chinese version answer>
+Answer: 这篇文章没有探讨在双金属和合金催化剂中使用Re或Mn等副表面促进剂来调整选择性。没有提供例子或数据。
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+Answer: The article does not describe any synergistic effects between metals in bimetallic or alloy catalysts, attributed to ensemble and/or ligand effects. No specific examples or explanations are provided.
+</English version answer> 
+
+<Chinese version answer>
+Answer: 这篇文章没有描述双金属或合金催化剂中金属之间的任何协同效应,这些效应归因于配位体效应和/或配体效应。没有提供具体的例子或解释。
+</Chinese version answer>
+
+<quotes>
+
+[1] A PtZn alloy nanoparticle catalyst for propane dehydrogenation was synthesized by simple coimpregnation of Pt(NH3)4(NO3)2 with Zn(NO3)2 onto a mesoporous material, which was built with siliceous MFI zeolite nanosheets.
+
+[2] This mesoporous zeolite-supported PtZn catalyst exhibited high activity and selectivity with remarkably long catalytic lifetime compared with other PtZn catalysts loaded on γ-alumina, MCM-48 mesoporous silica, silica gel, and bulk MFI zeolite. 
+
+[3] Atomic-resolution scanning transmission electron microscopic analysis revealed that the mesoporous zeolite contained finely dispersed Pt1Zn1 intermetallic compound-type alloy nanoparticles, which could effectively suppress catalyst deactivation.
+
+</quotes>
+
+<English version answer>
+Answer: Yes, the article evaluates MFI zeolite support for propane dehydrogenation catalysts. It synthesizes a PtZn alloy nanoparticle catalyst on a mesoporous MFI zeolite support. This catalyst showed high activity, selectivity and long lifetime compared to PtZn catalysts on other supports including bulk MFI zeolite. STEM analysis revealed the mesoporous MFI zeolite contained highly dispersed intermetallic PtZn nanoparticles that suppressed deactivation.
+</English version answer>
+
+<Chinese version answer>
+Answer: 是的,这篇文章评估了MFI沸石作为丙烷脱氢反应催化剂的载体。它在介孔MFI沸石载体上合成了PtZn合金纳米粒子催化剂。与其他载体(包括大孔MFI沸石)上的PtZn催化剂相比,这个催化剂表现出高活性、选择性和长期稳定性。STEM分析表明,介孔MFI沸石包含高度分散的互化合物PtZn纳米粒子,抑制了失活。
+</Chinese version answer>
+
+<quotes>
+
+No relevant quotes
+
+</quotes>
+
+<English version answer>
+Answer: The article does not investigate the effects of tuning zeolite Si/Al ratio or incorporating mesoporosity on propane dehydrogenation catalyst performance. No specific examples or structure-function relationships are revealed.
+</English version answer>
+
+<Chinese version answer>
+Answer: 这篇文章没有研究调节沸石Si/Al比或引入介孔性对丙烷脱氢反应催化剂性能的影响。没有提供具体的例子或结构-功能关系。
+</Chinese version answer>
+
+</Answer>
+

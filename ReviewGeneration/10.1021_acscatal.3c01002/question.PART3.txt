@@ -1,0 +1,267 @@
+I'm going to give you a scientific literature. Then I'm going to ask you some questions about it. I'd like you to first write down exact quotes of parts of the document word by word that would help answer the question, and then I'd like you to answer the question using facts from the quoted content. Do not omit any relevant information from the text, and avoid introducing any falsehoods or assumptions that aren't directly supported by the literature. Here is the literature, in <literature></literature> XML tags:
+
+<literature>
+
+
+Regulating the CH Bond Activation Pathway over ZrO2 via Doping Engineering for Propane Dehydrogenation
+Abstract
+The efficient activation of the CH bond in light alkanes and their catalyst design are significant for alkane-related catalytic processes in view of theoretical and practical aspects. Here, we report the CH bond activation mechanism and structurereactivity relationships of Ga-doped ZrO2 catalysts in propane dehydrogenation. Experimental and theoretical calculation results suggest that the introduction of Ga into the framework of ZrO2 alters the CH bond activation pathway from a stepwise mechanism to a concerted mechanism involving simultaneous cleavage of two CH bonds in propane, leading to a superior CH bond activation ability and a lower reaction barrier than state-of-the-art metal oxide catalysts. In addition, a volcano-type dependence of the rate of propene formation on the Ga/Zr ratio is established due to a compromise of intrinsic activity and active site concentration. The strategy of metal incorporation into bulk metal oxide may provide an alternative solution to control the CH bond activation pathway for efficient propene production.
+This publication is licensed under the terms of your institutional subscription. Request reuse permissions.
+KEYWORDS:propane dehydrogenation CH bond activation structurereactivity relationship concerted mechanism DFT calculations
+1. Introduction
+ARTICLE SECTIONSJump To
+The efficient and selective activation of CH bonds in light alkanes (C1C4) is an important and challenging topic in heterogeneous catalysis due to its involvement in the conversion of abundant hydrocarbon feedstocks into value-added products and the high strength of CH bonds in these hydrocarbons. (13) Different kinds of catalysts such as metals, metal oxides, alloys, and metal oxide hybrids have been reported experimentally and theoretically to exhibit high reactivity toward CH bond activation. (4,5) Because of the complicated nanostructure and surface composition of studied catalysts, the understanding of CH bond activation, molecular-level details about catalytic cycles, and rating-determining steps in alkane-related catalytic processes is not comprehensive and in-depth. Consequently, the purposeful design of new efficient catalysts or further improvements of industrial catalysts is hindered. Among many industrialized catalytic processes involving light alkanes, their catalytic dehydrogenation has attracted widespread attention due to the exploitation of shale gas as well as acting as an important on-purpose propene production technology and model reaction to study CH bond activation. (6,7)
+Propene acts as an important chemical raw material for the production of various downstream products such as polypropene, acrylonitrile, and propene oxide. (8) The demand for propene is continually increasing due to the large consumption of downstream products, resulting in a shortage of propene supply. Nowadays, propene is mainly produced through stream cracking and catalytic cracking, which employ naphtha and heavy distillate oil as raw materials, respectively. With the increased depletion of oil resources, the development of the above two traditional oil-based propene production technologies is limited. Other propene production routes, such as methanol to propene (MTO), olefin metathesis, propane dehydrogenation (PDH), have also been developed to close the gap between propene production and demand. (911) Among them, PDH has attracted much attention due to the following advantages: (1) abundant propane recourses, mainly coming from shale gas and refinery plants, (2) high selectivity to propene (about 90%), and (3) the product composition is simple and easy to separate. Therefore, great efforts have been paid to develop highly efficient PDH processes, and many PDH plants are under construction around the world.
+Catalysts play a significant role in selective CH bond activation and regulating reaction pathways for improving activity and propene selectivity in PDH. Currently, industrialized PDH processes are mainly based on the Catofin and Oleflex technologies developed by CB&I Lummus and UOP Company, which apply PtSn/γ-Al2O3 and KCrOx/γ-Al2O3 catalysts, respectively. (12,13) However, these commercial catalysts suffer from high prices and toxicity. Except for the traditional commercial catalysts, some new catalyst compositions or types, which mainly include metals or metal oxides, have been reported in the literature. In the aspect of metal-based catalysts, it is reported that Pd, Rh, and Ir also show high intrinsic activity for CH bond activation in propane; however, these catalysts are still expensive. (1417) In the aspect of metal oxide, GaOx, ZnOx, CoOx, VOx, and ZrO2-based MoOx have been reported to be active in PDH. (1823) Among such catalysts, most of them have to be supported in certain matrices to maintain a higher dispersion and thus better PDH activity. Recently, it has been reported that bulk ZrO2-based materials without any dopants or supported active species are also active in PDH and attractive from an application viewpoint. (22,24,25) For bare ZrO2, density functional theory (DFT) calculations indicate that the active site consists of two coordinatively unsaturated Zr cations located at an oxygen vacancy (ZrcusZrcus) and is responsible for the homolytic CH bond dissociation. (22) The concentration of such sites is determined by (1) crystallite size and phase, (2) the kind of metal oxide (Cr, La, Y) dopants for ZrO2, (3) the kind of supported metal nanoparticles (Pt, Ru, Rh, Ir), and (4) reduction atmosphere, temperature, and time. (22,2428) Although the introduction of a metal oxide promoter into the lattice of ZrO2 is known to increase the PDH activity, molecular-level details about the mechanisms of CH bond activation and product formation as well as the active site structure remain ambiguous. The promoter-induced activity enhancement is usually explained by a synergy effect without providing any details about the fundamentals of synergetic mode, i.e., how the synergy effect works. GaOx-based catalysts are reported to be active and promising in PDH, where GaOx serves either as an active species supported on HZSM-5, SiO2, and Al2O3 or as a promoter in Pt-based catalysts; (2931) a detailed investigation of Ga-doped ZrO2 (GaZrOx) on the structurereactivity relationship, active site, and CH bond activation pathway in PDH via a combination of experimental and theoretical methods is rarely studied.
+Against the above background, we aimed to prove the application potential of promoting ZrO2 with Ga2O3 to form solid solutions of GaZrOx, which may show good catalytic performance in PDH. Thus, a series of GaZrOx catalysts with different Ga loadings were prepared by a hydrothermal method. The effects of Ga content on the physiochemical properties of the prepared catalysts and their performance in PDH were comprehensively investigated by combining complementary characterization techniques, such as X-ray diffraction (XRD), N2 adsorptiondesorption, scanning electron microscopy (SEM), high-resolution transmission electron microscopy (HRTEM), temperature-programmed desorption (TPD) of NH3 or CO, temperature-programmed reduction (TPR), temperature-programmed surface reaction of propane (C3H8-TPSR), and X-ray photoelectron spectroscopy (XPS) with catalytic tests under industrially relevant conditions. Additionally, the active site structure and molecular details of the reaction mechanism were further studied by in situ diffuse reflectance infrared Fourier transform spectroscopy (DRIFTS) and density functional theory (DFT) calculations. It is expected that the obtained fundamentals can be used to design and prepare other metal oxide catalysts with certain surface physiochemical properties and catalytic performance.
+2. Experimental Details
+ARTICLE SECTIONSJump To
+2.1. Catalyst Preparation
+A series of Ga-doped ZrO2 catalysts (GaZrOx) were prepared by a hydrothermal method. ZrO(NO3)2·xH2O and Ga(NO3)3·9H2O were used as the zirconium and gallium precursors, respectively. The required amounts of ZrO(NO3)2·xH2O and Ga(NO3)3·9H2O were first dissolved in H2O forming solution A. The calculated amount of CO(NH2)2 (CO(NH2)2/Zr4+ = 2) was dissolved in H2O forming solution B. Solution A was mixed with solution B followed by stirring at room temperature for 1 h to form solution C, which was then transferred into a 100 mL stainless autoclave to crystallize at 180 C for 24 h. After the crystallization process was completed, the obtained precipitate was washed with H2O three times, then centrifuged, and dried at 100 C overnight. GaZrOx catalysts with different Ga/Zr ratios (0.1, 0.2, 0.3, 0.4, 0.5) were prepared by changing the amount of the Zr and Ga precursors. The final catalysts were obtained after calcination of the dried solid materials at 550 C for 4 h and abbreviated as GaZrOx-x (x means the Ga/Zr ratio). For comparison, ZrO2 was also prepared by the same process without adding Ga(NO3)3·9H2O. The prepared ZrO2 was stabilized in the monoclinic phase and named m-ZrO2. In addition, a tetragonal-phase ZrO2 sample (t-ZrO2) was also prepared by a precipitation method for comparative reasons. A certain amount of ZrO(NO3)2·xH2O was dissolved in H2O, and then ethylenediamine was added dropwise until the pH reached 11. The above solution was heated to 100 C and stirred at this temperature for 24 h. Hereafter, the obtained precipitate underwent centrifugation, washed with H2O, and dried at 100 C overnight. Finally, t-ZrO2 was obtained after calcination of the dried sample at 550 C for 4 h.
+2.2. Catalyst Characterization
+X-ray diffraction (XRD) analysis was performed on a Rigaku Ultima IV equipped with a Cu tube (Kα radiation, 40 kV, 100 mA, λ = 0.15406 nm). Powder XRD patterns were collected in 2θ ranges of 580 and 2535 using scanning rates of 20 and 1/min, respectively. The crystallite size of ZrO2 was calculated by the Scherrer equation (eq 1). The crystallite size of monoclinic-phase ZrO2 was calculated based on the average 2θ values of 28.3 and 31.6, while the 2θ value of 30.4 was used for the calculation of the ZrO2 tetragonal phase in t-ZrO2 and GaZrOx catalysts.
+=
+cos
+K
+(1)
+where the K parameter is 0.89, β is the FWHM, and θ is the diffraction angle.
+The specific surface area of prepared catalysts was measured by the N2 adsorptiondesorption experiment at 196 C using a Kubo-X1000. The catalysts were initially degassed at 180 C for 4 h to eliminate volatile and physically adsorbed compounds.
+Scanning electron microscopy (SEM) measurements were performed on a SUPRA 55 SAPPHIRE with a working distance of 8 mm and an acceleration voltage of 10 kV to determine catalyst surface morphology and particle size.
+Transmission electron microscopy (TEM) was conducted on an FEI TalosF200X with a working voltage of 200 kV to identify the microstructure and element distribution of catalysts.
+Temperature-programmed desorption tests with NH3 (NH3-TPD) or CO (CO-TPD) were carried out in a self-built apparatus containing one fixed-bed quartz reactor. Typically, a catalyst sample (0.1 g) was first heated to 550 C in Ar flow (30 mL·min1) and then oxidized in air flow (30 mL·min1) for 30 min, followed by flushing in Ar flow for 5 min and reducing in 5 vol % H2/N2 flow (30 mL·min1) for 30 min. After that, the catalyst was cooled to 120 or 250 C for NH3 or CO adsorption. 10 vol % NH3/Ar or 1 vol % CO/Ar feed mixtures were used for the adsorption processes lasting for 30 min. Then, the treated catalyst was cooled to 80 C and flushed in Ar flow for 2 h to remove weakly adsorbed NH3 or CO. Lastly, the catalyst was heated to 700 C with a heating rate of 10 C/min in Ar flow (60 mL·min1). The desorbed NH3 or CO flow rate was determined by an MS (HPR-20, Hiden) based on the measurement of m/z values of 17 or 28. Calibration factors of NH3/Ar and CO/Ar were calculated during the adsorption stage.
+Temperature-programmed reduction with H2 (H2-TPR) was performed in the same setup described above. 0.1 g of the catalyst was loaded into a quartz reactor and first heated to 550 C in Ar flow (30 mL·min1) and then oxidized in air flow (30 mL·min1) for 30 min, followed by cooling to 80 C in Ar flow (30 mL·min1). Lastly, the catalyst was heated to 700 C in 5 vol % H2/N2 flow (60 mL·min1) with a heating rate of 10 C /min. The consumed H2 flow was determined by an on-line MS (HPR-20, Hiden) by measuring the m/z value of 2 (H2).
+A temperature-programmed surface reaction of propane (C3H8-TPSR) was conducted in the same setup as for NH3-TPD. First, the catalyst (0.2 g) was heated to 550 C in Ar flow (30 mL·min1) and then oxidized in air flow (30 mL·min1) for 30 min, followed by flushing in Ar flow (30 mL·min1) for 5 min. After that, 5 vol % H2/N2 (30 mL·min1) was used to reduce the catalyst lasting for 30 min. The catalyst was then cooled to 100 C in Ar flow. Lastly, the catalyst was heated to 700 C in pure propane flow (11.3 mL·min1). The products were measured by an on-line MS (HPR-20, Hiden) and m/z values of 29, 41, and 2 were measured to quantify C3H8, C3H6, and H2, respectively.
+X-ray photoelectron spectroscopy (XPS) was used to analyze catalyst surface composition using a Thermo Scientific Kα instrument with monochromated Al Kα radiation (E = 1486.6 eV). The electron binding energies were referred to the C 1s core level of adventitious carbon at 284.8 eV.
+The Ga and Zr contents in GaZrOx catalysts were determined by inductively coupled plasma optical emission spectroscopy (ICP-OES, Thermo Fisher iCAP PRO).
+Pyridine-IR measurements were performed on an IR-spectrometer (Tensor 27, Bruker) with a DTGS detector to distinguish the Brnsted and Lewis acidic sites of the catalysts. Prior to the measurement, the catalyst was first heated to 550 C in N2 flow, followed by reducing in 5 vol % H2/N2 flow for 30 min. Then, the catalyst was cooled down to 100 C in N2 flow and the background signal was collected. After that, the catalyst was cooled down further to room temperature for pyridine adsorption and then evacuated for removing physically adsorbed pyridine. After heating the sample in vacuum to 100 C, the IR spectrum of adsorbed pyridine was recorded.
+In situ DRIFTS spectra were collected on a Bruker VERTEX 70 equipped with a Harrick DRP-BR4 DRIFT cell and a mercurycadmiumtelluride (MCT) detector. A certain amount of the catalyst was placed in an infrared reaction tank, N2 flow (30 mL·min1) was introduced for 10 min, and the spectrum was recorded using KBr as the background. After that, the sample was heated to 550 C in N2 flow (30 mL·min1) and stabilized in a N2 atmosphere for 10 min. Then, the sample was oxidized in air flow (30 mL·min1) for 30 min, followed by flushing with nitrogen for 10 min; the sample was then reduced in 5% H2/N2 flow (30 mL·min1) for 30 min and purged with N2 flow for 10 min. Finally, the gas was switched to propane and kept for 30 min, and the spectra were recorded after different reaction times (5, 10, 20, 30 min). The spectrum of the catalyst measured in N2 flow at 550 C was used as the background. After the reaction, the sample was oxidized by air for 30 min, followed by cooling to 30 C and purging in N2 flow for 10 min. For comparison, propane was injected into the device at 30 C for 30 min, and the spectra were recorded after different injection times (5, 10, 20, 30 min).
+2.3. Catalytic Tests
+The catalytic performance of the prepared catalysts in the PDH reaction was conducted using a self-developed fixed-bed stainless steel reactor with an inner diameter of 8 mm. The mass of the catalyst (4060 mesh) was 0.2 g and the total feed (40 vol % propane in N2) flow was 20 mL·min1 under standard temperature and pressure (STP). In order to eliminate any heat-transfer limitations and to maintain a proper height and diameter ratio of the catalyst bed, the catalyst was mixed with 2 g of quartz sand (4060 mesh) and the height of the catalyst bed was 3.2 cm. In a typical test, the catalyst was first heated to 550 C in N2 flow and then oxidized in air for 30 min, followed by flushing in N2 flow for 5 min. After that, the catalyst was reduced in 5 vol % H2/N2 flow (30 mL·min1, STP) for 30 min and flushed in N2 flow for 5 min. Lastly, the reaction mixture (20 mL·min1, STP) was fed to the reactor. The initial rate of propene formation was calculated after 5 min on stream in the intrinsic kinetics regime by keeping the propane conversion lower than 10%. Additionally, the effects of internal and external mass transfer were excluded by checking whether the measured rate is influenced by catalyst mesh size and flow rate for a given space-time. It is found in Figure S1a that propane conversion under different reaction times (5, 10, and 15 min) first increases with the mesh number of GaZrOx-0.2 and then reaches a plateau under the condition of average mesh number higher than 30, and propane conversion is nearly not influenced by the total flow rate ranging from 10 to 40 mL·min1 (Figure S1b). Therefore, the internal and external mass transfer limitations could be discarded using the catalyst test conditions in this work (catalyst size: 4060 mesh, flow rate: 20 mL·min1). It is worth noting that the initial rate of propene formation in this work refers to the activity measured after 5 min propane stream.
+The apparent activation energy of propene formation in the PDH reaction was determined from the reaction rate (rC3H6) determined at five different reaction temperatures (500, 512, 524, 536, and 550 C). The energy value was obtained from the slope of the dependence of In(rC3H6) on 1/T. The catalyst was reduced at the highest reaction temperature (550 C) to ensure the same reduction degree of ZrO2 at different reaction temperatures. The rate of propene formation and propane partial pressure dependence was investigated for ZrO2 and representative GaZrOx-0.2 in the PDH reaction. Figure S2 shows that the rate of propene formation over the above two catalysts linearly increases with propane concentration, indicating that the propene formation rates are first order with respect to propane partial pressure and the introduction of gallium into ZrO2 does not change the partial pressure dependence.
+The reaction products were analyzed by an on-line gas chromatograph (GC-7806) equipped with an Al2O3 column for the detection of hydrocarbons and a flame ionization detector (FID) for the quantification. The carbon balance for all catalytic tests is above 95%, proving the validity of catalytic test data.
+Propane conversion (XC3H8), selectivity to propene (SC3H6), yield of propene (YC3H6), and the rate of propene formation (rC3H6, mmol·g1·min1) were calculated by eqs 25, respectively.
+C
+3
+H
+8
+=
+C
+H
+4
++
+C
+2
+H
+6
++
+C
+2
+H
+4
++
+C
+3
+H
+6
+C
+H
+4
++
+C
+2
+H
+6
++
+C
+2
+H
+4
++
+C
+3
+H
+8
++
+C
+3
+H
+6
++
++
++
+(2)
+C
+3
+H
+6
+=
+C
+3
+H
+6
+C
+H
+4
++
+C
+2
+H
+6
++
+C
+2
+H
+4
++
+C
+3
+H
+6
+w
+(3)
+C
+3
+H
+6
+=
+C
+3
+H
+8
+·
+C
+3
+H
+6
+Y
+X
+S
+(4)
+C
+3
+H
+6
+=
+C
+3
+H
+8
+·
+C
+3
+H
+6
+C
+3
+H
+6
+·
+cat
+F
+Y
+(5)
+where wCH4, wC2H6, wC2H4, wC3H8, and wC3H6 are the mass fraction of each component, FC3H8 is the mass flow rate of propane in the feed (mg·min1), MC2H6 is the molar mass of propene (42 g·mol1), and mcat is the mass of the catalyst (g).
+2.4. DFT Calculations
+Spin-polarized and periodic DFT calculations were carried out using the Vienna Ab initio Simulation software package (VASP 5.4.4). (32,33) The exchangecorrelation functional was PerdewBurkeErnzerhof generalized gradient approximation (GGA-PBE). (34) The interaction between valence electrons and ion solids was described by the PAW method, (35) and a cutoff energy of 400 eV was used. When forces on the atoms were less than 0.01 eV/Å, the convergence was geometrically optimized. The energy threshold for electron density self-consistency was set to 104 eV. Becke-Johnsons DFT-D3 method was used to introduce the influence of van der Waals forces. (36) The Climbing Image Nudged Elastic Band (CI-NEB) method inserted at eight points was used to find transition states and minimum energy paths of all reactions. (37,38) The final transition state structure was optimized by the quasi-Newton method until the Hellman Feynman force on each atom was less than 0.02 eV/Å. The normal mode frequency analysis was performed to validate the optimized transition states, and each authentic transition state had only one imaginary frequency along the reaction coordinates. The frequency data were processed by vaspkit software, (39) and zero-point vibrational energies (ZPE) and Gibbs free energy correction were performed for all energies.
+3. Results and Discussion
+ARTICLE SECTIONSJump To
+3.1. Ga Incorporation Effects on Physicochemical Properties
+The actual Ga/Zr ratio of different GaZrOx catalysts was measured by ICP (Table S1). It is lower than the theoretical one, which may be caused by the loss of the Ga component in the hydrothermal synthesis process. The phase composition of GaZrOx catalysts with different Ga/Zr ratios was determined by XRD (Figure S3a). The obtained patterns of these catalysts are the characteristic tetragonal phase of ZrO2. The bare ZrO2 without Ga addition is, however, stabilized in the monoclinic phase. The monoclinic-to-tetragonal phase changes are due to the incorporation of Ga into the lattice of ZrO2, which is favorable to stabilize in the metastable tetragonal phase. (40,41) The reflections corresponding to bulk Ga2O3 were not observed in the XRD patterns of GaZrOx with the Ga/Zr ratio lower than 0.3, indicating high dispersion of Ga within ZrO2. However, the catalysts with higher Ga loading contain crystalline Ga2O3 as concluded from the presence of the reflection at a 2θ of around 33.8 in the corresponding XRD patterns. In addition, the 2θ corresponding to the (101) facet in the lattice of ZrO2 in GaZrOx samples shifts to higher diffraction angles with an increase in the Ga/Zr ratio (Figure S3b). The shift is due to a smaller ionic radius of Ga3+ (0.62 Å) in comparison with that of Zr4+ (0.72 Å). Thus, the interplanar crystal spacing is decreased upon Ga incorporation into the lattice of ZrO2, resulting in an increased 2θ value in the XRD patterns according to the Bragg equation. This result also proves that Ga is successfully incorporated into the lattice of ZrO2; otherwise, the diffraction pattern will not shift and the phase composition of GaZrOx will not change. The ZrO2 crystallite size of the prepared catalysts was further calculated using the Scherrer formula (Table S1). All GaZrOx catalysts show a similar crystallite size ranging from 7.5 to 8.5 nm, which is much smaller than that of bare m-ZrO2 (17.4 nm).
+Moreover, textural material properties including surface area and pore volume were obtained from N2 adsorptiondesorption measurements. The IV-type isotherm was determined for all materials, indicating the presence of an intercrystalline mesoporous structure (Figure S4). In addition, all GaZrOx materials possess a broader pore size distribution than m-ZrO2. The pore size tends to increase with an increase in the Ga/Zr ratio (Figure S5). The surface area of GaZrOx first increases with increasing Ga loading and then decreases when the Ga/Zr ratio is higher than 0.2. GaZrOx-0.2 exhibits the highest surface area (59 m2·g1), while the lowest surface area is determined for m-ZrO2 (33 m2·g1). The dependence of pore volume on the Ga/Zr ratio in the GaZrOx catalysts is similar to that of surface area. Thus, the highest and lowest pore volume are established for GaZrOx-0.2 (0.38 cm3·g1) and m-ZrO2 (0.17 cm3·g1), respectively (Table S1). The enhancing effect of the Ga promoter on the surface area and pore volume of GaZrOx was also found for other dopants such as La and Y. (42,43) It is worth noting that the bulk Ga2O3 detected in highly loaded GaZrOx samples may cover and/or block the surface or pore structure, leading to a decrease in the surface area and pore volume.
+As evidenced by SEM measurements, all GaZrOx catalysts comprise interconnected small sphere-like particles, and the particle size ranges from 45 to 56 nm (Figures 1a,b and S6), indicating that the incorporation of Ga into ZrO2 has little influence on the morphology and particle size. The particle size distribution for each catalyst is shown as insets in Figure S6. Furthermore, the microstructure of representative GaZrOx catalysts was characterized by the HRTEM technique (Figures 1c,d and S7). m-ZrO2 exhibits a sphere-like morphology, and different facets such as (111), (001), and (011) are obviously observed according to the measured lattice distance. In comparison, the (101) facet is exposed over all GaZrOx catalysts, and the Ga element is evenly distributed as observed from energy-dispersive spectrometry (EDS) mapping.
+Figure 1
+Figure 1. SEM and TEM images of (a, c) m-ZrO2 and (b, d) GaZrOx-0.2.
+The acidic properties of different GaZrOx catalysts were analyzed by NH3-TPD. The corresponding sites differ in their strength because NH3 desorbs in a broad temperature range from 150 to 550 C (Figure 2a). However, the temperature of the highest rate of NH3 desorption differs from 241 to 313 C, as shown in Table S2. In addition, the adsorbed NH3 density of the above catalysts was also calculated, and this value varied with the Ga/Zr ratio for GaZrOx catalysts. No obvious dependence of acid density on the Ga/Zr ratio is obtained, and ZrO2 shows the highest adsorbed NH3 density (2.3 μmol·g1). Pyridine-IR was also applied to characterize the type of acid site, that is, Brnsted (B) and Lewis (L) acid sites; it is found in Figure S8 that ZrO2 and GaZrOx-0.2 mainly contain Lewis acidity, and the introduction of Ga into ZrO2 does not change the acid type. From our previous studies, CO was also used to titrate Zrcus sites by means of CO-TPD tests. (22,25) Interestingly only m-ZrO2 shows an obvious CO desorption peak located at around 335 C (Figure 2b), while no CO desorption from all GaZrOx catalysts could be detected probably due to a low number of Zrcus sites because ZrO2 in these materials is stabilized in the tetragonal phase. (44)
+Figure 2
+Figure 2. (a) NH3-TPD, (b) CO-TPD, (c) CO-TPR curves, and (d) XPS spectra (Zr 3d 3/2, Zr 3d 5/2) of different GaZrOx catalysts.
+In order to study the redox properties of GaZrOx catalysts, H2-TPR tests were performed, and the results are shown in Figure S9. No obvious H2 consumption is found for all of the studied catalysts, indicating that lattice oxygen in GaZrOx is difficult to be removed by H2, this conclusion is in accordance with the literature reported. (45) In addition, CO-TPR tests were also performed to check whether GaZrOx could be reduced by CO. Figure 2c shows the formation of CO2 over GaZrOx catalysts during these tests. Thus, lattice oxygen in GaZrOx can be removed by CO, which is regarded as a stronger reducing agent than H2, resulting in the formation of Zrcus sites. No obvious CO2 formation was found in the CO-TPR of m-ZrO2 due to its larger crystalline size (17.4 nm) with lower reducibility. In addition, GaZrOx-0.2 shows a relatively lower reduction temperature (419 C) than GaZrOx-0.1 (444 C) and GaZrOx-0.5 (442 C), indicating that lattice oxygen in GaZrOx-0.2 is easier to be removed. The amount of formed CO2 is nearly the same (about 0.3 mmol·g1) for all GaZrOx catalysts.
+The chemical state of Zr in GaZrOx was determined by XPS measurement. For all GaZrOx catalysts, two distinct XP signals corresponding to the binding energies of Zr 3d 3/2 and Zr 3d 5/2 were identified (Figure 2d). The binding energies of Zr 3d 3/2 and Zr 3d 5/2 decrease with an increase in the Ga/Zr ratio, while the binding energy of Ga 2p 3/2 increases (Figure S10). These changes indicate electron transfer from Ga to the Zr atom, resulting in electron richness around the Zr atom. It is worth mentioning that GaZrOx catalysts show a lower binding energy of Zr 3d than that of counterpart t-ZrO2, further proving the enhanced electron density of Zr upon Ga introduction over GaZrOx.
+3.2. Volcano-Type Relationship and Kinetic Characteristics
+The prepared GaZrOx catalysts were tested in PDH to investigate the effect of the Ga promoter for ZrO2 on catalytic activity. The rate of propene formation was obtained in the kinetics regime to compare the initial activity of different GaZrOx catalysts. The relationship between the rate of propene formation and the Ga/Zr ratio is plotted in Figure 3a. It is interesting to observe that the rate of propene formation first increases with the Ga/Zr ratio and then decreases, exhibiting an obvious volcano-type curve. The maximum activity was achieved over GaZrOx-0.2. The rate of propene formation calculated per catalyst surface area does not pass any maximum but reaches a plateau (Figure S11). Therefore, the enhancing effect of the Ga promoter on PDH activity is valid for GaZrOx catalysts. CO-TPD results indicate that the number of Zrcus sites over GaZrOx catalysts is much lower than that of m-ZrO2; however, the former catalysts show a much higher activity, which enables us to infer that the active site and/or reaction mechanism over these two catalysts is different. However, no strong correlation between the rate of propene formation and acid density determined by NH3-TPD is found. In addition, GaZrOx-0.2 with the highest rate of propene formation was tested for three cycles of reactionregeneration in the PDH reaction. Figure S12a shows that the initial rate of propene formation of GaZrOx during each cycle decreases with time on stream due to the formation of coke species-blocking active sites; however, the initial activity is nearly recovered after regeneration. The XRD result shows that the structure of GaZrOx-0.2 after regeneration is a tetragonal phase, which is the same as the fresh one (Figure S12b), indicating that the structure of GaZrOx-0.2 is preserved after regeneration.
+Figure 3
+Figure 3. Catalytic performance and intrinsic activity analysis. The relationship between the rate of propene formation and (a) Ga/Zr ratio for different GaZrOx catalysts in the PDH reaction. The relationship between (b) activation energy and Ga/Zr ratio and (c) formed C3H6 signal intensity and temperature of different GaZrOx catalysts in C3H8-TPSR tests. (d) A comparison of the activation energy of GaZrOx in this work and typical PDH catalysts reported in the literature (Table S4). The reaction temperature is 550 C, and the feed composition is 40 vol % propane in N2.
+In order to understand the activity difference of GaZrOx catalysts with different Ga/Zr ratios, the activation energy of propane activation was determined from the linear relationship between ln(r(C3H6)) and 1/T (Figure S13). Figure 3b shows that the activation energy decreases with an increase in the Ga/Zr ratio, indicating that a new active site may form upon Ga incorporation into ZrO2. The higher the amount of Ga introduced, the lower the activation energy. Therefore, the increase in the PDH activity of GaZrOx catalysts should be related to formation of new active sites. Furthermore, selected GaZrOx catalysts were also tested in C3H8-TPSR to prove the formation of new active sites. Figure 3c shows that the formed C3H6 signal intensity gradually increases with increasing temperature. The temperature at which the C3H6 signal first appears is regarded as the activation ability of propane; the lower the temperature, the stronger the activation ability. The temperature was established to decrease with an increasing Ga/Zr ratio. The highest (470 C) and lowest (428 C) temperatures were determined for bare m-ZrO2 and GaZrOx-0.5, respectively. Other signals such as C3H8, H2, and H2O formed in the course of the PDH reaction over different GaZrOx catalysts are also displayed in Figure S14, which shows that the temperature, at which the H2 signal initially appears or C3H8 signal intensity drops, decreases with an increasing Ga/Zr ratio. These results further prove that the incorporation of Ga into ZrO2 is helpful for propane activation in PDH, which is consistent with the activation energy result. Therefore, it is safely concluded that new active sites should be formed in GaZrOx catalysts upon Ga introduction. Furthermore, Figure 3d shows a comparison of the present activation energy values with those obtained over the state-of-the-art metal oxide catalysts such as FeOx, GaOx, InOx, CrOx, ZnOx, and VOx (Table S4). GaZrOx has relatively lower activation energy, especially under the condition of higher active site concentration, exhibiting good prospects for further investigation.
+3.3. Identification of Reaction Intermediates by In Situ DRIFTS
+From the above discussion, it is concluded that the introduction of Ga into ZrO2 significantly increases the activity in PDH. In order to give a deeper understanding of the active site structure and the reaction mechanism, in situ DRIFTS, which is a powerful technique to monitor reaction intermediates and to elucidate the reaction mechanism in heterogeneous catalysis, (46) is applied in this work. Representative m-ZrO2 and GaZrOx-0.2 catalysts were selected for characterization by in situ DRIFT. The catalysts were pretreated under the same condition as before catalytic tests to ensure the same catalyst. Figure 4a compares the DRIFTS spectra of ZrO2 and GaZrOx-0.2 after a series of pretreatments including heating to reaction temperature, oxidation, and reduction. Obvious bands at around 3729 and 3637 cm1 assigned to the stretching vibrations of surface hydroxyl groups are observed in the spectrum of GaZrOx-0.2. (47,48) However, ZrO2 does not show any obvious bands in this range. The results prove the existence of hydroxyl species on the surface of GaZrOx-0.2. Besides, an obvious signal at around 1988 cm1 is seen in the spectrum of GaZrOx-0.2, while it is absent in the spectrum of ZrO2 (Figure 4b). In order to identify what the peak refers to, the spectra of these two catalysts were collected under different pretreatments (flushingoxidationflushingreductionflushing). No obvious signals could be identified in the spectra of ZrO2 (Figure 4c). A signal at 1988 cm1 could be observed in the spectrum of GaZrOx after reduction in H2 (Figure 4d). It can be related to the combined effect of Ga incorporation and H2 reduction pretreatment, which enables us to conclude that the peak could be GaH species; this speculation is also proved by the literature data that the DRIFTS spectrum of GaH species appears at 1980 cm1 for Ga2O3-based materials. (4951) Because the peak at 1988 cm1 under H2 reduction disappears after N2 flushing (Figure 4d), indicating that GaH species are not stable and easy to decompose at low H2 partial pressures. In addition, in situ DRIFTS spectra of ZrO2 and GaZrOx-0.2 were recorded after different times of PDH at 550 C. As the band at 1988 cm1 appeared, we put forward that GaH species were formed in the course of the PDH reaction, inspiring us to conclude that Ga atoms participate in the PDH reaction process (Figure 4f). The intensity of this band increases with time on stream, indicating a continuous accumulation of GaH species. Importantly, the latter were not observed in PDH over ZrO2 (Figure 4e).
+Figure 4
+Figure 4. Mechanism study by in situ DRIFTS. Evolution DRIFTS spectra of ZrO2 and GaZrOx-0.2 after reduction in H2 for 30 min in the range of (a) 38003500 cm1 and (b) 21001900 cm1. DRIFTS spectra of (c) ZrO2 and (d) GaZrOx-0.2 at different pretreatment stages. In situ DRIFTS spectra of (e) ZrO2 and (f) GaZrOx-0.2 after different PDH reaction times at 550 C.
+3.4. Molecular-Level Insights on PDH
+The mechanism of the PDH reaction over GaZrOx was further investigated by DFT calculations at a molecular level. Because the (101) facet is the most stable surface plane of the tetragonal phase of zirconia and this facet is highly exposed on the surface of GaZrOx as proved by the HRTEM result, it was selected to study the PDH reaction mechanism (Figure S15a,b). Considering the charge compensation of Ga doping into the framework of ZrO2, a hydrogen atom was bonded to a bridged oxygen atom to form a hydroxyl group on the catalyst surface (Figure S15c), which is also proved by in situ DRIFTS results, confirming the existence of bridged hydroxyl species (Figure 4a). Table S5 compares the adsorption free energy (Gads) of hydrogen atoms on different oxygen sites over the GaZrOx(101) surface; it is found that the O2cI site has the lowest Gads (2.36 eV), and the structure is shown in Figure S15c. After that, the formation energies of oxygen vacancy (Ef) at various positions of Ga[OH]ZrOx(101) were compared, and the results are displayed in Table S6. The removal of O4cI has the lowest formation energy of oxygen vacancy (4.09 eV). Nevertheless, this value is very large, indicating that the removal of lattice oxygen in GaZrOx is difficult, which is in accordance with H2-TPR results, showing no H2 consumption (Figure S9).
+It is reported that the process of propane dehydrogenation over bare Al2O3 undergoes two mechanisms, i.e., stepwise and concerted mechanisms. (52,53) Therefore, we also considered them for PDH over GaZrOx. First, we calculated the PDH reaction coordinate over the Ga[OH]ZrOx(101) surface. As shown in Figure S16, in the stepwise pathway, propane is first adsorbed on the surface (B2) with an adsorption free energy (Gads) of 0.94 eV, and then the first methylene CH bond in propane is activated to form iso-C3H7 and H species. We compared the Gads of iso-C3H7 and H over different adsorption sites and established that the adsorption of propane on the GaO2cI site (C2) requires the lowest energy (1.19 eV, Table S7). The first methylene CH activation barrier is calculated to be 0.97 eV. After that, the methyl CH bond in the formed iso-C3H7 species is cleaved to yield adsorbed propene and another hydrogen atom with a barrier of 2.40 eV (Figure S16). Similarly, we also compared the Gads values of C3H6 and 2H species for different adsorption sites, and the results are shown in Table S8. O2cIGa has the lowest Gads (1.59 eV). Next, we consider the concerted pathway. Propane is first adsorbed on the surface with a Gads of 0.97 eV; subsequently, two CH bonds in the adsorbed propane are simultaneously cleaved, resulting in adsorbed propene, and two H atoms bonded to Ga and O (D2; Figures 5 and S16). It is worth noting that the formation of the GaH intermediate is proved by the in situ DRIFTS experiment. The reaction barrier is determined to be 1.5 eV, which is much lower than that of the stepwise mechanism (1.50 vs 2.65 eV). On this basis, the concerted mechanism is more beneficial for CH bond activation over the Ga[OH]ZrOx(101) surface. Propene is desorbed (E2), followed by H migration and H2 formation (G2). The full Gibbs free energy pathway of the Ga[OH]ZrOx(101) surface based on the concerted mechanism is displayed in Figure 5, and the active site for propane activation is determined to be the GaOZrO structure.
+Figure 5
+Figure 5. Active site and reaction coordinate. Gibbs free energy pathways calculated for propane dehydrogenation to propene on the m-ZrO2(111) (black) and t-GaZrOx(101) (red) surfaces at 823.15 K and ambient pressure.
+In comparison, the PDH reaction coordinate over m-ZrO2 is also displayed in Figure 5 because the crystallite size of prepared m-ZrO2 is very large (17.4 nm); the stoichiometric surface of m-ZrO2 is used for calculation. Stepwise and concerted pathways were compared for PDH over m-ZrO2. Figure S17 shows that the reaction barrier of CH bond activation in the concerted pathway is larger than that of the stepwise pathway (2.34 vs 1.60 eV), indicating that m-ZrO2 prefers to catalyze propane into propene via the stepwise pathway. The intermediates and transition state structures along with the reaction coordinate are displayed in Figure S17, which is similar to our previous work. (22) Lastly, the reaction pathways of m-ZrO2(111) and t-GaZrOx(101) are compared in Figure 5, and it is found that t-GaZrOx(101) exhibits a lower apparent reaction barrier than that of m-ZrO2(111) (2.26 vs 2.4 eV), which is consistent with measured activation energies of m-ZrO2 and GaZrOx (166 vs 120 kJ·mol1), indicating that GaZrOx exhibits higher intrinsic activity toward propene formation. The rate-determining step for the two catalysts is CH bond activation. The structure of intermediate and transition states along the reaction coordinates for m-ZrO2(111) and t-GaZrOx(101) are displayed in Figure S18 and Figure 5. In addition, we calculated the TOF value of propene formation over m-ZrO2(111) and t-GaZrOx(101) based on the reaction barriers, and t-GaZrOx(101) shows a 7.2 times higher TOF value than m-ZrO2 (Table S9), which is in accordance with the catalytic result that the rate of propene formation over GaZrOx-0.1 (0.0858 mmol·g1·min1) is 7.5 times higher than that of m-ZrO2 (0.0114 mmol·g1·min1).
+4. Conclusions
+ARTICLE SECTIONSJump To
+The present work provides a simple and general approach to regulating the CH bond activation mechanism via doping engineering in propane dehydrogenation catalyzed by metal oxide catalysts. Alternative-type bulk ZrO2-based catalysts have been regarded as candidates in the PDH reaction due to their environmental compatibility, high activity, propene selectivity, and durability. The introduction of Ga into the ZrO2 lattice (GaZrOx) alters the crystal phase from monoclinic to tetragonal; importantly, GaZrOx shows an enhanced CH activation ability compared with bare ZrO2 because two CH bonds in propane are broken simultaneously as suggested by DFT calculations. Accordingly, GaZrOx catalysts exhibit a competitive activation energy of PDH compared with the state-of-the-art metal oxide catalyst, especially under higher concentrations of active sites. In addition, the Ga/Zr ratio of GaZrOx catalysts and reducing agents are found to be important parameters influencing the rate of propene formation; a volcano-type curve of activity and Ga/Zr ratio is demonstrated and the highest activity is obtained with a Ga/Zr ratio of 0.15. Our strategy presented herein via metal doping can be extended to other metal oxides for tuning their surface physiochemical properties as well as catalytic performance.
+
+
+</literature>
+
+Here are the question lists, in <questions></questions>XML tags:
+<questions>
+
+
+22. Does the article describe techniques for synthesizing isolated single sites in zeolitic supports? What specific methods and examples are discussed?
+23. Does the article evaluate metal encapsulation in zeolite supports for enhancing propane dehydrogenation catalyst stability? What specific examples, data, and insights are provided?
+24. Does the article investigate catalyst preparation methods aimed at optimizing active phase dispersion? What specific techniques and examples are discussed?
+25. Does the article utilize any in-situ characterization techniques to study working propane dehydrogenation catalysts? What specific examples, data, and insights are revealed?
+26. Does the article employ advanced microscopy techniques to characterize metal-support interfaces in propane dehydrogenation catalysts? What specific examples and insights are provided?
+27. Does the article use X-ray based techniques to probe oxidation state changes during propane dehydrogenation catalysis? What specific examples, data, and insights are revealed?
+28. Does the article evaluate different reactor types like fixed beds, fluidized beds, or membrane reactors for propane dehydrogenation? What specific examples, data, and insights are provided?
+
+
+</questions>
+
+First, you need to sequentially extract any quotes in the literature that are most relevant to each question, and print them in numbered order, separated by newlines. Quotes should be relatively brief. Do not attempt to summarize or answer questions at this stage, but simply repeat exactly what the corresponding part of the literature says.
+
+Please enclose the full list of quotes in <quotes></quotes> XML tags. If there are no relevant quotes, write "No relevant quotes" instead.
+
+Then, answer the question, starting with "Answer:".  Do not include or reference quoted content verbatim in the answer. Don't say "According to Quote [1]" when answering. Do not write reference number of quotes after answer. Put your answer to the user inside <answer></answer> XML tags. Output formatted text, with line breaks for each question.Separate quotes and answers with a blank line. Provide the answers to all questions in English. After completing the English answers, translate all those answers into Chinese and provide the Chinese version.
+
+Thus, the format of your overall response should look like what's shown between the <example></example> tags.  Make sure to follow the formatting and spacing exactly.
+
+<example>
+
+<quotes>
+
+[1] "Company X reported revenue of $12 million in 2021."
+
+</quotes>
+
+<English version answer>
+
+1.Company X earned $12 million in 2021.
+
+</English version answer>
+
+<Chinese version answer>
+
+1.X公司在2021年赚了1200万美元。
+
+</Chinese version answer>
+
+<quotes>
+
+[1] "Almost 90% of revenue came from widget sales, with gadget sales making up the remaining 10%."
+
+</quotes>
+
+<English version answer>
+
+2.Almost 90% of it came from widget sales.
+
+</English version answer>
+
+<Chinese version answer>
+
+2.几乎90%的收入来自小部件销售。
+
+</Chinese version answer>
+
+</example>
+
+
+If the question cannot be answered by the document, say so.If deemed necessary, the answer to the question can be extended entirely from the content of the document.
+
+Answer all of the questions immediately without preamble. 
